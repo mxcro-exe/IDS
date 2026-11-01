@@ -1,0 +1,5602 @@
+[
+  {
+    "id": "gen_help_0001",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 1",
+        "what can i ask 1",
+        "show commands 1",
+        "how do i use you 1",
+        "give me examples 1",
+        "i am new 1"
+      ],
+      "ta": [
+        "உதவி 1",
+        "நான் என்ன கேட்கலாம் 1",
+        "கட்டளைகளை காட்டு 1",
+        "எவ்வாறு பயன்படுத்துவது 1",
+        "உதாரணங்கள் கொடு 1",
+        "வழிகாட்டுதல் 1"
+      ],
+      "tanglish": [
+        "help pannu 1",
+        "enna kekalam 1",
+        "commands kaatu 1",
+        "epdi use panradhu 1",
+        "examples kudu 1",
+        "guide pannu 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0002",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 2",
+        "what can i ask 2",
+        "show commands 2",
+        "how do i use you 2",
+        "give me examples 2",
+        "i am new 2"
+      ],
+      "ta": [
+        "உதவி 2",
+        "நான் என்ன கேட்கலாம் 2",
+        "கட்டளைகளை காட்டு 2",
+        "எவ்வாறு பயன்படுத்துவது 2",
+        "உதாரணங்கள் கொடு 2",
+        "வழிகாட்டுதல் 2"
+      ],
+      "tanglish": [
+        "help pannu 2",
+        "enna kekalam 2",
+        "commands kaatu 2",
+        "epdi use panradhu 2",
+        "examples kudu 2",
+        "guide pannu 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0003",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 3",
+        "what can i ask 3",
+        "show commands 3",
+        "how do i use you 3",
+        "give me examples 3",
+        "i am new 3"
+      ],
+      "ta": [
+        "உதவி 3",
+        "நான் என்ன கேட்கலாம் 3",
+        "கட்டளைகளை காட்டு 3",
+        "எவ்வாறு பயன்படுத்துவது 3",
+        "உதாரணங்கள் கொடு 3",
+        "வழிகாட்டுதல் 3"
+      ],
+      "tanglish": [
+        "help pannu 3",
+        "enna kekalam 3",
+        "commands kaatu 3",
+        "epdi use panradhu 3",
+        "examples kudu 3",
+        "guide pannu 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0004",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 4",
+        "what can i ask 4",
+        "show commands 4",
+        "how do i use you 4",
+        "give me examples 4",
+        "i am new 4"
+      ],
+      "ta": [
+        "உதவி 4",
+        "நான் என்ன கேட்கலாம் 4",
+        "கட்டளைகளை காட்டு 4",
+        "எவ்வாறு பயன்படுத்துவது 4",
+        "உதாரணங்கள் கொடு 4",
+        "வழிகாட்டுதல் 4"
+      ],
+      "tanglish": [
+        "help pannu 4",
+        "enna kekalam 4",
+        "commands kaatu 4",
+        "epdi use panradhu 4",
+        "examples kudu 4",
+        "guide pannu 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0005",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 5",
+        "what can i ask 5",
+        "show commands 5",
+        "how do i use you 5",
+        "give me examples 5",
+        "i am new 5"
+      ],
+      "ta": [
+        "உதவி 5",
+        "நான் என்ன கேட்கலாம் 5",
+        "கட்டளைகளை காட்டு 5",
+        "எவ்வாறு பயன்படுத்துவது 5",
+        "உதாரணங்கள் கொடு 5",
+        "வழிகாட்டுதல் 5"
+      ],
+      "tanglish": [
+        "help pannu 5",
+        "enna kekalam 5",
+        "commands kaatu 5",
+        "epdi use panradhu 5",
+        "examples kudu 5",
+        "guide pannu 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0006",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 6",
+        "what can i ask 6",
+        "show commands 6",
+        "how do i use you 6",
+        "give me examples 6",
+        "i am new 6"
+      ],
+      "ta": [
+        "உதவி 6",
+        "நான் என்ன கேட்கலாம் 6",
+        "கட்டளைகளை காட்டு 6",
+        "எவ்வாறு பயன்படுத்துவது 6",
+        "உதாரணங்கள் கொடு 6",
+        "வழிகாட்டுதல் 6"
+      ],
+      "tanglish": [
+        "help pannu 6",
+        "enna kekalam 6",
+        "commands kaatu 6",
+        "epdi use panradhu 6",
+        "examples kudu 6",
+        "guide pannu 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0007",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 7",
+        "what can i ask 7",
+        "show commands 7",
+        "how do i use you 7",
+        "give me examples 7",
+        "i am new 7"
+      ],
+      "ta": [
+        "உதவி 7",
+        "நான் என்ன கேட்கலாம் 7",
+        "கட்டளைகளை காட்டு 7",
+        "எவ்வாறு பயன்படுத்துவது 7",
+        "உதாரணங்கள் கொடு 7",
+        "வழிகாட்டுதல் 7"
+      ],
+      "tanglish": [
+        "help pannu 7",
+        "enna kekalam 7",
+        "commands kaatu 7",
+        "epdi use panradhu 7",
+        "examples kudu 7",
+        "guide pannu 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0008",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 8",
+        "what can i ask 8",
+        "show commands 8",
+        "how do i use you 8",
+        "give me examples 8",
+        "i am new 8"
+      ],
+      "ta": [
+        "உதவி 8",
+        "நான் என்ன கேட்கலாம் 8",
+        "கட்டளைகளை காட்டு 8",
+        "எவ்வாறு பயன்படுத்துவது 8",
+        "உதாரணங்கள் கொடு 8",
+        "வழிகாட்டுதல் 8"
+      ],
+      "tanglish": [
+        "help pannu 8",
+        "enna kekalam 8",
+        "commands kaatu 8",
+        "epdi use panradhu 8",
+        "examples kudu 8",
+        "guide pannu 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0009",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 9",
+        "what can i ask 9",
+        "show commands 9",
+        "how do i use you 9",
+        "give me examples 9",
+        "i am new 9"
+      ],
+      "ta": [
+        "உதவி 9",
+        "நான் என்ன கேட்கலாம் 9",
+        "கட்டளைகளை காட்டு 9",
+        "எவ்வாறு பயன்படுத்துவது 9",
+        "உதாரணங்கள் கொடு 9",
+        "வழிகாட்டுதல் 9"
+      ],
+      "tanglish": [
+        "help pannu 9",
+        "enna kekalam 9",
+        "commands kaatu 9",
+        "epdi use panradhu 9",
+        "examples kudu 9",
+        "guide pannu 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0010",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 10",
+        "what can i ask 10",
+        "show commands 10",
+        "how do i use you 10",
+        "give me examples 10",
+        "i am new 10"
+      ],
+      "ta": [
+        "உதவி 10",
+        "நான் என்ன கேட்கலாம் 10",
+        "கட்டளைகளை காட்டு 10",
+        "எவ்வாறு பயன்படுத்துவது 10",
+        "உதாரணங்கள் கொடு 10",
+        "வழிகாட்டுதல் 10"
+      ],
+      "tanglish": [
+        "help pannu 10",
+        "enna kekalam 10",
+        "commands kaatu 10",
+        "epdi use panradhu 10",
+        "examples kudu 10",
+        "guide pannu 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0011",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 11",
+        "what can i ask 11",
+        "show commands 11",
+        "how do i use you 11",
+        "give me examples 11",
+        "i am new 11"
+      ],
+      "ta": [
+        "உதவி 11",
+        "நான் என்ன கேட்கலாம் 11",
+        "கட்டளைகளை காட்டு 11",
+        "எவ்வாறு பயன்படுத்துவது 11",
+        "உதாரணங்கள் கொடு 11",
+        "வழிகாட்டுதல் 11"
+      ],
+      "tanglish": [
+        "help pannu 11",
+        "enna kekalam 11",
+        "commands kaatu 11",
+        "epdi use panradhu 11",
+        "examples kudu 11",
+        "guide pannu 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0012",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 12",
+        "what can i ask 12",
+        "show commands 12",
+        "how do i use you 12",
+        "give me examples 12",
+        "i am new 12"
+      ],
+      "ta": [
+        "உதவி 12",
+        "நான் என்ன கேட்கலாம் 12",
+        "கட்டளைகளை காட்டு 12",
+        "எவ்வாறு பயன்படுத்துவது 12",
+        "உதாரணங்கள் கொடு 12",
+        "வழிகாட்டுதல் 12"
+      ],
+      "tanglish": [
+        "help pannu 12",
+        "enna kekalam 12",
+        "commands kaatu 12",
+        "epdi use panradhu 12",
+        "examples kudu 12",
+        "guide pannu 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0013",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 13",
+        "what can i ask 13",
+        "show commands 13",
+        "how do i use you 13",
+        "give me examples 13",
+        "i am new 13"
+      ],
+      "ta": [
+        "உதவி 13",
+        "நான் என்ன கேட்கலாம் 13",
+        "கட்டளைகளை காட்டு 13",
+        "எவ்வாறு பயன்படுத்துவது 13",
+        "உதாரணங்கள் கொடு 13",
+        "வழிகாட்டுதல் 13"
+      ],
+      "tanglish": [
+        "help pannu 13",
+        "enna kekalam 13",
+        "commands kaatu 13",
+        "epdi use panradhu 13",
+        "examples kudu 13",
+        "guide pannu 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0014",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 14",
+        "what can i ask 14",
+        "show commands 14",
+        "how do i use you 14",
+        "give me examples 14",
+        "i am new 14"
+      ],
+      "ta": [
+        "உதவி 14",
+        "நான் என்ன கேட்கலாம் 14",
+        "கட்டளைகளை காட்டு 14",
+        "எவ்வாறு பயன்படுத்துவது 14",
+        "உதாரணங்கள் கொடு 14",
+        "வழிகாட்டுதல் 14"
+      ],
+      "tanglish": [
+        "help pannu 14",
+        "enna kekalam 14",
+        "commands kaatu 14",
+        "epdi use panradhu 14",
+        "examples kudu 14",
+        "guide pannu 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0015",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 15",
+        "what can i ask 15",
+        "show commands 15",
+        "how do i use you 15",
+        "give me examples 15",
+        "i am new 15"
+      ],
+      "ta": [
+        "உதவி 15",
+        "நான் என்ன கேட்கலாம் 15",
+        "கட்டளைகளை காட்டு 15",
+        "எவ்வாறு பயன்படுத்துவது 15",
+        "உதாரணங்கள் கொடு 15",
+        "வழிகாட்டுதல் 15"
+      ],
+      "tanglish": [
+        "help pannu 15",
+        "enna kekalam 15",
+        "commands kaatu 15",
+        "epdi use panradhu 15",
+        "examples kudu 15",
+        "guide pannu 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0016",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 16",
+        "what can i ask 16",
+        "show commands 16",
+        "how do i use you 16",
+        "give me examples 16",
+        "i am new 16"
+      ],
+      "ta": [
+        "உதவி 16",
+        "நான் என்ன கேட்கலாம் 16",
+        "கட்டளைகளை காட்டு 16",
+        "எவ்வாறு பயன்படுத்துவது 16",
+        "உதாரணங்கள் கொடு 16",
+        "வழிகாட்டுதல் 16"
+      ],
+      "tanglish": [
+        "help pannu 16",
+        "enna kekalam 16",
+        "commands kaatu 16",
+        "epdi use panradhu 16",
+        "examples kudu 16",
+        "guide pannu 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0017",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 17",
+        "what can i ask 17",
+        "show commands 17",
+        "how do i use you 17",
+        "give me examples 17",
+        "i am new 17"
+      ],
+      "ta": [
+        "உதவி 17",
+        "நான் என்ன கேட்கலாம் 17",
+        "கட்டளைகளை காட்டு 17",
+        "எவ்வாறு பயன்படுத்துவது 17",
+        "உதாரணங்கள் கொடு 17",
+        "வழிகாட்டுதல் 17"
+      ],
+      "tanglish": [
+        "help pannu 17",
+        "enna kekalam 17",
+        "commands kaatu 17",
+        "epdi use panradhu 17",
+        "examples kudu 17",
+        "guide pannu 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0018",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 18",
+        "what can i ask 18",
+        "show commands 18",
+        "how do i use you 18",
+        "give me examples 18",
+        "i am new 18"
+      ],
+      "ta": [
+        "உதவி 18",
+        "நான் என்ன கேட்கலாம் 18",
+        "கட்டளைகளை காட்டு 18",
+        "எவ்வாறு பயன்படுத்துவது 18",
+        "உதாரணங்கள் கொடு 18",
+        "வழிகாட்டுதல் 18"
+      ],
+      "tanglish": [
+        "help pannu 18",
+        "enna kekalam 18",
+        "commands kaatu 18",
+        "epdi use panradhu 18",
+        "examples kudu 18",
+        "guide pannu 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0019",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 19",
+        "what can i ask 19",
+        "show commands 19",
+        "how do i use you 19",
+        "give me examples 19",
+        "i am new 19"
+      ],
+      "ta": [
+        "உதவி 19",
+        "நான் என்ன கேட்கலாம் 19",
+        "கட்டளைகளை காட்டு 19",
+        "எவ்வாறு பயன்படுத்துவது 19",
+        "உதாரணங்கள் கொடு 19",
+        "வழிகாட்டுதல் 19"
+      ],
+      "tanglish": [
+        "help pannu 19",
+        "enna kekalam 19",
+        "commands kaatu 19",
+        "epdi use panradhu 19",
+        "examples kudu 19",
+        "guide pannu 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0020",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 20",
+        "what can i ask 20",
+        "show commands 20",
+        "how do i use you 20",
+        "give me examples 20",
+        "i am new 20"
+      ],
+      "ta": [
+        "உதவி 20",
+        "நான் என்ன கேட்கலாம் 20",
+        "கட்டளைகளை காட்டு 20",
+        "எவ்வாறு பயன்படுத்துவது 20",
+        "உதாரணங்கள் கொடு 20",
+        "வழிகாட்டுதல் 20"
+      ],
+      "tanglish": [
+        "help pannu 20",
+        "enna kekalam 20",
+        "commands kaatu 20",
+        "epdi use panradhu 20",
+        "examples kudu 20",
+        "guide pannu 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0021",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 21",
+        "what can i ask 21",
+        "show commands 21",
+        "how do i use you 21",
+        "give me examples 21",
+        "i am new 21"
+      ],
+      "ta": [
+        "உதவி 21",
+        "நான் என்ன கேட்கலாம் 21",
+        "கட்டளைகளை காட்டு 21",
+        "எவ்வாறு பயன்படுத்துவது 21",
+        "உதாரணங்கள் கொடு 21",
+        "வழிகாட்டுதல் 21"
+      ],
+      "tanglish": [
+        "help pannu 21",
+        "enna kekalam 21",
+        "commands kaatu 21",
+        "epdi use panradhu 21",
+        "examples kudu 21",
+        "guide pannu 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0022",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 22",
+        "what can i ask 22",
+        "show commands 22",
+        "how do i use you 22",
+        "give me examples 22",
+        "i am new 22"
+      ],
+      "ta": [
+        "உதவி 22",
+        "நான் என்ன கேட்கலாம் 22",
+        "கட்டளைகளை காட்டு 22",
+        "எவ்வாறு பயன்படுத்துவது 22",
+        "உதாரணங்கள் கொடு 22",
+        "வழிகாட்டுதல் 22"
+      ],
+      "tanglish": [
+        "help pannu 22",
+        "enna kekalam 22",
+        "commands kaatu 22",
+        "epdi use panradhu 22",
+        "examples kudu 22",
+        "guide pannu 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0023",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 23",
+        "what can i ask 23",
+        "show commands 23",
+        "how do i use you 23",
+        "give me examples 23",
+        "i am new 23"
+      ],
+      "ta": [
+        "உதவி 23",
+        "நான் என்ன கேட்கலாம் 23",
+        "கட்டளைகளை காட்டு 23",
+        "எவ்வாறு பயன்படுத்துவது 23",
+        "உதாரணங்கள் கொடு 23",
+        "வழிகாட்டுதல் 23"
+      ],
+      "tanglish": [
+        "help pannu 23",
+        "enna kekalam 23",
+        "commands kaatu 23",
+        "epdi use panradhu 23",
+        "examples kudu 23",
+        "guide pannu 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0024",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 24",
+        "what can i ask 24",
+        "show commands 24",
+        "how do i use you 24",
+        "give me examples 24",
+        "i am new 24"
+      ],
+      "ta": [
+        "உதவி 24",
+        "நான் என்ன கேட்கலாம் 24",
+        "கட்டளைகளை காட்டு 24",
+        "எவ்வாறு பயன்படுத்துவது 24",
+        "உதாரணங்கள் கொடு 24",
+        "வழிகாட்டுதல் 24"
+      ],
+      "tanglish": [
+        "help pannu 24",
+        "enna kekalam 24",
+        "commands kaatu 24",
+        "epdi use panradhu 24",
+        "examples kudu 24",
+        "guide pannu 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0025",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 25",
+        "what can i ask 25",
+        "show commands 25",
+        "how do i use you 25",
+        "give me examples 25",
+        "i am new 25"
+      ],
+      "ta": [
+        "உதவி 25",
+        "நான் என்ன கேட்கலாம் 25",
+        "கட்டளைகளை காட்டு 25",
+        "எவ்வாறு பயன்படுத்துவது 25",
+        "உதாரணங்கள் கொடு 25",
+        "வழிகாட்டுதல் 25"
+      ],
+      "tanglish": [
+        "help pannu 25",
+        "enna kekalam 25",
+        "commands kaatu 25",
+        "epdi use panradhu 25",
+        "examples kudu 25",
+        "guide pannu 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0026",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 26",
+        "what can i ask 26",
+        "show commands 26",
+        "how do i use you 26",
+        "give me examples 26",
+        "i am new 26"
+      ],
+      "ta": [
+        "உதவி 26",
+        "நான் என்ன கேட்கலாம் 26",
+        "கட்டளைகளை காட்டு 26",
+        "எவ்வாறு பயன்படுத்துவது 26",
+        "உதாரணங்கள் கொடு 26",
+        "வழிகாட்டுதல் 26"
+      ],
+      "tanglish": [
+        "help pannu 26",
+        "enna kekalam 26",
+        "commands kaatu 26",
+        "epdi use panradhu 26",
+        "examples kudu 26",
+        "guide pannu 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0027",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 27",
+        "what can i ask 27",
+        "show commands 27",
+        "how do i use you 27",
+        "give me examples 27",
+        "i am new 27"
+      ],
+      "ta": [
+        "உதவி 27",
+        "நான் என்ன கேட்கலாம் 27",
+        "கட்டளைகளை காட்டு 27",
+        "எவ்வாறு பயன்படுத்துவது 27",
+        "உதாரணங்கள் கொடு 27",
+        "வழிகாட்டுதல் 27"
+      ],
+      "tanglish": [
+        "help pannu 27",
+        "enna kekalam 27",
+        "commands kaatu 27",
+        "epdi use panradhu 27",
+        "examples kudu 27",
+        "guide pannu 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0028",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 28",
+        "what can i ask 28",
+        "show commands 28",
+        "how do i use you 28",
+        "give me examples 28",
+        "i am new 28"
+      ],
+      "ta": [
+        "உதவி 28",
+        "நான் என்ன கேட்கலாம் 28",
+        "கட்டளைகளை காட்டு 28",
+        "எவ்வாறு பயன்படுத்துவது 28",
+        "உதாரணங்கள் கொடு 28",
+        "வழிகாட்டுதல் 28"
+      ],
+      "tanglish": [
+        "help pannu 28",
+        "enna kekalam 28",
+        "commands kaatu 28",
+        "epdi use panradhu 28",
+        "examples kudu 28",
+        "guide pannu 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0029",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 29",
+        "what can i ask 29",
+        "show commands 29",
+        "how do i use you 29",
+        "give me examples 29",
+        "i am new 29"
+      ],
+      "ta": [
+        "உதவி 29",
+        "நான் என்ன கேட்கலாம் 29",
+        "கட்டளைகளை காட்டு 29",
+        "எவ்வாறு பயன்படுத்துவது 29",
+        "உதாரணங்கள் கொடு 29",
+        "வழிகாட்டுதல் 29"
+      ],
+      "tanglish": [
+        "help pannu 29",
+        "enna kekalam 29",
+        "commands kaatu 29",
+        "epdi use panradhu 29",
+        "examples kudu 29",
+        "guide pannu 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0030",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 30",
+        "what can i ask 30",
+        "show commands 30",
+        "how do i use you 30",
+        "give me examples 30",
+        "i am new 30"
+      ],
+      "ta": [
+        "உதவி 30",
+        "நான் என்ன கேட்கலாம் 30",
+        "கட்டளைகளை காட்டு 30",
+        "எவ்வாறு பயன்படுத்துவது 30",
+        "உதாரணங்கள் கொடு 30",
+        "வழிகாட்டுதல் 30"
+      ],
+      "tanglish": [
+        "help pannu 30",
+        "enna kekalam 30",
+        "commands kaatu 30",
+        "epdi use panradhu 30",
+        "examples kudu 30",
+        "guide pannu 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0031",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 31",
+        "what can i ask 31",
+        "show commands 31",
+        "how do i use you 31",
+        "give me examples 31",
+        "i am new 31"
+      ],
+      "ta": [
+        "உதவி 31",
+        "நான் என்ன கேட்கலாம் 31",
+        "கட்டளைகளை காட்டு 31",
+        "எவ்வாறு பயன்படுத்துவது 31",
+        "உதாரணங்கள் கொடு 31",
+        "வழிகாட்டுதல் 31"
+      ],
+      "tanglish": [
+        "help pannu 31",
+        "enna kekalam 31",
+        "commands kaatu 31",
+        "epdi use panradhu 31",
+        "examples kudu 31",
+        "guide pannu 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0032",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 32",
+        "what can i ask 32",
+        "show commands 32",
+        "how do i use you 32",
+        "give me examples 32",
+        "i am new 32"
+      ],
+      "ta": [
+        "உதவி 32",
+        "நான் என்ன கேட்கலாம் 32",
+        "கட்டளைகளை காட்டு 32",
+        "எவ்வாறு பயன்படுத்துவது 32",
+        "உதாரணங்கள் கொடு 32",
+        "வழிகாட்டுதல் 32"
+      ],
+      "tanglish": [
+        "help pannu 32",
+        "enna kekalam 32",
+        "commands kaatu 32",
+        "epdi use panradhu 32",
+        "examples kudu 32",
+        "guide pannu 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0033",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 33",
+        "what can i ask 33",
+        "show commands 33",
+        "how do i use you 33",
+        "give me examples 33",
+        "i am new 33"
+      ],
+      "ta": [
+        "உதவி 33",
+        "நான் என்ன கேட்கலாம் 33",
+        "கட்டளைகளை காட்டு 33",
+        "எவ்வாறு பயன்படுத்துவது 33",
+        "உதாரணங்கள் கொடு 33",
+        "வழிகாட்டுதல் 33"
+      ],
+      "tanglish": [
+        "help pannu 33",
+        "enna kekalam 33",
+        "commands kaatu 33",
+        "epdi use panradhu 33",
+        "examples kudu 33",
+        "guide pannu 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0034",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 34",
+        "what can i ask 34",
+        "show commands 34",
+        "how do i use you 34",
+        "give me examples 34",
+        "i am new 34"
+      ],
+      "ta": [
+        "உதவி 34",
+        "நான் என்ன கேட்கலாம் 34",
+        "கட்டளைகளை காட்டு 34",
+        "எவ்வாறு பயன்படுத்துவது 34",
+        "உதாரணங்கள் கொடு 34",
+        "வழிகாட்டுதல் 34"
+      ],
+      "tanglish": [
+        "help pannu 34",
+        "enna kekalam 34",
+        "commands kaatu 34",
+        "epdi use panradhu 34",
+        "examples kudu 34",
+        "guide pannu 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0035",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 35",
+        "what can i ask 35",
+        "show commands 35",
+        "how do i use you 35",
+        "give me examples 35",
+        "i am new 35"
+      ],
+      "ta": [
+        "உதவி 35",
+        "நான் என்ன கேட்கலாம் 35",
+        "கட்டளைகளை காட்டு 35",
+        "எவ்வாறு பயன்படுத்துவது 35",
+        "உதாரணங்கள் கொடு 35",
+        "வழிகாட்டுதல் 35"
+      ],
+      "tanglish": [
+        "help pannu 35",
+        "enna kekalam 35",
+        "commands kaatu 35",
+        "epdi use panradhu 35",
+        "examples kudu 35",
+        "guide pannu 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0036",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 36",
+        "what can i ask 36",
+        "show commands 36",
+        "how do i use you 36",
+        "give me examples 36",
+        "i am new 36"
+      ],
+      "ta": [
+        "உதவி 36",
+        "நான் என்ன கேட்கலாம் 36",
+        "கட்டளைகளை காட்டு 36",
+        "எவ்வாறு பயன்படுத்துவது 36",
+        "உதாரணங்கள் கொடு 36",
+        "வழிகாட்டுதல் 36"
+      ],
+      "tanglish": [
+        "help pannu 36",
+        "enna kekalam 36",
+        "commands kaatu 36",
+        "epdi use panradhu 36",
+        "examples kudu 36",
+        "guide pannu 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0037",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 37",
+        "what can i ask 37",
+        "show commands 37",
+        "how do i use you 37",
+        "give me examples 37",
+        "i am new 37"
+      ],
+      "ta": [
+        "உதவி 37",
+        "நான் என்ன கேட்கலாம் 37",
+        "கட்டளைகளை காட்டு 37",
+        "எவ்வாறு பயன்படுத்துவது 37",
+        "உதாரணங்கள் கொடு 37",
+        "வழிகாட்டுதல் 37"
+      ],
+      "tanglish": [
+        "help pannu 37",
+        "enna kekalam 37",
+        "commands kaatu 37",
+        "epdi use panradhu 37",
+        "examples kudu 37",
+        "guide pannu 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0038",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 38",
+        "what can i ask 38",
+        "show commands 38",
+        "how do i use you 38",
+        "give me examples 38",
+        "i am new 38"
+      ],
+      "ta": [
+        "உதவி 38",
+        "நான் என்ன கேட்கலாம் 38",
+        "கட்டளைகளை காட்டு 38",
+        "எவ்வாறு பயன்படுத்துவது 38",
+        "உதாரணங்கள் கொடு 38",
+        "வழிகாட்டுதல் 38"
+      ],
+      "tanglish": [
+        "help pannu 38",
+        "enna kekalam 38",
+        "commands kaatu 38",
+        "epdi use panradhu 38",
+        "examples kudu 38",
+        "guide pannu 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0039",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 39",
+        "what can i ask 39",
+        "show commands 39",
+        "how do i use you 39",
+        "give me examples 39",
+        "i am new 39"
+      ],
+      "ta": [
+        "உதவி 39",
+        "நான் என்ன கேட்கலாம் 39",
+        "கட்டளைகளை காட்டு 39",
+        "எவ்வாறு பயன்படுத்துவது 39",
+        "உதாரணங்கள் கொடு 39",
+        "வழிகாட்டுதல் 39"
+      ],
+      "tanglish": [
+        "help pannu 39",
+        "enna kekalam 39",
+        "commands kaatu 39",
+        "epdi use panradhu 39",
+        "examples kudu 39",
+        "guide pannu 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0040",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 40",
+        "what can i ask 40",
+        "show commands 40",
+        "how do i use you 40",
+        "give me examples 40",
+        "i am new 40"
+      ],
+      "ta": [
+        "உதவி 40",
+        "நான் என்ன கேட்கலாம் 40",
+        "கட்டளைகளை காட்டு 40",
+        "எவ்வாறு பயன்படுத்துவது 40",
+        "உதாரணங்கள் கொடு 40",
+        "வழிகாட்டுதல் 40"
+      ],
+      "tanglish": [
+        "help pannu 40",
+        "enna kekalam 40",
+        "commands kaatu 40",
+        "epdi use panradhu 40",
+        "examples kudu 40",
+        "guide pannu 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0041",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 41",
+        "what can i ask 41",
+        "show commands 41",
+        "how do i use you 41",
+        "give me examples 41",
+        "i am new 41"
+      ],
+      "ta": [
+        "உதவி 41",
+        "நான் என்ன கேட்கலாம் 41",
+        "கட்டளைகளை காட்டு 41",
+        "எவ்வாறு பயன்படுத்துவது 41",
+        "உதாரணங்கள் கொடு 41",
+        "வழிகாட்டுதல் 41"
+      ],
+      "tanglish": [
+        "help pannu 41",
+        "enna kekalam 41",
+        "commands kaatu 41",
+        "epdi use panradhu 41",
+        "examples kudu 41",
+        "guide pannu 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0042",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 42",
+        "what can i ask 42",
+        "show commands 42",
+        "how do i use you 42",
+        "give me examples 42",
+        "i am new 42"
+      ],
+      "ta": [
+        "உதவி 42",
+        "நான் என்ன கேட்கலாம் 42",
+        "கட்டளைகளை காட்டு 42",
+        "எவ்வாறு பயன்படுத்துவது 42",
+        "உதாரணங்கள் கொடு 42",
+        "வழிகாட்டுதல் 42"
+      ],
+      "tanglish": [
+        "help pannu 42",
+        "enna kekalam 42",
+        "commands kaatu 42",
+        "epdi use panradhu 42",
+        "examples kudu 42",
+        "guide pannu 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0043",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 43",
+        "what can i ask 43",
+        "show commands 43",
+        "how do i use you 43",
+        "give me examples 43",
+        "i am new 43"
+      ],
+      "ta": [
+        "உதவி 43",
+        "நான் என்ன கேட்கலாம் 43",
+        "கட்டளைகளை காட்டு 43",
+        "எவ்வாறு பயன்படுத்துவது 43",
+        "உதாரணங்கள் கொடு 43",
+        "வழிகாட்டுதல் 43"
+      ],
+      "tanglish": [
+        "help pannu 43",
+        "enna kekalam 43",
+        "commands kaatu 43",
+        "epdi use panradhu 43",
+        "examples kudu 43",
+        "guide pannu 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0044",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 44",
+        "what can i ask 44",
+        "show commands 44",
+        "how do i use you 44",
+        "give me examples 44",
+        "i am new 44"
+      ],
+      "ta": [
+        "உதவி 44",
+        "நான் என்ன கேட்கலாம் 44",
+        "கட்டளைகளை காட்டு 44",
+        "எவ்வாறு பயன்படுத்துவது 44",
+        "உதாரணங்கள் கொடு 44",
+        "வழிகாட்டுதல் 44"
+      ],
+      "tanglish": [
+        "help pannu 44",
+        "enna kekalam 44",
+        "commands kaatu 44",
+        "epdi use panradhu 44",
+        "examples kudu 44",
+        "guide pannu 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0045",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 45",
+        "what can i ask 45",
+        "show commands 45",
+        "how do i use you 45",
+        "give me examples 45",
+        "i am new 45"
+      ],
+      "ta": [
+        "உதவி 45",
+        "நான் என்ன கேட்கலாம் 45",
+        "கட்டளைகளை காட்டு 45",
+        "எவ்வாறு பயன்படுத்துவது 45",
+        "உதாரணங்கள் கொடு 45",
+        "வழிகாட்டுதல் 45"
+      ],
+      "tanglish": [
+        "help pannu 45",
+        "enna kekalam 45",
+        "commands kaatu 45",
+        "epdi use panradhu 45",
+        "examples kudu 45",
+        "guide pannu 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0046",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 46",
+        "what can i ask 46",
+        "show commands 46",
+        "how do i use you 46",
+        "give me examples 46",
+        "i am new 46"
+      ],
+      "ta": [
+        "உதவி 46",
+        "நான் என்ன கேட்கலாம் 46",
+        "கட்டளைகளை காட்டு 46",
+        "எவ்வாறு பயன்படுத்துவது 46",
+        "உதாரணங்கள் கொடு 46",
+        "வழிகாட்டுதல் 46"
+      ],
+      "tanglish": [
+        "help pannu 46",
+        "enna kekalam 46",
+        "commands kaatu 46",
+        "epdi use panradhu 46",
+        "examples kudu 46",
+        "guide pannu 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0047",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 47",
+        "what can i ask 47",
+        "show commands 47",
+        "how do i use you 47",
+        "give me examples 47",
+        "i am new 47"
+      ],
+      "ta": [
+        "உதவி 47",
+        "நான் என்ன கேட்கலாம் 47",
+        "கட்டளைகளை காட்டு 47",
+        "எவ்வாறு பயன்படுத்துவது 47",
+        "உதாரணங்கள் கொடு 47",
+        "வழிகாட்டுதல் 47"
+      ],
+      "tanglish": [
+        "help pannu 47",
+        "enna kekalam 47",
+        "commands kaatu 47",
+        "epdi use panradhu 47",
+        "examples kudu 47",
+        "guide pannu 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0048",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 48",
+        "what can i ask 48",
+        "show commands 48",
+        "how do i use you 48",
+        "give me examples 48",
+        "i am new 48"
+      ],
+      "ta": [
+        "உதவி 48",
+        "நான் என்ன கேட்கலாம் 48",
+        "கட்டளைகளை காட்டு 48",
+        "எவ்வாறு பயன்படுத்துவது 48",
+        "உதாரணங்கள் கொடு 48",
+        "வழிகாட்டுதல் 48"
+      ],
+      "tanglish": [
+        "help pannu 48",
+        "enna kekalam 48",
+        "commands kaatu 48",
+        "epdi use panradhu 48",
+        "examples kudu 48",
+        "guide pannu 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0049",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 49",
+        "what can i ask 49",
+        "show commands 49",
+        "how do i use you 49",
+        "give me examples 49",
+        "i am new 49"
+      ],
+      "ta": [
+        "உதவி 49",
+        "நான் என்ன கேட்கலாம் 49",
+        "கட்டளைகளை காட்டு 49",
+        "எவ்வாறு பயன்படுத்துவது 49",
+        "உதாரணங்கள் கொடு 49",
+        "வழிகாட்டுதல் 49"
+      ],
+      "tanglish": [
+        "help pannu 49",
+        "enna kekalam 49",
+        "commands kaatu 49",
+        "epdi use panradhu 49",
+        "examples kudu 49",
+        "guide pannu 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0050",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 50",
+        "what can i ask 50",
+        "show commands 50",
+        "how do i use you 50",
+        "give me examples 50",
+        "i am new 50"
+      ],
+      "ta": [
+        "உதவி 50",
+        "நான் என்ன கேட்கலாம் 50",
+        "கட்டளைகளை காட்டு 50",
+        "எவ்வாறு பயன்படுத்துவது 50",
+        "உதாரணங்கள் கொடு 50",
+        "வழிகாட்டுதல் 50"
+      ],
+      "tanglish": [
+        "help pannu 50",
+        "enna kekalam 50",
+        "commands kaatu 50",
+        "epdi use panradhu 50",
+        "examples kudu 50",
+        "guide pannu 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0051",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 51",
+        "what can i ask 51",
+        "show commands 51",
+        "how do i use you 51",
+        "give me examples 51",
+        "i am new 51"
+      ],
+      "ta": [
+        "உதவி 51",
+        "நான் என்ன கேட்கலாம் 51",
+        "கட்டளைகளை காட்டு 51",
+        "எவ்வாறு பயன்படுத்துவது 51",
+        "உதாரணங்கள் கொடு 51",
+        "வழிகாட்டுதல் 51"
+      ],
+      "tanglish": [
+        "help pannu 51",
+        "enna kekalam 51",
+        "commands kaatu 51",
+        "epdi use panradhu 51",
+        "examples kudu 51",
+        "guide pannu 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0052",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 52",
+        "what can i ask 52",
+        "show commands 52",
+        "how do i use you 52",
+        "give me examples 52",
+        "i am new 52"
+      ],
+      "ta": [
+        "உதவி 52",
+        "நான் என்ன கேட்கலாம் 52",
+        "கட்டளைகளை காட்டு 52",
+        "எவ்வாறு பயன்படுத்துவது 52",
+        "உதாரணங்கள் கொடு 52",
+        "வழிகாட்டுதல் 52"
+      ],
+      "tanglish": [
+        "help pannu 52",
+        "enna kekalam 52",
+        "commands kaatu 52",
+        "epdi use panradhu 52",
+        "examples kudu 52",
+        "guide pannu 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0053",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 53",
+        "what can i ask 53",
+        "show commands 53",
+        "how do i use you 53",
+        "give me examples 53",
+        "i am new 53"
+      ],
+      "ta": [
+        "உதவி 53",
+        "நான் என்ன கேட்கலாம் 53",
+        "கட்டளைகளை காட்டு 53",
+        "எவ்வாறு பயன்படுத்துவது 53",
+        "உதாரணங்கள் கொடு 53",
+        "வழிகாட்டுதல் 53"
+      ],
+      "tanglish": [
+        "help pannu 53",
+        "enna kekalam 53",
+        "commands kaatu 53",
+        "epdi use panradhu 53",
+        "examples kudu 53",
+        "guide pannu 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0054",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 54",
+        "what can i ask 54",
+        "show commands 54",
+        "how do i use you 54",
+        "give me examples 54",
+        "i am new 54"
+      ],
+      "ta": [
+        "உதவி 54",
+        "நான் என்ன கேட்கலாம் 54",
+        "கட்டளைகளை காட்டு 54",
+        "எவ்வாறு பயன்படுத்துவது 54",
+        "உதாரணங்கள் கொடு 54",
+        "வழிகாட்டுதல் 54"
+      ],
+      "tanglish": [
+        "help pannu 54",
+        "enna kekalam 54",
+        "commands kaatu 54",
+        "epdi use panradhu 54",
+        "examples kudu 54",
+        "guide pannu 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0055",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 55",
+        "what can i ask 55",
+        "show commands 55",
+        "how do i use you 55",
+        "give me examples 55",
+        "i am new 55"
+      ],
+      "ta": [
+        "உதவி 55",
+        "நான் என்ன கேட்கலாம் 55",
+        "கட்டளைகளை காட்டு 55",
+        "எவ்வாறு பயன்படுத்துவது 55",
+        "உதாரணங்கள் கொடு 55",
+        "வழிகாட்டுதல் 55"
+      ],
+      "tanglish": [
+        "help pannu 55",
+        "enna kekalam 55",
+        "commands kaatu 55",
+        "epdi use panradhu 55",
+        "examples kudu 55",
+        "guide pannu 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0056",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 56",
+        "what can i ask 56",
+        "show commands 56",
+        "how do i use you 56",
+        "give me examples 56",
+        "i am new 56"
+      ],
+      "ta": [
+        "உதவி 56",
+        "நான் என்ன கேட்கலாம் 56",
+        "கட்டளைகளை காட்டு 56",
+        "எவ்வாறு பயன்படுத்துவது 56",
+        "உதாரணங்கள் கொடு 56",
+        "வழிகாட்டுதல் 56"
+      ],
+      "tanglish": [
+        "help pannu 56",
+        "enna kekalam 56",
+        "commands kaatu 56",
+        "epdi use panradhu 56",
+        "examples kudu 56",
+        "guide pannu 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0057",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 57",
+        "what can i ask 57",
+        "show commands 57",
+        "how do i use you 57",
+        "give me examples 57",
+        "i am new 57"
+      ],
+      "ta": [
+        "உதவி 57",
+        "நான் என்ன கேட்கலாம் 57",
+        "கட்டளைகளை காட்டு 57",
+        "எவ்வாறு பயன்படுத்துவது 57",
+        "உதாரணங்கள் கொடு 57",
+        "வழிகாட்டுதல் 57"
+      ],
+      "tanglish": [
+        "help pannu 57",
+        "enna kekalam 57",
+        "commands kaatu 57",
+        "epdi use panradhu 57",
+        "examples kudu 57",
+        "guide pannu 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0058",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 58",
+        "what can i ask 58",
+        "show commands 58",
+        "how do i use you 58",
+        "give me examples 58",
+        "i am new 58"
+      ],
+      "ta": [
+        "உதவி 58",
+        "நான் என்ன கேட்கலாம் 58",
+        "கட்டளைகளை காட்டு 58",
+        "எவ்வாறு பயன்படுத்துவது 58",
+        "உதாரணங்கள் கொடு 58",
+        "வழிகாட்டுதல் 58"
+      ],
+      "tanglish": [
+        "help pannu 58",
+        "enna kekalam 58",
+        "commands kaatu 58",
+        "epdi use panradhu 58",
+        "examples kudu 58",
+        "guide pannu 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0059",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 59",
+        "what can i ask 59",
+        "show commands 59",
+        "how do i use you 59",
+        "give me examples 59",
+        "i am new 59"
+      ],
+      "ta": [
+        "உதவி 59",
+        "நான் என்ன கேட்கலாம் 59",
+        "கட்டளைகளை காட்டு 59",
+        "எவ்வாறு பயன்படுத்துவது 59",
+        "உதாரணங்கள் கொடு 59",
+        "வழிகாட்டுதல் 59"
+      ],
+      "tanglish": [
+        "help pannu 59",
+        "enna kekalam 59",
+        "commands kaatu 59",
+        "epdi use panradhu 59",
+        "examples kudu 59",
+        "guide pannu 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0060",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 60",
+        "what can i ask 60",
+        "show commands 60",
+        "how do i use you 60",
+        "give me examples 60",
+        "i am new 60"
+      ],
+      "ta": [
+        "உதவி 60",
+        "நான் என்ன கேட்கலாம் 60",
+        "கட்டளைகளை காட்டு 60",
+        "எவ்வாறு பயன்படுத்துவது 60",
+        "உதாரணங்கள் கொடு 60",
+        "வழிகாட்டுதல் 60"
+      ],
+      "tanglish": [
+        "help pannu 60",
+        "enna kekalam 60",
+        "commands kaatu 60",
+        "epdi use panradhu 60",
+        "examples kudu 60",
+        "guide pannu 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0061",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 61",
+        "what can i ask 61",
+        "show commands 61",
+        "how do i use you 61",
+        "give me examples 61",
+        "i am new 61"
+      ],
+      "ta": [
+        "உதவி 61",
+        "நான் என்ன கேட்கலாம் 61",
+        "கட்டளைகளை காட்டு 61",
+        "எவ்வாறு பயன்படுத்துவது 61",
+        "உதாரணங்கள் கொடு 61",
+        "வழிகாட்டுதல் 61"
+      ],
+      "tanglish": [
+        "help pannu 61",
+        "enna kekalam 61",
+        "commands kaatu 61",
+        "epdi use panradhu 61",
+        "examples kudu 61",
+        "guide pannu 61"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0062",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 62",
+        "what can i ask 62",
+        "show commands 62",
+        "how do i use you 62",
+        "give me examples 62",
+        "i am new 62"
+      ],
+      "ta": [
+        "உதவி 62",
+        "நான் என்ன கேட்கலாம் 62",
+        "கட்டளைகளை காட்டு 62",
+        "எவ்வாறு பயன்படுத்துவது 62",
+        "உதாரணங்கள் கொடு 62",
+        "வழிகாட்டுதல் 62"
+      ],
+      "tanglish": [
+        "help pannu 62",
+        "enna kekalam 62",
+        "commands kaatu 62",
+        "epdi use panradhu 62",
+        "examples kudu 62",
+        "guide pannu 62"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0063",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 63",
+        "what can i ask 63",
+        "show commands 63",
+        "how do i use you 63",
+        "give me examples 63",
+        "i am new 63"
+      ],
+      "ta": [
+        "உதவி 63",
+        "நான் என்ன கேட்கலாம் 63",
+        "கட்டளைகளை காட்டு 63",
+        "எவ்வாறு பயன்படுத்துவது 63",
+        "உதாரணங்கள் கொடு 63",
+        "வழிகாட்டுதல் 63"
+      ],
+      "tanglish": [
+        "help pannu 63",
+        "enna kekalam 63",
+        "commands kaatu 63",
+        "epdi use panradhu 63",
+        "examples kudu 63",
+        "guide pannu 63"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0064",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 64",
+        "what can i ask 64",
+        "show commands 64",
+        "how do i use you 64",
+        "give me examples 64",
+        "i am new 64"
+      ],
+      "ta": [
+        "உதவி 64",
+        "நான் என்ன கேட்கலாம் 64",
+        "கட்டளைகளை காட்டு 64",
+        "எவ்வாறு பயன்படுத்துவது 64",
+        "உதாரணங்கள் கொடு 64",
+        "வழிகாட்டுதல் 64"
+      ],
+      "tanglish": [
+        "help pannu 64",
+        "enna kekalam 64",
+        "commands kaatu 64",
+        "epdi use panradhu 64",
+        "examples kudu 64",
+        "guide pannu 64"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0065",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 65",
+        "what can i ask 65",
+        "show commands 65",
+        "how do i use you 65",
+        "give me examples 65",
+        "i am new 65"
+      ],
+      "ta": [
+        "உதவி 65",
+        "நான் என்ன கேட்கலாம் 65",
+        "கட்டளைகளை காட்டு 65",
+        "எவ்வாறு பயன்படுத்துவது 65",
+        "உதாரணங்கள் கொடு 65",
+        "வழிகாட்டுதல் 65"
+      ],
+      "tanglish": [
+        "help pannu 65",
+        "enna kekalam 65",
+        "commands kaatu 65",
+        "epdi use panradhu 65",
+        "examples kudu 65",
+        "guide pannu 65"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0066",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 66",
+        "what can i ask 66",
+        "show commands 66",
+        "how do i use you 66",
+        "give me examples 66",
+        "i am new 66"
+      ],
+      "ta": [
+        "உதவி 66",
+        "நான் என்ன கேட்கலாம் 66",
+        "கட்டளைகளை காட்டு 66",
+        "எவ்வாறு பயன்படுத்துவது 66",
+        "உதாரணங்கள் கொடு 66",
+        "வழிகாட்டுதல் 66"
+      ],
+      "tanglish": [
+        "help pannu 66",
+        "enna kekalam 66",
+        "commands kaatu 66",
+        "epdi use panradhu 66",
+        "examples kudu 66",
+        "guide pannu 66"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0067",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 67",
+        "what can i ask 67",
+        "show commands 67",
+        "how do i use you 67",
+        "give me examples 67",
+        "i am new 67"
+      ],
+      "ta": [
+        "உதவி 67",
+        "நான் என்ன கேட்கலாம் 67",
+        "கட்டளைகளை காட்டு 67",
+        "எவ்வாறு பயன்படுத்துவது 67",
+        "உதாரணங்கள் கொடு 67",
+        "வழிகாட்டுதல் 67"
+      ],
+      "tanglish": [
+        "help pannu 67",
+        "enna kekalam 67",
+        "commands kaatu 67",
+        "epdi use panradhu 67",
+        "examples kudu 67",
+        "guide pannu 67"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0068",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 68",
+        "what can i ask 68",
+        "show commands 68",
+        "how do i use you 68",
+        "give me examples 68",
+        "i am new 68"
+      ],
+      "ta": [
+        "உதவி 68",
+        "நான் என்ன கேட்கலாம் 68",
+        "கட்டளைகளை காட்டு 68",
+        "எவ்வாறு பயன்படுத்துவது 68",
+        "உதாரணங்கள் கொடு 68",
+        "வழிகாட்டுதல் 68"
+      ],
+      "tanglish": [
+        "help pannu 68",
+        "enna kekalam 68",
+        "commands kaatu 68",
+        "epdi use panradhu 68",
+        "examples kudu 68",
+        "guide pannu 68"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0069",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 69",
+        "what can i ask 69",
+        "show commands 69",
+        "how do i use you 69",
+        "give me examples 69",
+        "i am new 69"
+      ],
+      "ta": [
+        "உதவி 69",
+        "நான் என்ன கேட்கலாம் 69",
+        "கட்டளைகளை காட்டு 69",
+        "எவ்வாறு பயன்படுத்துவது 69",
+        "உதாரணங்கள் கொடு 69",
+        "வழிகாட்டுதல் 69"
+      ],
+      "tanglish": [
+        "help pannu 69",
+        "enna kekalam 69",
+        "commands kaatu 69",
+        "epdi use panradhu 69",
+        "examples kudu 69",
+        "guide pannu 69"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0070",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 70",
+        "what can i ask 70",
+        "show commands 70",
+        "how do i use you 70",
+        "give me examples 70",
+        "i am new 70"
+      ],
+      "ta": [
+        "உதவி 70",
+        "நான் என்ன கேட்கலாம் 70",
+        "கட்டளைகளை காட்டு 70",
+        "எவ்வாறு பயன்படுத்துவது 70",
+        "உதாரணங்கள் கொடு 70",
+        "வழிகாட்டுதல் 70"
+      ],
+      "tanglish": [
+        "help pannu 70",
+        "enna kekalam 70",
+        "commands kaatu 70",
+        "epdi use panradhu 70",
+        "examples kudu 70",
+        "guide pannu 70"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0071",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 71",
+        "what can i ask 71",
+        "show commands 71",
+        "how do i use you 71",
+        "give me examples 71",
+        "i am new 71"
+      ],
+      "ta": [
+        "உதவி 71",
+        "நான் என்ன கேட்கலாம் 71",
+        "கட்டளைகளை காட்டு 71",
+        "எவ்வாறு பயன்படுத்துவது 71",
+        "உதாரணங்கள் கொடு 71",
+        "வழிகாட்டுதல் 71"
+      ],
+      "tanglish": [
+        "help pannu 71",
+        "enna kekalam 71",
+        "commands kaatu 71",
+        "epdi use panradhu 71",
+        "examples kudu 71",
+        "guide pannu 71"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0072",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 72",
+        "what can i ask 72",
+        "show commands 72",
+        "how do i use you 72",
+        "give me examples 72",
+        "i am new 72"
+      ],
+      "ta": [
+        "உதவி 72",
+        "நான் என்ன கேட்கலாம் 72",
+        "கட்டளைகளை காட்டு 72",
+        "எவ்வாறு பயன்படுத்துவது 72",
+        "உதாரணங்கள் கொடு 72",
+        "வழிகாட்டுதல் 72"
+      ],
+      "tanglish": [
+        "help pannu 72",
+        "enna kekalam 72",
+        "commands kaatu 72",
+        "epdi use panradhu 72",
+        "examples kudu 72",
+        "guide pannu 72"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0073",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 73",
+        "what can i ask 73",
+        "show commands 73",
+        "how do i use you 73",
+        "give me examples 73",
+        "i am new 73"
+      ],
+      "ta": [
+        "உதவி 73",
+        "நான் என்ன கேட்கலாம் 73",
+        "கட்டளைகளை காட்டு 73",
+        "எவ்வாறு பயன்படுத்துவது 73",
+        "உதாரணங்கள் கொடு 73",
+        "வழிகாட்டுதல் 73"
+      ],
+      "tanglish": [
+        "help pannu 73",
+        "enna kekalam 73",
+        "commands kaatu 73",
+        "epdi use panradhu 73",
+        "examples kudu 73",
+        "guide pannu 73"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0074",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 74",
+        "what can i ask 74",
+        "show commands 74",
+        "how do i use you 74",
+        "give me examples 74",
+        "i am new 74"
+      ],
+      "ta": [
+        "உதவி 74",
+        "நான் என்ன கேட்கலாம் 74",
+        "கட்டளைகளை காட்டு 74",
+        "எவ்வாறு பயன்படுத்துவது 74",
+        "உதாரணங்கள் கொடு 74",
+        "வழிகாட்டுதல் 74"
+      ],
+      "tanglish": [
+        "help pannu 74",
+        "enna kekalam 74",
+        "commands kaatu 74",
+        "epdi use panradhu 74",
+        "examples kudu 74",
+        "guide pannu 74"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0075",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 75",
+        "what can i ask 75",
+        "show commands 75",
+        "how do i use you 75",
+        "give me examples 75",
+        "i am new 75"
+      ],
+      "ta": [
+        "உதவி 75",
+        "நான் என்ன கேட்கலாம் 75",
+        "கட்டளைகளை காட்டு 75",
+        "எவ்வாறு பயன்படுத்துவது 75",
+        "உதாரணங்கள் கொடு 75",
+        "வழிகாட்டுதல் 75"
+      ],
+      "tanglish": [
+        "help pannu 75",
+        "enna kekalam 75",
+        "commands kaatu 75",
+        "epdi use panradhu 75",
+        "examples kudu 75",
+        "guide pannu 75"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0076",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 76",
+        "what can i ask 76",
+        "show commands 76",
+        "how do i use you 76",
+        "give me examples 76",
+        "i am new 76"
+      ],
+      "ta": [
+        "உதவி 76",
+        "நான் என்ன கேட்கலாம் 76",
+        "கட்டளைகளை காட்டு 76",
+        "எவ்வாறு பயன்படுத்துவது 76",
+        "உதாரணங்கள் கொடு 76",
+        "வழிகாட்டுதல் 76"
+      ],
+      "tanglish": [
+        "help pannu 76",
+        "enna kekalam 76",
+        "commands kaatu 76",
+        "epdi use panradhu 76",
+        "examples kudu 76",
+        "guide pannu 76"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0077",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 77",
+        "what can i ask 77",
+        "show commands 77",
+        "how do i use you 77",
+        "give me examples 77",
+        "i am new 77"
+      ],
+      "ta": [
+        "உதவி 77",
+        "நான் என்ன கேட்கலாம் 77",
+        "கட்டளைகளை காட்டு 77",
+        "எவ்வாறு பயன்படுத்துவது 77",
+        "உதாரணங்கள் கொடு 77",
+        "வழிகாட்டுதல் 77"
+      ],
+      "tanglish": [
+        "help pannu 77",
+        "enna kekalam 77",
+        "commands kaatu 77",
+        "epdi use panradhu 77",
+        "examples kudu 77",
+        "guide pannu 77"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0078",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 78",
+        "what can i ask 78",
+        "show commands 78",
+        "how do i use you 78",
+        "give me examples 78",
+        "i am new 78"
+      ],
+      "ta": [
+        "உதவி 78",
+        "நான் என்ன கேட்கலாம் 78",
+        "கட்டளைகளை காட்டு 78",
+        "எவ்வாறு பயன்படுத்துவது 78",
+        "உதாரணங்கள் கொடு 78",
+        "வழிகாட்டுதல் 78"
+      ],
+      "tanglish": [
+        "help pannu 78",
+        "enna kekalam 78",
+        "commands kaatu 78",
+        "epdi use panradhu 78",
+        "examples kudu 78",
+        "guide pannu 78"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0079",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 79",
+        "what can i ask 79",
+        "show commands 79",
+        "how do i use you 79",
+        "give me examples 79",
+        "i am new 79"
+      ],
+      "ta": [
+        "உதவி 79",
+        "நான் என்ன கேட்கலாம் 79",
+        "கட்டளைகளை காட்டு 79",
+        "எவ்வாறு பயன்படுத்துவது 79",
+        "உதாரணங்கள் கொடு 79",
+        "வழிகாட்டுதல் 79"
+      ],
+      "tanglish": [
+        "help pannu 79",
+        "enna kekalam 79",
+        "commands kaatu 79",
+        "epdi use panradhu 79",
+        "examples kudu 79",
+        "guide pannu 79"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0080",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 80",
+        "what can i ask 80",
+        "show commands 80",
+        "how do i use you 80",
+        "give me examples 80",
+        "i am new 80"
+      ],
+      "ta": [
+        "உதவி 80",
+        "நான் என்ன கேட்கலாம் 80",
+        "கட்டளைகளை காட்டு 80",
+        "எவ்வாறு பயன்படுத்துவது 80",
+        "உதாரணங்கள் கொடு 80",
+        "வழிகாட்டுதல் 80"
+      ],
+      "tanglish": [
+        "help pannu 80",
+        "enna kekalam 80",
+        "commands kaatu 80",
+        "epdi use panradhu 80",
+        "examples kudu 80",
+        "guide pannu 80"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0081",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 81",
+        "what can i ask 81",
+        "show commands 81",
+        "how do i use you 81",
+        "give me examples 81",
+        "i am new 81"
+      ],
+      "ta": [
+        "உதவி 81",
+        "நான் என்ன கேட்கலாம் 81",
+        "கட்டளைகளை காட்டு 81",
+        "எவ்வாறு பயன்படுத்துவது 81",
+        "உதாரணங்கள் கொடு 81",
+        "வழிகாட்டுதல் 81"
+      ],
+      "tanglish": [
+        "help pannu 81",
+        "enna kekalam 81",
+        "commands kaatu 81",
+        "epdi use panradhu 81",
+        "examples kudu 81",
+        "guide pannu 81"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0082",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 82",
+        "what can i ask 82",
+        "show commands 82",
+        "how do i use you 82",
+        "give me examples 82",
+        "i am new 82"
+      ],
+      "ta": [
+        "உதவி 82",
+        "நான் என்ன கேட்கலாம் 82",
+        "கட்டளைகளை காட்டு 82",
+        "எவ்வாறு பயன்படுத்துவது 82",
+        "உதாரணங்கள் கொடு 82",
+        "வழிகாட்டுதல் 82"
+      ],
+      "tanglish": [
+        "help pannu 82",
+        "enna kekalam 82",
+        "commands kaatu 82",
+        "epdi use panradhu 82",
+        "examples kudu 82",
+        "guide pannu 82"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0083",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 83",
+        "what can i ask 83",
+        "show commands 83",
+        "how do i use you 83",
+        "give me examples 83",
+        "i am new 83"
+      ],
+      "ta": [
+        "உதவி 83",
+        "நான் என்ன கேட்கலாம் 83",
+        "கட்டளைகளை காட்டு 83",
+        "எவ்வாறு பயன்படுத்துவது 83",
+        "உதாரணங்கள் கொடு 83",
+        "வழிகாட்டுதல் 83"
+      ],
+      "tanglish": [
+        "help pannu 83",
+        "enna kekalam 83",
+        "commands kaatu 83",
+        "epdi use panradhu 83",
+        "examples kudu 83",
+        "guide pannu 83"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0084",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 84",
+        "what can i ask 84",
+        "show commands 84",
+        "how do i use you 84",
+        "give me examples 84",
+        "i am new 84"
+      ],
+      "ta": [
+        "உதவி 84",
+        "நான் என்ன கேட்கலாம் 84",
+        "கட்டளைகளை காட்டு 84",
+        "எவ்வாறு பயன்படுத்துவது 84",
+        "உதாரணங்கள் கொடு 84",
+        "வழிகாட்டுதல் 84"
+      ],
+      "tanglish": [
+        "help pannu 84",
+        "enna kekalam 84",
+        "commands kaatu 84",
+        "epdi use panradhu 84",
+        "examples kudu 84",
+        "guide pannu 84"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0085",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 85",
+        "what can i ask 85",
+        "show commands 85",
+        "how do i use you 85",
+        "give me examples 85",
+        "i am new 85"
+      ],
+      "ta": [
+        "உதவி 85",
+        "நான் என்ன கேட்கலாம் 85",
+        "கட்டளைகளை காட்டு 85",
+        "எவ்வாறு பயன்படுத்துவது 85",
+        "உதாரணங்கள் கொடு 85",
+        "வழிகாட்டுதல் 85"
+      ],
+      "tanglish": [
+        "help pannu 85",
+        "enna kekalam 85",
+        "commands kaatu 85",
+        "epdi use panradhu 85",
+        "examples kudu 85",
+        "guide pannu 85"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0086",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 86",
+        "what can i ask 86",
+        "show commands 86",
+        "how do i use you 86",
+        "give me examples 86",
+        "i am new 86"
+      ],
+      "ta": [
+        "உதவி 86",
+        "நான் என்ன கேட்கலாம் 86",
+        "கட்டளைகளை காட்டு 86",
+        "எவ்வாறு பயன்படுத்துவது 86",
+        "உதாரணங்கள் கொடு 86",
+        "வழிகாட்டுதல் 86"
+      ],
+      "tanglish": [
+        "help pannu 86",
+        "enna kekalam 86",
+        "commands kaatu 86",
+        "epdi use panradhu 86",
+        "examples kudu 86",
+        "guide pannu 86"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0087",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 87",
+        "what can i ask 87",
+        "show commands 87",
+        "how do i use you 87",
+        "give me examples 87",
+        "i am new 87"
+      ],
+      "ta": [
+        "உதவி 87",
+        "நான் என்ன கேட்கலாம் 87",
+        "கட்டளைகளை காட்டு 87",
+        "எவ்வாறு பயன்படுத்துவது 87",
+        "உதாரணங்கள் கொடு 87",
+        "வழிகாட்டுதல் 87"
+      ],
+      "tanglish": [
+        "help pannu 87",
+        "enna kekalam 87",
+        "commands kaatu 87",
+        "epdi use panradhu 87",
+        "examples kudu 87",
+        "guide pannu 87"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0088",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 88",
+        "what can i ask 88",
+        "show commands 88",
+        "how do i use you 88",
+        "give me examples 88",
+        "i am new 88"
+      ],
+      "ta": [
+        "உதவி 88",
+        "நான் என்ன கேட்கலாம் 88",
+        "கட்டளைகளை காட்டு 88",
+        "எவ்வாறு பயன்படுத்துவது 88",
+        "உதாரணங்கள் கொடு 88",
+        "வழிகாட்டுதல் 88"
+      ],
+      "tanglish": [
+        "help pannu 88",
+        "enna kekalam 88",
+        "commands kaatu 88",
+        "epdi use panradhu 88",
+        "examples kudu 88",
+        "guide pannu 88"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0089",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 89",
+        "what can i ask 89",
+        "show commands 89",
+        "how do i use you 89",
+        "give me examples 89",
+        "i am new 89"
+      ],
+      "ta": [
+        "உதவி 89",
+        "நான் என்ன கேட்கலாம் 89",
+        "கட்டளைகளை காட்டு 89",
+        "எவ்வாறு பயன்படுத்துவது 89",
+        "உதாரணங்கள் கொடு 89",
+        "வழிகாட்டுதல் 89"
+      ],
+      "tanglish": [
+        "help pannu 89",
+        "enna kekalam 89",
+        "commands kaatu 89",
+        "epdi use panradhu 89",
+        "examples kudu 89",
+        "guide pannu 89"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0090",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 90",
+        "what can i ask 90",
+        "show commands 90",
+        "how do i use you 90",
+        "give me examples 90",
+        "i am new 90"
+      ],
+      "ta": [
+        "உதவி 90",
+        "நான் என்ன கேட்கலாம் 90",
+        "கட்டளைகளை காட்டு 90",
+        "எவ்வாறு பயன்படுத்துவது 90",
+        "உதாரணங்கள் கொடு 90",
+        "வழிகாட்டுதல் 90"
+      ],
+      "tanglish": [
+        "help pannu 90",
+        "enna kekalam 90",
+        "commands kaatu 90",
+        "epdi use panradhu 90",
+        "examples kudu 90",
+        "guide pannu 90"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0091",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 91",
+        "what can i ask 91",
+        "show commands 91",
+        "how do i use you 91",
+        "give me examples 91",
+        "i am new 91"
+      ],
+      "ta": [
+        "உதவி 91",
+        "நான் என்ன கேட்கலாம் 91",
+        "கட்டளைகளை காட்டு 91",
+        "எவ்வாறு பயன்படுத்துவது 91",
+        "உதாரணங்கள் கொடு 91",
+        "வழிகாட்டுதல் 91"
+      ],
+      "tanglish": [
+        "help pannu 91",
+        "enna kekalam 91",
+        "commands kaatu 91",
+        "epdi use panradhu 91",
+        "examples kudu 91",
+        "guide pannu 91"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0092",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 92",
+        "what can i ask 92",
+        "show commands 92",
+        "how do i use you 92",
+        "give me examples 92",
+        "i am new 92"
+      ],
+      "ta": [
+        "உதவி 92",
+        "நான் என்ன கேட்கலாம் 92",
+        "கட்டளைகளை காட்டு 92",
+        "எவ்வாறு பயன்படுத்துவது 92",
+        "உதாரணங்கள் கொடு 92",
+        "வழிகாட்டுதல் 92"
+      ],
+      "tanglish": [
+        "help pannu 92",
+        "enna kekalam 92",
+        "commands kaatu 92",
+        "epdi use panradhu 92",
+        "examples kudu 92",
+        "guide pannu 92"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0093",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 93",
+        "what can i ask 93",
+        "show commands 93",
+        "how do i use you 93",
+        "give me examples 93",
+        "i am new 93"
+      ],
+      "ta": [
+        "உதவி 93",
+        "நான் என்ன கேட்கலாம் 93",
+        "கட்டளைகளை காட்டு 93",
+        "எவ்வாறு பயன்படுத்துவது 93",
+        "உதாரணங்கள் கொடு 93",
+        "வழிகாட்டுதல் 93"
+      ],
+      "tanglish": [
+        "help pannu 93",
+        "enna kekalam 93",
+        "commands kaatu 93",
+        "epdi use panradhu 93",
+        "examples kudu 93",
+        "guide pannu 93"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0094",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 94",
+        "what can i ask 94",
+        "show commands 94",
+        "how do i use you 94",
+        "give me examples 94",
+        "i am new 94"
+      ],
+      "ta": [
+        "உதவி 94",
+        "நான் என்ன கேட்கலாம் 94",
+        "கட்டளைகளை காட்டு 94",
+        "எவ்வாறு பயன்படுத்துவது 94",
+        "உதாரணங்கள் கொடு 94",
+        "வழிகாட்டுதல் 94"
+      ],
+      "tanglish": [
+        "help pannu 94",
+        "enna kekalam 94",
+        "commands kaatu 94",
+        "epdi use panradhu 94",
+        "examples kudu 94",
+        "guide pannu 94"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0095",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 95",
+        "what can i ask 95",
+        "show commands 95",
+        "how do i use you 95",
+        "give me examples 95",
+        "i am new 95"
+      ],
+      "ta": [
+        "உதவி 95",
+        "நான் என்ன கேட்கலாம் 95",
+        "கட்டளைகளை காட்டு 95",
+        "எவ்வாறு பயன்படுத்துவது 95",
+        "உதாரணங்கள் கொடு 95",
+        "வழிகாட்டுதல் 95"
+      ],
+      "tanglish": [
+        "help pannu 95",
+        "enna kekalam 95",
+        "commands kaatu 95",
+        "epdi use panradhu 95",
+        "examples kudu 95",
+        "guide pannu 95"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0096",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 96",
+        "what can i ask 96",
+        "show commands 96",
+        "how do i use you 96",
+        "give me examples 96",
+        "i am new 96"
+      ],
+      "ta": [
+        "உதவி 96",
+        "நான் என்ன கேட்கலாம் 96",
+        "கட்டளைகளை காட்டு 96",
+        "எவ்வாறு பயன்படுத்துவது 96",
+        "உதாரணங்கள் கொடு 96",
+        "வழிகாட்டுதல் 96"
+      ],
+      "tanglish": [
+        "help pannu 96",
+        "enna kekalam 96",
+        "commands kaatu 96",
+        "epdi use panradhu 96",
+        "examples kudu 96",
+        "guide pannu 96"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0097",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 97",
+        "what can i ask 97",
+        "show commands 97",
+        "how do i use you 97",
+        "give me examples 97",
+        "i am new 97"
+      ],
+      "ta": [
+        "உதவி 97",
+        "நான் என்ன கேட்கலாம் 97",
+        "கட்டளைகளை காட்டு 97",
+        "எவ்வாறு பயன்படுத்துவது 97",
+        "உதாரணங்கள் கொடு 97",
+        "வழிகாட்டுதல் 97"
+      ],
+      "tanglish": [
+        "help pannu 97",
+        "enna kekalam 97",
+        "commands kaatu 97",
+        "epdi use panradhu 97",
+        "examples kudu 97",
+        "guide pannu 97"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0098",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 98",
+        "what can i ask 98",
+        "show commands 98",
+        "how do i use you 98",
+        "give me examples 98",
+        "i am new 98"
+      ],
+      "ta": [
+        "உதவி 98",
+        "நான் என்ன கேட்கலாம் 98",
+        "கட்டளைகளை காட்டு 98",
+        "எவ்வாறு பயன்படுத்துவது 98",
+        "உதாரணங்கள் கொடு 98",
+        "வழிகாட்டுதல் 98"
+      ],
+      "tanglish": [
+        "help pannu 98",
+        "enna kekalam 98",
+        "commands kaatu 98",
+        "epdi use panradhu 98",
+        "examples kudu 98",
+        "guide pannu 98"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0099",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 99",
+        "what can i ask 99",
+        "show commands 99",
+        "how do i use you 99",
+        "give me examples 99",
+        "i am new 99"
+      ],
+      "ta": [
+        "உதவி 99",
+        "நான் என்ன கேட்கலாம் 99",
+        "கட்டளைகளை காட்டு 99",
+        "எவ்வாறு பயன்படுத்துவது 99",
+        "உதாரணங்கள் கொடு 99",
+        "வழிகாட்டுதல் 99"
+      ],
+      "tanglish": [
+        "help pannu 99",
+        "enna kekalam 99",
+        "commands kaatu 99",
+        "epdi use panradhu 99",
+        "examples kudu 99",
+        "guide pannu 99"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  },
+  {
+    "id": "gen_help_0100",
+    "category": "help_capabilities",
+    "patterns": {
+      "en": [
+        "help 100",
+        "what can i ask 100",
+        "show commands 100",
+        "how do i use you 100",
+        "give me examples 100",
+        "i am new 100"
+      ],
+      "ta": [
+        "உதவி 100",
+        "நான் என்ன கேட்கலாம் 100",
+        "கட்டளைகளை காட்டு 100",
+        "எவ்வாறு பயன்படுத்துவது 100",
+        "உதாரணங்கள் கொடு 100",
+        "வழிகாட்டுதல் 100"
+      ],
+      "tanglish": [
+        "help pannu 100",
+        "enna kekalam 100",
+        "commands kaatu 100",
+        "epdi use panradhu 100",
+        "examples kudu 100",
+        "guide pannu 100"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can ask me about: 1) System telemetry (/status, blocked counts), 2) Explaining alerts and SHAP factors, 3) Attack definitions (SQLi, XSS), 4) Performing utility math or security advice.",
+        "Here is what I can do: Inspect live gateway health, unban client IPs, explain forensic incidents, and answer general technical questions."
+      ],
+      "ta": [
+        "நீங்கள் என்னிடம் கேட்கலாம்: 1) நேரடி கேட்வே நிலைமை (/status), 2) அச்சுறுத்தல்கள் பற்றிய விளக்கம், 3) தாக்குதல் வகைகள் (SQLi, XSS), 4) மாதிரி செயல்திறன்.",
+        "நான் உதவக்கூடியவை: நேரடி அலர்ட் பகுப்பாய்வு, IP முடக்கம் நீக்குதல், பாதுகாப்பு வழிகாட்டுதல்கள் மற்றும் பொதுவான AI உரையாடல்கள்."
+      ],
+      "tanglish": [
+        "Neenga kekalam: 1) Live gateway status (/status), 2) Blocked attacks count, 3) Explain specific alert (e.g. 'explain alert 108'), 4) General security questions.",
+        "Commands you can try: /status, /alerts, 'top attackers', 'what is SQL injection', 'unban 127.0.0.1'."
+      ]
+    },
+    "chips": [
+      "/status",
+      "/alerts",
+      "What is SQL injection?",
+      "Show top attackers"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "help",
+      "guide"
+    ]
+  }
+]

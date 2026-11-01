@@ -1,0 +1,4650 @@
+[
+  {
+    "id": "proj_arch_0001",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 1",
+        "gateway reverse proxy flow 1",
+        "aegisgate components 1",
+        "how does request flow 1",
+        "system design 1",
+        "detection pipeline 1",
+        "what is aegisgate",
+        "tell me about aegisgate",
+        "project overview",
+        "how does this ids work"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 1",
+        "கோரிக்கை பாயும் விதம் 1",
+        "AegisGate பாகங்கள் 1",
+        "கணினி வடிவமைப்பு 1",
+        "நுழைவாயில் செயல்முறை 1",
+        "பாதுகாப்பு பைப்லைன் 1",
+        "AegisGate என்றால் என்ன",
+        "AegisGate கண்ணோட்டம்"
+      ],
+      "tanglish": [
+        "architecture explain pannu 1",
+        "request flow epdi pogum 1",
+        "gateway flow 1",
+        "aegisgate components enna 1",
+        "system design sollu 1",
+        "pipeline details 1",
+        "aegisgate na enna",
+        "aegisgate pathi sollu"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0002",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 2",
+        "gateway reverse proxy flow 2",
+        "aegisgate components 2",
+        "how does request flow 2",
+        "system design 2",
+        "detection pipeline 2"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 2",
+        "கோரிக்கை பாயும் விதம் 2",
+        "AegisGate பாகங்கள் 2",
+        "கணினி வடிவமைப்பு 2",
+        "நுழைவாயில் செயல்முறை 2",
+        "பாதுகாப்பு பைப்லைன் 2"
+      ],
+      "tanglish": [
+        "architecture explain pannu 2",
+        "request flow epdi pogum 2",
+        "gateway flow 2",
+        "aegisgate components enna 2",
+        "system design sollu 2",
+        "pipeline details 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0003",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 3",
+        "gateway reverse proxy flow 3",
+        "aegisgate components 3",
+        "how does request flow 3",
+        "system design 3",
+        "detection pipeline 3"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 3",
+        "கோரிக்கை பாயும் விதம் 3",
+        "AegisGate பாகங்கள் 3",
+        "கணினி வடிவமைப்பு 3",
+        "நுழைவாயில் செயல்முறை 3",
+        "பாதுகாப்பு பைப்லைன் 3"
+      ],
+      "tanglish": [
+        "architecture explain pannu 3",
+        "request flow epdi pogum 3",
+        "gateway flow 3",
+        "aegisgate components enna 3",
+        "system design sollu 3",
+        "pipeline details 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0004",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 4",
+        "gateway reverse proxy flow 4",
+        "aegisgate components 4",
+        "how does request flow 4",
+        "system design 4",
+        "detection pipeline 4"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 4",
+        "கோரிக்கை பாயும் விதம் 4",
+        "AegisGate பாகங்கள் 4",
+        "கணினி வடிவமைப்பு 4",
+        "நுழைவாயில் செயல்முறை 4",
+        "பாதுகாப்பு பைப்லைன் 4"
+      ],
+      "tanglish": [
+        "architecture explain pannu 4",
+        "request flow epdi pogum 4",
+        "gateway flow 4",
+        "aegisgate components enna 4",
+        "system design sollu 4",
+        "pipeline details 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0005",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 5",
+        "gateway reverse proxy flow 5",
+        "aegisgate components 5",
+        "how does request flow 5",
+        "system design 5",
+        "detection pipeline 5"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 5",
+        "கோரிக்கை பாயும் விதம் 5",
+        "AegisGate பாகங்கள் 5",
+        "கணினி வடிவமைப்பு 5",
+        "நுழைவாயில் செயல்முறை 5",
+        "பாதுகாப்பு பைப்லைன் 5"
+      ],
+      "tanglish": [
+        "architecture explain pannu 5",
+        "request flow epdi pogum 5",
+        "gateway flow 5",
+        "aegisgate components enna 5",
+        "system design sollu 5",
+        "pipeline details 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0006",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 6",
+        "gateway reverse proxy flow 6",
+        "aegisgate components 6",
+        "how does request flow 6",
+        "system design 6",
+        "detection pipeline 6"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 6",
+        "கோரிக்கை பாயும் விதம் 6",
+        "AegisGate பாகங்கள் 6",
+        "கணினி வடிவமைப்பு 6",
+        "நுழைவாயில் செயல்முறை 6",
+        "பாதுகாப்பு பைப்லைன் 6"
+      ],
+      "tanglish": [
+        "architecture explain pannu 6",
+        "request flow epdi pogum 6",
+        "gateway flow 6",
+        "aegisgate components enna 6",
+        "system design sollu 6",
+        "pipeline details 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0007",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 7",
+        "gateway reverse proxy flow 7",
+        "aegisgate components 7",
+        "how does request flow 7",
+        "system design 7",
+        "detection pipeline 7"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 7",
+        "கோரிக்கை பாயும் விதம் 7",
+        "AegisGate பாகங்கள் 7",
+        "கணினி வடிவமைப்பு 7",
+        "நுழைவாயில் செயல்முறை 7",
+        "பாதுகாப்பு பைப்லைன் 7"
+      ],
+      "tanglish": [
+        "architecture explain pannu 7",
+        "request flow epdi pogum 7",
+        "gateway flow 7",
+        "aegisgate components enna 7",
+        "system design sollu 7",
+        "pipeline details 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0008",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 8",
+        "gateway reverse proxy flow 8",
+        "aegisgate components 8",
+        "how does request flow 8",
+        "system design 8",
+        "detection pipeline 8"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 8",
+        "கோரிக்கை பாயும் விதம் 8",
+        "AegisGate பாகங்கள் 8",
+        "கணினி வடிவமைப்பு 8",
+        "நுழைவாயில் செயல்முறை 8",
+        "பாதுகாப்பு பைப்லைன் 8"
+      ],
+      "tanglish": [
+        "architecture explain pannu 8",
+        "request flow epdi pogum 8",
+        "gateway flow 8",
+        "aegisgate components enna 8",
+        "system design sollu 8",
+        "pipeline details 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0009",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 9",
+        "gateway reverse proxy flow 9",
+        "aegisgate components 9",
+        "how does request flow 9",
+        "system design 9",
+        "detection pipeline 9"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 9",
+        "கோரிக்கை பாயும் விதம் 9",
+        "AegisGate பாகங்கள் 9",
+        "கணினி வடிவமைப்பு 9",
+        "நுழைவாயில் செயல்முறை 9",
+        "பாதுகாப்பு பைப்லைன் 9"
+      ],
+      "tanglish": [
+        "architecture explain pannu 9",
+        "request flow epdi pogum 9",
+        "gateway flow 9",
+        "aegisgate components enna 9",
+        "system design sollu 9",
+        "pipeline details 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0010",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 10",
+        "gateway reverse proxy flow 10",
+        "aegisgate components 10",
+        "how does request flow 10",
+        "system design 10",
+        "detection pipeline 10"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 10",
+        "கோரிக்கை பாயும் விதம் 10",
+        "AegisGate பாகங்கள் 10",
+        "கணினி வடிவமைப்பு 10",
+        "நுழைவாயில் செயல்முறை 10",
+        "பாதுகாப்பு பைப்லைன் 10"
+      ],
+      "tanglish": [
+        "architecture explain pannu 10",
+        "request flow epdi pogum 10",
+        "gateway flow 10",
+        "aegisgate components enna 10",
+        "system design sollu 10",
+        "pipeline details 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0011",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 11",
+        "gateway reverse proxy flow 11",
+        "aegisgate components 11",
+        "how does request flow 11",
+        "system design 11",
+        "detection pipeline 11"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 11",
+        "கோரிக்கை பாயும் விதம் 11",
+        "AegisGate பாகங்கள் 11",
+        "கணினி வடிவமைப்பு 11",
+        "நுழைவாயில் செயல்முறை 11",
+        "பாதுகாப்பு பைப்லைன் 11"
+      ],
+      "tanglish": [
+        "architecture explain pannu 11",
+        "request flow epdi pogum 11",
+        "gateway flow 11",
+        "aegisgate components enna 11",
+        "system design sollu 11",
+        "pipeline details 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0012",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 12",
+        "gateway reverse proxy flow 12",
+        "aegisgate components 12",
+        "how does request flow 12",
+        "system design 12",
+        "detection pipeline 12"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 12",
+        "கோரிக்கை பாயும் விதம் 12",
+        "AegisGate பாகங்கள் 12",
+        "கணினி வடிவமைப்பு 12",
+        "நுழைவாயில் செயல்முறை 12",
+        "பாதுகாப்பு பைப்லைன் 12"
+      ],
+      "tanglish": [
+        "architecture explain pannu 12",
+        "request flow epdi pogum 12",
+        "gateway flow 12",
+        "aegisgate components enna 12",
+        "system design sollu 12",
+        "pipeline details 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0013",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 13",
+        "gateway reverse proxy flow 13",
+        "aegisgate components 13",
+        "how does request flow 13",
+        "system design 13",
+        "detection pipeline 13"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 13",
+        "கோரிக்கை பாயும் விதம் 13",
+        "AegisGate பாகங்கள் 13",
+        "கணினி வடிவமைப்பு 13",
+        "நுழைவாயில் செயல்முறை 13",
+        "பாதுகாப்பு பைப்லைன் 13"
+      ],
+      "tanglish": [
+        "architecture explain pannu 13",
+        "request flow epdi pogum 13",
+        "gateway flow 13",
+        "aegisgate components enna 13",
+        "system design sollu 13",
+        "pipeline details 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0014",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 14",
+        "gateway reverse proxy flow 14",
+        "aegisgate components 14",
+        "how does request flow 14",
+        "system design 14",
+        "detection pipeline 14"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 14",
+        "கோரிக்கை பாயும் விதம் 14",
+        "AegisGate பாகங்கள் 14",
+        "கணினி வடிவமைப்பு 14",
+        "நுழைவாயில் செயல்முறை 14",
+        "பாதுகாப்பு பைப்லைன் 14"
+      ],
+      "tanglish": [
+        "architecture explain pannu 14",
+        "request flow epdi pogum 14",
+        "gateway flow 14",
+        "aegisgate components enna 14",
+        "system design sollu 14",
+        "pipeline details 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0015",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 15",
+        "gateway reverse proxy flow 15",
+        "aegisgate components 15",
+        "how does request flow 15",
+        "system design 15",
+        "detection pipeline 15"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 15",
+        "கோரிக்கை பாயும் விதம் 15",
+        "AegisGate பாகங்கள் 15",
+        "கணினி வடிவமைப்பு 15",
+        "நுழைவாயில் செயல்முறை 15",
+        "பாதுகாப்பு பைப்லைன் 15"
+      ],
+      "tanglish": [
+        "architecture explain pannu 15",
+        "request flow epdi pogum 15",
+        "gateway flow 15",
+        "aegisgate components enna 15",
+        "system design sollu 15",
+        "pipeline details 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0016",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 16",
+        "gateway reverse proxy flow 16",
+        "aegisgate components 16",
+        "how does request flow 16",
+        "system design 16",
+        "detection pipeline 16"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 16",
+        "கோரிக்கை பாயும் விதம் 16",
+        "AegisGate பாகங்கள் 16",
+        "கணினி வடிவமைப்பு 16",
+        "நுழைவாயில் செயல்முறை 16",
+        "பாதுகாப்பு பைப்லைன் 16"
+      ],
+      "tanglish": [
+        "architecture explain pannu 16",
+        "request flow epdi pogum 16",
+        "gateway flow 16",
+        "aegisgate components enna 16",
+        "system design sollu 16",
+        "pipeline details 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0017",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 17",
+        "gateway reverse proxy flow 17",
+        "aegisgate components 17",
+        "how does request flow 17",
+        "system design 17",
+        "detection pipeline 17"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 17",
+        "கோரிக்கை பாயும் விதம் 17",
+        "AegisGate பாகங்கள் 17",
+        "கணினி வடிவமைப்பு 17",
+        "நுழைவாயில் செயல்முறை 17",
+        "பாதுகாப்பு பைப்லைன் 17"
+      ],
+      "tanglish": [
+        "architecture explain pannu 17",
+        "request flow epdi pogum 17",
+        "gateway flow 17",
+        "aegisgate components enna 17",
+        "system design sollu 17",
+        "pipeline details 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0018",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 18",
+        "gateway reverse proxy flow 18",
+        "aegisgate components 18",
+        "how does request flow 18",
+        "system design 18",
+        "detection pipeline 18"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 18",
+        "கோரிக்கை பாயும் விதம் 18",
+        "AegisGate பாகங்கள் 18",
+        "கணினி வடிவமைப்பு 18",
+        "நுழைவாயில் செயல்முறை 18",
+        "பாதுகாப்பு பைப்லைன் 18"
+      ],
+      "tanglish": [
+        "architecture explain pannu 18",
+        "request flow epdi pogum 18",
+        "gateway flow 18",
+        "aegisgate components enna 18",
+        "system design sollu 18",
+        "pipeline details 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0019",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 19",
+        "gateway reverse proxy flow 19",
+        "aegisgate components 19",
+        "how does request flow 19",
+        "system design 19",
+        "detection pipeline 19"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 19",
+        "கோரிக்கை பாயும் விதம் 19",
+        "AegisGate பாகங்கள் 19",
+        "கணினி வடிவமைப்பு 19",
+        "நுழைவாயில் செயல்முறை 19",
+        "பாதுகாப்பு பைப்லைன் 19"
+      ],
+      "tanglish": [
+        "architecture explain pannu 19",
+        "request flow epdi pogum 19",
+        "gateway flow 19",
+        "aegisgate components enna 19",
+        "system design sollu 19",
+        "pipeline details 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0020",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 20",
+        "gateway reverse proxy flow 20",
+        "aegisgate components 20",
+        "how does request flow 20",
+        "system design 20",
+        "detection pipeline 20"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 20",
+        "கோரிக்கை பாயும் விதம் 20",
+        "AegisGate பாகங்கள் 20",
+        "கணினி வடிவமைப்பு 20",
+        "நுழைவாயில் செயல்முறை 20",
+        "பாதுகாப்பு பைப்லைன் 20"
+      ],
+      "tanglish": [
+        "architecture explain pannu 20",
+        "request flow epdi pogum 20",
+        "gateway flow 20",
+        "aegisgate components enna 20",
+        "system design sollu 20",
+        "pipeline details 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0021",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 21",
+        "gateway reverse proxy flow 21",
+        "aegisgate components 21",
+        "how does request flow 21",
+        "system design 21",
+        "detection pipeline 21"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 21",
+        "கோரிக்கை பாயும் விதம் 21",
+        "AegisGate பாகங்கள் 21",
+        "கணினி வடிவமைப்பு 21",
+        "நுழைவாயில் செயல்முறை 21",
+        "பாதுகாப்பு பைப்லைன் 21"
+      ],
+      "tanglish": [
+        "architecture explain pannu 21",
+        "request flow epdi pogum 21",
+        "gateway flow 21",
+        "aegisgate components enna 21",
+        "system design sollu 21",
+        "pipeline details 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0022",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 22",
+        "gateway reverse proxy flow 22",
+        "aegisgate components 22",
+        "how does request flow 22",
+        "system design 22",
+        "detection pipeline 22"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 22",
+        "கோரிக்கை பாயும் விதம் 22",
+        "AegisGate பாகங்கள் 22",
+        "கணினி வடிவமைப்பு 22",
+        "நுழைவாயில் செயல்முறை 22",
+        "பாதுகாப்பு பைப்லைன் 22"
+      ],
+      "tanglish": [
+        "architecture explain pannu 22",
+        "request flow epdi pogum 22",
+        "gateway flow 22",
+        "aegisgate components enna 22",
+        "system design sollu 22",
+        "pipeline details 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0023",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 23",
+        "gateway reverse proxy flow 23",
+        "aegisgate components 23",
+        "how does request flow 23",
+        "system design 23",
+        "detection pipeline 23"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 23",
+        "கோரிக்கை பாயும் விதம் 23",
+        "AegisGate பாகங்கள் 23",
+        "கணினி வடிவமைப்பு 23",
+        "நுழைவாயில் செயல்முறை 23",
+        "பாதுகாப்பு பைப்லைன் 23"
+      ],
+      "tanglish": [
+        "architecture explain pannu 23",
+        "request flow epdi pogum 23",
+        "gateway flow 23",
+        "aegisgate components enna 23",
+        "system design sollu 23",
+        "pipeline details 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0024",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 24",
+        "gateway reverse proxy flow 24",
+        "aegisgate components 24",
+        "how does request flow 24",
+        "system design 24",
+        "detection pipeline 24"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 24",
+        "கோரிக்கை பாயும் விதம் 24",
+        "AegisGate பாகங்கள் 24",
+        "கணினி வடிவமைப்பு 24",
+        "நுழைவாயில் செயல்முறை 24",
+        "பாதுகாப்பு பைப்லைன் 24"
+      ],
+      "tanglish": [
+        "architecture explain pannu 24",
+        "request flow epdi pogum 24",
+        "gateway flow 24",
+        "aegisgate components enna 24",
+        "system design sollu 24",
+        "pipeline details 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0025",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 25",
+        "gateway reverse proxy flow 25",
+        "aegisgate components 25",
+        "how does request flow 25",
+        "system design 25",
+        "detection pipeline 25"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 25",
+        "கோரிக்கை பாயும் விதம் 25",
+        "AegisGate பாகங்கள் 25",
+        "கணினி வடிவமைப்பு 25",
+        "நுழைவாயில் செயல்முறை 25",
+        "பாதுகாப்பு பைப்லைன் 25"
+      ],
+      "tanglish": [
+        "architecture explain pannu 25",
+        "request flow epdi pogum 25",
+        "gateway flow 25",
+        "aegisgate components enna 25",
+        "system design sollu 25",
+        "pipeline details 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0026",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 26",
+        "gateway reverse proxy flow 26",
+        "aegisgate components 26",
+        "how does request flow 26",
+        "system design 26",
+        "detection pipeline 26"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 26",
+        "கோரிக்கை பாயும் விதம் 26",
+        "AegisGate பாகங்கள் 26",
+        "கணினி வடிவமைப்பு 26",
+        "நுழைவாயில் செயல்முறை 26",
+        "பாதுகாப்பு பைப்லைன் 26"
+      ],
+      "tanglish": [
+        "architecture explain pannu 26",
+        "request flow epdi pogum 26",
+        "gateway flow 26",
+        "aegisgate components enna 26",
+        "system design sollu 26",
+        "pipeline details 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0027",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 27",
+        "gateway reverse proxy flow 27",
+        "aegisgate components 27",
+        "how does request flow 27",
+        "system design 27",
+        "detection pipeline 27"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 27",
+        "கோரிக்கை பாயும் விதம் 27",
+        "AegisGate பாகங்கள் 27",
+        "கணினி வடிவமைப்பு 27",
+        "நுழைவாயில் செயல்முறை 27",
+        "பாதுகாப்பு பைப்லைன் 27"
+      ],
+      "tanglish": [
+        "architecture explain pannu 27",
+        "request flow epdi pogum 27",
+        "gateway flow 27",
+        "aegisgate components enna 27",
+        "system design sollu 27",
+        "pipeline details 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0028",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 28",
+        "gateway reverse proxy flow 28",
+        "aegisgate components 28",
+        "how does request flow 28",
+        "system design 28",
+        "detection pipeline 28"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 28",
+        "கோரிக்கை பாயும் விதம் 28",
+        "AegisGate பாகங்கள் 28",
+        "கணினி வடிவமைப்பு 28",
+        "நுழைவாயில் செயல்முறை 28",
+        "பாதுகாப்பு பைப்லைன் 28"
+      ],
+      "tanglish": [
+        "architecture explain pannu 28",
+        "request flow epdi pogum 28",
+        "gateway flow 28",
+        "aegisgate components enna 28",
+        "system design sollu 28",
+        "pipeline details 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0029",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 29",
+        "gateway reverse proxy flow 29",
+        "aegisgate components 29",
+        "how does request flow 29",
+        "system design 29",
+        "detection pipeline 29"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 29",
+        "கோரிக்கை பாயும் விதம் 29",
+        "AegisGate பாகங்கள் 29",
+        "கணினி வடிவமைப்பு 29",
+        "நுழைவாயில் செயல்முறை 29",
+        "பாதுகாப்பு பைப்லைன் 29"
+      ],
+      "tanglish": [
+        "architecture explain pannu 29",
+        "request flow epdi pogum 29",
+        "gateway flow 29",
+        "aegisgate components enna 29",
+        "system design sollu 29",
+        "pipeline details 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0030",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 30",
+        "gateway reverse proxy flow 30",
+        "aegisgate components 30",
+        "how does request flow 30",
+        "system design 30",
+        "detection pipeline 30"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 30",
+        "கோரிக்கை பாயும் விதம் 30",
+        "AegisGate பாகங்கள் 30",
+        "கணினி வடிவமைப்பு 30",
+        "நுழைவாயில் செயல்முறை 30",
+        "பாதுகாப்பு பைப்லைன் 30"
+      ],
+      "tanglish": [
+        "architecture explain pannu 30",
+        "request flow epdi pogum 30",
+        "gateway flow 30",
+        "aegisgate components enna 30",
+        "system design sollu 30",
+        "pipeline details 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0031",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 31",
+        "gateway reverse proxy flow 31",
+        "aegisgate components 31",
+        "how does request flow 31",
+        "system design 31",
+        "detection pipeline 31"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 31",
+        "கோரிக்கை பாயும் விதம் 31",
+        "AegisGate பாகங்கள் 31",
+        "கணினி வடிவமைப்பு 31",
+        "நுழைவாயில் செயல்முறை 31",
+        "பாதுகாப்பு பைப்லைன் 31"
+      ],
+      "tanglish": [
+        "architecture explain pannu 31",
+        "request flow epdi pogum 31",
+        "gateway flow 31",
+        "aegisgate components enna 31",
+        "system design sollu 31",
+        "pipeline details 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0032",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 32",
+        "gateway reverse proxy flow 32",
+        "aegisgate components 32",
+        "how does request flow 32",
+        "system design 32",
+        "detection pipeline 32"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 32",
+        "கோரிக்கை பாயும் விதம் 32",
+        "AegisGate பாகங்கள் 32",
+        "கணினி வடிவமைப்பு 32",
+        "நுழைவாயில் செயல்முறை 32",
+        "பாதுகாப்பு பைப்லைன் 32"
+      ],
+      "tanglish": [
+        "architecture explain pannu 32",
+        "request flow epdi pogum 32",
+        "gateway flow 32",
+        "aegisgate components enna 32",
+        "system design sollu 32",
+        "pipeline details 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0033",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 33",
+        "gateway reverse proxy flow 33",
+        "aegisgate components 33",
+        "how does request flow 33",
+        "system design 33",
+        "detection pipeline 33"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 33",
+        "கோரிக்கை பாயும் விதம் 33",
+        "AegisGate பாகங்கள் 33",
+        "கணினி வடிவமைப்பு 33",
+        "நுழைவாயில் செயல்முறை 33",
+        "பாதுகாப்பு பைப்லைன் 33"
+      ],
+      "tanglish": [
+        "architecture explain pannu 33",
+        "request flow epdi pogum 33",
+        "gateway flow 33",
+        "aegisgate components enna 33",
+        "system design sollu 33",
+        "pipeline details 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0034",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 34",
+        "gateway reverse proxy flow 34",
+        "aegisgate components 34",
+        "how does request flow 34",
+        "system design 34",
+        "detection pipeline 34"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 34",
+        "கோரிக்கை பாயும் விதம் 34",
+        "AegisGate பாகங்கள் 34",
+        "கணினி வடிவமைப்பு 34",
+        "நுழைவாயில் செயல்முறை 34",
+        "பாதுகாப்பு பைப்லைன் 34"
+      ],
+      "tanglish": [
+        "architecture explain pannu 34",
+        "request flow epdi pogum 34",
+        "gateway flow 34",
+        "aegisgate components enna 34",
+        "system design sollu 34",
+        "pipeline details 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0035",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 35",
+        "gateway reverse proxy flow 35",
+        "aegisgate components 35",
+        "how does request flow 35",
+        "system design 35",
+        "detection pipeline 35"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 35",
+        "கோரிக்கை பாயும் விதம் 35",
+        "AegisGate பாகங்கள் 35",
+        "கணினி வடிவமைப்பு 35",
+        "நுழைவாயில் செயல்முறை 35",
+        "பாதுகாப்பு பைப்லைன் 35"
+      ],
+      "tanglish": [
+        "architecture explain pannu 35",
+        "request flow epdi pogum 35",
+        "gateway flow 35",
+        "aegisgate components enna 35",
+        "system design sollu 35",
+        "pipeline details 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0036",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 36",
+        "gateway reverse proxy flow 36",
+        "aegisgate components 36",
+        "how does request flow 36",
+        "system design 36",
+        "detection pipeline 36"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 36",
+        "கோரிக்கை பாயும் விதம் 36",
+        "AegisGate பாகங்கள் 36",
+        "கணினி வடிவமைப்பு 36",
+        "நுழைவாயில் செயல்முறை 36",
+        "பாதுகாப்பு பைப்லைன் 36"
+      ],
+      "tanglish": [
+        "architecture explain pannu 36",
+        "request flow epdi pogum 36",
+        "gateway flow 36",
+        "aegisgate components enna 36",
+        "system design sollu 36",
+        "pipeline details 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0037",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 37",
+        "gateway reverse proxy flow 37",
+        "aegisgate components 37",
+        "how does request flow 37",
+        "system design 37",
+        "detection pipeline 37"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 37",
+        "கோரிக்கை பாயும் விதம் 37",
+        "AegisGate பாகங்கள் 37",
+        "கணினி வடிவமைப்பு 37",
+        "நுழைவாயில் செயல்முறை 37",
+        "பாதுகாப்பு பைப்லைன் 37"
+      ],
+      "tanglish": [
+        "architecture explain pannu 37",
+        "request flow epdi pogum 37",
+        "gateway flow 37",
+        "aegisgate components enna 37",
+        "system design sollu 37",
+        "pipeline details 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0038",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 38",
+        "gateway reverse proxy flow 38",
+        "aegisgate components 38",
+        "how does request flow 38",
+        "system design 38",
+        "detection pipeline 38"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 38",
+        "கோரிக்கை பாயும் விதம் 38",
+        "AegisGate பாகங்கள் 38",
+        "கணினி வடிவமைப்பு 38",
+        "நுழைவாயில் செயல்முறை 38",
+        "பாதுகாப்பு பைப்லைன் 38"
+      ],
+      "tanglish": [
+        "architecture explain pannu 38",
+        "request flow epdi pogum 38",
+        "gateway flow 38",
+        "aegisgate components enna 38",
+        "system design sollu 38",
+        "pipeline details 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0039",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 39",
+        "gateway reverse proxy flow 39",
+        "aegisgate components 39",
+        "how does request flow 39",
+        "system design 39",
+        "detection pipeline 39"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 39",
+        "கோரிக்கை பாயும் விதம் 39",
+        "AegisGate பாகங்கள் 39",
+        "கணினி வடிவமைப்பு 39",
+        "நுழைவாயில் செயல்முறை 39",
+        "பாதுகாப்பு பைப்லைன் 39"
+      ],
+      "tanglish": [
+        "architecture explain pannu 39",
+        "request flow epdi pogum 39",
+        "gateway flow 39",
+        "aegisgate components enna 39",
+        "system design sollu 39",
+        "pipeline details 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0040",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 40",
+        "gateway reverse proxy flow 40",
+        "aegisgate components 40",
+        "how does request flow 40",
+        "system design 40",
+        "detection pipeline 40"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 40",
+        "கோரிக்கை பாயும் விதம் 40",
+        "AegisGate பாகங்கள் 40",
+        "கணினி வடிவமைப்பு 40",
+        "நுழைவாயில் செயல்முறை 40",
+        "பாதுகாப்பு பைப்லைன் 40"
+      ],
+      "tanglish": [
+        "architecture explain pannu 40",
+        "request flow epdi pogum 40",
+        "gateway flow 40",
+        "aegisgate components enna 40",
+        "system design sollu 40",
+        "pipeline details 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0041",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 41",
+        "gateway reverse proxy flow 41",
+        "aegisgate components 41",
+        "how does request flow 41",
+        "system design 41",
+        "detection pipeline 41"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 41",
+        "கோரிக்கை பாயும் விதம் 41",
+        "AegisGate பாகங்கள் 41",
+        "கணினி வடிவமைப்பு 41",
+        "நுழைவாயில் செயல்முறை 41",
+        "பாதுகாப்பு பைப்லைன் 41"
+      ],
+      "tanglish": [
+        "architecture explain pannu 41",
+        "request flow epdi pogum 41",
+        "gateway flow 41",
+        "aegisgate components enna 41",
+        "system design sollu 41",
+        "pipeline details 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0042",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 42",
+        "gateway reverse proxy flow 42",
+        "aegisgate components 42",
+        "how does request flow 42",
+        "system design 42",
+        "detection pipeline 42"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 42",
+        "கோரிக்கை பாயும் விதம் 42",
+        "AegisGate பாகங்கள் 42",
+        "கணினி வடிவமைப்பு 42",
+        "நுழைவாயில் செயல்முறை 42",
+        "பாதுகாப்பு பைப்லைன் 42"
+      ],
+      "tanglish": [
+        "architecture explain pannu 42",
+        "request flow epdi pogum 42",
+        "gateway flow 42",
+        "aegisgate components enna 42",
+        "system design sollu 42",
+        "pipeline details 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0043",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 43",
+        "gateway reverse proxy flow 43",
+        "aegisgate components 43",
+        "how does request flow 43",
+        "system design 43",
+        "detection pipeline 43"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 43",
+        "கோரிக்கை பாயும் விதம் 43",
+        "AegisGate பாகங்கள் 43",
+        "கணினி வடிவமைப்பு 43",
+        "நுழைவாயில் செயல்முறை 43",
+        "பாதுகாப்பு பைப்லைன் 43"
+      ],
+      "tanglish": [
+        "architecture explain pannu 43",
+        "request flow epdi pogum 43",
+        "gateway flow 43",
+        "aegisgate components enna 43",
+        "system design sollu 43",
+        "pipeline details 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0044",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 44",
+        "gateway reverse proxy flow 44",
+        "aegisgate components 44",
+        "how does request flow 44",
+        "system design 44",
+        "detection pipeline 44"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 44",
+        "கோரிக்கை பாயும் விதம் 44",
+        "AegisGate பாகங்கள் 44",
+        "கணினி வடிவமைப்பு 44",
+        "நுழைவாயில் செயல்முறை 44",
+        "பாதுகாப்பு பைப்லைன் 44"
+      ],
+      "tanglish": [
+        "architecture explain pannu 44",
+        "request flow epdi pogum 44",
+        "gateway flow 44",
+        "aegisgate components enna 44",
+        "system design sollu 44",
+        "pipeline details 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0045",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 45",
+        "gateway reverse proxy flow 45",
+        "aegisgate components 45",
+        "how does request flow 45",
+        "system design 45",
+        "detection pipeline 45"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 45",
+        "கோரிக்கை பாயும் விதம் 45",
+        "AegisGate பாகங்கள் 45",
+        "கணினி வடிவமைப்பு 45",
+        "நுழைவாயில் செயல்முறை 45",
+        "பாதுகாப்பு பைப்லைன் 45"
+      ],
+      "tanglish": [
+        "architecture explain pannu 45",
+        "request flow epdi pogum 45",
+        "gateway flow 45",
+        "aegisgate components enna 45",
+        "system design sollu 45",
+        "pipeline details 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0046",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 46",
+        "gateway reverse proxy flow 46",
+        "aegisgate components 46",
+        "how does request flow 46",
+        "system design 46",
+        "detection pipeline 46"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 46",
+        "கோரிக்கை பாயும் விதம் 46",
+        "AegisGate பாகங்கள் 46",
+        "கணினி வடிவமைப்பு 46",
+        "நுழைவாயில் செயல்முறை 46",
+        "பாதுகாப்பு பைப்லைன் 46"
+      ],
+      "tanglish": [
+        "architecture explain pannu 46",
+        "request flow epdi pogum 46",
+        "gateway flow 46",
+        "aegisgate components enna 46",
+        "system design sollu 46",
+        "pipeline details 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0047",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 47",
+        "gateway reverse proxy flow 47",
+        "aegisgate components 47",
+        "how does request flow 47",
+        "system design 47",
+        "detection pipeline 47"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 47",
+        "கோரிக்கை பாயும் விதம் 47",
+        "AegisGate பாகங்கள் 47",
+        "கணினி வடிவமைப்பு 47",
+        "நுழைவாயில் செயல்முறை 47",
+        "பாதுகாப்பு பைப்லைன் 47"
+      ],
+      "tanglish": [
+        "architecture explain pannu 47",
+        "request flow epdi pogum 47",
+        "gateway flow 47",
+        "aegisgate components enna 47",
+        "system design sollu 47",
+        "pipeline details 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0048",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 48",
+        "gateway reverse proxy flow 48",
+        "aegisgate components 48",
+        "how does request flow 48",
+        "system design 48",
+        "detection pipeline 48"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 48",
+        "கோரிக்கை பாயும் விதம் 48",
+        "AegisGate பாகங்கள் 48",
+        "கணினி வடிவமைப்பு 48",
+        "நுழைவாயில் செயல்முறை 48",
+        "பாதுகாப்பு பைப்லைன் 48"
+      ],
+      "tanglish": [
+        "architecture explain pannu 48",
+        "request flow epdi pogum 48",
+        "gateway flow 48",
+        "aegisgate components enna 48",
+        "system design sollu 48",
+        "pipeline details 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0049",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 49",
+        "gateway reverse proxy flow 49",
+        "aegisgate components 49",
+        "how does request flow 49",
+        "system design 49",
+        "detection pipeline 49"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 49",
+        "கோரிக்கை பாயும் விதம் 49",
+        "AegisGate பாகங்கள் 49",
+        "கணினி வடிவமைப்பு 49",
+        "நுழைவாயில் செயல்முறை 49",
+        "பாதுகாப்பு பைப்லைன் 49"
+      ],
+      "tanglish": [
+        "architecture explain pannu 49",
+        "request flow epdi pogum 49",
+        "gateway flow 49",
+        "aegisgate components enna 49",
+        "system design sollu 49",
+        "pipeline details 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0050",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 50",
+        "gateway reverse proxy flow 50",
+        "aegisgate components 50",
+        "how does request flow 50",
+        "system design 50",
+        "detection pipeline 50"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 50",
+        "கோரிக்கை பாயும் விதம் 50",
+        "AegisGate பாகங்கள் 50",
+        "கணினி வடிவமைப்பு 50",
+        "நுழைவாயில் செயல்முறை 50",
+        "பாதுகாப்பு பைப்லைன் 50"
+      ],
+      "tanglish": [
+        "architecture explain pannu 50",
+        "request flow epdi pogum 50",
+        "gateway flow 50",
+        "aegisgate components enna 50",
+        "system design sollu 50",
+        "pipeline details 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0051",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 51",
+        "gateway reverse proxy flow 51",
+        "aegisgate components 51",
+        "how does request flow 51",
+        "system design 51",
+        "detection pipeline 51"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 51",
+        "கோரிக்கை பாயும் விதம் 51",
+        "AegisGate பாகங்கள் 51",
+        "கணினி வடிவமைப்பு 51",
+        "நுழைவாயில் செயல்முறை 51",
+        "பாதுகாப்பு பைப்லைன் 51"
+      ],
+      "tanglish": [
+        "architecture explain pannu 51",
+        "request flow epdi pogum 51",
+        "gateway flow 51",
+        "aegisgate components enna 51",
+        "system design sollu 51",
+        "pipeline details 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0052",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 52",
+        "gateway reverse proxy flow 52",
+        "aegisgate components 52",
+        "how does request flow 52",
+        "system design 52",
+        "detection pipeline 52"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 52",
+        "கோரிக்கை பாயும் விதம் 52",
+        "AegisGate பாகங்கள் 52",
+        "கணினி வடிவமைப்பு 52",
+        "நுழைவாயில் செயல்முறை 52",
+        "பாதுகாப்பு பைப்லைன் 52"
+      ],
+      "tanglish": [
+        "architecture explain pannu 52",
+        "request flow epdi pogum 52",
+        "gateway flow 52",
+        "aegisgate components enna 52",
+        "system design sollu 52",
+        "pipeline details 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0053",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 53",
+        "gateway reverse proxy flow 53",
+        "aegisgate components 53",
+        "how does request flow 53",
+        "system design 53",
+        "detection pipeline 53"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 53",
+        "கோரிக்கை பாயும் விதம் 53",
+        "AegisGate பாகங்கள் 53",
+        "கணினி வடிவமைப்பு 53",
+        "நுழைவாயில் செயல்முறை 53",
+        "பாதுகாப்பு பைப்லைன் 53"
+      ],
+      "tanglish": [
+        "architecture explain pannu 53",
+        "request flow epdi pogum 53",
+        "gateway flow 53",
+        "aegisgate components enna 53",
+        "system design sollu 53",
+        "pipeline details 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0054",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 54",
+        "gateway reverse proxy flow 54",
+        "aegisgate components 54",
+        "how does request flow 54",
+        "system design 54",
+        "detection pipeline 54"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 54",
+        "கோரிக்கை பாயும் விதம் 54",
+        "AegisGate பாகங்கள் 54",
+        "கணினி வடிவமைப்பு 54",
+        "நுழைவாயில் செயல்முறை 54",
+        "பாதுகாப்பு பைப்லைன் 54"
+      ],
+      "tanglish": [
+        "architecture explain pannu 54",
+        "request flow epdi pogum 54",
+        "gateway flow 54",
+        "aegisgate components enna 54",
+        "system design sollu 54",
+        "pipeline details 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0055",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 55",
+        "gateway reverse proxy flow 55",
+        "aegisgate components 55",
+        "how does request flow 55",
+        "system design 55",
+        "detection pipeline 55"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 55",
+        "கோரிக்கை பாயும் விதம் 55",
+        "AegisGate பாகங்கள் 55",
+        "கணினி வடிவமைப்பு 55",
+        "நுழைவாயில் செயல்முறை 55",
+        "பாதுகாப்பு பைப்லைன் 55"
+      ],
+      "tanglish": [
+        "architecture explain pannu 55",
+        "request flow epdi pogum 55",
+        "gateway flow 55",
+        "aegisgate components enna 55",
+        "system design sollu 55",
+        "pipeline details 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0056",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 56",
+        "gateway reverse proxy flow 56",
+        "aegisgate components 56",
+        "how does request flow 56",
+        "system design 56",
+        "detection pipeline 56"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 56",
+        "கோரிக்கை பாயும் விதம் 56",
+        "AegisGate பாகங்கள் 56",
+        "கணினி வடிவமைப்பு 56",
+        "நுழைவாயில் செயல்முறை 56",
+        "பாதுகாப்பு பைப்லைன் 56"
+      ],
+      "tanglish": [
+        "architecture explain pannu 56",
+        "request flow epdi pogum 56",
+        "gateway flow 56",
+        "aegisgate components enna 56",
+        "system design sollu 56",
+        "pipeline details 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0057",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 57",
+        "gateway reverse proxy flow 57",
+        "aegisgate components 57",
+        "how does request flow 57",
+        "system design 57",
+        "detection pipeline 57"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 57",
+        "கோரிக்கை பாயும் விதம் 57",
+        "AegisGate பாகங்கள் 57",
+        "கணினி வடிவமைப்பு 57",
+        "நுழைவாயில் செயல்முறை 57",
+        "பாதுகாப்பு பைப்லைன் 57"
+      ],
+      "tanglish": [
+        "architecture explain pannu 57",
+        "request flow epdi pogum 57",
+        "gateway flow 57",
+        "aegisgate components enna 57",
+        "system design sollu 57",
+        "pipeline details 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0058",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 58",
+        "gateway reverse proxy flow 58",
+        "aegisgate components 58",
+        "how does request flow 58",
+        "system design 58",
+        "detection pipeline 58"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 58",
+        "கோரிக்கை பாயும் விதம் 58",
+        "AegisGate பாகங்கள் 58",
+        "கணினி வடிவமைப்பு 58",
+        "நுழைவாயில் செயல்முறை 58",
+        "பாதுகாப்பு பைப்லைன் 58"
+      ],
+      "tanglish": [
+        "architecture explain pannu 58",
+        "request flow epdi pogum 58",
+        "gateway flow 58",
+        "aegisgate components enna 58",
+        "system design sollu 58",
+        "pipeline details 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0059",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 59",
+        "gateway reverse proxy flow 59",
+        "aegisgate components 59",
+        "how does request flow 59",
+        "system design 59",
+        "detection pipeline 59"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 59",
+        "கோரிக்கை பாயும் விதம் 59",
+        "AegisGate பாகங்கள் 59",
+        "கணினி வடிவமைப்பு 59",
+        "நுழைவாயில் செயல்முறை 59",
+        "பாதுகாப்பு பைப்லைன் 59"
+      ],
+      "tanglish": [
+        "architecture explain pannu 59",
+        "request flow epdi pogum 59",
+        "gateway flow 59",
+        "aegisgate components enna 59",
+        "system design sollu 59",
+        "pipeline details 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0060",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 60",
+        "gateway reverse proxy flow 60",
+        "aegisgate components 60",
+        "how does request flow 60",
+        "system design 60",
+        "detection pipeline 60"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 60",
+        "கோரிக்கை பாயும் விதம் 60",
+        "AegisGate பாகங்கள் 60",
+        "கணினி வடிவமைப்பு 60",
+        "நுழைவாயில் செயல்முறை 60",
+        "பாதுகாப்பு பைப்லைன் 60"
+      ],
+      "tanglish": [
+        "architecture explain pannu 60",
+        "request flow epdi pogum 60",
+        "gateway flow 60",
+        "aegisgate components enna 60",
+        "system design sollu 60",
+        "pipeline details 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0061",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 61",
+        "gateway reverse proxy flow 61",
+        "aegisgate components 61",
+        "how does request flow 61",
+        "system design 61",
+        "detection pipeline 61"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 61",
+        "கோரிக்கை பாயும் விதம் 61",
+        "AegisGate பாகங்கள் 61",
+        "கணினி வடிவமைப்பு 61",
+        "நுழைவாயில் செயல்முறை 61",
+        "பாதுகாப்பு பைப்லைன் 61"
+      ],
+      "tanglish": [
+        "architecture explain pannu 61",
+        "request flow epdi pogum 61",
+        "gateway flow 61",
+        "aegisgate components enna 61",
+        "system design sollu 61",
+        "pipeline details 61"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0062",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 62",
+        "gateway reverse proxy flow 62",
+        "aegisgate components 62",
+        "how does request flow 62",
+        "system design 62",
+        "detection pipeline 62"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 62",
+        "கோரிக்கை பாயும் விதம் 62",
+        "AegisGate பாகங்கள் 62",
+        "கணினி வடிவமைப்பு 62",
+        "நுழைவாயில் செயல்முறை 62",
+        "பாதுகாப்பு பைப்லைன் 62"
+      ],
+      "tanglish": [
+        "architecture explain pannu 62",
+        "request flow epdi pogum 62",
+        "gateway flow 62",
+        "aegisgate components enna 62",
+        "system design sollu 62",
+        "pipeline details 62"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0063",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 63",
+        "gateway reverse proxy flow 63",
+        "aegisgate components 63",
+        "how does request flow 63",
+        "system design 63",
+        "detection pipeline 63"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 63",
+        "கோரிக்கை பாயும் விதம் 63",
+        "AegisGate பாகங்கள் 63",
+        "கணினி வடிவமைப்பு 63",
+        "நுழைவாயில் செயல்முறை 63",
+        "பாதுகாப்பு பைப்லைன் 63"
+      ],
+      "tanglish": [
+        "architecture explain pannu 63",
+        "request flow epdi pogum 63",
+        "gateway flow 63",
+        "aegisgate components enna 63",
+        "system design sollu 63",
+        "pipeline details 63"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0064",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 64",
+        "gateway reverse proxy flow 64",
+        "aegisgate components 64",
+        "how does request flow 64",
+        "system design 64",
+        "detection pipeline 64"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 64",
+        "கோரிக்கை பாயும் விதம் 64",
+        "AegisGate பாகங்கள் 64",
+        "கணினி வடிவமைப்பு 64",
+        "நுழைவாயில் செயல்முறை 64",
+        "பாதுகாப்பு பைப்லைன் 64"
+      ],
+      "tanglish": [
+        "architecture explain pannu 64",
+        "request flow epdi pogum 64",
+        "gateway flow 64",
+        "aegisgate components enna 64",
+        "system design sollu 64",
+        "pipeline details 64"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0065",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 65",
+        "gateway reverse proxy flow 65",
+        "aegisgate components 65",
+        "how does request flow 65",
+        "system design 65",
+        "detection pipeline 65"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 65",
+        "கோரிக்கை பாயும் விதம் 65",
+        "AegisGate பாகங்கள் 65",
+        "கணினி வடிவமைப்பு 65",
+        "நுழைவாயில் செயல்முறை 65",
+        "பாதுகாப்பு பைப்லைன் 65"
+      ],
+      "tanglish": [
+        "architecture explain pannu 65",
+        "request flow epdi pogum 65",
+        "gateway flow 65",
+        "aegisgate components enna 65",
+        "system design sollu 65",
+        "pipeline details 65"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0066",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 66",
+        "gateway reverse proxy flow 66",
+        "aegisgate components 66",
+        "how does request flow 66",
+        "system design 66",
+        "detection pipeline 66"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 66",
+        "கோரிக்கை பாயும் விதம் 66",
+        "AegisGate பாகங்கள் 66",
+        "கணினி வடிவமைப்பு 66",
+        "நுழைவாயில் செயல்முறை 66",
+        "பாதுகாப்பு பைப்லைன் 66"
+      ],
+      "tanglish": [
+        "architecture explain pannu 66",
+        "request flow epdi pogum 66",
+        "gateway flow 66",
+        "aegisgate components enna 66",
+        "system design sollu 66",
+        "pipeline details 66"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0067",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 67",
+        "gateway reverse proxy flow 67",
+        "aegisgate components 67",
+        "how does request flow 67",
+        "system design 67",
+        "detection pipeline 67"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 67",
+        "கோரிக்கை பாயும் விதம் 67",
+        "AegisGate பாகங்கள் 67",
+        "கணினி வடிவமைப்பு 67",
+        "நுழைவாயில் செயல்முறை 67",
+        "பாதுகாப்பு பைப்லைன் 67"
+      ],
+      "tanglish": [
+        "architecture explain pannu 67",
+        "request flow epdi pogum 67",
+        "gateway flow 67",
+        "aegisgate components enna 67",
+        "system design sollu 67",
+        "pipeline details 67"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0068",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 68",
+        "gateway reverse proxy flow 68",
+        "aegisgate components 68",
+        "how does request flow 68",
+        "system design 68",
+        "detection pipeline 68"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 68",
+        "கோரிக்கை பாயும் விதம் 68",
+        "AegisGate பாகங்கள் 68",
+        "கணினி வடிவமைப்பு 68",
+        "நுழைவாயில் செயல்முறை 68",
+        "பாதுகாப்பு பைப்லைன் 68"
+      ],
+      "tanglish": [
+        "architecture explain pannu 68",
+        "request flow epdi pogum 68",
+        "gateway flow 68",
+        "aegisgate components enna 68",
+        "system design sollu 68",
+        "pipeline details 68"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0069",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 69",
+        "gateway reverse proxy flow 69",
+        "aegisgate components 69",
+        "how does request flow 69",
+        "system design 69",
+        "detection pipeline 69"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 69",
+        "கோரிக்கை பாயும் விதம் 69",
+        "AegisGate பாகங்கள் 69",
+        "கணினி வடிவமைப்பு 69",
+        "நுழைவாயில் செயல்முறை 69",
+        "பாதுகாப்பு பைப்லைன் 69"
+      ],
+      "tanglish": [
+        "architecture explain pannu 69",
+        "request flow epdi pogum 69",
+        "gateway flow 69",
+        "aegisgate components enna 69",
+        "system design sollu 69",
+        "pipeline details 69"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0070",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 70",
+        "gateway reverse proxy flow 70",
+        "aegisgate components 70",
+        "how does request flow 70",
+        "system design 70",
+        "detection pipeline 70"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 70",
+        "கோரிக்கை பாயும் விதம் 70",
+        "AegisGate பாகங்கள் 70",
+        "கணினி வடிவமைப்பு 70",
+        "நுழைவாயில் செயல்முறை 70",
+        "பாதுகாப்பு பைப்லைன் 70"
+      ],
+      "tanglish": [
+        "architecture explain pannu 70",
+        "request flow epdi pogum 70",
+        "gateway flow 70",
+        "aegisgate components enna 70",
+        "system design sollu 70",
+        "pipeline details 70"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0071",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 71",
+        "gateway reverse proxy flow 71",
+        "aegisgate components 71",
+        "how does request flow 71",
+        "system design 71",
+        "detection pipeline 71"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 71",
+        "கோரிக்கை பாயும் விதம் 71",
+        "AegisGate பாகங்கள் 71",
+        "கணினி வடிவமைப்பு 71",
+        "நுழைவாயில் செயல்முறை 71",
+        "பாதுகாப்பு பைப்லைன் 71"
+      ],
+      "tanglish": [
+        "architecture explain pannu 71",
+        "request flow epdi pogum 71",
+        "gateway flow 71",
+        "aegisgate components enna 71",
+        "system design sollu 71",
+        "pipeline details 71"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0072",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 72",
+        "gateway reverse proxy flow 72",
+        "aegisgate components 72",
+        "how does request flow 72",
+        "system design 72",
+        "detection pipeline 72"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 72",
+        "கோரிக்கை பாயும் விதம் 72",
+        "AegisGate பாகங்கள் 72",
+        "கணினி வடிவமைப்பு 72",
+        "நுழைவாயில் செயல்முறை 72",
+        "பாதுகாப்பு பைப்லைன் 72"
+      ],
+      "tanglish": [
+        "architecture explain pannu 72",
+        "request flow epdi pogum 72",
+        "gateway flow 72",
+        "aegisgate components enna 72",
+        "system design sollu 72",
+        "pipeline details 72"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0073",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 73",
+        "gateway reverse proxy flow 73",
+        "aegisgate components 73",
+        "how does request flow 73",
+        "system design 73",
+        "detection pipeline 73"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 73",
+        "கோரிக்கை பாயும் விதம் 73",
+        "AegisGate பாகங்கள் 73",
+        "கணினி வடிவமைப்பு 73",
+        "நுழைவாயில் செயல்முறை 73",
+        "பாதுகாப்பு பைப்லைன் 73"
+      ],
+      "tanglish": [
+        "architecture explain pannu 73",
+        "request flow epdi pogum 73",
+        "gateway flow 73",
+        "aegisgate components enna 73",
+        "system design sollu 73",
+        "pipeline details 73"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0074",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 74",
+        "gateway reverse proxy flow 74",
+        "aegisgate components 74",
+        "how does request flow 74",
+        "system design 74",
+        "detection pipeline 74"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 74",
+        "கோரிக்கை பாயும் விதம் 74",
+        "AegisGate பாகங்கள் 74",
+        "கணினி வடிவமைப்பு 74",
+        "நுழைவாயில் செயல்முறை 74",
+        "பாதுகாப்பு பைப்லைன் 74"
+      ],
+      "tanglish": [
+        "architecture explain pannu 74",
+        "request flow epdi pogum 74",
+        "gateway flow 74",
+        "aegisgate components enna 74",
+        "system design sollu 74",
+        "pipeline details 74"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0075",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 75",
+        "gateway reverse proxy flow 75",
+        "aegisgate components 75",
+        "how does request flow 75",
+        "system design 75",
+        "detection pipeline 75"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 75",
+        "கோரிக்கை பாயும் விதம் 75",
+        "AegisGate பாகங்கள் 75",
+        "கணினி வடிவமைப்பு 75",
+        "நுழைவாயில் செயல்முறை 75",
+        "பாதுகாப்பு பைப்லைன் 75"
+      ],
+      "tanglish": [
+        "architecture explain pannu 75",
+        "request flow epdi pogum 75",
+        "gateway flow 75",
+        "aegisgate components enna 75",
+        "system design sollu 75",
+        "pipeline details 75"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0076",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 76",
+        "gateway reverse proxy flow 76",
+        "aegisgate components 76",
+        "how does request flow 76",
+        "system design 76",
+        "detection pipeline 76"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 76",
+        "கோரிக்கை பாயும் விதம் 76",
+        "AegisGate பாகங்கள் 76",
+        "கணினி வடிவமைப்பு 76",
+        "நுழைவாயில் செயல்முறை 76",
+        "பாதுகாப்பு பைப்லைன் 76"
+      ],
+      "tanglish": [
+        "architecture explain pannu 76",
+        "request flow epdi pogum 76",
+        "gateway flow 76",
+        "aegisgate components enna 76",
+        "system design sollu 76",
+        "pipeline details 76"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0077",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 77",
+        "gateway reverse proxy flow 77",
+        "aegisgate components 77",
+        "how does request flow 77",
+        "system design 77",
+        "detection pipeline 77"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 77",
+        "கோரிக்கை பாயும் விதம் 77",
+        "AegisGate பாகங்கள் 77",
+        "கணினி வடிவமைப்பு 77",
+        "நுழைவாயில் செயல்முறை 77",
+        "பாதுகாப்பு பைப்லைன் 77"
+      ],
+      "tanglish": [
+        "architecture explain pannu 77",
+        "request flow epdi pogum 77",
+        "gateway flow 77",
+        "aegisgate components enna 77",
+        "system design sollu 77",
+        "pipeline details 77"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0078",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 78",
+        "gateway reverse proxy flow 78",
+        "aegisgate components 78",
+        "how does request flow 78",
+        "system design 78",
+        "detection pipeline 78"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 78",
+        "கோரிக்கை பாயும் விதம் 78",
+        "AegisGate பாகங்கள் 78",
+        "கணினி வடிவமைப்பு 78",
+        "நுழைவாயில் செயல்முறை 78",
+        "பாதுகாப்பு பைப்லைன் 78"
+      ],
+      "tanglish": [
+        "architecture explain pannu 78",
+        "request flow epdi pogum 78",
+        "gateway flow 78",
+        "aegisgate components enna 78",
+        "system design sollu 78",
+        "pipeline details 78"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0079",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 79",
+        "gateway reverse proxy flow 79",
+        "aegisgate components 79",
+        "how does request flow 79",
+        "system design 79",
+        "detection pipeline 79"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 79",
+        "கோரிக்கை பாயும் விதம் 79",
+        "AegisGate பாகங்கள் 79",
+        "கணினி வடிவமைப்பு 79",
+        "நுழைவாயில் செயல்முறை 79",
+        "பாதுகாப்பு பைப்லைன் 79"
+      ],
+      "tanglish": [
+        "architecture explain pannu 79",
+        "request flow epdi pogum 79",
+        "gateway flow 79",
+        "aegisgate components enna 79",
+        "system design sollu 79",
+        "pipeline details 79"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  },
+  {
+    "id": "proj_arch_0080",
+    "category": "architecture",
+    "patterns": {
+      "en": [
+        "project architecture 80",
+        "gateway reverse proxy flow 80",
+        "aegisgate components 80",
+        "how does request flow 80",
+        "system design 80",
+        "detection pipeline 80"
+      ],
+      "ta": [
+        "திட்ட கட்டமைப்பு 80",
+        "கோரிக்கை பாயும் விதம் 80",
+        "AegisGate பாகங்கள் 80",
+        "கணினி வடிவமைப்பு 80",
+        "நுழைவாயில் செயல்முறை 80",
+        "பாதுகாப்பு பைப்லைன் 80"
+      ],
+      "tanglish": [
+        "architecture explain pannu 80",
+        "request flow epdi pogum 80",
+        "gateway flow 80",
+        "aegisgate components enna 80",
+        "system design sollu 80",
+        "pipeline details 80"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Request Pipeline Flow: Client Request -> AegisGate Reverse Proxy -> 23 Feature Extraction -> Multi-Tier Risk Engine (ML 45% + Behavioral 35% + Rules 20%) -> Allow (< 0.40), Warn (0.40 - 0.70), or Block (>= 0.70). Allowed traffic is transparently proxied to upstream backend APIs.",
+        "AegisGate's architectural design guarantees under 3 ms gateway latency by decoupling heavy telemetry to background async tasks while performing instantaneous deterministic rule and Random Forest inferences."
+      ],
+      "ta": [
+        "கோரிக்கை பாய்வு: கிளையண்ட் -> AegisGate ரிவர்ஸ் ப்ராக்ஸி -> 23 அம்ச பிரித்தெடுத்தல் -> கூட்டு இடர் மதிப்பீடு (ML 45% + நடத்தை 35% + விதிகள் 20%) -> அனுமதி (< 0.40), எச்சரிக்கை (0.40 - 0.70), அல்லது தடை (>= 0.70).",
+        "AegisGate-ன் கட்டமைப்பு 3 மில்லி விநாடிகளுக்குள் அதிவிரைவாக இயங்கக்கூடியது. பாதுகாப்பான கோரிக்கைகளை மட்டுமே பின்னணி சேவையகங்களுக்கு அனுப்பும்."
+      ],
+      "tanglish": [
+        "Request flow: Client -> AegisGate Proxy -> Feature Extraction -> Risk Fusion (ML + Behavioral + Rules) -> Decision (ALLOW/WARN/BLOCK) -> Backend API. Total latency < 3ms.",
+        "AegisGate architecture ultra-fast inference-kaga optimize pannirukom. Malicious vectors 403 Forbidden pottu gateway-laye stop aagidum."
+      ]
+    },
+    "chips": [
+      "Explain 23 security features",
+      "How is risk score calculated?",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "architecture",
+      "pipeline",
+      "flow"
+    ]
+  }
+]

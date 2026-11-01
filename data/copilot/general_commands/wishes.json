@@ -1,0 +1,5502 @@
+[
+  {
+    "id": "gen_wishes_0001",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 1",
+        "happy diwali 1",
+        "happy pongal 1",
+        "congratulations 1",
+        "best wishes 1",
+        "good luck 1"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 1",
+        "தீபாவளி வாழ்த்துகள் 1",
+        "புத்தாண்டு வாழ்த்துகள் 1",
+        "வாழ்த்துகள் 1",
+        "வெற்றி பெற வாழ்த்துகள் 1",
+        "நல்வாழ்த்துகள் 1"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 1",
+        "diwali wishes 1",
+        "happy new year nanba 1",
+        "all the best bro 1",
+        "congrats da 1",
+        "vaazhthukal 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0002",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 2",
+        "happy diwali 2",
+        "happy pongal 2",
+        "congratulations 2",
+        "best wishes 2",
+        "good luck 2"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 2",
+        "தீபாவளி வாழ்த்துகள் 2",
+        "புத்தாண்டு வாழ்த்துகள் 2",
+        "வாழ்த்துகள் 2",
+        "வெற்றி பெற வாழ்த்துகள் 2",
+        "நல்வாழ்த்துகள் 2"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 2",
+        "diwali wishes 2",
+        "happy new year nanba 2",
+        "all the best bro 2",
+        "congrats da 2",
+        "vaazhthukal 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0003",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 3",
+        "happy diwali 3",
+        "happy pongal 3",
+        "congratulations 3",
+        "best wishes 3",
+        "good luck 3"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 3",
+        "தீபாவளி வாழ்த்துகள் 3",
+        "புத்தாண்டு வாழ்த்துகள் 3",
+        "வாழ்த்துகள் 3",
+        "வெற்றி பெற வாழ்த்துகள் 3",
+        "நல்வாழ்த்துகள் 3"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 3",
+        "diwali wishes 3",
+        "happy new year nanba 3",
+        "all the best bro 3",
+        "congrats da 3",
+        "vaazhthukal 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0004",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 4",
+        "happy diwali 4",
+        "happy pongal 4",
+        "congratulations 4",
+        "best wishes 4",
+        "good luck 4"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 4",
+        "தீபாவளி வாழ்த்துகள் 4",
+        "புத்தாண்டு வாழ்த்துகள் 4",
+        "வாழ்த்துகள் 4",
+        "வெற்றி பெற வாழ்த்துகள் 4",
+        "நல்வாழ்த்துகள் 4"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 4",
+        "diwali wishes 4",
+        "happy new year nanba 4",
+        "all the best bro 4",
+        "congrats da 4",
+        "vaazhthukal 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0005",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 5",
+        "happy diwali 5",
+        "happy pongal 5",
+        "congratulations 5",
+        "best wishes 5",
+        "good luck 5"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 5",
+        "தீபாவளி வாழ்த்துகள் 5",
+        "புத்தாண்டு வாழ்த்துகள் 5",
+        "வாழ்த்துகள் 5",
+        "வெற்றி பெற வாழ்த்துகள் 5",
+        "நல்வாழ்த்துகள் 5"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 5",
+        "diwali wishes 5",
+        "happy new year nanba 5",
+        "all the best bro 5",
+        "congrats da 5",
+        "vaazhthukal 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0006",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 6",
+        "happy diwali 6",
+        "happy pongal 6",
+        "congratulations 6",
+        "best wishes 6",
+        "good luck 6"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 6",
+        "தீபாவளி வாழ்த்துகள் 6",
+        "புத்தாண்டு வாழ்த்துகள் 6",
+        "வாழ்த்துகள் 6",
+        "வெற்றி பெற வாழ்த்துகள் 6",
+        "நல்வாழ்த்துகள் 6"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 6",
+        "diwali wishes 6",
+        "happy new year nanba 6",
+        "all the best bro 6",
+        "congrats da 6",
+        "vaazhthukal 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0007",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 7",
+        "happy diwali 7",
+        "happy pongal 7",
+        "congratulations 7",
+        "best wishes 7",
+        "good luck 7"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 7",
+        "தீபாவளி வாழ்த்துகள் 7",
+        "புத்தாண்டு வாழ்த்துகள் 7",
+        "வாழ்த்துகள் 7",
+        "வெற்றி பெற வாழ்த்துகள் 7",
+        "நல்வாழ்த்துகள் 7"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 7",
+        "diwali wishes 7",
+        "happy new year nanba 7",
+        "all the best bro 7",
+        "congrats da 7",
+        "vaazhthukal 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0008",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 8",
+        "happy diwali 8",
+        "happy pongal 8",
+        "congratulations 8",
+        "best wishes 8",
+        "good luck 8"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 8",
+        "தீபாவளி வாழ்த்துகள் 8",
+        "புத்தாண்டு வாழ்த்துகள் 8",
+        "வாழ்த்துகள் 8",
+        "வெற்றி பெற வாழ்த்துகள் 8",
+        "நல்வாழ்த்துகள் 8"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 8",
+        "diwali wishes 8",
+        "happy new year nanba 8",
+        "all the best bro 8",
+        "congrats da 8",
+        "vaazhthukal 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0009",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 9",
+        "happy diwali 9",
+        "happy pongal 9",
+        "congratulations 9",
+        "best wishes 9",
+        "good luck 9"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 9",
+        "தீபாவளி வாழ்த்துகள் 9",
+        "புத்தாண்டு வாழ்த்துகள் 9",
+        "வாழ்த்துகள் 9",
+        "வெற்றி பெற வாழ்த்துகள் 9",
+        "நல்வாழ்த்துகள் 9"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 9",
+        "diwali wishes 9",
+        "happy new year nanba 9",
+        "all the best bro 9",
+        "congrats da 9",
+        "vaazhthukal 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0010",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 10",
+        "happy diwali 10",
+        "happy pongal 10",
+        "congratulations 10",
+        "best wishes 10",
+        "good luck 10"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 10",
+        "தீபாவளி வாழ்த்துகள் 10",
+        "புத்தாண்டு வாழ்த்துகள் 10",
+        "வாழ்த்துகள் 10",
+        "வெற்றி பெற வாழ்த்துகள் 10",
+        "நல்வாழ்த்துகள் 10"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 10",
+        "diwali wishes 10",
+        "happy new year nanba 10",
+        "all the best bro 10",
+        "congrats da 10",
+        "vaazhthukal 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0011",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 11",
+        "happy diwali 11",
+        "happy pongal 11",
+        "congratulations 11",
+        "best wishes 11",
+        "good luck 11"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 11",
+        "தீபாவளி வாழ்த்துகள் 11",
+        "புத்தாண்டு வாழ்த்துகள் 11",
+        "வாழ்த்துகள் 11",
+        "வெற்றி பெற வாழ்த்துகள் 11",
+        "நல்வாழ்த்துகள் 11"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 11",
+        "diwali wishes 11",
+        "happy new year nanba 11",
+        "all the best bro 11",
+        "congrats da 11",
+        "vaazhthukal 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0012",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 12",
+        "happy diwali 12",
+        "happy pongal 12",
+        "congratulations 12",
+        "best wishes 12",
+        "good luck 12"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 12",
+        "தீபாவளி வாழ்த்துகள் 12",
+        "புத்தாண்டு வாழ்த்துகள் 12",
+        "வாழ்த்துகள் 12",
+        "வெற்றி பெற வாழ்த்துகள் 12",
+        "நல்வாழ்த்துகள் 12"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 12",
+        "diwali wishes 12",
+        "happy new year nanba 12",
+        "all the best bro 12",
+        "congrats da 12",
+        "vaazhthukal 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0013",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 13",
+        "happy diwali 13",
+        "happy pongal 13",
+        "congratulations 13",
+        "best wishes 13",
+        "good luck 13"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 13",
+        "தீபாவளி வாழ்த்துகள் 13",
+        "புத்தாண்டு வாழ்த்துகள் 13",
+        "வாழ்த்துகள் 13",
+        "வெற்றி பெற வாழ்த்துகள் 13",
+        "நல்வாழ்த்துகள் 13"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 13",
+        "diwali wishes 13",
+        "happy new year nanba 13",
+        "all the best bro 13",
+        "congrats da 13",
+        "vaazhthukal 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0014",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 14",
+        "happy diwali 14",
+        "happy pongal 14",
+        "congratulations 14",
+        "best wishes 14",
+        "good luck 14"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 14",
+        "தீபாவளி வாழ்த்துகள் 14",
+        "புத்தாண்டு வாழ்த்துகள் 14",
+        "வாழ்த்துகள் 14",
+        "வெற்றி பெற வாழ்த்துகள் 14",
+        "நல்வாழ்த்துகள் 14"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 14",
+        "diwali wishes 14",
+        "happy new year nanba 14",
+        "all the best bro 14",
+        "congrats da 14",
+        "vaazhthukal 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0015",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 15",
+        "happy diwali 15",
+        "happy pongal 15",
+        "congratulations 15",
+        "best wishes 15",
+        "good luck 15"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 15",
+        "தீபாவளி வாழ்த்துகள் 15",
+        "புத்தாண்டு வாழ்த்துகள் 15",
+        "வாழ்த்துகள் 15",
+        "வெற்றி பெற வாழ்த்துகள் 15",
+        "நல்வாழ்த்துகள் 15"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 15",
+        "diwali wishes 15",
+        "happy new year nanba 15",
+        "all the best bro 15",
+        "congrats da 15",
+        "vaazhthukal 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0016",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 16",
+        "happy diwali 16",
+        "happy pongal 16",
+        "congratulations 16",
+        "best wishes 16",
+        "good luck 16"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 16",
+        "தீபாவளி வாழ்த்துகள் 16",
+        "புத்தாண்டு வாழ்த்துகள் 16",
+        "வாழ்த்துகள் 16",
+        "வெற்றி பெற வாழ்த்துகள் 16",
+        "நல்வாழ்த்துகள் 16"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 16",
+        "diwali wishes 16",
+        "happy new year nanba 16",
+        "all the best bro 16",
+        "congrats da 16",
+        "vaazhthukal 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0017",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 17",
+        "happy diwali 17",
+        "happy pongal 17",
+        "congratulations 17",
+        "best wishes 17",
+        "good luck 17"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 17",
+        "தீபாவளி வாழ்த்துகள் 17",
+        "புத்தாண்டு வாழ்த்துகள் 17",
+        "வாழ்த்துகள் 17",
+        "வெற்றி பெற வாழ்த்துகள் 17",
+        "நல்வாழ்த்துகள் 17"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 17",
+        "diwali wishes 17",
+        "happy new year nanba 17",
+        "all the best bro 17",
+        "congrats da 17",
+        "vaazhthukal 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0018",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 18",
+        "happy diwali 18",
+        "happy pongal 18",
+        "congratulations 18",
+        "best wishes 18",
+        "good luck 18"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 18",
+        "தீபாவளி வாழ்த்துகள் 18",
+        "புத்தாண்டு வாழ்த்துகள் 18",
+        "வாழ்த்துகள் 18",
+        "வெற்றி பெற வாழ்த்துகள் 18",
+        "நல்வாழ்த்துகள் 18"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 18",
+        "diwali wishes 18",
+        "happy new year nanba 18",
+        "all the best bro 18",
+        "congrats da 18",
+        "vaazhthukal 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0019",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 19",
+        "happy diwali 19",
+        "happy pongal 19",
+        "congratulations 19",
+        "best wishes 19",
+        "good luck 19"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 19",
+        "தீபாவளி வாழ்த்துகள் 19",
+        "புத்தாண்டு வாழ்த்துகள் 19",
+        "வாழ்த்துகள் 19",
+        "வெற்றி பெற வாழ்த்துகள் 19",
+        "நல்வாழ்த்துகள் 19"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 19",
+        "diwali wishes 19",
+        "happy new year nanba 19",
+        "all the best bro 19",
+        "congrats da 19",
+        "vaazhthukal 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0020",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 20",
+        "happy diwali 20",
+        "happy pongal 20",
+        "congratulations 20",
+        "best wishes 20",
+        "good luck 20"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 20",
+        "தீபாவளி வாழ்த்துகள் 20",
+        "புத்தாண்டு வாழ்த்துகள் 20",
+        "வாழ்த்துகள் 20",
+        "வெற்றி பெற வாழ்த்துகள் 20",
+        "நல்வாழ்த்துகள் 20"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 20",
+        "diwali wishes 20",
+        "happy new year nanba 20",
+        "all the best bro 20",
+        "congrats da 20",
+        "vaazhthukal 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0021",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 21",
+        "happy diwali 21",
+        "happy pongal 21",
+        "congratulations 21",
+        "best wishes 21",
+        "good luck 21"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 21",
+        "தீபாவளி வாழ்த்துகள் 21",
+        "புத்தாண்டு வாழ்த்துகள் 21",
+        "வாழ்த்துகள் 21",
+        "வெற்றி பெற வாழ்த்துகள் 21",
+        "நல்வாழ்த்துகள் 21"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 21",
+        "diwali wishes 21",
+        "happy new year nanba 21",
+        "all the best bro 21",
+        "congrats da 21",
+        "vaazhthukal 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0022",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 22",
+        "happy diwali 22",
+        "happy pongal 22",
+        "congratulations 22",
+        "best wishes 22",
+        "good luck 22"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 22",
+        "தீபாவளி வாழ்த்துகள் 22",
+        "புத்தாண்டு வாழ்த்துகள் 22",
+        "வாழ்த்துகள் 22",
+        "வெற்றி பெற வாழ்த்துகள் 22",
+        "நல்வாழ்த்துகள் 22"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 22",
+        "diwali wishes 22",
+        "happy new year nanba 22",
+        "all the best bro 22",
+        "congrats da 22",
+        "vaazhthukal 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0023",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 23",
+        "happy diwali 23",
+        "happy pongal 23",
+        "congratulations 23",
+        "best wishes 23",
+        "good luck 23"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 23",
+        "தீபாவளி வாழ்த்துகள் 23",
+        "புத்தாண்டு வாழ்த்துகள் 23",
+        "வாழ்த்துகள் 23",
+        "வெற்றி பெற வாழ்த்துகள் 23",
+        "நல்வாழ்த்துகள் 23"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 23",
+        "diwali wishes 23",
+        "happy new year nanba 23",
+        "all the best bro 23",
+        "congrats da 23",
+        "vaazhthukal 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0024",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 24",
+        "happy diwali 24",
+        "happy pongal 24",
+        "congratulations 24",
+        "best wishes 24",
+        "good luck 24"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 24",
+        "தீபாவளி வாழ்த்துகள் 24",
+        "புத்தாண்டு வாழ்த்துகள் 24",
+        "வாழ்த்துகள் 24",
+        "வெற்றி பெற வாழ்த்துகள் 24",
+        "நல்வாழ்த்துகள் 24"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 24",
+        "diwali wishes 24",
+        "happy new year nanba 24",
+        "all the best bro 24",
+        "congrats da 24",
+        "vaazhthukal 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0025",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 25",
+        "happy diwali 25",
+        "happy pongal 25",
+        "congratulations 25",
+        "best wishes 25",
+        "good luck 25"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 25",
+        "தீபாவளி வாழ்த்துகள் 25",
+        "புத்தாண்டு வாழ்த்துகள் 25",
+        "வாழ்த்துகள் 25",
+        "வெற்றி பெற வாழ்த்துகள் 25",
+        "நல்வாழ்த்துகள் 25"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 25",
+        "diwali wishes 25",
+        "happy new year nanba 25",
+        "all the best bro 25",
+        "congrats da 25",
+        "vaazhthukal 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0026",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 26",
+        "happy diwali 26",
+        "happy pongal 26",
+        "congratulations 26",
+        "best wishes 26",
+        "good luck 26"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 26",
+        "தீபாவளி வாழ்த்துகள் 26",
+        "புத்தாண்டு வாழ்த்துகள் 26",
+        "வாழ்த்துகள் 26",
+        "வெற்றி பெற வாழ்த்துகள் 26",
+        "நல்வாழ்த்துகள் 26"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 26",
+        "diwali wishes 26",
+        "happy new year nanba 26",
+        "all the best bro 26",
+        "congrats da 26",
+        "vaazhthukal 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0027",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 27",
+        "happy diwali 27",
+        "happy pongal 27",
+        "congratulations 27",
+        "best wishes 27",
+        "good luck 27"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 27",
+        "தீபாவளி வாழ்த்துகள் 27",
+        "புத்தாண்டு வாழ்த்துகள் 27",
+        "வாழ்த்துகள் 27",
+        "வெற்றி பெற வாழ்த்துகள் 27",
+        "நல்வாழ்த்துகள் 27"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 27",
+        "diwali wishes 27",
+        "happy new year nanba 27",
+        "all the best bro 27",
+        "congrats da 27",
+        "vaazhthukal 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0028",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 28",
+        "happy diwali 28",
+        "happy pongal 28",
+        "congratulations 28",
+        "best wishes 28",
+        "good luck 28"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 28",
+        "தீபாவளி வாழ்த்துகள் 28",
+        "புத்தாண்டு வாழ்த்துகள் 28",
+        "வாழ்த்துகள் 28",
+        "வெற்றி பெற வாழ்த்துகள் 28",
+        "நல்வாழ்த்துகள் 28"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 28",
+        "diwali wishes 28",
+        "happy new year nanba 28",
+        "all the best bro 28",
+        "congrats da 28",
+        "vaazhthukal 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0029",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 29",
+        "happy diwali 29",
+        "happy pongal 29",
+        "congratulations 29",
+        "best wishes 29",
+        "good luck 29"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 29",
+        "தீபாவளி வாழ்த்துகள் 29",
+        "புத்தாண்டு வாழ்த்துகள் 29",
+        "வாழ்த்துகள் 29",
+        "வெற்றி பெற வாழ்த்துகள் 29",
+        "நல்வாழ்த்துகள் 29"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 29",
+        "diwali wishes 29",
+        "happy new year nanba 29",
+        "all the best bro 29",
+        "congrats da 29",
+        "vaazhthukal 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0030",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 30",
+        "happy diwali 30",
+        "happy pongal 30",
+        "congratulations 30",
+        "best wishes 30",
+        "good luck 30"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 30",
+        "தீபாவளி வாழ்த்துகள் 30",
+        "புத்தாண்டு வாழ்த்துகள் 30",
+        "வாழ்த்துகள் 30",
+        "வெற்றி பெற வாழ்த்துகள் 30",
+        "நல்வாழ்த்துகள் 30"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 30",
+        "diwali wishes 30",
+        "happy new year nanba 30",
+        "all the best bro 30",
+        "congrats da 30",
+        "vaazhthukal 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0031",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 31",
+        "happy diwali 31",
+        "happy pongal 31",
+        "congratulations 31",
+        "best wishes 31",
+        "good luck 31"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 31",
+        "தீபாவளி வாழ்த்துகள் 31",
+        "புத்தாண்டு வாழ்த்துகள் 31",
+        "வாழ்த்துகள் 31",
+        "வெற்றி பெற வாழ்த்துகள் 31",
+        "நல்வாழ்த்துகள் 31"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 31",
+        "diwali wishes 31",
+        "happy new year nanba 31",
+        "all the best bro 31",
+        "congrats da 31",
+        "vaazhthukal 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0032",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 32",
+        "happy diwali 32",
+        "happy pongal 32",
+        "congratulations 32",
+        "best wishes 32",
+        "good luck 32"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 32",
+        "தீபாவளி வாழ்த்துகள் 32",
+        "புத்தாண்டு வாழ்த்துகள் 32",
+        "வாழ்த்துகள் 32",
+        "வெற்றி பெற வாழ்த்துகள் 32",
+        "நல்வாழ்த்துகள் 32"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 32",
+        "diwali wishes 32",
+        "happy new year nanba 32",
+        "all the best bro 32",
+        "congrats da 32",
+        "vaazhthukal 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0033",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 33",
+        "happy diwali 33",
+        "happy pongal 33",
+        "congratulations 33",
+        "best wishes 33",
+        "good luck 33"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 33",
+        "தீபாவளி வாழ்த்துகள் 33",
+        "புத்தாண்டு வாழ்த்துகள் 33",
+        "வாழ்த்துகள் 33",
+        "வெற்றி பெற வாழ்த்துகள் 33",
+        "நல்வாழ்த்துகள் 33"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 33",
+        "diwali wishes 33",
+        "happy new year nanba 33",
+        "all the best bro 33",
+        "congrats da 33",
+        "vaazhthukal 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0034",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 34",
+        "happy diwali 34",
+        "happy pongal 34",
+        "congratulations 34",
+        "best wishes 34",
+        "good luck 34"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 34",
+        "தீபாவளி வாழ்த்துகள் 34",
+        "புத்தாண்டு வாழ்த்துகள் 34",
+        "வாழ்த்துகள் 34",
+        "வெற்றி பெற வாழ்த்துகள் 34",
+        "நல்வாழ்த்துகள் 34"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 34",
+        "diwali wishes 34",
+        "happy new year nanba 34",
+        "all the best bro 34",
+        "congrats da 34",
+        "vaazhthukal 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0035",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 35",
+        "happy diwali 35",
+        "happy pongal 35",
+        "congratulations 35",
+        "best wishes 35",
+        "good luck 35"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 35",
+        "தீபாவளி வாழ்த்துகள் 35",
+        "புத்தாண்டு வாழ்த்துகள் 35",
+        "வாழ்த்துகள் 35",
+        "வெற்றி பெற வாழ்த்துகள் 35",
+        "நல்வாழ்த்துகள் 35"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 35",
+        "diwali wishes 35",
+        "happy new year nanba 35",
+        "all the best bro 35",
+        "congrats da 35",
+        "vaazhthukal 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0036",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 36",
+        "happy diwali 36",
+        "happy pongal 36",
+        "congratulations 36",
+        "best wishes 36",
+        "good luck 36"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 36",
+        "தீபாவளி வாழ்த்துகள் 36",
+        "புத்தாண்டு வாழ்த்துகள் 36",
+        "வாழ்த்துகள் 36",
+        "வெற்றி பெற வாழ்த்துகள் 36",
+        "நல்வாழ்த்துகள் 36"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 36",
+        "diwali wishes 36",
+        "happy new year nanba 36",
+        "all the best bro 36",
+        "congrats da 36",
+        "vaazhthukal 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0037",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 37",
+        "happy diwali 37",
+        "happy pongal 37",
+        "congratulations 37",
+        "best wishes 37",
+        "good luck 37"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 37",
+        "தீபாவளி வாழ்த்துகள் 37",
+        "புத்தாண்டு வாழ்த்துகள் 37",
+        "வாழ்த்துகள் 37",
+        "வெற்றி பெற வாழ்த்துகள் 37",
+        "நல்வாழ்த்துகள் 37"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 37",
+        "diwali wishes 37",
+        "happy new year nanba 37",
+        "all the best bro 37",
+        "congrats da 37",
+        "vaazhthukal 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0038",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 38",
+        "happy diwali 38",
+        "happy pongal 38",
+        "congratulations 38",
+        "best wishes 38",
+        "good luck 38"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 38",
+        "தீபாவளி வாழ்த்துகள் 38",
+        "புத்தாண்டு வாழ்த்துகள் 38",
+        "வாழ்த்துகள் 38",
+        "வெற்றி பெற வாழ்த்துகள் 38",
+        "நல்வாழ்த்துகள் 38"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 38",
+        "diwali wishes 38",
+        "happy new year nanba 38",
+        "all the best bro 38",
+        "congrats da 38",
+        "vaazhthukal 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0039",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 39",
+        "happy diwali 39",
+        "happy pongal 39",
+        "congratulations 39",
+        "best wishes 39",
+        "good luck 39"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 39",
+        "தீபாவளி வாழ்த்துகள் 39",
+        "புத்தாண்டு வாழ்த்துகள் 39",
+        "வாழ்த்துகள் 39",
+        "வெற்றி பெற வாழ்த்துகள் 39",
+        "நல்வாழ்த்துகள் 39"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 39",
+        "diwali wishes 39",
+        "happy new year nanba 39",
+        "all the best bro 39",
+        "congrats da 39",
+        "vaazhthukal 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0040",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 40",
+        "happy diwali 40",
+        "happy pongal 40",
+        "congratulations 40",
+        "best wishes 40",
+        "good luck 40"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 40",
+        "தீபாவளி வாழ்த்துகள் 40",
+        "புத்தாண்டு வாழ்த்துகள் 40",
+        "வாழ்த்துகள் 40",
+        "வெற்றி பெற வாழ்த்துகள் 40",
+        "நல்வாழ்த்துகள் 40"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 40",
+        "diwali wishes 40",
+        "happy new year nanba 40",
+        "all the best bro 40",
+        "congrats da 40",
+        "vaazhthukal 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0041",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 41",
+        "happy diwali 41",
+        "happy pongal 41",
+        "congratulations 41",
+        "best wishes 41",
+        "good luck 41"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 41",
+        "தீபாவளி வாழ்த்துகள் 41",
+        "புத்தாண்டு வாழ்த்துகள் 41",
+        "வாழ்த்துகள் 41",
+        "வெற்றி பெற வாழ்த்துகள் 41",
+        "நல்வாழ்த்துகள் 41"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 41",
+        "diwali wishes 41",
+        "happy new year nanba 41",
+        "all the best bro 41",
+        "congrats da 41",
+        "vaazhthukal 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0042",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 42",
+        "happy diwali 42",
+        "happy pongal 42",
+        "congratulations 42",
+        "best wishes 42",
+        "good luck 42"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 42",
+        "தீபாவளி வாழ்த்துகள் 42",
+        "புத்தாண்டு வாழ்த்துகள் 42",
+        "வாழ்த்துகள் 42",
+        "வெற்றி பெற வாழ்த்துகள் 42",
+        "நல்வாழ்த்துகள் 42"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 42",
+        "diwali wishes 42",
+        "happy new year nanba 42",
+        "all the best bro 42",
+        "congrats da 42",
+        "vaazhthukal 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0043",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 43",
+        "happy diwali 43",
+        "happy pongal 43",
+        "congratulations 43",
+        "best wishes 43",
+        "good luck 43"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 43",
+        "தீபாவளி வாழ்த்துகள் 43",
+        "புத்தாண்டு வாழ்த்துகள் 43",
+        "வாழ்த்துகள் 43",
+        "வெற்றி பெற வாழ்த்துகள் 43",
+        "நல்வாழ்த்துகள் 43"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 43",
+        "diwali wishes 43",
+        "happy new year nanba 43",
+        "all the best bro 43",
+        "congrats da 43",
+        "vaazhthukal 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0044",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 44",
+        "happy diwali 44",
+        "happy pongal 44",
+        "congratulations 44",
+        "best wishes 44",
+        "good luck 44"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 44",
+        "தீபாவளி வாழ்த்துகள் 44",
+        "புத்தாண்டு வாழ்த்துகள் 44",
+        "வாழ்த்துகள் 44",
+        "வெற்றி பெற வாழ்த்துகள் 44",
+        "நல்வாழ்த்துகள் 44"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 44",
+        "diwali wishes 44",
+        "happy new year nanba 44",
+        "all the best bro 44",
+        "congrats da 44",
+        "vaazhthukal 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0045",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 45",
+        "happy diwali 45",
+        "happy pongal 45",
+        "congratulations 45",
+        "best wishes 45",
+        "good luck 45"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 45",
+        "தீபாவளி வாழ்த்துகள் 45",
+        "புத்தாண்டு வாழ்த்துகள் 45",
+        "வாழ்த்துகள் 45",
+        "வெற்றி பெற வாழ்த்துகள் 45",
+        "நல்வாழ்த்துகள் 45"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 45",
+        "diwali wishes 45",
+        "happy new year nanba 45",
+        "all the best bro 45",
+        "congrats da 45",
+        "vaazhthukal 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0046",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 46",
+        "happy diwali 46",
+        "happy pongal 46",
+        "congratulations 46",
+        "best wishes 46",
+        "good luck 46"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 46",
+        "தீபாவளி வாழ்த்துகள் 46",
+        "புத்தாண்டு வாழ்த்துகள் 46",
+        "வாழ்த்துகள் 46",
+        "வெற்றி பெற வாழ்த்துகள் 46",
+        "நல்வாழ்த்துகள் 46"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 46",
+        "diwali wishes 46",
+        "happy new year nanba 46",
+        "all the best bro 46",
+        "congrats da 46",
+        "vaazhthukal 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0047",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 47",
+        "happy diwali 47",
+        "happy pongal 47",
+        "congratulations 47",
+        "best wishes 47",
+        "good luck 47"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 47",
+        "தீபாவளி வாழ்த்துகள் 47",
+        "புத்தாண்டு வாழ்த்துகள் 47",
+        "வாழ்த்துகள் 47",
+        "வெற்றி பெற வாழ்த்துகள் 47",
+        "நல்வாழ்த்துகள் 47"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 47",
+        "diwali wishes 47",
+        "happy new year nanba 47",
+        "all the best bro 47",
+        "congrats da 47",
+        "vaazhthukal 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0048",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 48",
+        "happy diwali 48",
+        "happy pongal 48",
+        "congratulations 48",
+        "best wishes 48",
+        "good luck 48"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 48",
+        "தீபாவளி வாழ்த்துகள் 48",
+        "புத்தாண்டு வாழ்த்துகள் 48",
+        "வாழ்த்துகள் 48",
+        "வெற்றி பெற வாழ்த்துகள் 48",
+        "நல்வாழ்த்துகள் 48"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 48",
+        "diwali wishes 48",
+        "happy new year nanba 48",
+        "all the best bro 48",
+        "congrats da 48",
+        "vaazhthukal 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0049",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 49",
+        "happy diwali 49",
+        "happy pongal 49",
+        "congratulations 49",
+        "best wishes 49",
+        "good luck 49"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 49",
+        "தீபாவளி வாழ்த்துகள் 49",
+        "புத்தாண்டு வாழ்த்துகள் 49",
+        "வாழ்த்துகள் 49",
+        "வெற்றி பெற வாழ்த்துகள் 49",
+        "நல்வாழ்த்துகள் 49"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 49",
+        "diwali wishes 49",
+        "happy new year nanba 49",
+        "all the best bro 49",
+        "congrats da 49",
+        "vaazhthukal 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0050",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 50",
+        "happy diwali 50",
+        "happy pongal 50",
+        "congratulations 50",
+        "best wishes 50",
+        "good luck 50"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 50",
+        "தீபாவளி வாழ்த்துகள் 50",
+        "புத்தாண்டு வாழ்த்துகள் 50",
+        "வாழ்த்துகள் 50",
+        "வெற்றி பெற வாழ்த்துகள் 50",
+        "நல்வாழ்த்துகள் 50"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 50",
+        "diwali wishes 50",
+        "happy new year nanba 50",
+        "all the best bro 50",
+        "congrats da 50",
+        "vaazhthukal 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0051",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 51",
+        "happy diwali 51",
+        "happy pongal 51",
+        "congratulations 51",
+        "best wishes 51",
+        "good luck 51"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 51",
+        "தீபாவளி வாழ்த்துகள் 51",
+        "புத்தாண்டு வாழ்த்துகள் 51",
+        "வாழ்த்துகள் 51",
+        "வெற்றி பெற வாழ்த்துகள் 51",
+        "நல்வாழ்த்துகள் 51"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 51",
+        "diwali wishes 51",
+        "happy new year nanba 51",
+        "all the best bro 51",
+        "congrats da 51",
+        "vaazhthukal 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0052",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 52",
+        "happy diwali 52",
+        "happy pongal 52",
+        "congratulations 52",
+        "best wishes 52",
+        "good luck 52"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 52",
+        "தீபாவளி வாழ்த்துகள் 52",
+        "புத்தாண்டு வாழ்த்துகள் 52",
+        "வாழ்த்துகள் 52",
+        "வெற்றி பெற வாழ்த்துகள் 52",
+        "நல்வாழ்த்துகள் 52"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 52",
+        "diwali wishes 52",
+        "happy new year nanba 52",
+        "all the best bro 52",
+        "congrats da 52",
+        "vaazhthukal 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0053",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 53",
+        "happy diwali 53",
+        "happy pongal 53",
+        "congratulations 53",
+        "best wishes 53",
+        "good luck 53"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 53",
+        "தீபாவளி வாழ்த்துகள் 53",
+        "புத்தாண்டு வாழ்த்துகள் 53",
+        "வாழ்த்துகள் 53",
+        "வெற்றி பெற வாழ்த்துகள் 53",
+        "நல்வாழ்த்துகள் 53"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 53",
+        "diwali wishes 53",
+        "happy new year nanba 53",
+        "all the best bro 53",
+        "congrats da 53",
+        "vaazhthukal 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0054",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 54",
+        "happy diwali 54",
+        "happy pongal 54",
+        "congratulations 54",
+        "best wishes 54",
+        "good luck 54"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 54",
+        "தீபாவளி வாழ்த்துகள் 54",
+        "புத்தாண்டு வாழ்த்துகள் 54",
+        "வாழ்த்துகள் 54",
+        "வெற்றி பெற வாழ்த்துகள் 54",
+        "நல்வாழ்த்துகள் 54"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 54",
+        "diwali wishes 54",
+        "happy new year nanba 54",
+        "all the best bro 54",
+        "congrats da 54",
+        "vaazhthukal 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0055",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 55",
+        "happy diwali 55",
+        "happy pongal 55",
+        "congratulations 55",
+        "best wishes 55",
+        "good luck 55"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 55",
+        "தீபாவளி வாழ்த்துகள் 55",
+        "புத்தாண்டு வாழ்த்துகள் 55",
+        "வாழ்த்துகள் 55",
+        "வெற்றி பெற வாழ்த்துகள் 55",
+        "நல்வாழ்த்துகள் 55"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 55",
+        "diwali wishes 55",
+        "happy new year nanba 55",
+        "all the best bro 55",
+        "congrats da 55",
+        "vaazhthukal 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0056",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 56",
+        "happy diwali 56",
+        "happy pongal 56",
+        "congratulations 56",
+        "best wishes 56",
+        "good luck 56"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 56",
+        "தீபாவளி வாழ்த்துகள் 56",
+        "புத்தாண்டு வாழ்த்துகள் 56",
+        "வாழ்த்துகள் 56",
+        "வெற்றி பெற வாழ்த்துகள் 56",
+        "நல்வாழ்த்துகள் 56"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 56",
+        "diwali wishes 56",
+        "happy new year nanba 56",
+        "all the best bro 56",
+        "congrats da 56",
+        "vaazhthukal 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0057",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 57",
+        "happy diwali 57",
+        "happy pongal 57",
+        "congratulations 57",
+        "best wishes 57",
+        "good luck 57"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 57",
+        "தீபாவளி வாழ்த்துகள் 57",
+        "புத்தாண்டு வாழ்த்துகள் 57",
+        "வாழ்த்துகள் 57",
+        "வெற்றி பெற வாழ்த்துகள் 57",
+        "நல்வாழ்த்துகள் 57"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 57",
+        "diwali wishes 57",
+        "happy new year nanba 57",
+        "all the best bro 57",
+        "congrats da 57",
+        "vaazhthukal 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0058",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 58",
+        "happy diwali 58",
+        "happy pongal 58",
+        "congratulations 58",
+        "best wishes 58",
+        "good luck 58"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 58",
+        "தீபாவளி வாழ்த்துகள் 58",
+        "புத்தாண்டு வாழ்த்துகள் 58",
+        "வாழ்த்துகள் 58",
+        "வெற்றி பெற வாழ்த்துகள் 58",
+        "நல்வாழ்த்துகள் 58"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 58",
+        "diwali wishes 58",
+        "happy new year nanba 58",
+        "all the best bro 58",
+        "congrats da 58",
+        "vaazhthukal 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0059",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 59",
+        "happy diwali 59",
+        "happy pongal 59",
+        "congratulations 59",
+        "best wishes 59",
+        "good luck 59"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 59",
+        "தீபாவளி வாழ்த்துகள் 59",
+        "புத்தாண்டு வாழ்த்துகள் 59",
+        "வாழ்த்துகள் 59",
+        "வெற்றி பெற வாழ்த்துகள் 59",
+        "நல்வாழ்த்துகள் 59"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 59",
+        "diwali wishes 59",
+        "happy new year nanba 59",
+        "all the best bro 59",
+        "congrats da 59",
+        "vaazhthukal 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0060",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 60",
+        "happy diwali 60",
+        "happy pongal 60",
+        "congratulations 60",
+        "best wishes 60",
+        "good luck 60"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 60",
+        "தீபாவளி வாழ்த்துகள் 60",
+        "புத்தாண்டு வாழ்த்துகள் 60",
+        "வாழ்த்துகள் 60",
+        "வெற்றி பெற வாழ்த்துகள் 60",
+        "நல்வாழ்த்துகள் 60"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 60",
+        "diwali wishes 60",
+        "happy new year nanba 60",
+        "all the best bro 60",
+        "congrats da 60",
+        "vaazhthukal 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0061",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 61",
+        "happy diwali 61",
+        "happy pongal 61",
+        "congratulations 61",
+        "best wishes 61",
+        "good luck 61"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 61",
+        "தீபாவளி வாழ்த்துகள் 61",
+        "புத்தாண்டு வாழ்த்துகள் 61",
+        "வாழ்த்துகள் 61",
+        "வெற்றி பெற வாழ்த்துகள் 61",
+        "நல்வாழ்த்துகள் 61"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 61",
+        "diwali wishes 61",
+        "happy new year nanba 61",
+        "all the best bro 61",
+        "congrats da 61",
+        "vaazhthukal 61"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0062",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 62",
+        "happy diwali 62",
+        "happy pongal 62",
+        "congratulations 62",
+        "best wishes 62",
+        "good luck 62"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 62",
+        "தீபாவளி வாழ்த்துகள் 62",
+        "புத்தாண்டு வாழ்த்துகள் 62",
+        "வாழ்த்துகள் 62",
+        "வெற்றி பெற வாழ்த்துகள் 62",
+        "நல்வாழ்த்துகள் 62"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 62",
+        "diwali wishes 62",
+        "happy new year nanba 62",
+        "all the best bro 62",
+        "congrats da 62",
+        "vaazhthukal 62"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0063",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 63",
+        "happy diwali 63",
+        "happy pongal 63",
+        "congratulations 63",
+        "best wishes 63",
+        "good luck 63"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 63",
+        "தீபாவளி வாழ்த்துகள் 63",
+        "புத்தாண்டு வாழ்த்துகள் 63",
+        "வாழ்த்துகள் 63",
+        "வெற்றி பெற வாழ்த்துகள் 63",
+        "நல்வாழ்த்துகள் 63"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 63",
+        "diwali wishes 63",
+        "happy new year nanba 63",
+        "all the best bro 63",
+        "congrats da 63",
+        "vaazhthukal 63"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0064",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 64",
+        "happy diwali 64",
+        "happy pongal 64",
+        "congratulations 64",
+        "best wishes 64",
+        "good luck 64"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 64",
+        "தீபாவளி வாழ்த்துகள் 64",
+        "புத்தாண்டு வாழ்த்துகள் 64",
+        "வாழ்த்துகள் 64",
+        "வெற்றி பெற வாழ்த்துகள் 64",
+        "நல்வாழ்த்துகள் 64"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 64",
+        "diwali wishes 64",
+        "happy new year nanba 64",
+        "all the best bro 64",
+        "congrats da 64",
+        "vaazhthukal 64"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0065",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 65",
+        "happy diwali 65",
+        "happy pongal 65",
+        "congratulations 65",
+        "best wishes 65",
+        "good luck 65"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 65",
+        "தீபாவளி வாழ்த்துகள் 65",
+        "புத்தாண்டு வாழ்த்துகள் 65",
+        "வாழ்த்துகள் 65",
+        "வெற்றி பெற வாழ்த்துகள் 65",
+        "நல்வாழ்த்துகள் 65"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 65",
+        "diwali wishes 65",
+        "happy new year nanba 65",
+        "all the best bro 65",
+        "congrats da 65",
+        "vaazhthukal 65"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0066",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 66",
+        "happy diwali 66",
+        "happy pongal 66",
+        "congratulations 66",
+        "best wishes 66",
+        "good luck 66"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 66",
+        "தீபாவளி வாழ்த்துகள் 66",
+        "புத்தாண்டு வாழ்த்துகள் 66",
+        "வாழ்த்துகள் 66",
+        "வெற்றி பெற வாழ்த்துகள் 66",
+        "நல்வாழ்த்துகள் 66"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 66",
+        "diwali wishes 66",
+        "happy new year nanba 66",
+        "all the best bro 66",
+        "congrats da 66",
+        "vaazhthukal 66"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0067",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 67",
+        "happy diwali 67",
+        "happy pongal 67",
+        "congratulations 67",
+        "best wishes 67",
+        "good luck 67"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 67",
+        "தீபாவளி வாழ்த்துகள் 67",
+        "புத்தாண்டு வாழ்த்துகள் 67",
+        "வாழ்த்துகள் 67",
+        "வெற்றி பெற வாழ்த்துகள் 67",
+        "நல்வாழ்த்துகள் 67"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 67",
+        "diwali wishes 67",
+        "happy new year nanba 67",
+        "all the best bro 67",
+        "congrats da 67",
+        "vaazhthukal 67"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0068",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 68",
+        "happy diwali 68",
+        "happy pongal 68",
+        "congratulations 68",
+        "best wishes 68",
+        "good luck 68"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 68",
+        "தீபாவளி வாழ்த்துகள் 68",
+        "புத்தாண்டு வாழ்த்துகள் 68",
+        "வாழ்த்துகள் 68",
+        "வெற்றி பெற வாழ்த்துகள் 68",
+        "நல்வாழ்த்துகள் 68"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 68",
+        "diwali wishes 68",
+        "happy new year nanba 68",
+        "all the best bro 68",
+        "congrats da 68",
+        "vaazhthukal 68"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0069",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 69",
+        "happy diwali 69",
+        "happy pongal 69",
+        "congratulations 69",
+        "best wishes 69",
+        "good luck 69"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 69",
+        "தீபாவளி வாழ்த்துகள் 69",
+        "புத்தாண்டு வாழ்த்துகள் 69",
+        "வாழ்த்துகள் 69",
+        "வெற்றி பெற வாழ்த்துகள் 69",
+        "நல்வாழ்த்துகள் 69"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 69",
+        "diwali wishes 69",
+        "happy new year nanba 69",
+        "all the best bro 69",
+        "congrats da 69",
+        "vaazhthukal 69"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0070",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 70",
+        "happy diwali 70",
+        "happy pongal 70",
+        "congratulations 70",
+        "best wishes 70",
+        "good luck 70"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 70",
+        "தீபாவளி வாழ்த்துகள் 70",
+        "புத்தாண்டு வாழ்த்துகள் 70",
+        "வாழ்த்துகள் 70",
+        "வெற்றி பெற வாழ்த்துகள் 70",
+        "நல்வாழ்த்துகள் 70"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 70",
+        "diwali wishes 70",
+        "happy new year nanba 70",
+        "all the best bro 70",
+        "congrats da 70",
+        "vaazhthukal 70"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0071",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 71",
+        "happy diwali 71",
+        "happy pongal 71",
+        "congratulations 71",
+        "best wishes 71",
+        "good luck 71"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 71",
+        "தீபாவளி வாழ்த்துகள் 71",
+        "புத்தாண்டு வாழ்த்துகள் 71",
+        "வாழ்த்துகள் 71",
+        "வெற்றி பெற வாழ்த்துகள் 71",
+        "நல்வாழ்த்துகள் 71"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 71",
+        "diwali wishes 71",
+        "happy new year nanba 71",
+        "all the best bro 71",
+        "congrats da 71",
+        "vaazhthukal 71"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0072",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 72",
+        "happy diwali 72",
+        "happy pongal 72",
+        "congratulations 72",
+        "best wishes 72",
+        "good luck 72"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 72",
+        "தீபாவளி வாழ்த்துகள் 72",
+        "புத்தாண்டு வாழ்த்துகள் 72",
+        "வாழ்த்துகள் 72",
+        "வெற்றி பெற வாழ்த்துகள் 72",
+        "நல்வாழ்த்துகள் 72"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 72",
+        "diwali wishes 72",
+        "happy new year nanba 72",
+        "all the best bro 72",
+        "congrats da 72",
+        "vaazhthukal 72"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0073",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 73",
+        "happy diwali 73",
+        "happy pongal 73",
+        "congratulations 73",
+        "best wishes 73",
+        "good luck 73"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 73",
+        "தீபாவளி வாழ்த்துகள் 73",
+        "புத்தாண்டு வாழ்த்துகள் 73",
+        "வாழ்த்துகள் 73",
+        "வெற்றி பெற வாழ்த்துகள் 73",
+        "நல்வாழ்த்துகள் 73"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 73",
+        "diwali wishes 73",
+        "happy new year nanba 73",
+        "all the best bro 73",
+        "congrats da 73",
+        "vaazhthukal 73"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0074",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 74",
+        "happy diwali 74",
+        "happy pongal 74",
+        "congratulations 74",
+        "best wishes 74",
+        "good luck 74"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 74",
+        "தீபாவளி வாழ்த்துகள் 74",
+        "புத்தாண்டு வாழ்த்துகள் 74",
+        "வாழ்த்துகள் 74",
+        "வெற்றி பெற வாழ்த்துகள் 74",
+        "நல்வாழ்த்துகள் 74"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 74",
+        "diwali wishes 74",
+        "happy new year nanba 74",
+        "all the best bro 74",
+        "congrats da 74",
+        "vaazhthukal 74"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0075",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 75",
+        "happy diwali 75",
+        "happy pongal 75",
+        "congratulations 75",
+        "best wishes 75",
+        "good luck 75"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 75",
+        "தீபாவளி வாழ்த்துகள் 75",
+        "புத்தாண்டு வாழ்த்துகள் 75",
+        "வாழ்த்துகள் 75",
+        "வெற்றி பெற வாழ்த்துகள் 75",
+        "நல்வாழ்த்துகள் 75"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 75",
+        "diwali wishes 75",
+        "happy new year nanba 75",
+        "all the best bro 75",
+        "congrats da 75",
+        "vaazhthukal 75"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0076",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 76",
+        "happy diwali 76",
+        "happy pongal 76",
+        "congratulations 76",
+        "best wishes 76",
+        "good luck 76"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 76",
+        "தீபாவளி வாழ்த்துகள் 76",
+        "புத்தாண்டு வாழ்த்துகள் 76",
+        "வாழ்த்துகள் 76",
+        "வெற்றி பெற வாழ்த்துகள் 76",
+        "நல்வாழ்த்துகள் 76"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 76",
+        "diwali wishes 76",
+        "happy new year nanba 76",
+        "all the best bro 76",
+        "congrats da 76",
+        "vaazhthukal 76"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0077",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 77",
+        "happy diwali 77",
+        "happy pongal 77",
+        "congratulations 77",
+        "best wishes 77",
+        "good luck 77"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 77",
+        "தீபாவளி வாழ்த்துகள் 77",
+        "புத்தாண்டு வாழ்த்துகள் 77",
+        "வாழ்த்துகள் 77",
+        "வெற்றி பெற வாழ்த்துகள் 77",
+        "நல்வாழ்த்துகள் 77"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 77",
+        "diwali wishes 77",
+        "happy new year nanba 77",
+        "all the best bro 77",
+        "congrats da 77",
+        "vaazhthukal 77"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0078",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 78",
+        "happy diwali 78",
+        "happy pongal 78",
+        "congratulations 78",
+        "best wishes 78",
+        "good luck 78"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 78",
+        "தீபாவளி வாழ்த்துகள் 78",
+        "புத்தாண்டு வாழ்த்துகள் 78",
+        "வாழ்த்துகள் 78",
+        "வெற்றி பெற வாழ்த்துகள் 78",
+        "நல்வாழ்த்துகள் 78"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 78",
+        "diwali wishes 78",
+        "happy new year nanba 78",
+        "all the best bro 78",
+        "congrats da 78",
+        "vaazhthukal 78"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0079",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 79",
+        "happy diwali 79",
+        "happy pongal 79",
+        "congratulations 79",
+        "best wishes 79",
+        "good luck 79"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 79",
+        "தீபாவளி வாழ்த்துகள் 79",
+        "புத்தாண்டு வாழ்த்துகள் 79",
+        "வாழ்த்துகள் 79",
+        "வெற்றி பெற வாழ்த்துகள் 79",
+        "நல்வாழ்த்துகள் 79"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 79",
+        "diwali wishes 79",
+        "happy new year nanba 79",
+        "all the best bro 79",
+        "congrats da 79",
+        "vaazhthukal 79"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0080",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 80",
+        "happy diwali 80",
+        "happy pongal 80",
+        "congratulations 80",
+        "best wishes 80",
+        "good luck 80"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 80",
+        "தீபாவளி வாழ்த்துகள் 80",
+        "புத்தாண்டு வாழ்த்துகள் 80",
+        "வாழ்த்துகள் 80",
+        "வெற்றி பெற வாழ்த்துகள் 80",
+        "நல்வாழ்த்துகள் 80"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 80",
+        "diwali wishes 80",
+        "happy new year nanba 80",
+        "all the best bro 80",
+        "congrats da 80",
+        "vaazhthukal 80"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0081",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 81",
+        "happy diwali 81",
+        "happy pongal 81",
+        "congratulations 81",
+        "best wishes 81",
+        "good luck 81"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 81",
+        "தீபாவளி வாழ்த்துகள் 81",
+        "புத்தாண்டு வாழ்த்துகள் 81",
+        "வாழ்த்துகள் 81",
+        "வெற்றி பெற வாழ்த்துகள் 81",
+        "நல்வாழ்த்துகள் 81"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 81",
+        "diwali wishes 81",
+        "happy new year nanba 81",
+        "all the best bro 81",
+        "congrats da 81",
+        "vaazhthukal 81"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0082",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 82",
+        "happy diwali 82",
+        "happy pongal 82",
+        "congratulations 82",
+        "best wishes 82",
+        "good luck 82"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 82",
+        "தீபாவளி வாழ்த்துகள் 82",
+        "புத்தாண்டு வாழ்த்துகள் 82",
+        "வாழ்த்துகள் 82",
+        "வெற்றி பெற வாழ்த்துகள் 82",
+        "நல்வாழ்த்துகள் 82"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 82",
+        "diwali wishes 82",
+        "happy new year nanba 82",
+        "all the best bro 82",
+        "congrats da 82",
+        "vaazhthukal 82"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0083",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 83",
+        "happy diwali 83",
+        "happy pongal 83",
+        "congratulations 83",
+        "best wishes 83",
+        "good luck 83"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 83",
+        "தீபாவளி வாழ்த்துகள் 83",
+        "புத்தாண்டு வாழ்த்துகள் 83",
+        "வாழ்த்துகள் 83",
+        "வெற்றி பெற வாழ்த்துகள் 83",
+        "நல்வாழ்த்துகள் 83"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 83",
+        "diwali wishes 83",
+        "happy new year nanba 83",
+        "all the best bro 83",
+        "congrats da 83",
+        "vaazhthukal 83"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0084",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 84",
+        "happy diwali 84",
+        "happy pongal 84",
+        "congratulations 84",
+        "best wishes 84",
+        "good luck 84"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 84",
+        "தீபாவளி வாழ்த்துகள் 84",
+        "புத்தாண்டு வாழ்த்துகள் 84",
+        "வாழ்த்துகள் 84",
+        "வெற்றி பெற வாழ்த்துகள் 84",
+        "நல்வாழ்த்துகள் 84"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 84",
+        "diwali wishes 84",
+        "happy new year nanba 84",
+        "all the best bro 84",
+        "congrats da 84",
+        "vaazhthukal 84"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0085",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 85",
+        "happy diwali 85",
+        "happy pongal 85",
+        "congratulations 85",
+        "best wishes 85",
+        "good luck 85"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 85",
+        "தீபாவளி வாழ்த்துகள் 85",
+        "புத்தாண்டு வாழ்த்துகள் 85",
+        "வாழ்த்துகள் 85",
+        "வெற்றி பெற வாழ்த்துகள் 85",
+        "நல்வாழ்த்துகள் 85"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 85",
+        "diwali wishes 85",
+        "happy new year nanba 85",
+        "all the best bro 85",
+        "congrats da 85",
+        "vaazhthukal 85"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0086",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 86",
+        "happy diwali 86",
+        "happy pongal 86",
+        "congratulations 86",
+        "best wishes 86",
+        "good luck 86"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 86",
+        "தீபாவளி வாழ்த்துகள் 86",
+        "புத்தாண்டு வாழ்த்துகள் 86",
+        "வாழ்த்துகள் 86",
+        "வெற்றி பெற வாழ்த்துகள் 86",
+        "நல்வாழ்த்துகள் 86"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 86",
+        "diwali wishes 86",
+        "happy new year nanba 86",
+        "all the best bro 86",
+        "congrats da 86",
+        "vaazhthukal 86"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0087",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 87",
+        "happy diwali 87",
+        "happy pongal 87",
+        "congratulations 87",
+        "best wishes 87",
+        "good luck 87"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 87",
+        "தீபாவளி வாழ்த்துகள் 87",
+        "புத்தாண்டு வாழ்த்துகள் 87",
+        "வாழ்த்துகள் 87",
+        "வெற்றி பெற வாழ்த்துகள் 87",
+        "நல்வாழ்த்துகள் 87"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 87",
+        "diwali wishes 87",
+        "happy new year nanba 87",
+        "all the best bro 87",
+        "congrats da 87",
+        "vaazhthukal 87"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0088",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 88",
+        "happy diwali 88",
+        "happy pongal 88",
+        "congratulations 88",
+        "best wishes 88",
+        "good luck 88"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 88",
+        "தீபாவளி வாழ்த்துகள் 88",
+        "புத்தாண்டு வாழ்த்துகள் 88",
+        "வாழ்த்துகள் 88",
+        "வெற்றி பெற வாழ்த்துகள் 88",
+        "நல்வாழ்த்துகள் 88"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 88",
+        "diwali wishes 88",
+        "happy new year nanba 88",
+        "all the best bro 88",
+        "congrats da 88",
+        "vaazhthukal 88"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0089",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 89",
+        "happy diwali 89",
+        "happy pongal 89",
+        "congratulations 89",
+        "best wishes 89",
+        "good luck 89"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 89",
+        "தீபாவளி வாழ்த்துகள் 89",
+        "புத்தாண்டு வாழ்த்துகள் 89",
+        "வாழ்த்துகள் 89",
+        "வெற்றி பெற வாழ்த்துகள் 89",
+        "நல்வாழ்த்துகள் 89"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 89",
+        "diwali wishes 89",
+        "happy new year nanba 89",
+        "all the best bro 89",
+        "congrats da 89",
+        "vaazhthukal 89"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0090",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 90",
+        "happy diwali 90",
+        "happy pongal 90",
+        "congratulations 90",
+        "best wishes 90",
+        "good luck 90"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 90",
+        "தீபாவளி வாழ்த்துகள் 90",
+        "புத்தாண்டு வாழ்த்துகள் 90",
+        "வாழ்த்துகள் 90",
+        "வெற்றி பெற வாழ்த்துகள் 90",
+        "நல்வாழ்த்துகள் 90"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 90",
+        "diwali wishes 90",
+        "happy new year nanba 90",
+        "all the best bro 90",
+        "congrats da 90",
+        "vaazhthukal 90"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0091",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 91",
+        "happy diwali 91",
+        "happy pongal 91",
+        "congratulations 91",
+        "best wishes 91",
+        "good luck 91"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 91",
+        "தீபாவளி வாழ்த்துகள் 91",
+        "புத்தாண்டு வாழ்த்துகள் 91",
+        "வாழ்த்துகள் 91",
+        "வெற்றி பெற வாழ்த்துகள் 91",
+        "நல்வாழ்த்துகள் 91"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 91",
+        "diwali wishes 91",
+        "happy new year nanba 91",
+        "all the best bro 91",
+        "congrats da 91",
+        "vaazhthukal 91"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0092",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 92",
+        "happy diwali 92",
+        "happy pongal 92",
+        "congratulations 92",
+        "best wishes 92",
+        "good luck 92"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 92",
+        "தீபாவளி வாழ்த்துகள் 92",
+        "புத்தாண்டு வாழ்த்துகள் 92",
+        "வாழ்த்துகள் 92",
+        "வெற்றி பெற வாழ்த்துகள் 92",
+        "நல்வாழ்த்துகள் 92"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 92",
+        "diwali wishes 92",
+        "happy new year nanba 92",
+        "all the best bro 92",
+        "congrats da 92",
+        "vaazhthukal 92"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0093",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 93",
+        "happy diwali 93",
+        "happy pongal 93",
+        "congratulations 93",
+        "best wishes 93",
+        "good luck 93"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 93",
+        "தீபாவளி வாழ்த்துகள் 93",
+        "புத்தாண்டு வாழ்த்துகள் 93",
+        "வாழ்த்துகள் 93",
+        "வெற்றி பெற வாழ்த்துகள் 93",
+        "நல்வாழ்த்துகள் 93"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 93",
+        "diwali wishes 93",
+        "happy new year nanba 93",
+        "all the best bro 93",
+        "congrats da 93",
+        "vaazhthukal 93"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0094",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 94",
+        "happy diwali 94",
+        "happy pongal 94",
+        "congratulations 94",
+        "best wishes 94",
+        "good luck 94"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 94",
+        "தீபாவளி வாழ்த்துகள் 94",
+        "புத்தாண்டு வாழ்த்துகள் 94",
+        "வாழ்த்துகள் 94",
+        "வெற்றி பெற வாழ்த்துகள் 94",
+        "நல்வாழ்த்துகள் 94"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 94",
+        "diwali wishes 94",
+        "happy new year nanba 94",
+        "all the best bro 94",
+        "congrats da 94",
+        "vaazhthukal 94"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0095",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 95",
+        "happy diwali 95",
+        "happy pongal 95",
+        "congratulations 95",
+        "best wishes 95",
+        "good luck 95"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 95",
+        "தீபாவளி வாழ்த்துகள் 95",
+        "புத்தாண்டு வாழ்த்துகள் 95",
+        "வாழ்த்துகள் 95",
+        "வெற்றி பெற வாழ்த்துகள் 95",
+        "நல்வாழ்த்துகள் 95"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 95",
+        "diwali wishes 95",
+        "happy new year nanba 95",
+        "all the best bro 95",
+        "congrats da 95",
+        "vaazhthukal 95"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0096",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 96",
+        "happy diwali 96",
+        "happy pongal 96",
+        "congratulations 96",
+        "best wishes 96",
+        "good luck 96"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 96",
+        "தீபாவளி வாழ்த்துகள் 96",
+        "புத்தாண்டு வாழ்த்துகள் 96",
+        "வாழ்த்துகள் 96",
+        "வெற்றி பெற வாழ்த்துகள் 96",
+        "நல்வாழ்த்துகள் 96"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 96",
+        "diwali wishes 96",
+        "happy new year nanba 96",
+        "all the best bro 96",
+        "congrats da 96",
+        "vaazhthukal 96"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய பொங்கல் நல்வாழ்த்துகள்! தை பிறந்தால் வழி பிறக்கும். உங்கள் குடும்பத்தில் மகிழ்ச்சி பொங்கட்டும்! உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Iniya Pongal vaazhthukkal! Pongal festival joyful-ah celebrate pannunga! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0097",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 97",
+        "happy diwali 97",
+        "happy pongal 97",
+        "congratulations 97",
+        "best wishes 97",
+        "good luck 97"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 97",
+        "தீபாவளி வாழ்த்துகள் 97",
+        "புத்தாண்டு வாழ்த்துகள் 97",
+        "வாழ்த்துகள் 97",
+        "வெற்றி பெற வாழ்த்துகள் 97",
+        "நல்வாழ்த்துகள் 97"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 97",
+        "diwali wishes 97",
+        "happy new year nanba 97",
+        "all the best bro 97",
+        "congrats da 97",
+        "vaazhthukal 97"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய தீபாவளி நல்வாழ்த்துகள்! ஒளி உங்கள் வாழ்வில் பிரகாசிக்கட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy Deepavali! Light up happiness and stay safe! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0098",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 98",
+        "happy diwali 98",
+        "happy pongal 98",
+        "congratulations 98",
+        "best wishes 98",
+        "good luck 98"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 98",
+        "தீபாவளி வாழ்த்துகள் 98",
+        "புத்தாண்டு வாழ்த்துகள் 98",
+        "வாழ்த்துகள் 98",
+        "வெற்றி பெற வாழ்த்துகள் 98",
+        "நல்வாழ்த்துகள் 98"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 98",
+        "diwali wishes 98",
+        "happy new year nanba 98",
+        "all the best bro 98",
+        "congrats da 98",
+        "vaazhthukal 98"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய புத்தாண்டு நல்வாழ்த்துகள்! இந்த ஆண்டு பாதுகாப்பும் வெற்றியும் நிறையட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Happy New Year! Wishing you a secure and productive year ahead! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0099",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 99",
+        "happy diwali 99",
+        "happy pongal 99",
+        "congratulations 99",
+        "best wishes 99",
+        "good luck 99"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 99",
+        "தீபாவளி வாழ்த்துகள் 99",
+        "புத்தாண்டு வாழ்த்துகள் 99",
+        "வாழ்த்துகள் 99",
+        "வெற்றி பெற வாழ்த்துகள் 99",
+        "நல்வாழ்த்துகள் 99"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 99",
+        "diwali wishes 99",
+        "happy new year nanba 99",
+        "all the best bro 99",
+        "congrats da 99",
+        "vaazhthukal 99"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய கிறிஸ்துமஸ் நல்வாழ்த்துகள்! அமைதியும் மகிழ்ச்சியும் நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Merry Christmas! Joy and peace to you and your family! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  },
+  {
+    "id": "gen_wishes_0100",
+    "category": "wishes",
+    "patterns": {
+      "en": [
+        "happy new year 100",
+        "happy diwali 100",
+        "happy pongal 100",
+        "congratulations 100",
+        "best wishes 100",
+        "good luck 100"
+      ],
+      "ta": [
+        "இனிய பொங்கல் வாழ்த்துகள் 100",
+        "தீபாவளி வாழ்த்துகள் 100",
+        "புத்தாண்டு வாழ்த்துகள் 100",
+        "வாழ்த்துகள் 100",
+        "வெற்றி பெற வாழ்த்துகள் 100",
+        "நல்வாழ்த்துகள் 100"
+      ],
+      "tanglish": [
+        "pongal vaazhthukkal 100",
+        "diwali wishes 100",
+        "happy new year nanba 100",
+        "all the best bro 100",
+        "congrats da 100",
+        "vaazhthukal 100"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Warmest wishes on this festive occasion! May your systems remain secure and resilient.",
+        "Thank you and happiest celebrations to you and your engineering team!"
+      ],
+      "ta": [
+        "இனிய ஈகைத் திருநாள் நல்வாழ்த்துகள்! அமைதி நிலவட்டும். உங்கள் அமைப்புகள் எப்போதும் பாதுகாப்பாக இருக்க வாழ்த்துகிறேன்.",
+        "உங்களுக்கும் உங்கள் குடும்பத்தினருக்கும் மனமார்ந்த நல்வாழ்த்துகள்!"
+      ],
+      "tanglish": [
+        "Eid Mubarak! Peace, prosperity, and blessings to you! Stay safe and happy celebrations!",
+        "Thank you nanba! Ungalukum en iniya vaazhthukkal."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "Show blocked today"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "wishes",
+      "celebration"
+    ]
+  }
+]

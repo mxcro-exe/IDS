@@ -1,0 +1,3482 @@
+[
+  {
+    "id": "proj_sim_0001",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 1",
+        "what is red vs blue mode 1",
+        "evasion lab test 1",
+        "before after waf comparison 1",
+        "simulate sqli xss 1",
+        "mutation engine 1"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 1",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 1",
+        "தடுப்பு சோதனை ஆய்வகம் 1",
+        "WAF ஒப்பீடு 1",
+        "தாக்குதல் உருவகப்படுத்துதல் 1",
+        "சிமுலேட்டர் விளக்கம் 1"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 1",
+        "red vs blue mode enna 1",
+        "evasion lab details 1",
+        "before after test 1",
+        "simulate pannu 1",
+        "mutation test 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0002",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 2",
+        "what is red vs blue mode 2",
+        "evasion lab test 2",
+        "before after waf comparison 2",
+        "simulate sqli xss 2",
+        "mutation engine 2"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 2",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 2",
+        "தடுப்பு சோதனை ஆய்வகம் 2",
+        "WAF ஒப்பீடு 2",
+        "தாக்குதல் உருவகப்படுத்துதல் 2",
+        "சிமுலேட்டர் விளக்கம் 2"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 2",
+        "red vs blue mode enna 2",
+        "evasion lab details 2",
+        "before after test 2",
+        "simulate pannu 2",
+        "mutation test 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0003",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 3",
+        "what is red vs blue mode 3",
+        "evasion lab test 3",
+        "before after waf comparison 3",
+        "simulate sqli xss 3",
+        "mutation engine 3"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 3",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 3",
+        "தடுப்பு சோதனை ஆய்வகம் 3",
+        "WAF ஒப்பீடு 3",
+        "தாக்குதல் உருவகப்படுத்துதல் 3",
+        "சிமுலேட்டர் விளக்கம் 3"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 3",
+        "red vs blue mode enna 3",
+        "evasion lab details 3",
+        "before after test 3",
+        "simulate pannu 3",
+        "mutation test 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0004",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 4",
+        "what is red vs blue mode 4",
+        "evasion lab test 4",
+        "before after waf comparison 4",
+        "simulate sqli xss 4",
+        "mutation engine 4"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 4",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 4",
+        "தடுப்பு சோதனை ஆய்வகம் 4",
+        "WAF ஒப்பீடு 4",
+        "தாக்குதல் உருவகப்படுத்துதல் 4",
+        "சிமுலேட்டர் விளக்கம் 4"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 4",
+        "red vs blue mode enna 4",
+        "evasion lab details 4",
+        "before after test 4",
+        "simulate pannu 4",
+        "mutation test 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0005",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 5",
+        "what is red vs blue mode 5",
+        "evasion lab test 5",
+        "before after waf comparison 5",
+        "simulate sqli xss 5",
+        "mutation engine 5"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 5",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 5",
+        "தடுப்பு சோதனை ஆய்வகம் 5",
+        "WAF ஒப்பீடு 5",
+        "தாக்குதல் உருவகப்படுத்துதல் 5",
+        "சிமுலேட்டர் விளக்கம் 5"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 5",
+        "red vs blue mode enna 5",
+        "evasion lab details 5",
+        "before after test 5",
+        "simulate pannu 5",
+        "mutation test 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0006",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 6",
+        "what is red vs blue mode 6",
+        "evasion lab test 6",
+        "before after waf comparison 6",
+        "simulate sqli xss 6",
+        "mutation engine 6"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 6",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 6",
+        "தடுப்பு சோதனை ஆய்வகம் 6",
+        "WAF ஒப்பீடு 6",
+        "தாக்குதல் உருவகப்படுத்துதல் 6",
+        "சிமுலேட்டர் விளக்கம் 6"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 6",
+        "red vs blue mode enna 6",
+        "evasion lab details 6",
+        "before after test 6",
+        "simulate pannu 6",
+        "mutation test 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0007",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 7",
+        "what is red vs blue mode 7",
+        "evasion lab test 7",
+        "before after waf comparison 7",
+        "simulate sqli xss 7",
+        "mutation engine 7"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 7",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 7",
+        "தடுப்பு சோதனை ஆய்வகம் 7",
+        "WAF ஒப்பீடு 7",
+        "தாக்குதல் உருவகப்படுத்துதல் 7",
+        "சிமுலேட்டர் விளக்கம் 7"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 7",
+        "red vs blue mode enna 7",
+        "evasion lab details 7",
+        "before after test 7",
+        "simulate pannu 7",
+        "mutation test 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0008",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 8",
+        "what is red vs blue mode 8",
+        "evasion lab test 8",
+        "before after waf comparison 8",
+        "simulate sqli xss 8",
+        "mutation engine 8"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 8",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 8",
+        "தடுப்பு சோதனை ஆய்வகம் 8",
+        "WAF ஒப்பீடு 8",
+        "தாக்குதல் உருவகப்படுத்துதல் 8",
+        "சிமுலேட்டர் விளக்கம் 8"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 8",
+        "red vs blue mode enna 8",
+        "evasion lab details 8",
+        "before after test 8",
+        "simulate pannu 8",
+        "mutation test 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0009",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 9",
+        "what is red vs blue mode 9",
+        "evasion lab test 9",
+        "before after waf comparison 9",
+        "simulate sqli xss 9",
+        "mutation engine 9"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 9",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 9",
+        "தடுப்பு சோதனை ஆய்வகம் 9",
+        "WAF ஒப்பீடு 9",
+        "தாக்குதல் உருவகப்படுத்துதல் 9",
+        "சிமுலேட்டர் விளக்கம் 9"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 9",
+        "red vs blue mode enna 9",
+        "evasion lab details 9",
+        "before after test 9",
+        "simulate pannu 9",
+        "mutation test 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0010",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 10",
+        "what is red vs blue mode 10",
+        "evasion lab test 10",
+        "before after waf comparison 10",
+        "simulate sqli xss 10",
+        "mutation engine 10"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 10",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 10",
+        "தடுப்பு சோதனை ஆய்வகம் 10",
+        "WAF ஒப்பீடு 10",
+        "தாக்குதல் உருவகப்படுத்துதல் 10",
+        "சிமுலேட்டர் விளக்கம் 10"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 10",
+        "red vs blue mode enna 10",
+        "evasion lab details 10",
+        "before after test 10",
+        "simulate pannu 10",
+        "mutation test 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0011",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 11",
+        "what is red vs blue mode 11",
+        "evasion lab test 11",
+        "before after waf comparison 11",
+        "simulate sqli xss 11",
+        "mutation engine 11"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 11",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 11",
+        "தடுப்பு சோதனை ஆய்வகம் 11",
+        "WAF ஒப்பீடு 11",
+        "தாக்குதல் உருவகப்படுத்துதல் 11",
+        "சிமுலேட்டர் விளக்கம் 11"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 11",
+        "red vs blue mode enna 11",
+        "evasion lab details 11",
+        "before after test 11",
+        "simulate pannu 11",
+        "mutation test 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0012",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 12",
+        "what is red vs blue mode 12",
+        "evasion lab test 12",
+        "before after waf comparison 12",
+        "simulate sqli xss 12",
+        "mutation engine 12"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 12",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 12",
+        "தடுப்பு சோதனை ஆய்வகம் 12",
+        "WAF ஒப்பீடு 12",
+        "தாக்குதல் உருவகப்படுத்துதல் 12",
+        "சிமுலேட்டர் விளக்கம் 12"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 12",
+        "red vs blue mode enna 12",
+        "evasion lab details 12",
+        "before after test 12",
+        "simulate pannu 12",
+        "mutation test 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0013",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 13",
+        "what is red vs blue mode 13",
+        "evasion lab test 13",
+        "before after waf comparison 13",
+        "simulate sqli xss 13",
+        "mutation engine 13"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 13",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 13",
+        "தடுப்பு சோதனை ஆய்வகம் 13",
+        "WAF ஒப்பீடு 13",
+        "தாக்குதல் உருவகப்படுத்துதல் 13",
+        "சிமுலேட்டர் விளக்கம் 13"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 13",
+        "red vs blue mode enna 13",
+        "evasion lab details 13",
+        "before after test 13",
+        "simulate pannu 13",
+        "mutation test 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0014",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 14",
+        "what is red vs blue mode 14",
+        "evasion lab test 14",
+        "before after waf comparison 14",
+        "simulate sqli xss 14",
+        "mutation engine 14"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 14",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 14",
+        "தடுப்பு சோதனை ஆய்வகம் 14",
+        "WAF ஒப்பீடு 14",
+        "தாக்குதல் உருவகப்படுத்துதல் 14",
+        "சிமுலேட்டர் விளக்கம் 14"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 14",
+        "red vs blue mode enna 14",
+        "evasion lab details 14",
+        "before after test 14",
+        "simulate pannu 14",
+        "mutation test 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0015",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 15",
+        "what is red vs blue mode 15",
+        "evasion lab test 15",
+        "before after waf comparison 15",
+        "simulate sqli xss 15",
+        "mutation engine 15"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 15",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 15",
+        "தடுப்பு சோதனை ஆய்வகம் 15",
+        "WAF ஒப்பீடு 15",
+        "தாக்குதல் உருவகப்படுத்துதல் 15",
+        "சிமுலேட்டர் விளக்கம் 15"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 15",
+        "red vs blue mode enna 15",
+        "evasion lab details 15",
+        "before after test 15",
+        "simulate pannu 15",
+        "mutation test 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0016",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 16",
+        "what is red vs blue mode 16",
+        "evasion lab test 16",
+        "before after waf comparison 16",
+        "simulate sqli xss 16",
+        "mutation engine 16"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 16",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 16",
+        "தடுப்பு சோதனை ஆய்வகம் 16",
+        "WAF ஒப்பீடு 16",
+        "தாக்குதல் உருவகப்படுத்துதல் 16",
+        "சிமுலேட்டர் விளக்கம் 16"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 16",
+        "red vs blue mode enna 16",
+        "evasion lab details 16",
+        "before after test 16",
+        "simulate pannu 16",
+        "mutation test 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0017",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 17",
+        "what is red vs blue mode 17",
+        "evasion lab test 17",
+        "before after waf comparison 17",
+        "simulate sqli xss 17",
+        "mutation engine 17"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 17",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 17",
+        "தடுப்பு சோதனை ஆய்வகம் 17",
+        "WAF ஒப்பீடு 17",
+        "தாக்குதல் உருவகப்படுத்துதல் 17",
+        "சிமுலேட்டர் விளக்கம் 17"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 17",
+        "red vs blue mode enna 17",
+        "evasion lab details 17",
+        "before after test 17",
+        "simulate pannu 17",
+        "mutation test 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0018",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 18",
+        "what is red vs blue mode 18",
+        "evasion lab test 18",
+        "before after waf comparison 18",
+        "simulate sqli xss 18",
+        "mutation engine 18"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 18",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 18",
+        "தடுப்பு சோதனை ஆய்வகம் 18",
+        "WAF ஒப்பீடு 18",
+        "தாக்குதல் உருவகப்படுத்துதல் 18",
+        "சிமுலேட்டர் விளக்கம் 18"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 18",
+        "red vs blue mode enna 18",
+        "evasion lab details 18",
+        "before after test 18",
+        "simulate pannu 18",
+        "mutation test 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0019",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 19",
+        "what is red vs blue mode 19",
+        "evasion lab test 19",
+        "before after waf comparison 19",
+        "simulate sqli xss 19",
+        "mutation engine 19"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 19",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 19",
+        "தடுப்பு சோதனை ஆய்வகம் 19",
+        "WAF ஒப்பீடு 19",
+        "தாக்குதல் உருவகப்படுத்துதல் 19",
+        "சிமுலேட்டர் விளக்கம் 19"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 19",
+        "red vs blue mode enna 19",
+        "evasion lab details 19",
+        "before after test 19",
+        "simulate pannu 19",
+        "mutation test 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0020",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 20",
+        "what is red vs blue mode 20",
+        "evasion lab test 20",
+        "before after waf comparison 20",
+        "simulate sqli xss 20",
+        "mutation engine 20"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 20",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 20",
+        "தடுப்பு சோதனை ஆய்வகம் 20",
+        "WAF ஒப்பீடு 20",
+        "தாக்குதல் உருவகப்படுத்துதல் 20",
+        "சிமுலேட்டர் விளக்கம் 20"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 20",
+        "red vs blue mode enna 20",
+        "evasion lab details 20",
+        "before after test 20",
+        "simulate pannu 20",
+        "mutation test 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0021",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 21",
+        "what is red vs blue mode 21",
+        "evasion lab test 21",
+        "before after waf comparison 21",
+        "simulate sqli xss 21",
+        "mutation engine 21"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 21",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 21",
+        "தடுப்பு சோதனை ஆய்வகம் 21",
+        "WAF ஒப்பீடு 21",
+        "தாக்குதல் உருவகப்படுத்துதல் 21",
+        "சிமுலேட்டர் விளக்கம் 21"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 21",
+        "red vs blue mode enna 21",
+        "evasion lab details 21",
+        "before after test 21",
+        "simulate pannu 21",
+        "mutation test 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0022",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 22",
+        "what is red vs blue mode 22",
+        "evasion lab test 22",
+        "before after waf comparison 22",
+        "simulate sqli xss 22",
+        "mutation engine 22"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 22",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 22",
+        "தடுப்பு சோதனை ஆய்வகம் 22",
+        "WAF ஒப்பீடு 22",
+        "தாக்குதல் உருவகப்படுத்துதல் 22",
+        "சிமுலேட்டர் விளக்கம் 22"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 22",
+        "red vs blue mode enna 22",
+        "evasion lab details 22",
+        "before after test 22",
+        "simulate pannu 22",
+        "mutation test 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0023",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 23",
+        "what is red vs blue mode 23",
+        "evasion lab test 23",
+        "before after waf comparison 23",
+        "simulate sqli xss 23",
+        "mutation engine 23"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 23",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 23",
+        "தடுப்பு சோதனை ஆய்வகம் 23",
+        "WAF ஒப்பீடு 23",
+        "தாக்குதல் உருவகப்படுத்துதல் 23",
+        "சிமுலேட்டர் விளக்கம் 23"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 23",
+        "red vs blue mode enna 23",
+        "evasion lab details 23",
+        "before after test 23",
+        "simulate pannu 23",
+        "mutation test 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0024",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 24",
+        "what is red vs blue mode 24",
+        "evasion lab test 24",
+        "before after waf comparison 24",
+        "simulate sqli xss 24",
+        "mutation engine 24"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 24",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 24",
+        "தடுப்பு சோதனை ஆய்வகம் 24",
+        "WAF ஒப்பீடு 24",
+        "தாக்குதல் உருவகப்படுத்துதல் 24",
+        "சிமுலேட்டர் விளக்கம் 24"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 24",
+        "red vs blue mode enna 24",
+        "evasion lab details 24",
+        "before after test 24",
+        "simulate pannu 24",
+        "mutation test 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0025",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 25",
+        "what is red vs blue mode 25",
+        "evasion lab test 25",
+        "before after waf comparison 25",
+        "simulate sqli xss 25",
+        "mutation engine 25"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 25",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 25",
+        "தடுப்பு சோதனை ஆய்வகம் 25",
+        "WAF ஒப்பீடு 25",
+        "தாக்குதல் உருவகப்படுத்துதல் 25",
+        "சிமுலேட்டர் விளக்கம் 25"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 25",
+        "red vs blue mode enna 25",
+        "evasion lab details 25",
+        "before after test 25",
+        "simulate pannu 25",
+        "mutation test 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0026",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 26",
+        "what is red vs blue mode 26",
+        "evasion lab test 26",
+        "before after waf comparison 26",
+        "simulate sqli xss 26",
+        "mutation engine 26"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 26",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 26",
+        "தடுப்பு சோதனை ஆய்வகம் 26",
+        "WAF ஒப்பீடு 26",
+        "தாக்குதல் உருவகப்படுத்துதல் 26",
+        "சிமுலேட்டர் விளக்கம் 26"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 26",
+        "red vs blue mode enna 26",
+        "evasion lab details 26",
+        "before after test 26",
+        "simulate pannu 26",
+        "mutation test 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0027",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 27",
+        "what is red vs blue mode 27",
+        "evasion lab test 27",
+        "before after waf comparison 27",
+        "simulate sqli xss 27",
+        "mutation engine 27"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 27",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 27",
+        "தடுப்பு சோதனை ஆய்வகம் 27",
+        "WAF ஒப்பீடு 27",
+        "தாக்குதல் உருவகப்படுத்துதல் 27",
+        "சிமுலேட்டர் விளக்கம் 27"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 27",
+        "red vs blue mode enna 27",
+        "evasion lab details 27",
+        "before after test 27",
+        "simulate pannu 27",
+        "mutation test 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0028",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 28",
+        "what is red vs blue mode 28",
+        "evasion lab test 28",
+        "before after waf comparison 28",
+        "simulate sqli xss 28",
+        "mutation engine 28"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 28",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 28",
+        "தடுப்பு சோதனை ஆய்வகம் 28",
+        "WAF ஒப்பீடு 28",
+        "தாக்குதல் உருவகப்படுத்துதல் 28",
+        "சிமுலேட்டர் விளக்கம் 28"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 28",
+        "red vs blue mode enna 28",
+        "evasion lab details 28",
+        "before after test 28",
+        "simulate pannu 28",
+        "mutation test 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0029",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 29",
+        "what is red vs blue mode 29",
+        "evasion lab test 29",
+        "before after waf comparison 29",
+        "simulate sqli xss 29",
+        "mutation engine 29"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 29",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 29",
+        "தடுப்பு சோதனை ஆய்வகம் 29",
+        "WAF ஒப்பீடு 29",
+        "தாக்குதல் உருவகப்படுத்துதல் 29",
+        "சிமுலேட்டர் விளக்கம் 29"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 29",
+        "red vs blue mode enna 29",
+        "evasion lab details 29",
+        "before after test 29",
+        "simulate pannu 29",
+        "mutation test 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0030",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 30",
+        "what is red vs blue mode 30",
+        "evasion lab test 30",
+        "before after waf comparison 30",
+        "simulate sqli xss 30",
+        "mutation engine 30"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 30",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 30",
+        "தடுப்பு சோதனை ஆய்வகம் 30",
+        "WAF ஒப்பீடு 30",
+        "தாக்குதல் உருவகப்படுத்துதல் 30",
+        "சிமுலேட்டர் விளக்கம் 30"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 30",
+        "red vs blue mode enna 30",
+        "evasion lab details 30",
+        "before after test 30",
+        "simulate pannu 30",
+        "mutation test 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0031",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 31",
+        "what is red vs blue mode 31",
+        "evasion lab test 31",
+        "before after waf comparison 31",
+        "simulate sqli xss 31",
+        "mutation engine 31"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 31",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 31",
+        "தடுப்பு சோதனை ஆய்வகம் 31",
+        "WAF ஒப்பீடு 31",
+        "தாக்குதல் உருவகப்படுத்துதல் 31",
+        "சிமுலேட்டர் விளக்கம் 31"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 31",
+        "red vs blue mode enna 31",
+        "evasion lab details 31",
+        "before after test 31",
+        "simulate pannu 31",
+        "mutation test 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0032",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 32",
+        "what is red vs blue mode 32",
+        "evasion lab test 32",
+        "before after waf comparison 32",
+        "simulate sqli xss 32",
+        "mutation engine 32"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 32",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 32",
+        "தடுப்பு சோதனை ஆய்வகம் 32",
+        "WAF ஒப்பீடு 32",
+        "தாக்குதல் உருவகப்படுத்துதல் 32",
+        "சிமுலேட்டர் விளக்கம் 32"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 32",
+        "red vs blue mode enna 32",
+        "evasion lab details 32",
+        "before after test 32",
+        "simulate pannu 32",
+        "mutation test 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0033",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 33",
+        "what is red vs blue mode 33",
+        "evasion lab test 33",
+        "before after waf comparison 33",
+        "simulate sqli xss 33",
+        "mutation engine 33"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 33",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 33",
+        "தடுப்பு சோதனை ஆய்வகம் 33",
+        "WAF ஒப்பீடு 33",
+        "தாக்குதல் உருவகப்படுத்துதல் 33",
+        "சிமுலேட்டர் விளக்கம் 33"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 33",
+        "red vs blue mode enna 33",
+        "evasion lab details 33",
+        "before after test 33",
+        "simulate pannu 33",
+        "mutation test 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0034",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 34",
+        "what is red vs blue mode 34",
+        "evasion lab test 34",
+        "before after waf comparison 34",
+        "simulate sqli xss 34",
+        "mutation engine 34"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 34",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 34",
+        "தடுப்பு சோதனை ஆய்வகம் 34",
+        "WAF ஒப்பீடு 34",
+        "தாக்குதல் உருவகப்படுத்துதல் 34",
+        "சிமுலேட்டர் விளக்கம் 34"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 34",
+        "red vs blue mode enna 34",
+        "evasion lab details 34",
+        "before after test 34",
+        "simulate pannu 34",
+        "mutation test 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0035",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 35",
+        "what is red vs blue mode 35",
+        "evasion lab test 35",
+        "before after waf comparison 35",
+        "simulate sqli xss 35",
+        "mutation engine 35"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 35",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 35",
+        "தடுப்பு சோதனை ஆய்வகம் 35",
+        "WAF ஒப்பீடு 35",
+        "தாக்குதல் உருவகப்படுத்துதல் 35",
+        "சிமுலேட்டர் விளக்கம் 35"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 35",
+        "red vs blue mode enna 35",
+        "evasion lab details 35",
+        "before after test 35",
+        "simulate pannu 35",
+        "mutation test 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0036",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 36",
+        "what is red vs blue mode 36",
+        "evasion lab test 36",
+        "before after waf comparison 36",
+        "simulate sqli xss 36",
+        "mutation engine 36"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 36",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 36",
+        "தடுப்பு சோதனை ஆய்வகம் 36",
+        "WAF ஒப்பீடு 36",
+        "தாக்குதல் உருவகப்படுத்துதல் 36",
+        "சிமுலேட்டர் விளக்கம் 36"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 36",
+        "red vs blue mode enna 36",
+        "evasion lab details 36",
+        "before after test 36",
+        "simulate pannu 36",
+        "mutation test 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0037",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 37",
+        "what is red vs blue mode 37",
+        "evasion lab test 37",
+        "before after waf comparison 37",
+        "simulate sqli xss 37",
+        "mutation engine 37"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 37",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 37",
+        "தடுப்பு சோதனை ஆய்வகம் 37",
+        "WAF ஒப்பீடு 37",
+        "தாக்குதல் உருவகப்படுத்துதல் 37",
+        "சிமுலேட்டர் விளக்கம் 37"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 37",
+        "red vs blue mode enna 37",
+        "evasion lab details 37",
+        "before after test 37",
+        "simulate pannu 37",
+        "mutation test 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0038",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 38",
+        "what is red vs blue mode 38",
+        "evasion lab test 38",
+        "before after waf comparison 38",
+        "simulate sqli xss 38",
+        "mutation engine 38"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 38",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 38",
+        "தடுப்பு சோதனை ஆய்வகம் 38",
+        "WAF ஒப்பீடு 38",
+        "தாக்குதல் உருவகப்படுத்துதல் 38",
+        "சிமுலேட்டர் விளக்கம் 38"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 38",
+        "red vs blue mode enna 38",
+        "evasion lab details 38",
+        "before after test 38",
+        "simulate pannu 38",
+        "mutation test 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0039",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 39",
+        "what is red vs blue mode 39",
+        "evasion lab test 39",
+        "before after waf comparison 39",
+        "simulate sqli xss 39",
+        "mutation engine 39"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 39",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 39",
+        "தடுப்பு சோதனை ஆய்வகம் 39",
+        "WAF ஒப்பீடு 39",
+        "தாக்குதல் உருவகப்படுத்துதல் 39",
+        "சிமுலேட்டர் விளக்கம் 39"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 39",
+        "red vs blue mode enna 39",
+        "evasion lab details 39",
+        "before after test 39",
+        "simulate pannu 39",
+        "mutation test 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0040",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 40",
+        "what is red vs blue mode 40",
+        "evasion lab test 40",
+        "before after waf comparison 40",
+        "simulate sqli xss 40",
+        "mutation engine 40"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 40",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 40",
+        "தடுப்பு சோதனை ஆய்வகம் 40",
+        "WAF ஒப்பீடு 40",
+        "தாக்குதல் உருவகப்படுத்துதல் 40",
+        "சிமுலேட்டர் விளக்கம் 40"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 40",
+        "red vs blue mode enna 40",
+        "evasion lab details 40",
+        "before after test 40",
+        "simulate pannu 40",
+        "mutation test 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0041",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 41",
+        "what is red vs blue mode 41",
+        "evasion lab test 41",
+        "before after waf comparison 41",
+        "simulate sqli xss 41",
+        "mutation engine 41"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 41",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 41",
+        "தடுப்பு சோதனை ஆய்வகம் 41",
+        "WAF ஒப்பீடு 41",
+        "தாக்குதல் உருவகப்படுத்துதல் 41",
+        "சிமுலேட்டர் விளக்கம் 41"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 41",
+        "red vs blue mode enna 41",
+        "evasion lab details 41",
+        "before after test 41",
+        "simulate pannu 41",
+        "mutation test 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0042",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 42",
+        "what is red vs blue mode 42",
+        "evasion lab test 42",
+        "before after waf comparison 42",
+        "simulate sqli xss 42",
+        "mutation engine 42"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 42",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 42",
+        "தடுப்பு சோதனை ஆய்வகம் 42",
+        "WAF ஒப்பீடு 42",
+        "தாக்குதல் உருவகப்படுத்துதல் 42",
+        "சிமுலேட்டர் விளக்கம் 42"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 42",
+        "red vs blue mode enna 42",
+        "evasion lab details 42",
+        "before after test 42",
+        "simulate pannu 42",
+        "mutation test 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0043",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 43",
+        "what is red vs blue mode 43",
+        "evasion lab test 43",
+        "before after waf comparison 43",
+        "simulate sqli xss 43",
+        "mutation engine 43"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 43",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 43",
+        "தடுப்பு சோதனை ஆய்வகம் 43",
+        "WAF ஒப்பீடு 43",
+        "தாக்குதல் உருவகப்படுத்துதல் 43",
+        "சிமுலேட்டர் விளக்கம் 43"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 43",
+        "red vs blue mode enna 43",
+        "evasion lab details 43",
+        "before after test 43",
+        "simulate pannu 43",
+        "mutation test 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0044",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 44",
+        "what is red vs blue mode 44",
+        "evasion lab test 44",
+        "before after waf comparison 44",
+        "simulate sqli xss 44",
+        "mutation engine 44"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 44",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 44",
+        "தடுப்பு சோதனை ஆய்வகம் 44",
+        "WAF ஒப்பீடு 44",
+        "தாக்குதல் உருவகப்படுத்துதல் 44",
+        "சிமுலேட்டர் விளக்கம் 44"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 44",
+        "red vs blue mode enna 44",
+        "evasion lab details 44",
+        "before after test 44",
+        "simulate pannu 44",
+        "mutation test 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0045",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 45",
+        "what is red vs blue mode 45",
+        "evasion lab test 45",
+        "before after waf comparison 45",
+        "simulate sqli xss 45",
+        "mutation engine 45"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 45",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 45",
+        "தடுப்பு சோதனை ஆய்வகம் 45",
+        "WAF ஒப்பீடு 45",
+        "தாக்குதல் உருவகப்படுத்துதல் 45",
+        "சிமுலேட்டர் விளக்கம் 45"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 45",
+        "red vs blue mode enna 45",
+        "evasion lab details 45",
+        "before after test 45",
+        "simulate pannu 45",
+        "mutation test 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0046",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 46",
+        "what is red vs blue mode 46",
+        "evasion lab test 46",
+        "before after waf comparison 46",
+        "simulate sqli xss 46",
+        "mutation engine 46"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 46",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 46",
+        "தடுப்பு சோதனை ஆய்வகம் 46",
+        "WAF ஒப்பீடு 46",
+        "தாக்குதல் உருவகப்படுத்துதல் 46",
+        "சிமுலேட்டர் விளக்கம் 46"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 46",
+        "red vs blue mode enna 46",
+        "evasion lab details 46",
+        "before after test 46",
+        "simulate pannu 46",
+        "mutation test 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0047",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 47",
+        "what is red vs blue mode 47",
+        "evasion lab test 47",
+        "before after waf comparison 47",
+        "simulate sqli xss 47",
+        "mutation engine 47"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 47",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 47",
+        "தடுப்பு சோதனை ஆய்வகம் 47",
+        "WAF ஒப்பீடு 47",
+        "தாக்குதல் உருவகப்படுத்துதல் 47",
+        "சிமுலேட்டர் விளக்கம் 47"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 47",
+        "red vs blue mode enna 47",
+        "evasion lab details 47",
+        "before after test 47",
+        "simulate pannu 47",
+        "mutation test 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0048",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 48",
+        "what is red vs blue mode 48",
+        "evasion lab test 48",
+        "before after waf comparison 48",
+        "simulate sqli xss 48",
+        "mutation engine 48"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 48",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 48",
+        "தடுப்பு சோதனை ஆய்வகம் 48",
+        "WAF ஒப்பீடு 48",
+        "தாக்குதல் உருவகப்படுத்துதல் 48",
+        "சிமுலேட்டர் விளக்கம் 48"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 48",
+        "red vs blue mode enna 48",
+        "evasion lab details 48",
+        "before after test 48",
+        "simulate pannu 48",
+        "mutation test 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0049",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 49",
+        "what is red vs blue mode 49",
+        "evasion lab test 49",
+        "before after waf comparison 49",
+        "simulate sqli xss 49",
+        "mutation engine 49"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 49",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 49",
+        "தடுப்பு சோதனை ஆய்வகம் 49",
+        "WAF ஒப்பீடு 49",
+        "தாக்குதல் உருவகப்படுத்துதல் 49",
+        "சிமுலேட்டர் விளக்கம் 49"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 49",
+        "red vs blue mode enna 49",
+        "evasion lab details 49",
+        "before after test 49",
+        "simulate pannu 49",
+        "mutation test 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0050",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 50",
+        "what is red vs blue mode 50",
+        "evasion lab test 50",
+        "before after waf comparison 50",
+        "simulate sqli xss 50",
+        "mutation engine 50"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 50",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 50",
+        "தடுப்பு சோதனை ஆய்வகம் 50",
+        "WAF ஒப்பீடு 50",
+        "தாக்குதல் உருவகப்படுத்துதல் 50",
+        "சிமுலேட்டர் விளக்கம் 50"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 50",
+        "red vs blue mode enna 50",
+        "evasion lab details 50",
+        "before after test 50",
+        "simulate pannu 50",
+        "mutation test 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0051",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 51",
+        "what is red vs blue mode 51",
+        "evasion lab test 51",
+        "before after waf comparison 51",
+        "simulate sqli xss 51",
+        "mutation engine 51"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 51",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 51",
+        "தடுப்பு சோதனை ஆய்வகம் 51",
+        "WAF ஒப்பீடு 51",
+        "தாக்குதல் உருவகப்படுத்துதல் 51",
+        "சிமுலேட்டர் விளக்கம் 51"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 51",
+        "red vs blue mode enna 51",
+        "evasion lab details 51",
+        "before after test 51",
+        "simulate pannu 51",
+        "mutation test 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0052",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 52",
+        "what is red vs blue mode 52",
+        "evasion lab test 52",
+        "before after waf comparison 52",
+        "simulate sqli xss 52",
+        "mutation engine 52"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 52",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 52",
+        "தடுப்பு சோதனை ஆய்வகம் 52",
+        "WAF ஒப்பீடு 52",
+        "தாக்குதல் உருவகப்படுத்துதல் 52",
+        "சிமுலேட்டர் விளக்கம் 52"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 52",
+        "red vs blue mode enna 52",
+        "evasion lab details 52",
+        "before after test 52",
+        "simulate pannu 52",
+        "mutation test 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0053",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 53",
+        "what is red vs blue mode 53",
+        "evasion lab test 53",
+        "before after waf comparison 53",
+        "simulate sqli xss 53",
+        "mutation engine 53"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 53",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 53",
+        "தடுப்பு சோதனை ஆய்வகம் 53",
+        "WAF ஒப்பீடு 53",
+        "தாக்குதல் உருவகப்படுத்துதல் 53",
+        "சிமுலேட்டர் விளக்கம் 53"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 53",
+        "red vs blue mode enna 53",
+        "evasion lab details 53",
+        "before after test 53",
+        "simulate pannu 53",
+        "mutation test 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0054",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 54",
+        "what is red vs blue mode 54",
+        "evasion lab test 54",
+        "before after waf comparison 54",
+        "simulate sqli xss 54",
+        "mutation engine 54"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 54",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 54",
+        "தடுப்பு சோதனை ஆய்வகம் 54",
+        "WAF ஒப்பீடு 54",
+        "தாக்குதல் உருவகப்படுத்துதல் 54",
+        "சிமுலேட்டர் விளக்கம் 54"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 54",
+        "red vs blue mode enna 54",
+        "evasion lab details 54",
+        "before after test 54",
+        "simulate pannu 54",
+        "mutation test 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0055",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 55",
+        "what is red vs blue mode 55",
+        "evasion lab test 55",
+        "before after waf comparison 55",
+        "simulate sqli xss 55",
+        "mutation engine 55"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 55",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 55",
+        "தடுப்பு சோதனை ஆய்வகம் 55",
+        "WAF ஒப்பீடு 55",
+        "தாக்குதல் உருவகப்படுத்துதல் 55",
+        "சிமுலேட்டர் விளக்கம் 55"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 55",
+        "red vs blue mode enna 55",
+        "evasion lab details 55",
+        "before after test 55",
+        "simulate pannu 55",
+        "mutation test 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0056",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 56",
+        "what is red vs blue mode 56",
+        "evasion lab test 56",
+        "before after waf comparison 56",
+        "simulate sqli xss 56",
+        "mutation engine 56"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 56",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 56",
+        "தடுப்பு சோதனை ஆய்வகம் 56",
+        "WAF ஒப்பீடு 56",
+        "தாக்குதல் உருவகப்படுத்துதல் 56",
+        "சிமுலேட்டர் விளக்கம் 56"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 56",
+        "red vs blue mode enna 56",
+        "evasion lab details 56",
+        "before after test 56",
+        "simulate pannu 56",
+        "mutation test 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0057",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 57",
+        "what is red vs blue mode 57",
+        "evasion lab test 57",
+        "before after waf comparison 57",
+        "simulate sqli xss 57",
+        "mutation engine 57"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 57",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 57",
+        "தடுப்பு சோதனை ஆய்வகம் 57",
+        "WAF ஒப்பீடு 57",
+        "தாக்குதல் உருவகப்படுத்துதல் 57",
+        "சிமுலேட்டர் விளக்கம் 57"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 57",
+        "red vs blue mode enna 57",
+        "evasion lab details 57",
+        "before after test 57",
+        "simulate pannu 57",
+        "mutation test 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0058",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 58",
+        "what is red vs blue mode 58",
+        "evasion lab test 58",
+        "before after waf comparison 58",
+        "simulate sqli xss 58",
+        "mutation engine 58"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 58",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 58",
+        "தடுப்பு சோதனை ஆய்வகம் 58",
+        "WAF ஒப்பீடு 58",
+        "தாக்குதல் உருவகப்படுத்துதல் 58",
+        "சிமுலேட்டர் விளக்கம் 58"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 58",
+        "red vs blue mode enna 58",
+        "evasion lab details 58",
+        "before after test 58",
+        "simulate pannu 58",
+        "mutation test 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0059",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 59",
+        "what is red vs blue mode 59",
+        "evasion lab test 59",
+        "before after waf comparison 59",
+        "simulate sqli xss 59",
+        "mutation engine 59"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 59",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 59",
+        "தடுப்பு சோதனை ஆய்வகம் 59",
+        "WAF ஒப்பீடு 59",
+        "தாக்குதல் உருவகப்படுத்துதல் 59",
+        "சிமுலேட்டர் விளக்கம் 59"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 59",
+        "red vs blue mode enna 59",
+        "evasion lab details 59",
+        "before after test 59",
+        "simulate pannu 59",
+        "mutation test 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  },
+  {
+    "id": "proj_sim_0060",
+    "category": "simulator_evasion",
+    "patterns": {
+      "en": [
+        "how to use attack simulator 60",
+        "what is red vs blue mode 60",
+        "evasion lab test 60",
+        "before after waf comparison 60",
+        "simulate sqli xss 60",
+        "mutation engine 60"
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டரை எவ்வாறு பயன்படுத்துவது 60",
+        "ரெட் vs ப்ளூ முறை என்றால் என்ன 60",
+        "தடுப்பு சோதனை ஆய்வகம் 60",
+        "WAF ஒப்பீடு 60",
+        "தாக்குதல் உருவகப்படுத்துதல் 60",
+        "சிமுலேட்டர் விளக்கம் 60"
+      ],
+      "tanglish": [
+        "attack simulator epdi use panradhu 60",
+        "red vs blue mode enna 60",
+        "evasion lab details 60",
+        "before after test 60",
+        "simulate pannu 60",
+        "mutation test 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Attack Simulator allows safe sandboxed testing of real-world vectors. Features: 1) Pre-built attack scenarios, 2) Red vs Blue real-time automated rounds, 3) Evasion Lab with mutation bypasses (Unicode/hex encoding, comment injection).",
+        "The Before vs After tab demonstrates unprotected legacy backend vulnerabilities versus AegisGate's active inline mitigation."
+      ],
+      "ta": [
+        "தாக்குதல் சிமுலேட்டர்: உண்மையான தாக்குதல்களை பாதுகாப்பான முறையில் பரிசோதிக்க உதவுகிறது. இதில் Red vs Blue சோதனைகள் மற்றும் என்கோடிங் விகாரங்கள் உள்ளன.",
+        "Before vs After தாவல் AegisGate இல்லாதபோது ஏற்படும் ஆபத்துக்களையும், கேட்வே செயல்படும் போது கிடைக்கும் பாதுகாப்பையும் ஒப்பிட்டுக் காட்டுகிறது."
+      ],
+      "tanglish": [
+        "Attack Simulator: Sandboxed attack testing tool with Red vs Blue benchmarks and Evasion Lab (hex/unicode obfuscation).",
+        "Before vs After demo: Unprotected API vs AegisGate inline protected API comparisons."
+      ]
+    },
+    "chips": [
+      "Launch Simulator",
+      "Simulate SQL Injection",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "simulator",
+      "evasion",
+      "red_blue"
+    ]
+  }
+]

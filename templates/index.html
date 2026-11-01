@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Powered API Gateway Intrusion Detection System | SOC Dashboard</title>
+  
+  <!-- Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Chart.js via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       1. Left Sidebar Navigation
+       ====================================================================== -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="logo-shield">
+        <svg viewBox="0 0 24 24"><path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5zm0 18c-3.75-1.07-6.75-5.2-6.75-9.5V8.3l6.75-3.75 6.75 3.75V10.5c0 4.3-3 8.43-6.75 9.5z"/></svg>
+      </div>
+      <div class="brand-text">
+        <h2>AegisGate IDS</h2>
+        <span>AI API Gateway</span>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="nav-link active" data-target="tab-dashboard">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+        <span data-i18n="nav_dashboard">SOC Dashboard</span>
+      </a>
+      <a class="nav-link" data-target="tab-alerts">
+        <svg viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        <span data-i18n="nav_alerts">Threat Alerts</span>
+      </a>
+      <a class="nav-link" data-target="tab-simulator">
+        <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        <span data-i18n="nav_simulator">Attack Simulator</span>
+      </a>
+      <a class="nav-link" data-target="tab-faceoff">
+        <svg viewBox="0 0 24 24"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+        <span data-i18n="nav_faceoff">AI vs WAF Face-Off</span>
+      </a>
+      <a class="nav-link" data-target="tab-playground">
+        <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        <span data-i18n="nav_playground">Request Playground</span>
+      </a>
+      <a class="nav-link" data-target="tab-settings">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        <span data-i18n="nav_settings">Gateway Rules</span>
+      </a>
+      <a class="nav-link" data-target="tab-reports">
+        <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <span data-i18n="nav_reports">Reports & PDF</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div>Engine: <strong>FastAPI + RF + SHAP</strong></div>
+      <div class="engine-pill">
+        <span class="dot" id="ws-status-dot"></span>
+        <span>WebSocket Live</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ======================================================================
+       2. Main Content Wrapper
+       ====================================================================== -->
+  <div class="main-wrapper">
+    
+    <!-- Topbar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <h1 class="page-title" id="topbar-title">SOC Dashboard</h1>
+      </div>
+
+      <div class="topbar-right">
+        <div class="mode-badge" id="current-mode-badge">MODE: PROTECT</div>
+        
+        <!-- English / Tamil Language Selector -->
+        <select class="lang-selector" id="lang-select">
+          <option value="en">English (EN)</option>
+          <option value="ta">தமிழ் (Tamil)</option>
+        </select>
+      </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="content-container">
+
+      <!-- ================================================================
+           TAB 1: SOC Dashboard
+           ================================================================ -->
+      <section class="tab-content active" id="tab-dashboard">
+        
+        <!-- KPI Metrics Grid -->
+        <div class="kpi-grid">
+          <div class="kpi-card total">
+            <span class="kpi-label" data-i18n="kpi_total">Total Requests Inspected</span>
+            <span class="kpi-value" id="kpi-total">0</span>
+            <span class="kpi-sub">Continuous inspection</span>
+          </div>
+
+          <div class="kpi-card allowed">
+            <span class="kpi-label" data-i18n="kpi_allowed">Allowed (Benign)</span>
+            <span class="kpi-value" id="kpi-allowed" style="color:var(--color-allow);">0</span>
+            <span class="kpi-sub">Low risk (&lt; 0.40)</span>
+          </div>
+
+          <div class="kpi-card warned">
+            <span class="kpi-label" data-i18n="kpi_warned">Warned (Suspicious)</span>
+            <span class="kpi-value" id="kpi-warned" style="color:var(--color-warn);">0</span>
+            <span class="kpi-sub">Medium risk (0.40 - 0.70)</span>
+          </div>
+
+          <div class="kpi-card blocked">
+            <span class="kpi-label" data-i18n="kpi_blocked">Blocked (Threats)</span>
+            <span class="kpi-value" id="kpi-blocked" style="color:var(--color-block);">0</span>
+            <span class="kpi-sub">High risk (&ge; 0.70)</span>
+          </div>
+
+          <div class="kpi-card latency">
+            <span class="kpi-label" data-i18n="kpi_latency">Avg Inspection Latency</span>
+            <span class="kpi-value" id="kpi-latency" style="color:var(--accent-purple);">2.8 ms</span>
+            <span class="kpi-sub">Low overhead</span>
+          </div>
+
+          <div class="kpi-card rate">
+            <span class="kpi-label" data-i18n="kpi_prevention">Threat Intercept Rate</span>
+            <span class="kpi-value" id="kpi-prevention" style="color:#06b6d4;">100%</span>
+            <span class="kpi-sub">MITRE ATT&CK mapped</span>
+          </div>
+        </div>
+
+        <!-- Charts Grid -->
+        <div class="charts-grid">
+          <div class="chart-card">
+            <div class="chart-header">
+              <span class="chart-title" data-i18n="chart_traffic">Real-Time Traffic & Threat Stream</span>
+            </div>
+            <div class="chart-container">
+              <canvas id="trafficChart"></canvas>
+            </div>
+          </div>
+
+          <div class="chart-card">
+            <div class="chart-header">
+              <span class="chart-title" data-i18n="chart_attacks">Attack Class Distribution (OWASP)</span>
+            </div>
+            <div class="chart-container">
+              <canvas id="attackChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Tables Grid -->
+        <div style="display:grid; grid-template-columns: 2fr 1fr; gap:20px;">
+          
+          <!-- Live Telemetry Stream -->
+          <div class="table-card">
+            <div class="table-header">
+              <span class="table-title" data-i18n="table_live">Live Request Telemetry Stream</span>
+              <span class="engine-pill"><span class="dot"></span> Active</span>
+            </div>
+            <div class="data-table-wrapper">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th data-i18n="col_time">Time</th>
+                    <th data-i18n="col_ip">Client IP</th>
+                    <th data-i18n="col_method">Method</th>
+                    <th data-i18n="col_path">Path</th>
+                    <th data-i18n="col_risk">Risk</th>
+                    <th data-i18n="col_action">Action</th>
+                    <th data-i18n="col_attack">Classification</th>
+                    <th data-i18n="col_latency">Latency</th>
+                    <th data-i18n="col_details">Inspect</th>
+                  </tr>
+                </thead>
+                <tbody id="live-requests-tbody">
+                  <!-- Populated dynamically via WebSocket -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Top Suspicious Client IPs -->
+          <div class="table-card">
+            <div class="table-header">
+              <span class="table-title" data-i18n="table_top_ips">Top Suspicious Client IPs</span>
+            </div>
+            <div class="data-table-wrapper">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Client IP</th>
+                    <th>Incidents</th>
+                    <th>Peak Risk</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="top-ips-tbody">
+                  <!-- Populated dynamically -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- ================================================================
+           TAB 2: Threat Alerts & Audit Log
+           ================================================================ -->
+      <section class="tab-content" id="tab-alerts">
+        <div class="table-card">
+          <div class="table-header">
+            <span class="table-title">Full Security Incident Audit Log</span>
+            <button class="btn-primary" onclick="loadDashboardMetrics()">Refresh Alerts</button>
+          </div>
+          <div class="data-table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Timestamp</th>
+                  <th>Client IP</th>
+                  <th>Threat Class</th>
+                  <th>Risk Score</th>
+                  <th>MITRE ATT&CK</th>
+                  <th>Detection Rationale</th>
+                  <th>Feedback</th>
+                  <th>Inspect</th>
+                </tr>
+              </thead>
+              <tbody id="full-alerts-tbody">
+                <!-- Loaded from API -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           TAB 3: Attack Simulator
+           ================================================================ -->
+      <section class="tab-content" id="tab-simulator">
+        <div style="background:var(--card-bg); padding:20px; border-radius:12px; border:1px solid var(--card-border);">
+          <h2 style="font-size:16px; margin-bottom:8px;">Interactive Attack Scenario Launcher</h2>
+          <p style="font-size:12px; color:var(--text-secondary); margin-bottom:20px;">
+            Fire simulated benign and attack vectors against the local API Gateway. Inspect the immediate risk score,
+            classification, sliding-window rate limiting, and SHAP explainability.
+          </p>
+
+          <div class="action-grid">
+            <div class="action-card">
+              <h3>Normal API Call</h3>
+              <p>Simulates benign product search query. Demonstrates low score and transparent forwarding.</p>
+              <button class="btn-primary" data-scenario="benign">Send Normal Request</button>
+            </div>
+
+            <div class="action-card">
+              <h3>SQL Injection (SQLi)</h3>
+              <p>Injects <code>' UNION SELECT username, password FROM users--</code>. Triggers RF & SHAP block.</p>
+              <button class="btn-danger" data-scenario="sqli">Fire SQLi Exploit</button>
+            </div>
+
+            <div class="action-card">
+              <h3>Cross-Site Scripting (XSS)</h3>
+              <p>Injects malicious script tag stealing cookies. Blocked with MITRE T1059.007 attribution.</p>
+              <button class="btn-danger" data-scenario="xss">Fire XSS Attack</button>
+            </div>
+
+            <div class="action-card">
+              <h3>Path Traversal (LFI)</h3>
+              <p>Requests <code>../../../../etc/passwd</code> to escape API webroot.</p>
+              <button class="btn-danger" data-scenario="path_traversal">Fire Path Traversal</button>
+            </div>
+
+            <div class="action-card">
+              <h3>Command Injection (RCE)</h3>
+              <p>Appends shell metacharacters <code>; cat /etc/passwd | whoami</code>.</p>
+              <button class="btn-danger" data-scenario="command_injection">Fire Command Injection</button>
+            </div>
+
+            <div class="action-card">
+              <h3>Sliding-Window Rate Limit Burst</h3>
+              <p>Rapidly fires 60 calls within 1 second. Trips sliding-window limit returning HTTP 429.</p>
+              <button class="btn-primary" style="background:#f59e0b;" data-scenario="rate_limit_burst">Trigger 60-Request Burst</button>
+            </div>
+
+            <div class="action-card">
+              <h3>Decoy Honeypot Trap</h3>
+              <p>Probes decoy <code>/.env</code> route. Triggers immediate 10-minute auto-ban.</p>
+              <button class="btn-danger" data-scenario="honeypot_hit">Probe Honeypot (/.env)</button>
+            </div>
+
+            <div class="action-card">
+              <h3>Credential Stuffing / Brute Force</h3>
+              <p>Repeated failed logins to <code>/demo/api/login</code>. Detects auth abuse.</p>
+              <button class="btn-danger" data-scenario="auth_abuse">Simulate Auth Abuse</button>
+            </div>
+
+            <div class="action-card">
+              <h3>Response Data Leak Prevention</h3>
+              <p>Tests backend leak filter masking credit cards and API secrets.</p>
+              <button class="btn-primary" style="background:#06b6d4;" data-scenario="leak_test">Test PII Masking</button>
+            </div>
+          </div>
+
+          <!-- Console Terminal Output -->
+          <div style="margin-top:24px;">
+            <label style="font-size:11px; font-weight:700; color:var(--text-secondary); text-transform:uppercase;">Simulator Live Execution Console</label>
+            <div class="hex-box" id="simulator-console" style="min-height:120px; color:#38bdf8; margin-top:8px;">
+> Simulator Ready. Click any scenario button above to dispatch test traffic against the Gateway IDS.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           TAB 4: AI vs Traditional Regex WAF Face-Off Benchmark
+           ================================================================ -->
+      <section class="tab-content" id="tab-faceoff">
+        <div style="background:var(--card-bg); padding:24px; border-radius:12px; border:1px solid var(--card-border);">
+          <h2 style="font-size:17px; margin-bottom:8px;">AI Gateway vs Traditional Regex WAF Benchmark</h2>
+          <p style="font-size:12px; color:var(--text-secondary); margin-bottom:20px;">
+            Demonstrates why Machine Learning and Multi-Layer Obfuscation Decoding are essential. 
+            Test evasive payloads (SQL comment slicing, double URL encoding) to see how traditional regex firewalls are bypassed while our AI Gateway intercepts them.
+          </p>
+
+          <div class="form-group" style="margin-bottom:16px;">
+            <label>Evasive Test Payload</label>
+            <input type="text" class="form-control" id="faceoff-payload" value="SEL/**/ECT 1,2 FROM users WHERE 'a'=%27a%27">
+          </div>
+
+          <button class="btn-primary" id="btn-run-faceoff">Run Face-Off Benchmark</button>
+
+          <!-- Face-off Results Container -->
+          <div id="faceoff-results-container" style="display:none; flex-direction:column; gap:16px; margin-top:24px;">
+            <div id="faceoff-verdict-banner" style="background:linear-gradient(90deg, rgba(99,102,241,0.2), rgba(16,185,129,0.2)); border:1px solid var(--accent-indigo); padding:12px 18px; border-radius:8px; font-size:13px; font-weight:700; color:#fff;">
+              Verdict: AI Gateway Successfully Caught Evasion
+            </div>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+              <!-- Traditional Regex Card -->
+              <div class="action-card" style="border-left:4px solid #ef4444;">
+                <h3 style="color:#ef4444;">Traditional Signature/Regex WAF</h3>
+                <div id="faceoff-trad-result"></div>
+              </div>
+
+              <!-- AI Gateway Card -->
+              <div class="action-card" style="border-left:4px solid #10b981;">
+                <h3 style="color:#10b981;">Our AI Gateway IDS (Random Forest + SHAP)</h3>
+                <div id="faceoff-ai-result"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           TAB 5: Request Playground
+           ================================================================ -->
+      <section class="tab-content" id="tab-playground">
+        <div style="background:var(--card-bg); padding:24px; border-radius:12px; border:1px solid var(--card-border);">
+          <h2 style="font-size:17px; margin-bottom:8px;">Interactive Request Playground</h2>
+          <p style="font-size:12px; color:var(--text-secondary); margin-bottom:20px;">
+            Compose arbitrary HTTP requests and inspect the 23 security features, SHAP attribution, and Allow/Warn/Block decisions in real time without proxying.
+          </p>
+
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
+            <!-- Composer Panel -->
+            <div style="display:flex; flex-direction:column; gap:14px;">
+              <div class="form-group">
+                <label>HTTP Method</label>
+                <select class="form-control" id="pg-method">
+                  <option value="GET">GET</option>
+                  <option value="POST">POST</option>
+                  <option value="PUT">PUT</option>
+                  <option value="DELETE">DELETE</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Target API Path</label>
+                <input type="text" class="form-control" id="pg-path" value="/demo/api/users">
+              </div>
+
+              <div class="form-group">
+                <label>Query String Parameters</label>
+                <input type="text" class="form-control" id="pg-query" placeholder="e.g. search=admin' OR '1'='1">
+              </div>
+
+              <div class="form-group">
+                <label>Request Body Payload</label>
+                <textarea class="form-control" id="pg-body" rows="4" placeholder="e.g. {'username': 'admin'}"></textarea>
+              </div>
+
+              <button class="btn-primary" id="btn-playground-inspect">Inspect Request</button>
+            </div>
+
+            <!-- Real-Time Inspection Results Panel -->
+            <div id="pg-results" style="display:none; flex-direction:column; gap:14px; background:rgba(15,23,42,0.6); padding:18px; border-radius:10px; border:1px solid var(--card-border);">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <span style="font-size:13px; font-weight:700;">Decision Verdict:</span>
+                <span class="badge" id="pg-action-badge">ALLOW</span>
+              </div>
+
+              <div style="font-size:12px; color:var(--text-secondary);">
+                Risk Score: <strong id="pg-risk-score" style="color:#fff;">0.12</strong> | 
+                Confidence: <strong id="pg-confidence" style="color:#fff;">99%</strong> | 
+                Latency: <strong id="pg-latency" style="color:#fff;">2.4 ms</strong>
+              </div>
+
+              <div style="font-size:12px; color:#cbd5e1;" id="pg-reason"></div>
+
+              <div style="font-size:11px; color:#94a3b8;" id="pg-obfuscation"></div>
+
+              <!-- Normalized payload preview -->
+              <div>
+                <label style="font-size:10px; font-weight:700; color:var(--text-muted); text-transform:uppercase;">Normalized Payload</label>
+                <div class="hex-box" id="pg-normalized" style="max-height:60px;"></div>
+              </div>
+
+              <!-- SHAP Feature Bars -->
+              <div>
+                <label style="font-size:10px; font-weight:700; color:var(--text-muted); text-transform:uppercase;">Top SHAP Feature Contributors</label>
+                <div id="pg-shap-bars" style="display:flex; flex-direction:column; gap:6px; margin-top:6px;"></div>
+              </div>
+
+              <!-- 23 Features Table (collapsible/scrollable) -->
+              <div>
+                <label style="font-size:10px; font-weight:700; color:var(--text-muted); text-transform:uppercase;">Extracted 23 Features Vector</label>
+                <div style="max-height:120px; overflow-y:auto; border:1px solid var(--card-border); border-radius:6px; margin-top:4px;">
+                  <table class="data-table" style="font-size:10px;">
+                    <tbody id="pg-features-tbody"></tbody>
+                  </table>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           TAB 6: Gateway Rules & Admin Settings
+           ================================================================ -->
+      <section class="tab-content" id="tab-settings">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+          
+          <!-- Rules & Thresholds Form -->
+          <div style="background:var(--card-bg); padding:24px; border-radius:12px; border:1px solid var(--card-border);">
+            <h2 style="font-size:16px; margin-bottom:16px;">Gateway Operational Controls</h2>
+            
+            <form id="settings-form" style="display:flex; flex-direction:column; gap:14px;">
+              <div class="form-group">
+                <label>Operation Mode</label>
+                <select class="form-control" id="setting-mode">
+                  <option value="protect">Protect (Strict Enforcement - HTTP 403 on threats)</option>
+                  <option value="monitor">Monitor (Warn Only - Alerts logged, no traffic dropped)</option>
+                  <option value="learning">Learning (Telemetry Observation - Calculate risk only)</option>
+                </select>
+              </div>
+
+              <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px;">
+                <div class="form-group">
+                  <label>Weight ML (w1)</label>
+                  <input type="number" step="0.05" min="0" max="1" class="form-control" id="setting-w-ml" value="0.45">
+                </div>
+                <div class="form-group">
+                  <label>Weight Beh (w2)</label>
+                  <input type="number" step="0.05" min="0" max="1" class="form-control" id="setting-w-beh" value="0.35">
+                </div>
+                <div class="form-group">
+                  <label>Weight Rules (w3)</label>
+                  <input type="number" step="0.05" min="0" max="1" class="form-control" id="setting-w-rule" value="0.20">
+                </div>
+              </div>
+
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+                <div class="form-group">
+                  <label>Warn Threshold</label>
+                  <input type="number" step="0.05" min="0" max="1" class="form-control" id="setting-warn-th" value="0.40">
+                </div>
+                <div class="form-group">
+                  <label>Block Threshold</label>
+                  <input type="number" step="0.05" min="0" max="1" class="form-control" id="setting-block-th" value="0.70">
+                </div>
+              </div>
+
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+                <div class="form-group">
+                  <label>Sliding Max Requests</label>
+                  <input type="number" class="form-control" id="setting-rate-max" value="50">
+                </div>
+                <div class="form-group">
+                  <label>Window Seconds</label>
+                  <input type="number" class="form-control" id="setting-rate-window" value="60">
+                </div>
+              </div>
+
+              <button type="submit" class="btn-primary" style="margin-top:6px;">Save Rule Configuration</button>
+            </form>
+          </div>
+
+          <!-- Active IP Bans & Active Learning Retrain -->
+          <div style="display:flex; flex-direction:column; gap:20px;">
+            
+            <!-- Active Learning Retrain Card -->
+            <div style="background:var(--card-bg); padding:20px; border-radius:12px; border:1px solid var(--card-border);">
+              <h3 style="font-size:14px; margin-bottom:8px;">Active Learning & Model Retraining</h3>
+              <p style="font-size:12px; color:var(--text-secondary); margin-bottom:14px;">
+                Analyst verdicts (False Positives and Confirmed Attacks) are staged in the active learning buffer. Click to trigger background retrain updating model to v1.1.
+              </p>
+              <button class="btn-primary" id="btn-trigger-retrain" style="background:linear-gradient(135deg, #10b981, #059669);">
+                Retrain Model with Feedback (v1.1)
+              </button>
+            </div>
+
+            <!-- Active Timed Bans Table -->
+            <div class="table-card">
+              <span class="table-title">Active Timed IP Bans</span>
+              <div class="data-table-wrapper" style="max-height:220px; overflow-y:auto;">
+                <table class="data-table">
+                  <thead>
+                    <tr>
+                      <th>Banned IP</th>
+                      <th>Reason</th>
+                      <th>Expires In</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="bans-tbody">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ================================================================
+           TAB 7: Reports & PDF Export
+           ================================================================ -->
+      <section class="tab-content" id="tab-reports">
+        <div style="background:var(--card-bg); padding:24px; border-radius:12px; border:1px solid var(--card-border);">
+          <h2 style="font-size:17px; margin-bottom:8px;">Security Audit Reports & IEEE Academic Dossier</h2>
+          <p style="font-size:12px; color:var(--text-secondary); margin-bottom:20px;">
+            Download authentic measured evaluation reports, confusion matrices, and audit logs for your project review presentation.
+          </p>
+
+          <div class="action-grid">
+            <div class="action-card">
+              <h3>Academic PDF Project Report</h3>
+              <p>Generates an IEEE-styled PDF containing the full executive summary, architecture diagram, real evaluation metrics table, confusion matrix, and viva defense notes.</p>
+              <a href="/api/export/pdf" target="_blank" class="btn-primary" style="text-decoration:none;">Download Academic PDF</a>
+            </div>
+
+            <div class="action-card">
+              <h3>Export Requests Audit (CSV)</h3>
+              <p>Downloads full chronological log of all inspected API requests, response times, and risk scores.</p>
+              <a href="/api/export/csv/requests" class="btn-primary" style="background:#475569; text-decoration:none;">Download Requests CSV</a>
+            </div>
+
+            <div class="action-card">
+              <h3>Export Security Alerts (CSV)</h3>
+              <p>Downloads all classified security alerts with SHAP feature attributions and MITRE ATT&CK technique IDs.</p>
+              <a href="/api/export/csv/alerts" class="btn-primary" style="background:#475569; text-decoration:none;">Download Alerts CSV</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ======================================================================
+       3. Threat Inspection Modal (Deep SHAP & Hex Viewer)
+       ====================================================================== -->
+  <div class="modal-overlay" id="inspectModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 style="font-size:15px; font-weight:700;" data-i18n="modal_title">Deep Threat Inspection & SHAP Attribution</h3>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        
+        <!-- Metadata summary banner -->
+        <div style="display:flex; justify-content:space-between; background:rgba(255,255,255,0.03); padding:12px; border-radius:8px; font-size:12px;">
+          <div>Client IP: <strong id="modal-ip">127.0.0.1</strong></div>
+          <div>Attack Class: <strong id="modal-attack" style="color:#ef4444;">SQL Injection</strong></div>
+          <div>Risk Score: <strong id="modal-risk">0.95</strong></div>
+          <div>MITRE: <strong id="modal-mitre">T1190</strong></div>
+        </div>
+
+        <!-- Bilingual Explanation -->
+        <div>
+          <label style="font-size:10px; font-weight:700; color:var(--text-muted); text-transform:uppercase;">Explainability Rationale</label>
+          <div id="modal-reason" style="font-size:13px; color:#cbd5e1; margin-top:4px;"></div>
+        </div>
+
+        <!-- SHAP Waterfall Visual Bars -->
+        <div>
+          <label style="font-size:10px; font-weight:700; color:var(--text-muted); text-transform:uppercase;" data-i18n="modal_shap">SHAP Feature Contribution Waterfall</label>
+          <div id="modal-shap-container" style="display:flex; flex-direction:column; gap:8px; margin-top:6px;"></div>
+        </div>
+
+        <!-- Raw Bytes & Hex preview -->
+        <div>
+          <label style="font-size:10px; font-weight:700; color:var(--text-muted); text-transform:uppercase;" data-i18n="modal_raw">Raw Request Bytes & Hex Preview</label>
+          <div class="hex-box" id="modal-hex"></div>
+        </div>
+
+        <!-- Decoded & Normalized payload -->
+        <div>
+          <label style="font-size:10px; font-weight:700; color:var(--text-muted); text-transform:uppercase;" data-i18n="modal_decoded">Decoded & Normalized Payload</label>
+          <div class="hex-box" id="modal-decoded" style="color:#a7f3d0; max-height:80px;"></div>
+        </div>
+
+        <!-- Active Learning Analyst Feedback -->
+        <div style="border-top:1px solid var(--card-border); padding-top:16px;">
+          <label style="font-size:10px; font-weight:700; color:var(--text-muted); text-transform:uppercase; margin-bottom:8px; display:block;" data-i18n="modal_feedback">Active Learning Analyst Feedback</label>
+          <div style="display:flex; gap:12px;">
+            <button class="btn-primary" id="btn-fp" style="background:#f59e0b;" data-i18n="btn_false_positive">Mark as False Positive</button>
+            <button class="btn-primary" id="btn-confirm" style="background:#ef4444;" data-i18n="btn_confirm_attack">Confirm Zero-Day / Attack</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/static/js/app.js"></script>
+  <script src="/static/js/simulator.js"></script>
+  <script src="/static/js/playground.js"></script>
+</body>
+</html>

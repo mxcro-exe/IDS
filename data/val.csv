@@ -1,0 +1,33 @@
+method,path,query,headers,body,label,attack_type,source,seed_id
+POST,/tienda1/publico/anadir.jsp,,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",id=1&nombre=camisa&precio=25&cantidad=2,0,Benign,csic_2010,1a4bcdfdf4dc
+PROPFIND,/webdav/,,"{""User-Agent"": ""AegisSecurityScanner/1.0""}",,1,Other,synthetic,486121a04aa9
+GET,/api/v1/static/..\..\..\windows\win.ini,file=..%5C..%5C..%5Cwindows%5Cwin.ini,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,synthetic,f3c6a53a8e54
+POST,/api/v1/auth/token,,"{""Content-Type"": ""application/json"", ""X-Forwarded-For"": ""192.168.1.196""}",grant_type=password&username=administrator&password=password1,1,Brute Force/Auth Abuse,synthetic,cd72003df058
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip=127.0.0.1%7C%20id,1,Command Injection,synthetic,4f683cbe26e5
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20%27a%27%3D%27a&pass=123,1,SQLi,synthetic,b2d055beed5b
+POST,/api/v1/login,q=admin%27%29%20OR%20%28%271%27%3D%271%27--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,c03abbf780fc
+POST,/search,input=%3Cscript%3Ealert%28document.domain%29%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,fab2ce21a29a
+POST,/search,input=%3Csvg%20onload%3Dalert%281%29%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<svg onload=alert(1)>""}",1,XSS,synthetic,424744d4adeb
+GET,/api/v1/comments,input=%3Cscript%3Ealert%28document.domain%29%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,b34e00f914dd
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<body onload=alert('XSS')>""}",1,XSS,synthetic,3708dac47929
+POST,/api/v1/search,q=admin%27%29%20OR%20%28%271%27%3D%271%27--,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%29%20OR%20%28%271%27%3D%271%27--&pass=123,1,SQLi,synthetic,58a5aa49f0c2
+POST,/api/v1/comments,input=%3Cbody%20onload%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,6cfe05f0feb1
+POST,/api/v1/login,q=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--&pass=123,1,SQLi,synthetic,3e0dcc712a4d
+GET,/api/v1/comments,input=%3Cimg%20src%3Dx%20onerror%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,synthetic,7a322714a815
+POST,/api/v1/login,q=admin%27%29%20OR%20%28%271%27%3D%271%27--,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%29%20OR%20%28%271%27%3D%271%27--&pass=123,1,SQLi,synthetic,9e272657670d
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""'\""><script src=http://test.local/xss.js></script>""}",1,XSS,synthetic,2ca336105f7e
+GET,/search,input=%3Cinput%20onfocus%3Dalert%281%29%20autofocus%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,f316600728ba
+POST,/api/v1/login,q=1%20OR%201%3D1,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,20ae6ca4903b
+GET,/api/v1/search,q=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,4c428da87877
+GET,/search,input=javascript%3Aalert%281%29,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,358a2d3c0ba6
+POST,/api/v1/login,q=%27%20OR%20sleep%285%29%23,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20sleep%285%29%23&pass=123,1,SQLi,synthetic,abca1275f5d2
+POST,/api/v1/comments,input=%3Cscript%3Ealert%28document.domain%29%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(document.domain)</script>""}",1,XSS,synthetic,f76b7e0834cb
+POST,/api/v1/search,q=%27%20OR%20sleep%285%29%23,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20sleep%285%29%23&pass=123,1,SQLi,synthetic,a5aa09c28d16
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<body onload=alert('XSS')>""}",1,XSS,synthetic,7735538d7319
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--&pass=123,1,SQLi,synthetic,a8935a2ca617
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--&pass=123,1,SQLi,synthetic,911da8a2eebd
+GET,/api/v1/login,q=1%20OR%201%3D1,"{""User-Agent"": ""Mozilla/5.0""}",user=1%20OR%201%3D1&pass=123,1,SQLi,synthetic,543aaea67cc6
+GET,/api/v1/search,q=Reviewing%20the%20top%2010%20best%20coffee%20shops%20in%20the%20downtown%20union%20district&category=blog&sort=relevance,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""}",,0,Benign,hard_negatives,e4e77971db75
+POST,/api/v1/forum/posts,,"{""Content-Type"": ""application/json"", ""User-Agent"": ""Mozilla/5.0""}","{""title"": ""Help with code snippet"", ""content"": ""const isValid = (a, b) => a < b && b > 0;"", ""tags"": [""python"", ""js""]}",0,Benign,hard_negatives,5d718d3f9083
+GET,/api/v1/files/download,filename=report.2024.q3.final.v2.pdf,"{""User-Agent"": ""Mozilla/5.0""}",,0,Benign,hard_negatives,d33344b6af42
+GET,/api/v1/search,lang=ta&q=Bonjour%2C%20comment%20allez-vous%20aujourd%27hui%3F,"{""Accept-Language"": ""ta,en-US;q=0.9"", ""User-Agent"": ""Mozilla/5.0""}",,0,Benign,hard_negatives,f94b99860240

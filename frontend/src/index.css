@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@property --threat-glow-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: rgba(91, 141, 239, 0.07);
+}
+
+:root {
+  /* Slate Pro Light Theme */
+  --bg: #F5F7FA;
+  --surface: rgba(255, 255, 255, 0.85);
+  --surface-solid: rgba(255, 255, 255, 0.88);
+  --border: #E3E8EF;
+  --border-hover: rgba(47, 107, 255, 0.40);
+  --text: #101828;
+  --muted: #556070;
+  --accent: #2F6BFF;
+  --accent-rgb: 47, 107, 255;
+  --status-allow: #1E9E72;
+  --status-warn: #B7791F;
+  --status-block: #D64550;
+  --glass-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 6px 16px rgba(0, 0, 0, 0.04);
+  --glass-highlight: rgba(255, 255, 255, 0.7);
+  --threat-glow-color: rgba(47, 107, 255, 0.06);
+}
+
+.dark {
+  /* Slate Pro Dark Theme */
+  --bg: #0B0F17;
+  --surface: rgba(17, 24, 39, 0.75);
+  --surface-solid: rgba(17, 24, 39, 0.85);
+  --border: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(91, 141, 239, 0.45);
+  --text: #E6EAF2;
+  --muted: #94A0B8;
+  --accent: #5B8DEF;
+  --accent-rgb: 91, 141, 239;
+  --status-allow: #3FB68B;
+  --status-warn: #D9A441;
+  --status-block: #E5656F;
+  --glass-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 8px 24px rgba(0, 0, 0, 0.18);
+  --glass-highlight: rgba(255, 255, 255, 0.08);
+  --threat-glow-color: rgba(91, 141, 239, 0.07);
+}
+
+/* ==========================================================================
+   Illustration Watermark Background Layer (Subtle & Non-intrusive)
+   ========================================================================== */
+.app-wrapper {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.app-wrapper::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  background-image: url('/images/bg-illustration.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.11;
+  pointer-events: none;
+  z-index: 0;
+  transition: opacity 0.3s ease;
+}
+
+.dark .app-wrapper::before {
+  opacity: 0.06;
+}
+
+@media (max-width: 640px) {
+  .app-wrapper::before {
+    background-position: right bottom;
+    background-size: contain;
+    opacity: 0.10;
+    height: 100dvh;
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    font-size: 13.5px;
+    line-height: 1.5;
+    overflow-x: hidden;
+    transition: background-color 0.4s ease, color 0.3s ease;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Inter', 'Plus Jakarta Sans', system-ui, sans-serif;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+  }
+}
+
+/* ==========================================================================
+   Slate Pro Glass Card
+   ========================================================================== */
+.glass-card {
+  position: relative;
+  background-color: var(--surface);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: inset 0 1px 0 var(--glass-highlight), var(--glass-shadow);
+  transition: border-color 200ms ease, transform 200ms ease, box-shadow 200ms ease;
+}
+
+.glass-card:hover {
+  border-color: var(--border-hover);
+}
+
+/* Status hover spotlight tints */
+.glass-card-allow:hover {
+  border-color: rgba(63, 182, 139, 0.35);
+}
+.glass-card-warn:hover {
+  border-color: rgba(217, 164, 65, 0.35);
+}
+.glass-card-block:hover {
+  border-color: rgba(229, 101, 111, 0.35);
+}
+
+/* ==========================================================================
+   Slate Pro Navigation & Buttons
+   ========================================================================== */
+/* Active Pill (Solid accent, NO glow) */
+.glass-pill {
+  background-color: var(--accent);
+  color: #FFFFFF !important;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  transition: background-color 150ms ease, border-color 150ms ease;
+}
+.btn-secondary:hover {
+  background-color: var(--surface);
+  border-color: var(--border-hover);
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: var(--accent);
+  color: #FFFFFF;
+  border: 1px solid transparent;
+  font-weight: 500;
+  transition: opacity 150ms ease, transform 150ms ease;
+}
+.btn-primary:hover {
+  opacity: 0.92;
+}
+
+/* ==========================================================================
+   Status Pills & Badges (10-12% tinted bg, 1px tinted border, colored text)
+   ========================================================================== */
+.badge-allow {
+  background-color: rgba(63, 182, 139, 0.12);
+  border: 1px solid rgba(63, 182, 139, 0.25);
+  color: var(--status-allow);
+}
+.badge-warn {
+  background-color: rgba(217, 164, 65, 0.12);
+  border: 1px solid rgba(217, 164, 65, 0.25);
+  color: var(--status-warn);
+}
+.badge-block {
+  background-color: rgba(229, 101, 111, 0.12);
+  border: 1px solid rgba(229, 101, 111, 0.25);
+  color: var(--status-block);
+}
+.badge-neutral {
+  background-color: rgba(148, 160, 184, 0.10);
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+
+/* ==========================================================================
+   Subtle Theme Switch Scanline & Shockwave
+   ========================================================================== */
+.scanline-sweep {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 2px;
+  background: var(--accent);
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 999999;
+  animation: scanlineSweep 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes scanlineSweep {
+  0% { transform: translateY(-10px); opacity: 0.4; }
+  100% { transform: translateY(105vh); opacity: 0; }
+}
+
+/* Keyboard Focus Ring */
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 160, 184, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 160, 184, 0.35);
+}
+
+/* Accessibility: Prefers Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

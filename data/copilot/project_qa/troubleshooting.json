@@ -1,0 +1,3482 @@
+[
+  {
+    "id": "proj_faq_0001",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 1",
+        "rate limit too aggressive 1",
+        "gateway not forwarding 1",
+        "telegram not connecting 1",
+        "dashboard empty 1",
+        "model not loading 1"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 1",
+        "ரேட் லிமிட் மிகக் கடுமையானது 1",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 1",
+        "டெலிகிராம் இணைக்கப்படவில்லை 1",
+        "டாஷ்போர்டு காலியாக உள்ளது 1",
+        "மாதிரி ஏற்றப்படவில்லை 1"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 1",
+        "rate limit strict-ah irukku 1",
+        "gateway forward aagala 1",
+        "telegram connect aagala 1",
+        "dashboard empty-ah irukku 1",
+        "model load aagala 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0002",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 2",
+        "rate limit too aggressive 2",
+        "gateway not forwarding 2",
+        "telegram not connecting 2",
+        "dashboard empty 2",
+        "model not loading 2"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 2",
+        "ரேட் லிமிட் மிகக் கடுமையானது 2",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 2",
+        "டெலிகிராம் இணைக்கப்படவில்லை 2",
+        "டாஷ்போர்டு காலியாக உள்ளது 2",
+        "மாதிரி ஏற்றப்படவில்லை 2"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 2",
+        "rate limit strict-ah irukku 2",
+        "gateway forward aagala 2",
+        "telegram connect aagala 2",
+        "dashboard empty-ah irukku 2",
+        "model load aagala 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0003",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 3",
+        "rate limit too aggressive 3",
+        "gateway not forwarding 3",
+        "telegram not connecting 3",
+        "dashboard empty 3",
+        "model not loading 3"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 3",
+        "ரேட் லிமிட் மிகக் கடுமையானது 3",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 3",
+        "டெலிகிராம் இணைக்கப்படவில்லை 3",
+        "டாஷ்போர்டு காலியாக உள்ளது 3",
+        "மாதிரி ஏற்றப்படவில்லை 3"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 3",
+        "rate limit strict-ah irukku 3",
+        "gateway forward aagala 3",
+        "telegram connect aagala 3",
+        "dashboard empty-ah irukku 3",
+        "model load aagala 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0004",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 4",
+        "rate limit too aggressive 4",
+        "gateway not forwarding 4",
+        "telegram not connecting 4",
+        "dashboard empty 4",
+        "model not loading 4"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 4",
+        "ரேட் லிமிட் மிகக் கடுமையானது 4",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 4",
+        "டெலிகிராம் இணைக்கப்படவில்லை 4",
+        "டாஷ்போர்டு காலியாக உள்ளது 4",
+        "மாதிரி ஏற்றப்படவில்லை 4"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 4",
+        "rate limit strict-ah irukku 4",
+        "gateway forward aagala 4",
+        "telegram connect aagala 4",
+        "dashboard empty-ah irukku 4",
+        "model load aagala 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0005",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 5",
+        "rate limit too aggressive 5",
+        "gateway not forwarding 5",
+        "telegram not connecting 5",
+        "dashboard empty 5",
+        "model not loading 5"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 5",
+        "ரேட் லிமிட் மிகக் கடுமையானது 5",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 5",
+        "டெலிகிராம் இணைக்கப்படவில்லை 5",
+        "டாஷ்போர்டு காலியாக உள்ளது 5",
+        "மாதிரி ஏற்றப்படவில்லை 5"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 5",
+        "rate limit strict-ah irukku 5",
+        "gateway forward aagala 5",
+        "telegram connect aagala 5",
+        "dashboard empty-ah irukku 5",
+        "model load aagala 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0006",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 6",
+        "rate limit too aggressive 6",
+        "gateway not forwarding 6",
+        "telegram not connecting 6",
+        "dashboard empty 6",
+        "model not loading 6"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 6",
+        "ரேட் லிமிட் மிகக் கடுமையானது 6",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 6",
+        "டெலிகிராம் இணைக்கப்படவில்லை 6",
+        "டாஷ்போர்டு காலியாக உள்ளது 6",
+        "மாதிரி ஏற்றப்படவில்லை 6"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 6",
+        "rate limit strict-ah irukku 6",
+        "gateway forward aagala 6",
+        "telegram connect aagala 6",
+        "dashboard empty-ah irukku 6",
+        "model load aagala 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0007",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 7",
+        "rate limit too aggressive 7",
+        "gateway not forwarding 7",
+        "telegram not connecting 7",
+        "dashboard empty 7",
+        "model not loading 7"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 7",
+        "ரேட் லிமிட் மிகக் கடுமையானது 7",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 7",
+        "டெலிகிராம் இணைக்கப்படவில்லை 7",
+        "டாஷ்போர்டு காலியாக உள்ளது 7",
+        "மாதிரி ஏற்றப்படவில்லை 7"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 7",
+        "rate limit strict-ah irukku 7",
+        "gateway forward aagala 7",
+        "telegram connect aagala 7",
+        "dashboard empty-ah irukku 7",
+        "model load aagala 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0008",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 8",
+        "rate limit too aggressive 8",
+        "gateway not forwarding 8",
+        "telegram not connecting 8",
+        "dashboard empty 8",
+        "model not loading 8"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 8",
+        "ரேட் லிமிட் மிகக் கடுமையானது 8",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 8",
+        "டெலிகிராம் இணைக்கப்படவில்லை 8",
+        "டாஷ்போர்டு காலியாக உள்ளது 8",
+        "மாதிரி ஏற்றப்படவில்லை 8"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 8",
+        "rate limit strict-ah irukku 8",
+        "gateway forward aagala 8",
+        "telegram connect aagala 8",
+        "dashboard empty-ah irukku 8",
+        "model load aagala 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0009",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 9",
+        "rate limit too aggressive 9",
+        "gateway not forwarding 9",
+        "telegram not connecting 9",
+        "dashboard empty 9",
+        "model not loading 9"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 9",
+        "ரேட் லிமிட் மிகக் கடுமையானது 9",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 9",
+        "டெலிகிராம் இணைக்கப்படவில்லை 9",
+        "டாஷ்போர்டு காலியாக உள்ளது 9",
+        "மாதிரி ஏற்றப்படவில்லை 9"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 9",
+        "rate limit strict-ah irukku 9",
+        "gateway forward aagala 9",
+        "telegram connect aagala 9",
+        "dashboard empty-ah irukku 9",
+        "model load aagala 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0010",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 10",
+        "rate limit too aggressive 10",
+        "gateway not forwarding 10",
+        "telegram not connecting 10",
+        "dashboard empty 10",
+        "model not loading 10"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 10",
+        "ரேட் லிமிட் மிகக் கடுமையானது 10",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 10",
+        "டெலிகிராம் இணைக்கப்படவில்லை 10",
+        "டாஷ்போர்டு காலியாக உள்ளது 10",
+        "மாதிரி ஏற்றப்படவில்லை 10"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 10",
+        "rate limit strict-ah irukku 10",
+        "gateway forward aagala 10",
+        "telegram connect aagala 10",
+        "dashboard empty-ah irukku 10",
+        "model load aagala 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0011",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 11",
+        "rate limit too aggressive 11",
+        "gateway not forwarding 11",
+        "telegram not connecting 11",
+        "dashboard empty 11",
+        "model not loading 11"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 11",
+        "ரேட் லிமிட் மிகக் கடுமையானது 11",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 11",
+        "டெலிகிராம் இணைக்கப்படவில்லை 11",
+        "டாஷ்போர்டு காலியாக உள்ளது 11",
+        "மாதிரி ஏற்றப்படவில்லை 11"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 11",
+        "rate limit strict-ah irukku 11",
+        "gateway forward aagala 11",
+        "telegram connect aagala 11",
+        "dashboard empty-ah irukku 11",
+        "model load aagala 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0012",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 12",
+        "rate limit too aggressive 12",
+        "gateway not forwarding 12",
+        "telegram not connecting 12",
+        "dashboard empty 12",
+        "model not loading 12"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 12",
+        "ரேட் லிமிட் மிகக் கடுமையானது 12",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 12",
+        "டெலிகிராம் இணைக்கப்படவில்லை 12",
+        "டாஷ்போர்டு காலியாக உள்ளது 12",
+        "மாதிரி ஏற்றப்படவில்லை 12"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 12",
+        "rate limit strict-ah irukku 12",
+        "gateway forward aagala 12",
+        "telegram connect aagala 12",
+        "dashboard empty-ah irukku 12",
+        "model load aagala 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0013",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 13",
+        "rate limit too aggressive 13",
+        "gateway not forwarding 13",
+        "telegram not connecting 13",
+        "dashboard empty 13",
+        "model not loading 13"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 13",
+        "ரேட் லிமிட் மிகக் கடுமையானது 13",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 13",
+        "டெலிகிராம் இணைக்கப்படவில்லை 13",
+        "டாஷ்போர்டு காலியாக உள்ளது 13",
+        "மாதிரி ஏற்றப்படவில்லை 13"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 13",
+        "rate limit strict-ah irukku 13",
+        "gateway forward aagala 13",
+        "telegram connect aagala 13",
+        "dashboard empty-ah irukku 13",
+        "model load aagala 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0014",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 14",
+        "rate limit too aggressive 14",
+        "gateway not forwarding 14",
+        "telegram not connecting 14",
+        "dashboard empty 14",
+        "model not loading 14"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 14",
+        "ரேட் லிமிட் மிகக் கடுமையானது 14",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 14",
+        "டெலிகிராம் இணைக்கப்படவில்லை 14",
+        "டாஷ்போர்டு காலியாக உள்ளது 14",
+        "மாதிரி ஏற்றப்படவில்லை 14"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 14",
+        "rate limit strict-ah irukku 14",
+        "gateway forward aagala 14",
+        "telegram connect aagala 14",
+        "dashboard empty-ah irukku 14",
+        "model load aagala 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0015",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 15",
+        "rate limit too aggressive 15",
+        "gateway not forwarding 15",
+        "telegram not connecting 15",
+        "dashboard empty 15",
+        "model not loading 15"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 15",
+        "ரேட் லிமிட் மிகக் கடுமையானது 15",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 15",
+        "டெலிகிராம் இணைக்கப்படவில்லை 15",
+        "டாஷ்போர்டு காலியாக உள்ளது 15",
+        "மாதிரி ஏற்றப்படவில்லை 15"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 15",
+        "rate limit strict-ah irukku 15",
+        "gateway forward aagala 15",
+        "telegram connect aagala 15",
+        "dashboard empty-ah irukku 15",
+        "model load aagala 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0016",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 16",
+        "rate limit too aggressive 16",
+        "gateway not forwarding 16",
+        "telegram not connecting 16",
+        "dashboard empty 16",
+        "model not loading 16"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 16",
+        "ரேட் லிமிட் மிகக் கடுமையானது 16",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 16",
+        "டெலிகிராம் இணைக்கப்படவில்லை 16",
+        "டாஷ்போர்டு காலியாக உள்ளது 16",
+        "மாதிரி ஏற்றப்படவில்லை 16"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 16",
+        "rate limit strict-ah irukku 16",
+        "gateway forward aagala 16",
+        "telegram connect aagala 16",
+        "dashboard empty-ah irukku 16",
+        "model load aagala 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0017",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 17",
+        "rate limit too aggressive 17",
+        "gateway not forwarding 17",
+        "telegram not connecting 17",
+        "dashboard empty 17",
+        "model not loading 17"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 17",
+        "ரேட் லிமிட் மிகக் கடுமையானது 17",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 17",
+        "டெலிகிராம் இணைக்கப்படவில்லை 17",
+        "டாஷ்போர்டு காலியாக உள்ளது 17",
+        "மாதிரி ஏற்றப்படவில்லை 17"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 17",
+        "rate limit strict-ah irukku 17",
+        "gateway forward aagala 17",
+        "telegram connect aagala 17",
+        "dashboard empty-ah irukku 17",
+        "model load aagala 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0018",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 18",
+        "rate limit too aggressive 18",
+        "gateway not forwarding 18",
+        "telegram not connecting 18",
+        "dashboard empty 18",
+        "model not loading 18"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 18",
+        "ரேட் லிமிட் மிகக் கடுமையானது 18",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 18",
+        "டெலிகிராம் இணைக்கப்படவில்லை 18",
+        "டாஷ்போர்டு காலியாக உள்ளது 18",
+        "மாதிரி ஏற்றப்படவில்லை 18"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 18",
+        "rate limit strict-ah irukku 18",
+        "gateway forward aagala 18",
+        "telegram connect aagala 18",
+        "dashboard empty-ah irukku 18",
+        "model load aagala 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0019",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 19",
+        "rate limit too aggressive 19",
+        "gateway not forwarding 19",
+        "telegram not connecting 19",
+        "dashboard empty 19",
+        "model not loading 19"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 19",
+        "ரேட் லிமிட் மிகக் கடுமையானது 19",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 19",
+        "டெலிகிராம் இணைக்கப்படவில்லை 19",
+        "டாஷ்போர்டு காலியாக உள்ளது 19",
+        "மாதிரி ஏற்றப்படவில்லை 19"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 19",
+        "rate limit strict-ah irukku 19",
+        "gateway forward aagala 19",
+        "telegram connect aagala 19",
+        "dashboard empty-ah irukku 19",
+        "model load aagala 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0020",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 20",
+        "rate limit too aggressive 20",
+        "gateway not forwarding 20",
+        "telegram not connecting 20",
+        "dashboard empty 20",
+        "model not loading 20"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 20",
+        "ரேட் லிமிட் மிகக் கடுமையானது 20",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 20",
+        "டெலிகிராம் இணைக்கப்படவில்லை 20",
+        "டாஷ்போர்டு காலியாக உள்ளது 20",
+        "மாதிரி ஏற்றப்படவில்லை 20"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 20",
+        "rate limit strict-ah irukku 20",
+        "gateway forward aagala 20",
+        "telegram connect aagala 20",
+        "dashboard empty-ah irukku 20",
+        "model load aagala 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0021",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 21",
+        "rate limit too aggressive 21",
+        "gateway not forwarding 21",
+        "telegram not connecting 21",
+        "dashboard empty 21",
+        "model not loading 21"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 21",
+        "ரேட் லிமிட் மிகக் கடுமையானது 21",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 21",
+        "டெலிகிராம் இணைக்கப்படவில்லை 21",
+        "டாஷ்போர்டு காலியாக உள்ளது 21",
+        "மாதிரி ஏற்றப்படவில்லை 21"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 21",
+        "rate limit strict-ah irukku 21",
+        "gateway forward aagala 21",
+        "telegram connect aagala 21",
+        "dashboard empty-ah irukku 21",
+        "model load aagala 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0022",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 22",
+        "rate limit too aggressive 22",
+        "gateway not forwarding 22",
+        "telegram not connecting 22",
+        "dashboard empty 22",
+        "model not loading 22"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 22",
+        "ரேட் லிமிட் மிகக் கடுமையானது 22",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 22",
+        "டெலிகிராம் இணைக்கப்படவில்லை 22",
+        "டாஷ்போர்டு காலியாக உள்ளது 22",
+        "மாதிரி ஏற்றப்படவில்லை 22"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 22",
+        "rate limit strict-ah irukku 22",
+        "gateway forward aagala 22",
+        "telegram connect aagala 22",
+        "dashboard empty-ah irukku 22",
+        "model load aagala 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0023",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 23",
+        "rate limit too aggressive 23",
+        "gateway not forwarding 23",
+        "telegram not connecting 23",
+        "dashboard empty 23",
+        "model not loading 23"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 23",
+        "ரேட் லிமிட் மிகக் கடுமையானது 23",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 23",
+        "டெலிகிராம் இணைக்கப்படவில்லை 23",
+        "டாஷ்போர்டு காலியாக உள்ளது 23",
+        "மாதிரி ஏற்றப்படவில்லை 23"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 23",
+        "rate limit strict-ah irukku 23",
+        "gateway forward aagala 23",
+        "telegram connect aagala 23",
+        "dashboard empty-ah irukku 23",
+        "model load aagala 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0024",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 24",
+        "rate limit too aggressive 24",
+        "gateway not forwarding 24",
+        "telegram not connecting 24",
+        "dashboard empty 24",
+        "model not loading 24"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 24",
+        "ரேட் லிமிட் மிகக் கடுமையானது 24",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 24",
+        "டெலிகிராம் இணைக்கப்படவில்லை 24",
+        "டாஷ்போர்டு காலியாக உள்ளது 24",
+        "மாதிரி ஏற்றப்படவில்லை 24"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 24",
+        "rate limit strict-ah irukku 24",
+        "gateway forward aagala 24",
+        "telegram connect aagala 24",
+        "dashboard empty-ah irukku 24",
+        "model load aagala 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0025",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 25",
+        "rate limit too aggressive 25",
+        "gateway not forwarding 25",
+        "telegram not connecting 25",
+        "dashboard empty 25",
+        "model not loading 25"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 25",
+        "ரேட் லிமிட் மிகக் கடுமையானது 25",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 25",
+        "டெலிகிராம் இணைக்கப்படவில்லை 25",
+        "டாஷ்போர்டு காலியாக உள்ளது 25",
+        "மாதிரி ஏற்றப்படவில்லை 25"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 25",
+        "rate limit strict-ah irukku 25",
+        "gateway forward aagala 25",
+        "telegram connect aagala 25",
+        "dashboard empty-ah irukku 25",
+        "model load aagala 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0026",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 26",
+        "rate limit too aggressive 26",
+        "gateway not forwarding 26",
+        "telegram not connecting 26",
+        "dashboard empty 26",
+        "model not loading 26"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 26",
+        "ரேட் லிமிட் மிகக் கடுமையானது 26",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 26",
+        "டெலிகிராம் இணைக்கப்படவில்லை 26",
+        "டாஷ்போர்டு காலியாக உள்ளது 26",
+        "மாதிரி ஏற்றப்படவில்லை 26"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 26",
+        "rate limit strict-ah irukku 26",
+        "gateway forward aagala 26",
+        "telegram connect aagala 26",
+        "dashboard empty-ah irukku 26",
+        "model load aagala 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0027",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 27",
+        "rate limit too aggressive 27",
+        "gateway not forwarding 27",
+        "telegram not connecting 27",
+        "dashboard empty 27",
+        "model not loading 27"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 27",
+        "ரேட் லிமிட் மிகக் கடுமையானது 27",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 27",
+        "டெலிகிராம் இணைக்கப்படவில்லை 27",
+        "டாஷ்போர்டு காலியாக உள்ளது 27",
+        "மாதிரி ஏற்றப்படவில்லை 27"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 27",
+        "rate limit strict-ah irukku 27",
+        "gateway forward aagala 27",
+        "telegram connect aagala 27",
+        "dashboard empty-ah irukku 27",
+        "model load aagala 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0028",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 28",
+        "rate limit too aggressive 28",
+        "gateway not forwarding 28",
+        "telegram not connecting 28",
+        "dashboard empty 28",
+        "model not loading 28"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 28",
+        "ரேட் லிமிட் மிகக் கடுமையானது 28",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 28",
+        "டெலிகிராம் இணைக்கப்படவில்லை 28",
+        "டாஷ்போர்டு காலியாக உள்ளது 28",
+        "மாதிரி ஏற்றப்படவில்லை 28"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 28",
+        "rate limit strict-ah irukku 28",
+        "gateway forward aagala 28",
+        "telegram connect aagala 28",
+        "dashboard empty-ah irukku 28",
+        "model load aagala 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0029",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 29",
+        "rate limit too aggressive 29",
+        "gateway not forwarding 29",
+        "telegram not connecting 29",
+        "dashboard empty 29",
+        "model not loading 29"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 29",
+        "ரேட் லிமிட் மிகக் கடுமையானது 29",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 29",
+        "டெலிகிராம் இணைக்கப்படவில்லை 29",
+        "டாஷ்போர்டு காலியாக உள்ளது 29",
+        "மாதிரி ஏற்றப்படவில்லை 29"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 29",
+        "rate limit strict-ah irukku 29",
+        "gateway forward aagala 29",
+        "telegram connect aagala 29",
+        "dashboard empty-ah irukku 29",
+        "model load aagala 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0030",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 30",
+        "rate limit too aggressive 30",
+        "gateway not forwarding 30",
+        "telegram not connecting 30",
+        "dashboard empty 30",
+        "model not loading 30"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 30",
+        "ரேட் லிமிட் மிகக் கடுமையானது 30",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 30",
+        "டெலிகிராம் இணைக்கப்படவில்லை 30",
+        "டாஷ்போர்டு காலியாக உள்ளது 30",
+        "மாதிரி ஏற்றப்படவில்லை 30"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 30",
+        "rate limit strict-ah irukku 30",
+        "gateway forward aagala 30",
+        "telegram connect aagala 30",
+        "dashboard empty-ah irukku 30",
+        "model load aagala 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0031",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 31",
+        "rate limit too aggressive 31",
+        "gateway not forwarding 31",
+        "telegram not connecting 31",
+        "dashboard empty 31",
+        "model not loading 31"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 31",
+        "ரேட் லிமிட் மிகக் கடுமையானது 31",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 31",
+        "டெலிகிராம் இணைக்கப்படவில்லை 31",
+        "டாஷ்போர்டு காலியாக உள்ளது 31",
+        "மாதிரி ஏற்றப்படவில்லை 31"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 31",
+        "rate limit strict-ah irukku 31",
+        "gateway forward aagala 31",
+        "telegram connect aagala 31",
+        "dashboard empty-ah irukku 31",
+        "model load aagala 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0032",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 32",
+        "rate limit too aggressive 32",
+        "gateway not forwarding 32",
+        "telegram not connecting 32",
+        "dashboard empty 32",
+        "model not loading 32"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 32",
+        "ரேட் லிமிட் மிகக் கடுமையானது 32",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 32",
+        "டெலிகிராம் இணைக்கப்படவில்லை 32",
+        "டாஷ்போர்டு காலியாக உள்ளது 32",
+        "மாதிரி ஏற்றப்படவில்லை 32"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 32",
+        "rate limit strict-ah irukku 32",
+        "gateway forward aagala 32",
+        "telegram connect aagala 32",
+        "dashboard empty-ah irukku 32",
+        "model load aagala 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0033",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 33",
+        "rate limit too aggressive 33",
+        "gateway not forwarding 33",
+        "telegram not connecting 33",
+        "dashboard empty 33",
+        "model not loading 33"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 33",
+        "ரேட் லிமிட் மிகக் கடுமையானது 33",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 33",
+        "டெலிகிராம் இணைக்கப்படவில்லை 33",
+        "டாஷ்போர்டு காலியாக உள்ளது 33",
+        "மாதிரி ஏற்றப்படவில்லை 33"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 33",
+        "rate limit strict-ah irukku 33",
+        "gateway forward aagala 33",
+        "telegram connect aagala 33",
+        "dashboard empty-ah irukku 33",
+        "model load aagala 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0034",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 34",
+        "rate limit too aggressive 34",
+        "gateway not forwarding 34",
+        "telegram not connecting 34",
+        "dashboard empty 34",
+        "model not loading 34"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 34",
+        "ரேட் லிமிட் மிகக் கடுமையானது 34",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 34",
+        "டெலிகிராம் இணைக்கப்படவில்லை 34",
+        "டாஷ்போர்டு காலியாக உள்ளது 34",
+        "மாதிரி ஏற்றப்படவில்லை 34"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 34",
+        "rate limit strict-ah irukku 34",
+        "gateway forward aagala 34",
+        "telegram connect aagala 34",
+        "dashboard empty-ah irukku 34",
+        "model load aagala 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0035",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 35",
+        "rate limit too aggressive 35",
+        "gateway not forwarding 35",
+        "telegram not connecting 35",
+        "dashboard empty 35",
+        "model not loading 35"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 35",
+        "ரேட் லிமிட் மிகக் கடுமையானது 35",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 35",
+        "டெலிகிராம் இணைக்கப்படவில்லை 35",
+        "டாஷ்போர்டு காலியாக உள்ளது 35",
+        "மாதிரி ஏற்றப்படவில்லை 35"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 35",
+        "rate limit strict-ah irukku 35",
+        "gateway forward aagala 35",
+        "telegram connect aagala 35",
+        "dashboard empty-ah irukku 35",
+        "model load aagala 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0036",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 36",
+        "rate limit too aggressive 36",
+        "gateway not forwarding 36",
+        "telegram not connecting 36",
+        "dashboard empty 36",
+        "model not loading 36"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 36",
+        "ரேட் லிமிட் மிகக் கடுமையானது 36",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 36",
+        "டெலிகிராம் இணைக்கப்படவில்லை 36",
+        "டாஷ்போர்டு காலியாக உள்ளது 36",
+        "மாதிரி ஏற்றப்படவில்லை 36"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 36",
+        "rate limit strict-ah irukku 36",
+        "gateway forward aagala 36",
+        "telegram connect aagala 36",
+        "dashboard empty-ah irukku 36",
+        "model load aagala 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0037",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 37",
+        "rate limit too aggressive 37",
+        "gateway not forwarding 37",
+        "telegram not connecting 37",
+        "dashboard empty 37",
+        "model not loading 37"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 37",
+        "ரேட் லிமிட் மிகக் கடுமையானது 37",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 37",
+        "டெலிகிராம் இணைக்கப்படவில்லை 37",
+        "டாஷ்போர்டு காலியாக உள்ளது 37",
+        "மாதிரி ஏற்றப்படவில்லை 37"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 37",
+        "rate limit strict-ah irukku 37",
+        "gateway forward aagala 37",
+        "telegram connect aagala 37",
+        "dashboard empty-ah irukku 37",
+        "model load aagala 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0038",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 38",
+        "rate limit too aggressive 38",
+        "gateway not forwarding 38",
+        "telegram not connecting 38",
+        "dashboard empty 38",
+        "model not loading 38"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 38",
+        "ரேட் லிமிட் மிகக் கடுமையானது 38",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 38",
+        "டெலிகிராம் இணைக்கப்படவில்லை 38",
+        "டாஷ்போர்டு காலியாக உள்ளது 38",
+        "மாதிரி ஏற்றப்படவில்லை 38"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 38",
+        "rate limit strict-ah irukku 38",
+        "gateway forward aagala 38",
+        "telegram connect aagala 38",
+        "dashboard empty-ah irukku 38",
+        "model load aagala 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0039",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 39",
+        "rate limit too aggressive 39",
+        "gateway not forwarding 39",
+        "telegram not connecting 39",
+        "dashboard empty 39",
+        "model not loading 39"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 39",
+        "ரேட் லிமிட் மிகக் கடுமையானது 39",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 39",
+        "டெலிகிராம் இணைக்கப்படவில்லை 39",
+        "டாஷ்போர்டு காலியாக உள்ளது 39",
+        "மாதிரி ஏற்றப்படவில்லை 39"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 39",
+        "rate limit strict-ah irukku 39",
+        "gateway forward aagala 39",
+        "telegram connect aagala 39",
+        "dashboard empty-ah irukku 39",
+        "model load aagala 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0040",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 40",
+        "rate limit too aggressive 40",
+        "gateway not forwarding 40",
+        "telegram not connecting 40",
+        "dashboard empty 40",
+        "model not loading 40"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 40",
+        "ரேட் லிமிட் மிகக் கடுமையானது 40",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 40",
+        "டெலிகிராம் இணைக்கப்படவில்லை 40",
+        "டாஷ்போர்டு காலியாக உள்ளது 40",
+        "மாதிரி ஏற்றப்படவில்லை 40"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 40",
+        "rate limit strict-ah irukku 40",
+        "gateway forward aagala 40",
+        "telegram connect aagala 40",
+        "dashboard empty-ah irukku 40",
+        "model load aagala 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0041",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 41",
+        "rate limit too aggressive 41",
+        "gateway not forwarding 41",
+        "telegram not connecting 41",
+        "dashboard empty 41",
+        "model not loading 41"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 41",
+        "ரேட் லிமிட் மிகக் கடுமையானது 41",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 41",
+        "டெலிகிராம் இணைக்கப்படவில்லை 41",
+        "டாஷ்போர்டு காலியாக உள்ளது 41",
+        "மாதிரி ஏற்றப்படவில்லை 41"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 41",
+        "rate limit strict-ah irukku 41",
+        "gateway forward aagala 41",
+        "telegram connect aagala 41",
+        "dashboard empty-ah irukku 41",
+        "model load aagala 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0042",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 42",
+        "rate limit too aggressive 42",
+        "gateway not forwarding 42",
+        "telegram not connecting 42",
+        "dashboard empty 42",
+        "model not loading 42"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 42",
+        "ரேட் லிமிட் மிகக் கடுமையானது 42",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 42",
+        "டெலிகிராம் இணைக்கப்படவில்லை 42",
+        "டாஷ்போர்டு காலியாக உள்ளது 42",
+        "மாதிரி ஏற்றப்படவில்லை 42"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 42",
+        "rate limit strict-ah irukku 42",
+        "gateway forward aagala 42",
+        "telegram connect aagala 42",
+        "dashboard empty-ah irukku 42",
+        "model load aagala 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0043",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 43",
+        "rate limit too aggressive 43",
+        "gateway not forwarding 43",
+        "telegram not connecting 43",
+        "dashboard empty 43",
+        "model not loading 43"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 43",
+        "ரேட் லிமிட் மிகக் கடுமையானது 43",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 43",
+        "டெலிகிராம் இணைக்கப்படவில்லை 43",
+        "டாஷ்போர்டு காலியாக உள்ளது 43",
+        "மாதிரி ஏற்றப்படவில்லை 43"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 43",
+        "rate limit strict-ah irukku 43",
+        "gateway forward aagala 43",
+        "telegram connect aagala 43",
+        "dashboard empty-ah irukku 43",
+        "model load aagala 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0044",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 44",
+        "rate limit too aggressive 44",
+        "gateway not forwarding 44",
+        "telegram not connecting 44",
+        "dashboard empty 44",
+        "model not loading 44"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 44",
+        "ரேட் லிமிட் மிகக் கடுமையானது 44",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 44",
+        "டெலிகிராம் இணைக்கப்படவில்லை 44",
+        "டாஷ்போர்டு காலியாக உள்ளது 44",
+        "மாதிரி ஏற்றப்படவில்லை 44"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 44",
+        "rate limit strict-ah irukku 44",
+        "gateway forward aagala 44",
+        "telegram connect aagala 44",
+        "dashboard empty-ah irukku 44",
+        "model load aagala 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0045",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 45",
+        "rate limit too aggressive 45",
+        "gateway not forwarding 45",
+        "telegram not connecting 45",
+        "dashboard empty 45",
+        "model not loading 45"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 45",
+        "ரேட் லிமிட் மிகக் கடுமையானது 45",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 45",
+        "டெலிகிராம் இணைக்கப்படவில்லை 45",
+        "டாஷ்போர்டு காலியாக உள்ளது 45",
+        "மாதிரி ஏற்றப்படவில்லை 45"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 45",
+        "rate limit strict-ah irukku 45",
+        "gateway forward aagala 45",
+        "telegram connect aagala 45",
+        "dashboard empty-ah irukku 45",
+        "model load aagala 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0046",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 46",
+        "rate limit too aggressive 46",
+        "gateway not forwarding 46",
+        "telegram not connecting 46",
+        "dashboard empty 46",
+        "model not loading 46"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 46",
+        "ரேட் லிமிட் மிகக் கடுமையானது 46",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 46",
+        "டெலிகிராம் இணைக்கப்படவில்லை 46",
+        "டாஷ்போர்டு காலியாக உள்ளது 46",
+        "மாதிரி ஏற்றப்படவில்லை 46"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 46",
+        "rate limit strict-ah irukku 46",
+        "gateway forward aagala 46",
+        "telegram connect aagala 46",
+        "dashboard empty-ah irukku 46",
+        "model load aagala 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0047",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 47",
+        "rate limit too aggressive 47",
+        "gateway not forwarding 47",
+        "telegram not connecting 47",
+        "dashboard empty 47",
+        "model not loading 47"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 47",
+        "ரேட் லிமிட் மிகக் கடுமையானது 47",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 47",
+        "டெலிகிராம் இணைக்கப்படவில்லை 47",
+        "டாஷ்போர்டு காலியாக உள்ளது 47",
+        "மாதிரி ஏற்றப்படவில்லை 47"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 47",
+        "rate limit strict-ah irukku 47",
+        "gateway forward aagala 47",
+        "telegram connect aagala 47",
+        "dashboard empty-ah irukku 47",
+        "model load aagala 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0048",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 48",
+        "rate limit too aggressive 48",
+        "gateway not forwarding 48",
+        "telegram not connecting 48",
+        "dashboard empty 48",
+        "model not loading 48"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 48",
+        "ரேட் லிமிட் மிகக் கடுமையானது 48",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 48",
+        "டெலிகிராம் இணைக்கப்படவில்லை 48",
+        "டாஷ்போர்டு காலியாக உள்ளது 48",
+        "மாதிரி ஏற்றப்படவில்லை 48"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 48",
+        "rate limit strict-ah irukku 48",
+        "gateway forward aagala 48",
+        "telegram connect aagala 48",
+        "dashboard empty-ah irukku 48",
+        "model load aagala 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0049",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 49",
+        "rate limit too aggressive 49",
+        "gateway not forwarding 49",
+        "telegram not connecting 49",
+        "dashboard empty 49",
+        "model not loading 49"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 49",
+        "ரேட் லிமிட் மிகக் கடுமையானது 49",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 49",
+        "டெலிகிராம் இணைக்கப்படவில்லை 49",
+        "டாஷ்போர்டு காலியாக உள்ளது 49",
+        "மாதிரி ஏற்றப்படவில்லை 49"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 49",
+        "rate limit strict-ah irukku 49",
+        "gateway forward aagala 49",
+        "telegram connect aagala 49",
+        "dashboard empty-ah irukku 49",
+        "model load aagala 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0050",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 50",
+        "rate limit too aggressive 50",
+        "gateway not forwarding 50",
+        "telegram not connecting 50",
+        "dashboard empty 50",
+        "model not loading 50"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 50",
+        "ரேட் லிமிட் மிகக் கடுமையானது 50",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 50",
+        "டெலிகிராம் இணைக்கப்படவில்லை 50",
+        "டாஷ்போர்டு காலியாக உள்ளது 50",
+        "மாதிரி ஏற்றப்படவில்லை 50"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 50",
+        "rate limit strict-ah irukku 50",
+        "gateway forward aagala 50",
+        "telegram connect aagala 50",
+        "dashboard empty-ah irukku 50",
+        "model load aagala 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0051",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 51",
+        "rate limit too aggressive 51",
+        "gateway not forwarding 51",
+        "telegram not connecting 51",
+        "dashboard empty 51",
+        "model not loading 51"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 51",
+        "ரேட் லிமிட் மிகக் கடுமையானது 51",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 51",
+        "டெலிகிராம் இணைக்கப்படவில்லை 51",
+        "டாஷ்போர்டு காலியாக உள்ளது 51",
+        "மாதிரி ஏற்றப்படவில்லை 51"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 51",
+        "rate limit strict-ah irukku 51",
+        "gateway forward aagala 51",
+        "telegram connect aagala 51",
+        "dashboard empty-ah irukku 51",
+        "model load aagala 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0052",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 52",
+        "rate limit too aggressive 52",
+        "gateway not forwarding 52",
+        "telegram not connecting 52",
+        "dashboard empty 52",
+        "model not loading 52"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 52",
+        "ரேட் லிமிட் மிகக் கடுமையானது 52",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 52",
+        "டெலிகிராம் இணைக்கப்படவில்லை 52",
+        "டாஷ்போர்டு காலியாக உள்ளது 52",
+        "மாதிரி ஏற்றப்படவில்லை 52"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 52",
+        "rate limit strict-ah irukku 52",
+        "gateway forward aagala 52",
+        "telegram connect aagala 52",
+        "dashboard empty-ah irukku 52",
+        "model load aagala 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0053",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 53",
+        "rate limit too aggressive 53",
+        "gateway not forwarding 53",
+        "telegram not connecting 53",
+        "dashboard empty 53",
+        "model not loading 53"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 53",
+        "ரேட் லிமிட் மிகக் கடுமையானது 53",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 53",
+        "டெலிகிராம் இணைக்கப்படவில்லை 53",
+        "டாஷ்போர்டு காலியாக உள்ளது 53",
+        "மாதிரி ஏற்றப்படவில்லை 53"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 53",
+        "rate limit strict-ah irukku 53",
+        "gateway forward aagala 53",
+        "telegram connect aagala 53",
+        "dashboard empty-ah irukku 53",
+        "model load aagala 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0054",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 54",
+        "rate limit too aggressive 54",
+        "gateway not forwarding 54",
+        "telegram not connecting 54",
+        "dashboard empty 54",
+        "model not loading 54"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 54",
+        "ரேட் லிமிட் மிகக் கடுமையானது 54",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 54",
+        "டெலிகிராம் இணைக்கப்படவில்லை 54",
+        "டாஷ்போர்டு காலியாக உள்ளது 54",
+        "மாதிரி ஏற்றப்படவில்லை 54"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 54",
+        "rate limit strict-ah irukku 54",
+        "gateway forward aagala 54",
+        "telegram connect aagala 54",
+        "dashboard empty-ah irukku 54",
+        "model load aagala 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0055",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 55",
+        "rate limit too aggressive 55",
+        "gateway not forwarding 55",
+        "telegram not connecting 55",
+        "dashboard empty 55",
+        "model not loading 55"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 55",
+        "ரேட் லிமிட் மிகக் கடுமையானது 55",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 55",
+        "டெலிகிராம் இணைக்கப்படவில்லை 55",
+        "டாஷ்போர்டு காலியாக உள்ளது 55",
+        "மாதிரி ஏற்றப்படவில்லை 55"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 55",
+        "rate limit strict-ah irukku 55",
+        "gateway forward aagala 55",
+        "telegram connect aagala 55",
+        "dashboard empty-ah irukku 55",
+        "model load aagala 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0056",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 56",
+        "rate limit too aggressive 56",
+        "gateway not forwarding 56",
+        "telegram not connecting 56",
+        "dashboard empty 56",
+        "model not loading 56"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 56",
+        "ரேட் லிமிட் மிகக் கடுமையானது 56",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 56",
+        "டெலிகிராம் இணைக்கப்படவில்லை 56",
+        "டாஷ்போர்டு காலியாக உள்ளது 56",
+        "மாதிரி ஏற்றப்படவில்லை 56"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 56",
+        "rate limit strict-ah irukku 56",
+        "gateway forward aagala 56",
+        "telegram connect aagala 56",
+        "dashboard empty-ah irukku 56",
+        "model load aagala 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0057",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 57",
+        "rate limit too aggressive 57",
+        "gateway not forwarding 57",
+        "telegram not connecting 57",
+        "dashboard empty 57",
+        "model not loading 57"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 57",
+        "ரேட் லிமிட் மிகக் கடுமையானது 57",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 57",
+        "டெலிகிராம் இணைக்கப்படவில்லை 57",
+        "டாஷ்போர்டு காலியாக உள்ளது 57",
+        "மாதிரி ஏற்றப்படவில்லை 57"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 57",
+        "rate limit strict-ah irukku 57",
+        "gateway forward aagala 57",
+        "telegram connect aagala 57",
+        "dashboard empty-ah irukku 57",
+        "model load aagala 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0058",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 58",
+        "rate limit too aggressive 58",
+        "gateway not forwarding 58",
+        "telegram not connecting 58",
+        "dashboard empty 58",
+        "model not loading 58"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 58",
+        "ரேட் லிமிட் மிகக் கடுமையானது 58",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 58",
+        "டெலிகிராம் இணைக்கப்படவில்லை 58",
+        "டாஷ்போர்டு காலியாக உள்ளது 58",
+        "மாதிரி ஏற்றப்படவில்லை 58"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 58",
+        "rate limit strict-ah irukku 58",
+        "gateway forward aagala 58",
+        "telegram connect aagala 58",
+        "dashboard empty-ah irukku 58",
+        "model load aagala 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0059",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 59",
+        "rate limit too aggressive 59",
+        "gateway not forwarding 59",
+        "telegram not connecting 59",
+        "dashboard empty 59",
+        "model not loading 59"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 59",
+        "ரேட் லிமிட் மிகக் கடுமையானது 59",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 59",
+        "டெலிகிராம் இணைக்கப்படவில்லை 59",
+        "டாஷ்போர்டு காலியாக உள்ளது 59",
+        "மாதிரி ஏற்றப்படவில்லை 59"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 59",
+        "rate limit strict-ah irukku 59",
+        "gateway forward aagala 59",
+        "telegram connect aagala 59",
+        "dashboard empty-ah irukku 59",
+        "model load aagala 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  },
+  {
+    "id": "proj_faq_0060",
+    "category": "troubleshooting",
+    "patterns": {
+      "en": [
+        "too many false positives 60",
+        "rate limit too aggressive 60",
+        "gateway not forwarding 60",
+        "telegram not connecting 60",
+        "dashboard empty 60",
+        "model not loading 60"
+      ],
+      "ta": [
+        "அதிக தவறான எச்சரிக்கைகள் 60",
+        "ரேட் லிமிட் மிகக் கடுமையானது 60",
+        "கேட்வே கோரிக்கைகளை அனுப்பவில்லை 60",
+        "டெலிகிராம் இணைக்கப்படவில்லை 60",
+        "டாஷ்போர்டு காலியாக உள்ளது 60",
+        "மாதிரி ஏற்றப்படவில்லை 60"
+      ],
+      "tanglish": [
+        "romba false positives varudhu 60",
+        "rate limit strict-ah irukku 60",
+        "gateway forward aagala 60",
+        "telegram connect aagala 60",
+        "dashboard empty-ah irukku 60",
+        "model load aagala 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "If experiencing false positives: 1) Switch mode from 'protect' to 'monitor' in Settings, 2) Adjust BLOCK threshold from 0.70 to 0.80, or 3) Add endpoint to allowlist.",
+        "If rate limit triggers prematurely: Increase RATE_LIMIT_MAX_REQUESTS from 50 to 100 in Settings or .env file."
+      ],
+      "ta": [
+        "தவறான எச்சரிக்கைகள் வந்தால்: Settings பக்கத்தில் சென்று BLOCK வரம்பை 0.70-லிருந்து 0.80-ஆக அதிகரிக்கலாம் அல்லது Monitor முறைக்கு மாற்றலாம்.",
+        "ரேட் லிமிட் பிரச்சனைக்கு: Settings-ல் அதிகபட்ச கோரிக்கை வரம்பை 50-லிருந்து 100-ஆக உயர்த்தலாம்."
+      ],
+      "tanglish": [
+        "False positives solution: Settings view la BLOCK threshold-ah 0.70 la irundhu 0.80-ku ethunga or Protect mode-ah Monitor mode-ku mathunga.",
+        "Rate limit fix: Settings la RATE_LIMIT_MAX_REQUESTS value-ah 50 la irundhu 100-ku increase pannunga."
+      ]
+    },
+    "chips": [
+      "View Settings",
+      "/status",
+      "Unban 127.0.0.1"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "troubleshooting",
+      "faq",
+      "fixes"
+    ]
+  }
+]

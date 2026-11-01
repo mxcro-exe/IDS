@@ -1,0 +1,130 @@
+{
+  "timestamp": 1793528711.3749151,
+  "model_version": "v1.0",
+  "test_samples_count": 860,
+  "accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "false_positive_rate": 0.0,
+  "latency_benchmark_ms": {
+    "avg": 35.929,
+    "p50": 36.203,
+    "p95": 62.185,
+    "p99": 83.321
+  },
+  "per_class_metrics": {
+    "Benign": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 300.0
+    },
+    "SQL_Injection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 120.0
+    },
+    "XSS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 120.0
+    },
+    "Path_Traversal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 110.0
+    },
+    "Command_Injection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 110.0
+    },
+    "Brute_Force": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 100.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 860.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 860.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      300,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      120,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      120,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      110,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      110,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      100
+    ]
+  ],
+  "feature_importances": {
+    "xss_event_handler_indicator": 0.1073,
+    "null_control_char_indicator": 0.082,
+    "path_length": 0.0746,
+    "payload_entropy": 0.0704,
+    "xss_tag_indicator": 0.0703,
+    "recent_suspicious_count": 0.0656,
+    "special_char_density": 0.0553,
+    "digit_count": 0.0545,
+    "path_traversal_indicator": 0.0535,
+    "unique_endpoint_count": 0.0482
+  }
+}

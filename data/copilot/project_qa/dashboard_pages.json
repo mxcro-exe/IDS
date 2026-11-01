@@ -1,0 +1,5222 @@
+[
+  {
+    "id": "proj_page_0001",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Overview page 1",
+        "what is on Overview 1",
+        "explain Overview view 1",
+        "open Overview 1",
+        "navigate to Overview 1",
+        "Overview features 1"
+      ],
+      "ta": [
+        "Overview பக்கத்தை எவ்வாறு பயன்படுத்துவது 1",
+        "Overview பக்கத்தில் என்ன உள்ளது 1",
+        "Overview பக்கம் விளக்கம் 1",
+        "Overview திற 1",
+        "Overview வசதிகள் 1",
+        "Overview வழிகாட்டி 1"
+      ],
+      "tanglish": [
+        "Overview page epdi use panradhu 1",
+        "Overview page la enna irukku 1",
+        "Overview view explain pannu 1",
+        "Overview open pannu 1",
+        "Overview guide kudu 1",
+        "Overview details 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Navigate to Overview directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Overview பக்கம்: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Overview பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Top navbar or Ctrl+K Command Palette use panni Overview page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Overview",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "overview"
+    ]
+  },
+  {
+    "id": "proj_page_0002",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Alerts page 2",
+        "what is on Alerts 2",
+        "explain Alerts view 2",
+        "open Alerts 2",
+        "navigate to Alerts 2",
+        "Alerts features 2"
+      ],
+      "ta": [
+        "Alerts பக்கத்தை எவ்வாறு பயன்படுத்துவது 2",
+        "Alerts பக்கத்தில் என்ன உள்ளது 2",
+        "Alerts பக்கம் விளக்கம் 2",
+        "Alerts திற 2",
+        "Alerts வசதிகள் 2",
+        "Alerts வழிகாட்டி 2"
+      ],
+      "tanglish": [
+        "Alerts page epdi use panradhu 2",
+        "Alerts page la enna irukku 2",
+        "Alerts view explain pannu 2",
+        "Alerts open pannu 2",
+        "Alerts guide kudu 2",
+        "Alerts details 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Navigate to Alerts directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Alerts பக்கம்: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Alerts பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Top navbar or Ctrl+K Command Palette use panni Alerts page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Alerts",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "alerts"
+    ]
+  },
+  {
+    "id": "proj_page_0003",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Incidents page 3",
+        "what is on Incidents 3",
+        "explain Incidents view 3",
+        "open Incidents 3",
+        "navigate to Incidents 3",
+        "Incidents features 3"
+      ],
+      "ta": [
+        "Incidents பக்கத்தை எவ்வாறு பயன்படுத்துவது 3",
+        "Incidents பக்கத்தில் என்ன உள்ளது 3",
+        "Incidents பக்கம் விளக்கம் 3",
+        "Incidents திற 3",
+        "Incidents வசதிகள் 3",
+        "Incidents வழிகாட்டி 3"
+      ],
+      "tanglish": [
+        "Incidents page epdi use panradhu 3",
+        "Incidents page la enna irukku 3",
+        "Incidents view explain pannu 3",
+        "Incidents open pannu 3",
+        "Incidents guide kudu 3",
+        "Incidents details 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Navigate to Incidents directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Incidents பக்கம்: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Incidents பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Top navbar or Ctrl+K Command Palette use panni Incidents page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Incidents",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "incidents"
+    ]
+  },
+  {
+    "id": "proj_page_0004",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Radar page 4",
+        "what is on Radar 4",
+        "explain Radar view 4",
+        "open Radar 4",
+        "navigate to Radar 4",
+        "Radar features 4"
+      ],
+      "ta": [
+        "Radar பக்கத்தை எவ்வாறு பயன்படுத்துவது 4",
+        "Radar பக்கத்தில் என்ன உள்ளது 4",
+        "Radar பக்கம் விளக்கம் 4",
+        "Radar திற 4",
+        "Radar வசதிகள் 4",
+        "Radar வழிகாட்டி 4"
+      ],
+      "tanglish": [
+        "Radar page epdi use panradhu 4",
+        "Radar page la enna irukku 4",
+        "Radar view explain pannu 4",
+        "Radar open pannu 4",
+        "Radar guide kudu 4",
+        "Radar details 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Navigate to Radar directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Radar பக்கம்: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Radar பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Top navbar or Ctrl+K Command Palette use panni Radar page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Radar",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "radar"
+    ]
+  },
+  {
+    "id": "proj_page_0005",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Endpoints page 5",
+        "what is on Endpoints 5",
+        "explain Endpoints view 5",
+        "open Endpoints 5",
+        "navigate to Endpoints 5",
+        "Endpoints features 5"
+      ],
+      "ta": [
+        "Endpoints பக்கத்தை எவ்வாறு பயன்படுத்துவது 5",
+        "Endpoints பக்கத்தில் என்ன உள்ளது 5",
+        "Endpoints பக்கம் விளக்கம் 5",
+        "Endpoints திற 5",
+        "Endpoints வசதிகள் 5",
+        "Endpoints வழிகாட்டி 5"
+      ],
+      "tanglish": [
+        "Endpoints page epdi use panradhu 5",
+        "Endpoints page la enna irukku 5",
+        "Endpoints view explain pannu 5",
+        "Endpoints open pannu 5",
+        "Endpoints guide kudu 5",
+        "Endpoints details 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Navigate to Endpoints directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Endpoints பக்கம்: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Endpoints பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Top navbar or Ctrl+K Command Palette use panni Endpoints page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Endpoints",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "endpoints"
+    ]
+  },
+  {
+    "id": "proj_page_0006",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Rules page 6",
+        "what is on Rules 6",
+        "explain Rules view 6",
+        "open Rules 6",
+        "navigate to Rules 6",
+        "Rules features 6"
+      ],
+      "ta": [
+        "Rules பக்கத்தை எவ்வாறு பயன்படுத்துவது 6",
+        "Rules பக்கத்தில் என்ன உள்ளது 6",
+        "Rules பக்கம் விளக்கம் 6",
+        "Rules திற 6",
+        "Rules வசதிகள் 6",
+        "Rules வழிகாட்டி 6"
+      ],
+      "tanglish": [
+        "Rules page epdi use panradhu 6",
+        "Rules page la enna irukku 6",
+        "Rules view explain pannu 6",
+        "Rules open pannu 6",
+        "Rules guide kudu 6",
+        "Rules details 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Navigate to Rules directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Rules பக்கம்: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Rules பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Top navbar or Ctrl+K Command Palette use panni Rules page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Rules",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "rules"
+    ]
+  },
+  {
+    "id": "proj_page_0007",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Simulator page 7",
+        "what is on Simulator 7",
+        "explain Simulator view 7",
+        "open Simulator 7",
+        "navigate to Simulator 7",
+        "Simulator features 7"
+      ],
+      "ta": [
+        "Simulator பக்கத்தை எவ்வாறு பயன்படுத்துவது 7",
+        "Simulator பக்கத்தில் என்ன உள்ளது 7",
+        "Simulator பக்கம் விளக்கம் 7",
+        "Simulator திற 7",
+        "Simulator வசதிகள் 7",
+        "Simulator வழிகாட்டி 7"
+      ],
+      "tanglish": [
+        "Simulator page epdi use panradhu 7",
+        "Simulator page la enna irukku 7",
+        "Simulator view explain pannu 7",
+        "Simulator open pannu 7",
+        "Simulator guide kudu 7",
+        "Simulator details 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Navigate to Simulator directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Simulator பக்கம்: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Simulator பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Top navbar or Ctrl+K Command Palette use panni Simulator page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Simulator",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "simulator"
+    ]
+  },
+  {
+    "id": "proj_page_0008",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Reports page 8",
+        "what is on Reports 8",
+        "explain Reports view 8",
+        "open Reports 8",
+        "navigate to Reports 8",
+        "Reports features 8"
+      ],
+      "ta": [
+        "Reports பக்கத்தை எவ்வாறு பயன்படுத்துவது 8",
+        "Reports பக்கத்தில் என்ன உள்ளது 8",
+        "Reports பக்கம் விளக்கம் 8",
+        "Reports திற 8",
+        "Reports வசதிகள் 8",
+        "Reports வழிகாட்டி 8"
+      ],
+      "tanglish": [
+        "Reports page epdi use panradhu 8",
+        "Reports page la enna irukku 8",
+        "Reports view explain pannu 8",
+        "Reports open pannu 8",
+        "Reports guide kudu 8",
+        "Reports details 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Navigate to Reports directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Reports பக்கம்: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Reports பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Top navbar or Ctrl+K Command Palette use panni Reports page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Reports",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "reports"
+    ]
+  },
+  {
+    "id": "proj_page_0009",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Models page 9",
+        "what is on Models 9",
+        "explain Models view 9",
+        "open Models 9",
+        "navigate to Models 9",
+        "Models features 9"
+      ],
+      "ta": [
+        "Models பக்கத்தை எவ்வாறு பயன்படுத்துவது 9",
+        "Models பக்கத்தில் என்ன உள்ளது 9",
+        "Models பக்கம் விளக்கம் 9",
+        "Models திற 9",
+        "Models வசதிகள் 9",
+        "Models வழிகாட்டி 9"
+      ],
+      "tanglish": [
+        "Models page epdi use panradhu 9",
+        "Models page la enna irukku 9",
+        "Models view explain pannu 9",
+        "Models open pannu 9",
+        "Models guide kudu 9",
+        "Models details 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Navigate to Models directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Models பக்கம்: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Models பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Top navbar or Ctrl+K Command Palette use panni Models page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Models",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "models"
+    ]
+  },
+  {
+    "id": "proj_page_0010",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Settings page 10",
+        "what is on Settings 10",
+        "explain Settings view 10",
+        "open Settings 10",
+        "navigate to Settings 10",
+        "Settings features 10"
+      ],
+      "ta": [
+        "Settings பக்கத்தை எவ்வாறு பயன்படுத்துவது 10",
+        "Settings பக்கத்தில் என்ன உள்ளது 10",
+        "Settings பக்கம் விளக்கம் 10",
+        "Settings திற 10",
+        "Settings வசதிகள் 10",
+        "Settings வழிகாட்டி 10"
+      ],
+      "tanglish": [
+        "Settings page epdi use panradhu 10",
+        "Settings page la enna irukku 10",
+        "Settings view explain pannu 10",
+        "Settings open pannu 10",
+        "Settings guide kudu 10",
+        "Settings details 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Navigate to Settings directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Settings பக்கம்: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Settings பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Top navbar or Ctrl+K Command Palette use panni Settings page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Settings",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "settings"
+    ]
+  },
+  {
+    "id": "proj_page_0011",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Overview page 11",
+        "what is on Overview 11",
+        "explain Overview view 11",
+        "open Overview 11",
+        "navigate to Overview 11",
+        "Overview features 11"
+      ],
+      "ta": [
+        "Overview பக்கத்தை எவ்வாறு பயன்படுத்துவது 11",
+        "Overview பக்கத்தில் என்ன உள்ளது 11",
+        "Overview பக்கம் விளக்கம் 11",
+        "Overview திற 11",
+        "Overview வசதிகள் 11",
+        "Overview வழிகாட்டி 11"
+      ],
+      "tanglish": [
+        "Overview page epdi use panradhu 11",
+        "Overview page la enna irukku 11",
+        "Overview view explain pannu 11",
+        "Overview open pannu 11",
+        "Overview guide kudu 11",
+        "Overview details 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Navigate to Overview directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Overview பக்கம்: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Overview பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Top navbar or Ctrl+K Command Palette use panni Overview page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Overview",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "overview"
+    ]
+  },
+  {
+    "id": "proj_page_0012",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Alerts page 12",
+        "what is on Alerts 12",
+        "explain Alerts view 12",
+        "open Alerts 12",
+        "navigate to Alerts 12",
+        "Alerts features 12"
+      ],
+      "ta": [
+        "Alerts பக்கத்தை எவ்வாறு பயன்படுத்துவது 12",
+        "Alerts பக்கத்தில் என்ன உள்ளது 12",
+        "Alerts பக்கம் விளக்கம் 12",
+        "Alerts திற 12",
+        "Alerts வசதிகள் 12",
+        "Alerts வழிகாட்டி 12"
+      ],
+      "tanglish": [
+        "Alerts page epdi use panradhu 12",
+        "Alerts page la enna irukku 12",
+        "Alerts view explain pannu 12",
+        "Alerts open pannu 12",
+        "Alerts guide kudu 12",
+        "Alerts details 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Navigate to Alerts directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Alerts பக்கம்: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Alerts பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Top navbar or Ctrl+K Command Palette use panni Alerts page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Alerts",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "alerts"
+    ]
+  },
+  {
+    "id": "proj_page_0013",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Incidents page 13",
+        "what is on Incidents 13",
+        "explain Incidents view 13",
+        "open Incidents 13",
+        "navigate to Incidents 13",
+        "Incidents features 13"
+      ],
+      "ta": [
+        "Incidents பக்கத்தை எவ்வாறு பயன்படுத்துவது 13",
+        "Incidents பக்கத்தில் என்ன உள்ளது 13",
+        "Incidents பக்கம் விளக்கம் 13",
+        "Incidents திற 13",
+        "Incidents வசதிகள் 13",
+        "Incidents வழிகாட்டி 13"
+      ],
+      "tanglish": [
+        "Incidents page epdi use panradhu 13",
+        "Incidents page la enna irukku 13",
+        "Incidents view explain pannu 13",
+        "Incidents open pannu 13",
+        "Incidents guide kudu 13",
+        "Incidents details 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Navigate to Incidents directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Incidents பக்கம்: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Incidents பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Top navbar or Ctrl+K Command Palette use panni Incidents page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Incidents",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "incidents"
+    ]
+  },
+  {
+    "id": "proj_page_0014",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Radar page 14",
+        "what is on Radar 14",
+        "explain Radar view 14",
+        "open Radar 14",
+        "navigate to Radar 14",
+        "Radar features 14"
+      ],
+      "ta": [
+        "Radar பக்கத்தை எவ்வாறு பயன்படுத்துவது 14",
+        "Radar பக்கத்தில் என்ன உள்ளது 14",
+        "Radar பக்கம் விளக்கம் 14",
+        "Radar திற 14",
+        "Radar வசதிகள் 14",
+        "Radar வழிகாட்டி 14"
+      ],
+      "tanglish": [
+        "Radar page epdi use panradhu 14",
+        "Radar page la enna irukku 14",
+        "Radar view explain pannu 14",
+        "Radar open pannu 14",
+        "Radar guide kudu 14",
+        "Radar details 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Navigate to Radar directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Radar பக்கம்: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Radar பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Top navbar or Ctrl+K Command Palette use panni Radar page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Radar",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "radar"
+    ]
+  },
+  {
+    "id": "proj_page_0015",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Endpoints page 15",
+        "what is on Endpoints 15",
+        "explain Endpoints view 15",
+        "open Endpoints 15",
+        "navigate to Endpoints 15",
+        "Endpoints features 15"
+      ],
+      "ta": [
+        "Endpoints பக்கத்தை எவ்வாறு பயன்படுத்துவது 15",
+        "Endpoints பக்கத்தில் என்ன உள்ளது 15",
+        "Endpoints பக்கம் விளக்கம் 15",
+        "Endpoints திற 15",
+        "Endpoints வசதிகள் 15",
+        "Endpoints வழிகாட்டி 15"
+      ],
+      "tanglish": [
+        "Endpoints page epdi use panradhu 15",
+        "Endpoints page la enna irukku 15",
+        "Endpoints view explain pannu 15",
+        "Endpoints open pannu 15",
+        "Endpoints guide kudu 15",
+        "Endpoints details 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Navigate to Endpoints directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Endpoints பக்கம்: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Endpoints பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Top navbar or Ctrl+K Command Palette use panni Endpoints page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Endpoints",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "endpoints"
+    ]
+  },
+  {
+    "id": "proj_page_0016",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Rules page 16",
+        "what is on Rules 16",
+        "explain Rules view 16",
+        "open Rules 16",
+        "navigate to Rules 16",
+        "Rules features 16"
+      ],
+      "ta": [
+        "Rules பக்கத்தை எவ்வாறு பயன்படுத்துவது 16",
+        "Rules பக்கத்தில் என்ன உள்ளது 16",
+        "Rules பக்கம் விளக்கம் 16",
+        "Rules திற 16",
+        "Rules வசதிகள் 16",
+        "Rules வழிகாட்டி 16"
+      ],
+      "tanglish": [
+        "Rules page epdi use panradhu 16",
+        "Rules page la enna irukku 16",
+        "Rules view explain pannu 16",
+        "Rules open pannu 16",
+        "Rules guide kudu 16",
+        "Rules details 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Navigate to Rules directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Rules பக்கம்: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Rules பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Top navbar or Ctrl+K Command Palette use panni Rules page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Rules",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "rules"
+    ]
+  },
+  {
+    "id": "proj_page_0017",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Simulator page 17",
+        "what is on Simulator 17",
+        "explain Simulator view 17",
+        "open Simulator 17",
+        "navigate to Simulator 17",
+        "Simulator features 17"
+      ],
+      "ta": [
+        "Simulator பக்கத்தை எவ்வாறு பயன்படுத்துவது 17",
+        "Simulator பக்கத்தில் என்ன உள்ளது 17",
+        "Simulator பக்கம் விளக்கம் 17",
+        "Simulator திற 17",
+        "Simulator வசதிகள் 17",
+        "Simulator வழிகாட்டி 17"
+      ],
+      "tanglish": [
+        "Simulator page epdi use panradhu 17",
+        "Simulator page la enna irukku 17",
+        "Simulator view explain pannu 17",
+        "Simulator open pannu 17",
+        "Simulator guide kudu 17",
+        "Simulator details 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Navigate to Simulator directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Simulator பக்கம்: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Simulator பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Top navbar or Ctrl+K Command Palette use panni Simulator page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Simulator",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "simulator"
+    ]
+  },
+  {
+    "id": "proj_page_0018",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Reports page 18",
+        "what is on Reports 18",
+        "explain Reports view 18",
+        "open Reports 18",
+        "navigate to Reports 18",
+        "Reports features 18"
+      ],
+      "ta": [
+        "Reports பக்கத்தை எவ்வாறு பயன்படுத்துவது 18",
+        "Reports பக்கத்தில் என்ன உள்ளது 18",
+        "Reports பக்கம் விளக்கம் 18",
+        "Reports திற 18",
+        "Reports வசதிகள் 18",
+        "Reports வழிகாட்டி 18"
+      ],
+      "tanglish": [
+        "Reports page epdi use panradhu 18",
+        "Reports page la enna irukku 18",
+        "Reports view explain pannu 18",
+        "Reports open pannu 18",
+        "Reports guide kudu 18",
+        "Reports details 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Navigate to Reports directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Reports பக்கம்: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Reports பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Top navbar or Ctrl+K Command Palette use panni Reports page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Reports",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "reports"
+    ]
+  },
+  {
+    "id": "proj_page_0019",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Models page 19",
+        "what is on Models 19",
+        "explain Models view 19",
+        "open Models 19",
+        "navigate to Models 19",
+        "Models features 19"
+      ],
+      "ta": [
+        "Models பக்கத்தை எவ்வாறு பயன்படுத்துவது 19",
+        "Models பக்கத்தில் என்ன உள்ளது 19",
+        "Models பக்கம் விளக்கம் 19",
+        "Models திற 19",
+        "Models வசதிகள் 19",
+        "Models வழிகாட்டி 19"
+      ],
+      "tanglish": [
+        "Models page epdi use panradhu 19",
+        "Models page la enna irukku 19",
+        "Models view explain pannu 19",
+        "Models open pannu 19",
+        "Models guide kudu 19",
+        "Models details 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Navigate to Models directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Models பக்கம்: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Models பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Top navbar or Ctrl+K Command Palette use panni Models page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Models",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "models"
+    ]
+  },
+  {
+    "id": "proj_page_0020",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Settings page 20",
+        "what is on Settings 20",
+        "explain Settings view 20",
+        "open Settings 20",
+        "navigate to Settings 20",
+        "Settings features 20"
+      ],
+      "ta": [
+        "Settings பக்கத்தை எவ்வாறு பயன்படுத்துவது 20",
+        "Settings பக்கத்தில் என்ன உள்ளது 20",
+        "Settings பக்கம் விளக்கம் 20",
+        "Settings திற 20",
+        "Settings வசதிகள் 20",
+        "Settings வழிகாட்டி 20"
+      ],
+      "tanglish": [
+        "Settings page epdi use panradhu 20",
+        "Settings page la enna irukku 20",
+        "Settings view explain pannu 20",
+        "Settings open pannu 20",
+        "Settings guide kudu 20",
+        "Settings details 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Navigate to Settings directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Settings பக்கம்: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Settings பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Top navbar or Ctrl+K Command Palette use panni Settings page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Settings",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "settings"
+    ]
+  },
+  {
+    "id": "proj_page_0021",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Overview page 21",
+        "what is on Overview 21",
+        "explain Overview view 21",
+        "open Overview 21",
+        "navigate to Overview 21",
+        "Overview features 21"
+      ],
+      "ta": [
+        "Overview பக்கத்தை எவ்வாறு பயன்படுத்துவது 21",
+        "Overview பக்கத்தில் என்ன உள்ளது 21",
+        "Overview பக்கம் விளக்கம் 21",
+        "Overview திற 21",
+        "Overview வசதிகள் 21",
+        "Overview வழிகாட்டி 21"
+      ],
+      "tanglish": [
+        "Overview page epdi use panradhu 21",
+        "Overview page la enna irukku 21",
+        "Overview view explain pannu 21",
+        "Overview open pannu 21",
+        "Overview guide kudu 21",
+        "Overview details 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Navigate to Overview directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Overview பக்கம்: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Overview பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Top navbar or Ctrl+K Command Palette use panni Overview page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Overview",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "overview"
+    ]
+  },
+  {
+    "id": "proj_page_0022",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Alerts page 22",
+        "what is on Alerts 22",
+        "explain Alerts view 22",
+        "open Alerts 22",
+        "navigate to Alerts 22",
+        "Alerts features 22"
+      ],
+      "ta": [
+        "Alerts பக்கத்தை எவ்வாறு பயன்படுத்துவது 22",
+        "Alerts பக்கத்தில் என்ன உள்ளது 22",
+        "Alerts பக்கம் விளக்கம் 22",
+        "Alerts திற 22",
+        "Alerts வசதிகள் 22",
+        "Alerts வழிகாட்டி 22"
+      ],
+      "tanglish": [
+        "Alerts page epdi use panradhu 22",
+        "Alerts page la enna irukku 22",
+        "Alerts view explain pannu 22",
+        "Alerts open pannu 22",
+        "Alerts guide kudu 22",
+        "Alerts details 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Navigate to Alerts directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Alerts பக்கம்: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Alerts பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Top navbar or Ctrl+K Command Palette use panni Alerts page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Alerts",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "alerts"
+    ]
+  },
+  {
+    "id": "proj_page_0023",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Incidents page 23",
+        "what is on Incidents 23",
+        "explain Incidents view 23",
+        "open Incidents 23",
+        "navigate to Incidents 23",
+        "Incidents features 23"
+      ],
+      "ta": [
+        "Incidents பக்கத்தை எவ்வாறு பயன்படுத்துவது 23",
+        "Incidents பக்கத்தில் என்ன உள்ளது 23",
+        "Incidents பக்கம் விளக்கம் 23",
+        "Incidents திற 23",
+        "Incidents வசதிகள் 23",
+        "Incidents வழிகாட்டி 23"
+      ],
+      "tanglish": [
+        "Incidents page epdi use panradhu 23",
+        "Incidents page la enna irukku 23",
+        "Incidents view explain pannu 23",
+        "Incidents open pannu 23",
+        "Incidents guide kudu 23",
+        "Incidents details 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Navigate to Incidents directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Incidents பக்கம்: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Incidents பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Top navbar or Ctrl+K Command Palette use panni Incidents page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Incidents",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "incidents"
+    ]
+  },
+  {
+    "id": "proj_page_0024",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Radar page 24",
+        "what is on Radar 24",
+        "explain Radar view 24",
+        "open Radar 24",
+        "navigate to Radar 24",
+        "Radar features 24"
+      ],
+      "ta": [
+        "Radar பக்கத்தை எவ்வாறு பயன்படுத்துவது 24",
+        "Radar பக்கத்தில் என்ன உள்ளது 24",
+        "Radar பக்கம் விளக்கம் 24",
+        "Radar திற 24",
+        "Radar வசதிகள் 24",
+        "Radar வழிகாட்டி 24"
+      ],
+      "tanglish": [
+        "Radar page epdi use panradhu 24",
+        "Radar page la enna irukku 24",
+        "Radar view explain pannu 24",
+        "Radar open pannu 24",
+        "Radar guide kudu 24",
+        "Radar details 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Navigate to Radar directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Radar பக்கம்: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Radar பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Top navbar or Ctrl+K Command Palette use panni Radar page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Radar",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "radar"
+    ]
+  },
+  {
+    "id": "proj_page_0025",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Endpoints page 25",
+        "what is on Endpoints 25",
+        "explain Endpoints view 25",
+        "open Endpoints 25",
+        "navigate to Endpoints 25",
+        "Endpoints features 25"
+      ],
+      "ta": [
+        "Endpoints பக்கத்தை எவ்வாறு பயன்படுத்துவது 25",
+        "Endpoints பக்கத்தில் என்ன உள்ளது 25",
+        "Endpoints பக்கம் விளக்கம் 25",
+        "Endpoints திற 25",
+        "Endpoints வசதிகள் 25",
+        "Endpoints வழிகாட்டி 25"
+      ],
+      "tanglish": [
+        "Endpoints page epdi use panradhu 25",
+        "Endpoints page la enna irukku 25",
+        "Endpoints view explain pannu 25",
+        "Endpoints open pannu 25",
+        "Endpoints guide kudu 25",
+        "Endpoints details 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Navigate to Endpoints directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Endpoints பக்கம்: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Endpoints பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Top navbar or Ctrl+K Command Palette use panni Endpoints page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Endpoints",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "endpoints"
+    ]
+  },
+  {
+    "id": "proj_page_0026",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Rules page 26",
+        "what is on Rules 26",
+        "explain Rules view 26",
+        "open Rules 26",
+        "navigate to Rules 26",
+        "Rules features 26"
+      ],
+      "ta": [
+        "Rules பக்கத்தை எவ்வாறு பயன்படுத்துவது 26",
+        "Rules பக்கத்தில் என்ன உள்ளது 26",
+        "Rules பக்கம் விளக்கம் 26",
+        "Rules திற 26",
+        "Rules வசதிகள் 26",
+        "Rules வழிகாட்டி 26"
+      ],
+      "tanglish": [
+        "Rules page epdi use panradhu 26",
+        "Rules page la enna irukku 26",
+        "Rules view explain pannu 26",
+        "Rules open pannu 26",
+        "Rules guide kudu 26",
+        "Rules details 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Navigate to Rules directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Rules பக்கம்: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Rules பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Top navbar or Ctrl+K Command Palette use panni Rules page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Rules",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "rules"
+    ]
+  },
+  {
+    "id": "proj_page_0027",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Simulator page 27",
+        "what is on Simulator 27",
+        "explain Simulator view 27",
+        "open Simulator 27",
+        "navigate to Simulator 27",
+        "Simulator features 27"
+      ],
+      "ta": [
+        "Simulator பக்கத்தை எவ்வாறு பயன்படுத்துவது 27",
+        "Simulator பக்கத்தில் என்ன உள்ளது 27",
+        "Simulator பக்கம் விளக்கம் 27",
+        "Simulator திற 27",
+        "Simulator வசதிகள் 27",
+        "Simulator வழிகாட்டி 27"
+      ],
+      "tanglish": [
+        "Simulator page epdi use panradhu 27",
+        "Simulator page la enna irukku 27",
+        "Simulator view explain pannu 27",
+        "Simulator open pannu 27",
+        "Simulator guide kudu 27",
+        "Simulator details 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Navigate to Simulator directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Simulator பக்கம்: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Simulator பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Top navbar or Ctrl+K Command Palette use panni Simulator page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Simulator",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "simulator"
+    ]
+  },
+  {
+    "id": "proj_page_0028",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Reports page 28",
+        "what is on Reports 28",
+        "explain Reports view 28",
+        "open Reports 28",
+        "navigate to Reports 28",
+        "Reports features 28"
+      ],
+      "ta": [
+        "Reports பக்கத்தை எவ்வாறு பயன்படுத்துவது 28",
+        "Reports பக்கத்தில் என்ன உள்ளது 28",
+        "Reports பக்கம் விளக்கம் 28",
+        "Reports திற 28",
+        "Reports வசதிகள் 28",
+        "Reports வழிகாட்டி 28"
+      ],
+      "tanglish": [
+        "Reports page epdi use panradhu 28",
+        "Reports page la enna irukku 28",
+        "Reports view explain pannu 28",
+        "Reports open pannu 28",
+        "Reports guide kudu 28",
+        "Reports details 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Navigate to Reports directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Reports பக்கம்: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Reports பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Top navbar or Ctrl+K Command Palette use panni Reports page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Reports",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "reports"
+    ]
+  },
+  {
+    "id": "proj_page_0029",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Models page 29",
+        "what is on Models 29",
+        "explain Models view 29",
+        "open Models 29",
+        "navigate to Models 29",
+        "Models features 29"
+      ],
+      "ta": [
+        "Models பக்கத்தை எவ்வாறு பயன்படுத்துவது 29",
+        "Models பக்கத்தில் என்ன உள்ளது 29",
+        "Models பக்கம் விளக்கம் 29",
+        "Models திற 29",
+        "Models வசதிகள் 29",
+        "Models வழிகாட்டி 29"
+      ],
+      "tanglish": [
+        "Models page epdi use panradhu 29",
+        "Models page la enna irukku 29",
+        "Models view explain pannu 29",
+        "Models open pannu 29",
+        "Models guide kudu 29",
+        "Models details 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Navigate to Models directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Models பக்கம்: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Models பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Top navbar or Ctrl+K Command Palette use panni Models page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Models",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "models"
+    ]
+  },
+  {
+    "id": "proj_page_0030",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Settings page 30",
+        "what is on Settings 30",
+        "explain Settings view 30",
+        "open Settings 30",
+        "navigate to Settings 30",
+        "Settings features 30"
+      ],
+      "ta": [
+        "Settings பக்கத்தை எவ்வாறு பயன்படுத்துவது 30",
+        "Settings பக்கத்தில் என்ன உள்ளது 30",
+        "Settings பக்கம் விளக்கம் 30",
+        "Settings திற 30",
+        "Settings வசதிகள் 30",
+        "Settings வழிகாட்டி 30"
+      ],
+      "tanglish": [
+        "Settings page epdi use panradhu 30",
+        "Settings page la enna irukku 30",
+        "Settings view explain pannu 30",
+        "Settings open pannu 30",
+        "Settings guide kudu 30",
+        "Settings details 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Navigate to Settings directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Settings பக்கம்: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Settings பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Top navbar or Ctrl+K Command Palette use panni Settings page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Settings",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "settings"
+    ]
+  },
+  {
+    "id": "proj_page_0031",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Overview page 31",
+        "what is on Overview 31",
+        "explain Overview view 31",
+        "open Overview 31",
+        "navigate to Overview 31",
+        "Overview features 31"
+      ],
+      "ta": [
+        "Overview பக்கத்தை எவ்வாறு பயன்படுத்துவது 31",
+        "Overview பக்கத்தில் என்ன உள்ளது 31",
+        "Overview பக்கம் விளக்கம் 31",
+        "Overview திற 31",
+        "Overview வசதிகள் 31",
+        "Overview வழிகாட்டி 31"
+      ],
+      "tanglish": [
+        "Overview page epdi use panradhu 31",
+        "Overview page la enna irukku 31",
+        "Overview view explain pannu 31",
+        "Overview open pannu 31",
+        "Overview guide kudu 31",
+        "Overview details 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Navigate to Overview directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Overview பக்கம்: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Overview பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Top navbar or Ctrl+K Command Palette use panni Overview page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Overview",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "overview"
+    ]
+  },
+  {
+    "id": "proj_page_0032",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Alerts page 32",
+        "what is on Alerts 32",
+        "explain Alerts view 32",
+        "open Alerts 32",
+        "navigate to Alerts 32",
+        "Alerts features 32"
+      ],
+      "ta": [
+        "Alerts பக்கத்தை எவ்வாறு பயன்படுத்துவது 32",
+        "Alerts பக்கத்தில் என்ன உள்ளது 32",
+        "Alerts பக்கம் விளக்கம் 32",
+        "Alerts திற 32",
+        "Alerts வசதிகள் 32",
+        "Alerts வழிகாட்டி 32"
+      ],
+      "tanglish": [
+        "Alerts page epdi use panradhu 32",
+        "Alerts page la enna irukku 32",
+        "Alerts view explain pannu 32",
+        "Alerts open pannu 32",
+        "Alerts guide kudu 32",
+        "Alerts details 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Navigate to Alerts directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Alerts பக்கம்: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Alerts பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Top navbar or Ctrl+K Command Palette use panni Alerts page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Alerts",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "alerts"
+    ]
+  },
+  {
+    "id": "proj_page_0033",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Incidents page 33",
+        "what is on Incidents 33",
+        "explain Incidents view 33",
+        "open Incidents 33",
+        "navigate to Incidents 33",
+        "Incidents features 33"
+      ],
+      "ta": [
+        "Incidents பக்கத்தை எவ்வாறு பயன்படுத்துவது 33",
+        "Incidents பக்கத்தில் என்ன உள்ளது 33",
+        "Incidents பக்கம் விளக்கம் 33",
+        "Incidents திற 33",
+        "Incidents வசதிகள் 33",
+        "Incidents வழிகாட்டி 33"
+      ],
+      "tanglish": [
+        "Incidents page epdi use panradhu 33",
+        "Incidents page la enna irukku 33",
+        "Incidents view explain pannu 33",
+        "Incidents open pannu 33",
+        "Incidents guide kudu 33",
+        "Incidents details 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Navigate to Incidents directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Incidents பக்கம்: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Incidents பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Top navbar or Ctrl+K Command Palette use panni Incidents page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Incidents",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "incidents"
+    ]
+  },
+  {
+    "id": "proj_page_0034",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Radar page 34",
+        "what is on Radar 34",
+        "explain Radar view 34",
+        "open Radar 34",
+        "navigate to Radar 34",
+        "Radar features 34"
+      ],
+      "ta": [
+        "Radar பக்கத்தை எவ்வாறு பயன்படுத்துவது 34",
+        "Radar பக்கத்தில் என்ன உள்ளது 34",
+        "Radar பக்கம் விளக்கம் 34",
+        "Radar திற 34",
+        "Radar வசதிகள் 34",
+        "Radar வழிகாட்டி 34"
+      ],
+      "tanglish": [
+        "Radar page epdi use panradhu 34",
+        "Radar page la enna irukku 34",
+        "Radar view explain pannu 34",
+        "Radar open pannu 34",
+        "Radar guide kudu 34",
+        "Radar details 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Navigate to Radar directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Radar பக்கம்: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Radar பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Top navbar or Ctrl+K Command Palette use panni Radar page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Radar",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "radar"
+    ]
+  },
+  {
+    "id": "proj_page_0035",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Endpoints page 35",
+        "what is on Endpoints 35",
+        "explain Endpoints view 35",
+        "open Endpoints 35",
+        "navigate to Endpoints 35",
+        "Endpoints features 35"
+      ],
+      "ta": [
+        "Endpoints பக்கத்தை எவ்வாறு பயன்படுத்துவது 35",
+        "Endpoints பக்கத்தில் என்ன உள்ளது 35",
+        "Endpoints பக்கம் விளக்கம் 35",
+        "Endpoints திற 35",
+        "Endpoints வசதிகள் 35",
+        "Endpoints வழிகாட்டி 35"
+      ],
+      "tanglish": [
+        "Endpoints page epdi use panradhu 35",
+        "Endpoints page la enna irukku 35",
+        "Endpoints view explain pannu 35",
+        "Endpoints open pannu 35",
+        "Endpoints guide kudu 35",
+        "Endpoints details 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Navigate to Endpoints directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Endpoints பக்கம்: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Endpoints பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Top navbar or Ctrl+K Command Palette use panni Endpoints page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Endpoints",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "endpoints"
+    ]
+  },
+  {
+    "id": "proj_page_0036",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Rules page 36",
+        "what is on Rules 36",
+        "explain Rules view 36",
+        "open Rules 36",
+        "navigate to Rules 36",
+        "Rules features 36"
+      ],
+      "ta": [
+        "Rules பக்கத்தை எவ்வாறு பயன்படுத்துவது 36",
+        "Rules பக்கத்தில் என்ன உள்ளது 36",
+        "Rules பக்கம் விளக்கம் 36",
+        "Rules திற 36",
+        "Rules வசதிகள் 36",
+        "Rules வழிகாட்டி 36"
+      ],
+      "tanglish": [
+        "Rules page epdi use panradhu 36",
+        "Rules page la enna irukku 36",
+        "Rules view explain pannu 36",
+        "Rules open pannu 36",
+        "Rules guide kudu 36",
+        "Rules details 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Navigate to Rules directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Rules பக்கம்: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Rules பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Top navbar or Ctrl+K Command Palette use panni Rules page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Rules",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "rules"
+    ]
+  },
+  {
+    "id": "proj_page_0037",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Simulator page 37",
+        "what is on Simulator 37",
+        "explain Simulator view 37",
+        "open Simulator 37",
+        "navigate to Simulator 37",
+        "Simulator features 37"
+      ],
+      "ta": [
+        "Simulator பக்கத்தை எவ்வாறு பயன்படுத்துவது 37",
+        "Simulator பக்கத்தில் என்ன உள்ளது 37",
+        "Simulator பக்கம் விளக்கம் 37",
+        "Simulator திற 37",
+        "Simulator வசதிகள் 37",
+        "Simulator வழிகாட்டி 37"
+      ],
+      "tanglish": [
+        "Simulator page epdi use panradhu 37",
+        "Simulator page la enna irukku 37",
+        "Simulator view explain pannu 37",
+        "Simulator open pannu 37",
+        "Simulator guide kudu 37",
+        "Simulator details 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Navigate to Simulator directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Simulator பக்கம்: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Simulator பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Top navbar or Ctrl+K Command Palette use panni Simulator page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Simulator",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "simulator"
+    ]
+  },
+  {
+    "id": "proj_page_0038",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Reports page 38",
+        "what is on Reports 38",
+        "explain Reports view 38",
+        "open Reports 38",
+        "navigate to Reports 38",
+        "Reports features 38"
+      ],
+      "ta": [
+        "Reports பக்கத்தை எவ்வாறு பயன்படுத்துவது 38",
+        "Reports பக்கத்தில் என்ன உள்ளது 38",
+        "Reports பக்கம் விளக்கம் 38",
+        "Reports திற 38",
+        "Reports வசதிகள் 38",
+        "Reports வழிகாட்டி 38"
+      ],
+      "tanglish": [
+        "Reports page epdi use panradhu 38",
+        "Reports page la enna irukku 38",
+        "Reports view explain pannu 38",
+        "Reports open pannu 38",
+        "Reports guide kudu 38",
+        "Reports details 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Navigate to Reports directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Reports பக்கம்: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Reports பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Top navbar or Ctrl+K Command Palette use panni Reports page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Reports",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "reports"
+    ]
+  },
+  {
+    "id": "proj_page_0039",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Models page 39",
+        "what is on Models 39",
+        "explain Models view 39",
+        "open Models 39",
+        "navigate to Models 39",
+        "Models features 39"
+      ],
+      "ta": [
+        "Models பக்கத்தை எவ்வாறு பயன்படுத்துவது 39",
+        "Models பக்கத்தில் என்ன உள்ளது 39",
+        "Models பக்கம் விளக்கம் 39",
+        "Models திற 39",
+        "Models வசதிகள் 39",
+        "Models வழிகாட்டி 39"
+      ],
+      "tanglish": [
+        "Models page epdi use panradhu 39",
+        "Models page la enna irukku 39",
+        "Models view explain pannu 39",
+        "Models open pannu 39",
+        "Models guide kudu 39",
+        "Models details 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Navigate to Models directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Models பக்கம்: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Models பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Top navbar or Ctrl+K Command Palette use panni Models page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Models",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "models"
+    ]
+  },
+  {
+    "id": "proj_page_0040",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Settings page 40",
+        "what is on Settings 40",
+        "explain Settings view 40",
+        "open Settings 40",
+        "navigate to Settings 40",
+        "Settings features 40"
+      ],
+      "ta": [
+        "Settings பக்கத்தை எவ்வாறு பயன்படுத்துவது 40",
+        "Settings பக்கத்தில் என்ன உள்ளது 40",
+        "Settings பக்கம் விளக்கம் 40",
+        "Settings திற 40",
+        "Settings வசதிகள் 40",
+        "Settings வழிகாட்டி 40"
+      ],
+      "tanglish": [
+        "Settings page epdi use panradhu 40",
+        "Settings page la enna irukku 40",
+        "Settings view explain pannu 40",
+        "Settings open pannu 40",
+        "Settings guide kudu 40",
+        "Settings details 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Navigate to Settings directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Settings பக்கம்: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Settings பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Top navbar or Ctrl+K Command Palette use panni Settings page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Settings",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "settings"
+    ]
+  },
+  {
+    "id": "proj_page_0041",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Overview page 41",
+        "what is on Overview 41",
+        "explain Overview view 41",
+        "open Overview 41",
+        "navigate to Overview 41",
+        "Overview features 41"
+      ],
+      "ta": [
+        "Overview பக்கத்தை எவ்வாறு பயன்படுத்துவது 41",
+        "Overview பக்கத்தில் என்ன உள்ளது 41",
+        "Overview பக்கம் விளக்கம் 41",
+        "Overview திற 41",
+        "Overview வசதிகள் 41",
+        "Overview வழிகாட்டி 41"
+      ],
+      "tanglish": [
+        "Overview page epdi use panradhu 41",
+        "Overview page la enna irukku 41",
+        "Overview view explain pannu 41",
+        "Overview open pannu 41",
+        "Overview guide kudu 41",
+        "Overview details 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Navigate to Overview directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Overview பக்கம்: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Overview பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Top navbar or Ctrl+K Command Palette use panni Overview page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Overview",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "overview"
+    ]
+  },
+  {
+    "id": "proj_page_0042",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Alerts page 42",
+        "what is on Alerts 42",
+        "explain Alerts view 42",
+        "open Alerts 42",
+        "navigate to Alerts 42",
+        "Alerts features 42"
+      ],
+      "ta": [
+        "Alerts பக்கத்தை எவ்வாறு பயன்படுத்துவது 42",
+        "Alerts பக்கத்தில் என்ன உள்ளது 42",
+        "Alerts பக்கம் விளக்கம் 42",
+        "Alerts திற 42",
+        "Alerts வசதிகள் 42",
+        "Alerts வழிகாட்டி 42"
+      ],
+      "tanglish": [
+        "Alerts page epdi use panradhu 42",
+        "Alerts page la enna irukku 42",
+        "Alerts view explain pannu 42",
+        "Alerts open pannu 42",
+        "Alerts guide kudu 42",
+        "Alerts details 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Navigate to Alerts directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Alerts பக்கம்: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Alerts பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Top navbar or Ctrl+K Command Palette use panni Alerts page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Alerts",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "alerts"
+    ]
+  },
+  {
+    "id": "proj_page_0043",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Incidents page 43",
+        "what is on Incidents 43",
+        "explain Incidents view 43",
+        "open Incidents 43",
+        "navigate to Incidents 43",
+        "Incidents features 43"
+      ],
+      "ta": [
+        "Incidents பக்கத்தை எவ்வாறு பயன்படுத்துவது 43",
+        "Incidents பக்கத்தில் என்ன உள்ளது 43",
+        "Incidents பக்கம் விளக்கம் 43",
+        "Incidents திற 43",
+        "Incidents வசதிகள் 43",
+        "Incidents வழிகாட்டி 43"
+      ],
+      "tanglish": [
+        "Incidents page epdi use panradhu 43",
+        "Incidents page la enna irukku 43",
+        "Incidents view explain pannu 43",
+        "Incidents open pannu 43",
+        "Incidents guide kudu 43",
+        "Incidents details 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Navigate to Incidents directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Incidents பக்கம்: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Incidents பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Top navbar or Ctrl+K Command Palette use panni Incidents page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Incidents",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "incidents"
+    ]
+  },
+  {
+    "id": "proj_page_0044",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Radar page 44",
+        "what is on Radar 44",
+        "explain Radar view 44",
+        "open Radar 44",
+        "navigate to Radar 44",
+        "Radar features 44"
+      ],
+      "ta": [
+        "Radar பக்கத்தை எவ்வாறு பயன்படுத்துவது 44",
+        "Radar பக்கத்தில் என்ன உள்ளது 44",
+        "Radar பக்கம் விளக்கம் 44",
+        "Radar திற 44",
+        "Radar வசதிகள் 44",
+        "Radar வழிகாட்டி 44"
+      ],
+      "tanglish": [
+        "Radar page epdi use panradhu 44",
+        "Radar page la enna irukku 44",
+        "Radar view explain pannu 44",
+        "Radar open pannu 44",
+        "Radar guide kudu 44",
+        "Radar details 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Navigate to Radar directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Radar பக்கம்: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Radar பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Top navbar or Ctrl+K Command Palette use panni Radar page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Radar",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "radar"
+    ]
+  },
+  {
+    "id": "proj_page_0045",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Endpoints page 45",
+        "what is on Endpoints 45",
+        "explain Endpoints view 45",
+        "open Endpoints 45",
+        "navigate to Endpoints 45",
+        "Endpoints features 45"
+      ],
+      "ta": [
+        "Endpoints பக்கத்தை எவ்வாறு பயன்படுத்துவது 45",
+        "Endpoints பக்கத்தில் என்ன உள்ளது 45",
+        "Endpoints பக்கம் விளக்கம் 45",
+        "Endpoints திற 45",
+        "Endpoints வசதிகள் 45",
+        "Endpoints வழிகாட்டி 45"
+      ],
+      "tanglish": [
+        "Endpoints page epdi use panradhu 45",
+        "Endpoints page la enna irukku 45",
+        "Endpoints view explain pannu 45",
+        "Endpoints open pannu 45",
+        "Endpoints guide kudu 45",
+        "Endpoints details 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Navigate to Endpoints directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Endpoints பக்கம்: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Endpoints பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Top navbar or Ctrl+K Command Palette use panni Endpoints page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Endpoints",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "endpoints"
+    ]
+  },
+  {
+    "id": "proj_page_0046",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Rules page 46",
+        "what is on Rules 46",
+        "explain Rules view 46",
+        "open Rules 46",
+        "navigate to Rules 46",
+        "Rules features 46"
+      ],
+      "ta": [
+        "Rules பக்கத்தை எவ்வாறு பயன்படுத்துவது 46",
+        "Rules பக்கத்தில் என்ன உள்ளது 46",
+        "Rules பக்கம் விளக்கம் 46",
+        "Rules திற 46",
+        "Rules வசதிகள் 46",
+        "Rules வழிகாட்டி 46"
+      ],
+      "tanglish": [
+        "Rules page epdi use panradhu 46",
+        "Rules page la enna irukku 46",
+        "Rules view explain pannu 46",
+        "Rules open pannu 46",
+        "Rules guide kudu 46",
+        "Rules details 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Navigate to Rules directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Rules பக்கம்: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Rules பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Top navbar or Ctrl+K Command Palette use panni Rules page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Rules",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "rules"
+    ]
+  },
+  {
+    "id": "proj_page_0047",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Simulator page 47",
+        "what is on Simulator 47",
+        "explain Simulator view 47",
+        "open Simulator 47",
+        "navigate to Simulator 47",
+        "Simulator features 47"
+      ],
+      "ta": [
+        "Simulator பக்கத்தை எவ்வாறு பயன்படுத்துவது 47",
+        "Simulator பக்கத்தில் என்ன உள்ளது 47",
+        "Simulator பக்கம் விளக்கம் 47",
+        "Simulator திற 47",
+        "Simulator வசதிகள் 47",
+        "Simulator வழிகாட்டி 47"
+      ],
+      "tanglish": [
+        "Simulator page epdi use panradhu 47",
+        "Simulator page la enna irukku 47",
+        "Simulator view explain pannu 47",
+        "Simulator open pannu 47",
+        "Simulator guide kudu 47",
+        "Simulator details 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Navigate to Simulator directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Simulator பக்கம்: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Simulator பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Top navbar or Ctrl+K Command Palette use panni Simulator page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Simulator",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "simulator"
+    ]
+  },
+  {
+    "id": "proj_page_0048",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Reports page 48",
+        "what is on Reports 48",
+        "explain Reports view 48",
+        "open Reports 48",
+        "navigate to Reports 48",
+        "Reports features 48"
+      ],
+      "ta": [
+        "Reports பக்கத்தை எவ்வாறு பயன்படுத்துவது 48",
+        "Reports பக்கத்தில் என்ன உள்ளது 48",
+        "Reports பக்கம் விளக்கம் 48",
+        "Reports திற 48",
+        "Reports வசதிகள் 48",
+        "Reports வழிகாட்டி 48"
+      ],
+      "tanglish": [
+        "Reports page epdi use panradhu 48",
+        "Reports page la enna irukku 48",
+        "Reports view explain pannu 48",
+        "Reports open pannu 48",
+        "Reports guide kudu 48",
+        "Reports details 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Navigate to Reports directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Reports பக்கம்: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Reports பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Top navbar or Ctrl+K Command Palette use panni Reports page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Reports",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "reports"
+    ]
+  },
+  {
+    "id": "proj_page_0049",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Models page 49",
+        "what is on Models 49",
+        "explain Models view 49",
+        "open Models 49",
+        "navigate to Models 49",
+        "Models features 49"
+      ],
+      "ta": [
+        "Models பக்கத்தை எவ்வாறு பயன்படுத்துவது 49",
+        "Models பக்கத்தில் என்ன உள்ளது 49",
+        "Models பக்கம் விளக்கம் 49",
+        "Models திற 49",
+        "Models வசதிகள் 49",
+        "Models வழிகாட்டி 49"
+      ],
+      "tanglish": [
+        "Models page epdi use panradhu 49",
+        "Models page la enna irukku 49",
+        "Models view explain pannu 49",
+        "Models open pannu 49",
+        "Models guide kudu 49",
+        "Models details 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Navigate to Models directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Models பக்கம்: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Models பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Top navbar or Ctrl+K Command Palette use panni Models page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Models",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "models"
+    ]
+  },
+  {
+    "id": "proj_page_0050",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Settings page 50",
+        "what is on Settings 50",
+        "explain Settings view 50",
+        "open Settings 50",
+        "navigate to Settings 50",
+        "Settings features 50"
+      ],
+      "ta": [
+        "Settings பக்கத்தை எவ்வாறு பயன்படுத்துவது 50",
+        "Settings பக்கத்தில் என்ன உள்ளது 50",
+        "Settings பக்கம் விளக்கம் 50",
+        "Settings திற 50",
+        "Settings வசதிகள் 50",
+        "Settings வழிகாட்டி 50"
+      ],
+      "tanglish": [
+        "Settings page epdi use panradhu 50",
+        "Settings page la enna irukku 50",
+        "Settings view explain pannu 50",
+        "Settings open pannu 50",
+        "Settings guide kudu 50",
+        "Settings details 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Navigate to Settings directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Settings பக்கம்: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Settings பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Top navbar or Ctrl+K Command Palette use panni Settings page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Settings",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "settings"
+    ]
+  },
+  {
+    "id": "proj_page_0051",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Overview page 51",
+        "what is on Overview 51",
+        "explain Overview view 51",
+        "open Overview 51",
+        "navigate to Overview 51",
+        "Overview features 51"
+      ],
+      "ta": [
+        "Overview பக்கத்தை எவ்வாறு பயன்படுத்துவது 51",
+        "Overview பக்கத்தில் என்ன உள்ளது 51",
+        "Overview பக்கம் விளக்கம் 51",
+        "Overview திற 51",
+        "Overview வசதிகள் 51",
+        "Overview வழிகாட்டி 51"
+      ],
+      "tanglish": [
+        "Overview page epdi use panradhu 51",
+        "Overview page la enna irukku 51",
+        "Overview view explain pannu 51",
+        "Overview open pannu 51",
+        "Overview guide kudu 51",
+        "Overview details 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Navigate to Overview directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Overview பக்கம்: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Overview பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Top navbar or Ctrl+K Command Palette use panni Overview page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Overview",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "overview"
+    ]
+  },
+  {
+    "id": "proj_page_0052",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Alerts page 52",
+        "what is on Alerts 52",
+        "explain Alerts view 52",
+        "open Alerts 52",
+        "navigate to Alerts 52",
+        "Alerts features 52"
+      ],
+      "ta": [
+        "Alerts பக்கத்தை எவ்வாறு பயன்படுத்துவது 52",
+        "Alerts பக்கத்தில் என்ன உள்ளது 52",
+        "Alerts பக்கம் விளக்கம் 52",
+        "Alerts திற 52",
+        "Alerts வசதிகள் 52",
+        "Alerts வழிகாட்டி 52"
+      ],
+      "tanglish": [
+        "Alerts page epdi use panradhu 52",
+        "Alerts page la enna irukku 52",
+        "Alerts view explain pannu 52",
+        "Alerts open pannu 52",
+        "Alerts guide kudu 52",
+        "Alerts details 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Navigate to Alerts directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Alerts பக்கம்: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Alerts பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Top navbar or Ctrl+K Command Palette use panni Alerts page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Alerts",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "alerts"
+    ]
+  },
+  {
+    "id": "proj_page_0053",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Incidents page 53",
+        "what is on Incidents 53",
+        "explain Incidents view 53",
+        "open Incidents 53",
+        "navigate to Incidents 53",
+        "Incidents features 53"
+      ],
+      "ta": [
+        "Incidents பக்கத்தை எவ்வாறு பயன்படுத்துவது 53",
+        "Incidents பக்கத்தில் என்ன உள்ளது 53",
+        "Incidents பக்கம் விளக்கம் 53",
+        "Incidents திற 53",
+        "Incidents வசதிகள் 53",
+        "Incidents வழிகாட்டி 53"
+      ],
+      "tanglish": [
+        "Incidents page epdi use panradhu 53",
+        "Incidents page la enna irukku 53",
+        "Incidents view explain pannu 53",
+        "Incidents open pannu 53",
+        "Incidents guide kudu 53",
+        "Incidents details 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Navigate to Incidents directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Incidents பக்கம்: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Incidents பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Top navbar or Ctrl+K Command Palette use panni Incidents page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Incidents",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "incidents"
+    ]
+  },
+  {
+    "id": "proj_page_0054",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Radar page 54",
+        "what is on Radar 54",
+        "explain Radar view 54",
+        "open Radar 54",
+        "navigate to Radar 54",
+        "Radar features 54"
+      ],
+      "ta": [
+        "Radar பக்கத்தை எவ்வாறு பயன்படுத்துவது 54",
+        "Radar பக்கத்தில் என்ன உள்ளது 54",
+        "Radar பக்கம் விளக்கம் 54",
+        "Radar திற 54",
+        "Radar வசதிகள் 54",
+        "Radar வழிகாட்டி 54"
+      ],
+      "tanglish": [
+        "Radar page epdi use panradhu 54",
+        "Radar page la enna irukku 54",
+        "Radar view explain pannu 54",
+        "Radar open pannu 54",
+        "Radar guide kudu 54",
+        "Radar details 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Navigate to Radar directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Radar பக்கம்: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Radar பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Top navbar or Ctrl+K Command Palette use panni Radar page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Radar",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "radar"
+    ]
+  },
+  {
+    "id": "proj_page_0055",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Endpoints page 55",
+        "what is on Endpoints 55",
+        "explain Endpoints view 55",
+        "open Endpoints 55",
+        "navigate to Endpoints 55",
+        "Endpoints features 55"
+      ],
+      "ta": [
+        "Endpoints பக்கத்தை எவ்வாறு பயன்படுத்துவது 55",
+        "Endpoints பக்கத்தில் என்ன உள்ளது 55",
+        "Endpoints பக்கம் விளக்கம் 55",
+        "Endpoints திற 55",
+        "Endpoints வசதிகள் 55",
+        "Endpoints வழிகாட்டி 55"
+      ],
+      "tanglish": [
+        "Endpoints page epdi use panradhu 55",
+        "Endpoints page la enna irukku 55",
+        "Endpoints view explain pannu 55",
+        "Endpoints open pannu 55",
+        "Endpoints guide kudu 55",
+        "Endpoints details 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Navigate to Endpoints directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Endpoints பக்கம்: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Endpoints பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Top navbar or Ctrl+K Command Palette use panni Endpoints page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Endpoints",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "endpoints"
+    ]
+  },
+  {
+    "id": "proj_page_0056",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Rules page 56",
+        "what is on Rules 56",
+        "explain Rules view 56",
+        "open Rules 56",
+        "navigate to Rules 56",
+        "Rules features 56"
+      ],
+      "ta": [
+        "Rules பக்கத்தை எவ்வாறு பயன்படுத்துவது 56",
+        "Rules பக்கத்தில் என்ன உள்ளது 56",
+        "Rules பக்கம் விளக்கம் 56",
+        "Rules திற 56",
+        "Rules வசதிகள் 56",
+        "Rules வழிகாட்டி 56"
+      ],
+      "tanglish": [
+        "Rules page epdi use panradhu 56",
+        "Rules page la enna irukku 56",
+        "Rules view explain pannu 56",
+        "Rules open pannu 56",
+        "Rules guide kudu 56",
+        "Rules details 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Navigate to Rules directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Rules பக்கம்: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Rules பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Top navbar or Ctrl+K Command Palette use panni Rules page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Rules",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "rules"
+    ]
+  },
+  {
+    "id": "proj_page_0057",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Simulator page 57",
+        "what is on Simulator 57",
+        "explain Simulator view 57",
+        "open Simulator 57",
+        "navigate to Simulator 57",
+        "Simulator features 57"
+      ],
+      "ta": [
+        "Simulator பக்கத்தை எவ்வாறு பயன்படுத்துவது 57",
+        "Simulator பக்கத்தில் என்ன உள்ளது 57",
+        "Simulator பக்கம் விளக்கம் 57",
+        "Simulator திற 57",
+        "Simulator வசதிகள் 57",
+        "Simulator வழிகாட்டி 57"
+      ],
+      "tanglish": [
+        "Simulator page epdi use panradhu 57",
+        "Simulator page la enna irukku 57",
+        "Simulator view explain pannu 57",
+        "Simulator open pannu 57",
+        "Simulator guide kudu 57",
+        "Simulator details 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Navigate to Simulator directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Simulator பக்கம்: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Simulator பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Top navbar or Ctrl+K Command Palette use panni Simulator page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Simulator",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "simulator"
+    ]
+  },
+  {
+    "id": "proj_page_0058",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Reports page 58",
+        "what is on Reports 58",
+        "explain Reports view 58",
+        "open Reports 58",
+        "navigate to Reports 58",
+        "Reports features 58"
+      ],
+      "ta": [
+        "Reports பக்கத்தை எவ்வாறு பயன்படுத்துவது 58",
+        "Reports பக்கத்தில் என்ன உள்ளது 58",
+        "Reports பக்கம் விளக்கம் 58",
+        "Reports திற 58",
+        "Reports வசதிகள் 58",
+        "Reports வழிகாட்டி 58"
+      ],
+      "tanglish": [
+        "Reports page epdi use panradhu 58",
+        "Reports page la enna irukku 58",
+        "Reports view explain pannu 58",
+        "Reports open pannu 58",
+        "Reports guide kudu 58",
+        "Reports details 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Navigate to Reports directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Reports பக்கம்: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Reports பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Top navbar or Ctrl+K Command Palette use panni Reports page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Reports",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "reports"
+    ]
+  },
+  {
+    "id": "proj_page_0059",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Models page 59",
+        "what is on Models 59",
+        "explain Models view 59",
+        "open Models 59",
+        "navigate to Models 59",
+        "Models features 59"
+      ],
+      "ta": [
+        "Models பக்கத்தை எவ்வாறு பயன்படுத்துவது 59",
+        "Models பக்கத்தில் என்ன உள்ளது 59",
+        "Models பக்கம் விளக்கம் 59",
+        "Models திற 59",
+        "Models வசதிகள் 59",
+        "Models வழிகாட்டி 59"
+      ],
+      "tanglish": [
+        "Models page epdi use panradhu 59",
+        "Models page la enna irukku 59",
+        "Models view explain pannu 59",
+        "Models open pannu 59",
+        "Models guide kudu 59",
+        "Models details 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Navigate to Models directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Models பக்கம்: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Models பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Top navbar or Ctrl+K Command Palette use panni Models page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Models",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "models"
+    ]
+  },
+  {
+    "id": "proj_page_0060",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Settings page 60",
+        "what is on Settings 60",
+        "explain Settings view 60",
+        "open Settings 60",
+        "navigate to Settings 60",
+        "Settings features 60"
+      ],
+      "ta": [
+        "Settings பக்கத்தை எவ்வாறு பயன்படுத்துவது 60",
+        "Settings பக்கத்தில் என்ன உள்ளது 60",
+        "Settings பக்கம் விளக்கம் 60",
+        "Settings திற 60",
+        "Settings வசதிகள் 60",
+        "Settings வழிகாட்டி 60"
+      ],
+      "tanglish": [
+        "Settings page epdi use panradhu 60",
+        "Settings page la enna irukku 60",
+        "Settings view explain pannu 60",
+        "Settings open pannu 60",
+        "Settings guide kudu 60",
+        "Settings details 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Navigate to Settings directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Settings பக்கம்: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Settings பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Top navbar or Ctrl+K Command Palette use panni Settings page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Settings",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "settings"
+    ]
+  },
+  {
+    "id": "proj_page_0061",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Overview page 61",
+        "what is on Overview 61",
+        "explain Overview view 61",
+        "open Overview 61",
+        "navigate to Overview 61",
+        "Overview features 61"
+      ],
+      "ta": [
+        "Overview பக்கத்தை எவ்வாறு பயன்படுத்துவது 61",
+        "Overview பக்கத்தில் என்ன உள்ளது 61",
+        "Overview பக்கம் விளக்கம் 61",
+        "Overview திற 61",
+        "Overview வசதிகள் 61",
+        "Overview வழிகாட்டி 61"
+      ],
+      "tanglish": [
+        "Overview page epdi use panradhu 61",
+        "Overview page la enna irukku 61",
+        "Overview view explain pannu 61",
+        "Overview open pannu 61",
+        "Overview guide kudu 61",
+        "Overview details 61"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Navigate to Overview directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Overview பக்கம்: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Overview பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Top navbar or Ctrl+K Command Palette use panni Overview page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Overview",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "overview"
+    ]
+  },
+  {
+    "id": "proj_page_0062",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Alerts page 62",
+        "what is on Alerts 62",
+        "explain Alerts view 62",
+        "open Alerts 62",
+        "navigate to Alerts 62",
+        "Alerts features 62"
+      ],
+      "ta": [
+        "Alerts பக்கத்தை எவ்வாறு பயன்படுத்துவது 62",
+        "Alerts பக்கத்தில் என்ன உள்ளது 62",
+        "Alerts பக்கம் விளக்கம் 62",
+        "Alerts திற 62",
+        "Alerts வசதிகள் 62",
+        "Alerts வழிகாட்டி 62"
+      ],
+      "tanglish": [
+        "Alerts page epdi use panradhu 62",
+        "Alerts page la enna irukku 62",
+        "Alerts view explain pannu 62",
+        "Alerts open pannu 62",
+        "Alerts guide kudu 62",
+        "Alerts details 62"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Navigate to Alerts directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Alerts பக்கம்: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Alerts பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Top navbar or Ctrl+K Command Palette use panni Alerts page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Alerts",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "alerts"
+    ]
+  },
+  {
+    "id": "proj_page_0063",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Incidents page 63",
+        "what is on Incidents 63",
+        "explain Incidents view 63",
+        "open Incidents 63",
+        "navigate to Incidents 63",
+        "Incidents features 63"
+      ],
+      "ta": [
+        "Incidents பக்கத்தை எவ்வாறு பயன்படுத்துவது 63",
+        "Incidents பக்கத்தில் என்ன உள்ளது 63",
+        "Incidents பக்கம் விளக்கம் 63",
+        "Incidents திற 63",
+        "Incidents வசதிகள் 63",
+        "Incidents வழிகாட்டி 63"
+      ],
+      "tanglish": [
+        "Incidents page epdi use panradhu 63",
+        "Incidents page la enna irukku 63",
+        "Incidents view explain pannu 63",
+        "Incidents open pannu 63",
+        "Incidents guide kudu 63",
+        "Incidents details 63"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Navigate to Incidents directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Incidents பக்கம்: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Incidents பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Top navbar or Ctrl+K Command Palette use panni Incidents page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Incidents",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "incidents"
+    ]
+  },
+  {
+    "id": "proj_page_0064",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Radar page 64",
+        "what is on Radar 64",
+        "explain Radar view 64",
+        "open Radar 64",
+        "navigate to Radar 64",
+        "Radar features 64"
+      ],
+      "ta": [
+        "Radar பக்கத்தை எவ்வாறு பயன்படுத்துவது 64",
+        "Radar பக்கத்தில் என்ன உள்ளது 64",
+        "Radar பக்கம் விளக்கம் 64",
+        "Radar திற 64",
+        "Radar வசதிகள் 64",
+        "Radar வழிகாட்டி 64"
+      ],
+      "tanglish": [
+        "Radar page epdi use panradhu 64",
+        "Radar page la enna irukku 64",
+        "Radar view explain pannu 64",
+        "Radar open pannu 64",
+        "Radar guide kudu 64",
+        "Radar details 64"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Navigate to Radar directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Radar பக்கம்: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Radar பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Top navbar or Ctrl+K Command Palette use panni Radar page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Radar",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "radar"
+    ]
+  },
+  {
+    "id": "proj_page_0065",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Endpoints page 65",
+        "what is on Endpoints 65",
+        "explain Endpoints view 65",
+        "open Endpoints 65",
+        "navigate to Endpoints 65",
+        "Endpoints features 65"
+      ],
+      "ta": [
+        "Endpoints பக்கத்தை எவ்வாறு பயன்படுத்துவது 65",
+        "Endpoints பக்கத்தில் என்ன உள்ளது 65",
+        "Endpoints பக்கம் விளக்கம் 65",
+        "Endpoints திற 65",
+        "Endpoints வசதிகள் 65",
+        "Endpoints வழிகாட்டி 65"
+      ],
+      "tanglish": [
+        "Endpoints page epdi use panradhu 65",
+        "Endpoints page la enna irukku 65",
+        "Endpoints view explain pannu 65",
+        "Endpoints open pannu 65",
+        "Endpoints guide kudu 65",
+        "Endpoints details 65"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Navigate to Endpoints directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Endpoints பக்கம்: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Endpoints பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Top navbar or Ctrl+K Command Palette use panni Endpoints page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Endpoints",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "endpoints"
+    ]
+  },
+  {
+    "id": "proj_page_0066",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Rules page 66",
+        "what is on Rules 66",
+        "explain Rules view 66",
+        "open Rules 66",
+        "navigate to Rules 66",
+        "Rules features 66"
+      ],
+      "ta": [
+        "Rules பக்கத்தை எவ்வாறு பயன்படுத்துவது 66",
+        "Rules பக்கத்தில் என்ன உள்ளது 66",
+        "Rules பக்கம் விளக்கம் 66",
+        "Rules திற 66",
+        "Rules வசதிகள் 66",
+        "Rules வழிகாட்டி 66"
+      ],
+      "tanglish": [
+        "Rules page epdi use panradhu 66",
+        "Rules page la enna irukku 66",
+        "Rules view explain pannu 66",
+        "Rules open pannu 66",
+        "Rules guide kudu 66",
+        "Rules details 66"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Navigate to Rules directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Rules பக்கம்: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Rules பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Top navbar or Ctrl+K Command Palette use panni Rules page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Rules",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "rules"
+    ]
+  },
+  {
+    "id": "proj_page_0067",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Simulator page 67",
+        "what is on Simulator 67",
+        "explain Simulator view 67",
+        "open Simulator 67",
+        "navigate to Simulator 67",
+        "Simulator features 67"
+      ],
+      "ta": [
+        "Simulator பக்கத்தை எவ்வாறு பயன்படுத்துவது 67",
+        "Simulator பக்கத்தில் என்ன உள்ளது 67",
+        "Simulator பக்கம் விளக்கம் 67",
+        "Simulator திற 67",
+        "Simulator வசதிகள் 67",
+        "Simulator வழிகாட்டி 67"
+      ],
+      "tanglish": [
+        "Simulator page epdi use panradhu 67",
+        "Simulator page la enna irukku 67",
+        "Simulator view explain pannu 67",
+        "Simulator open pannu 67",
+        "Simulator guide kudu 67",
+        "Simulator details 67"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Navigate to Simulator directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Simulator பக்கம்: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Simulator பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Top navbar or Ctrl+K Command Palette use panni Simulator page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Simulator",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "simulator"
+    ]
+  },
+  {
+    "id": "proj_page_0068",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Reports page 68",
+        "what is on Reports 68",
+        "explain Reports view 68",
+        "open Reports 68",
+        "navigate to Reports 68",
+        "Reports features 68"
+      ],
+      "ta": [
+        "Reports பக்கத்தை எவ்வாறு பயன்படுத்துவது 68",
+        "Reports பக்கத்தில் என்ன உள்ளது 68",
+        "Reports பக்கம் விளக்கம் 68",
+        "Reports திற 68",
+        "Reports வசதிகள் 68",
+        "Reports வழிகாட்டி 68"
+      ],
+      "tanglish": [
+        "Reports page epdi use panradhu 68",
+        "Reports page la enna irukku 68",
+        "Reports view explain pannu 68",
+        "Reports open pannu 68",
+        "Reports guide kudu 68",
+        "Reports details 68"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Navigate to Reports directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Reports பக்கம்: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Reports பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Top navbar or Ctrl+K Command Palette use panni Reports page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Reports",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "reports"
+    ]
+  },
+  {
+    "id": "proj_page_0069",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Models page 69",
+        "what is on Models 69",
+        "explain Models view 69",
+        "open Models 69",
+        "navigate to Models 69",
+        "Models features 69"
+      ],
+      "ta": [
+        "Models பக்கத்தை எவ்வாறு பயன்படுத்துவது 69",
+        "Models பக்கத்தில் என்ன உள்ளது 69",
+        "Models பக்கம் விளக்கம் 69",
+        "Models திற 69",
+        "Models வசதிகள் 69",
+        "Models வழிகாட்டி 69"
+      ],
+      "tanglish": [
+        "Models page epdi use panradhu 69",
+        "Models page la enna irukku 69",
+        "Models view explain pannu 69",
+        "Models open pannu 69",
+        "Models guide kudu 69",
+        "Models details 69"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Navigate to Models directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Models பக்கம்: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Models பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Top navbar or Ctrl+K Command Palette use panni Models page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Models",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "models"
+    ]
+  },
+  {
+    "id": "proj_page_0070",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Settings page 70",
+        "what is on Settings 70",
+        "explain Settings view 70",
+        "open Settings 70",
+        "navigate to Settings 70",
+        "Settings features 70"
+      ],
+      "ta": [
+        "Settings பக்கத்தை எவ்வாறு பயன்படுத்துவது 70",
+        "Settings பக்கத்தில் என்ன உள்ளது 70",
+        "Settings பக்கம் விளக்கம் 70",
+        "Settings திற 70",
+        "Settings வசதிகள் 70",
+        "Settings வழிகாட்டி 70"
+      ],
+      "tanglish": [
+        "Settings page epdi use panradhu 70",
+        "Settings page la enna irukku 70",
+        "Settings view explain pannu 70",
+        "Settings open pannu 70",
+        "Settings guide kudu 70",
+        "Settings details 70"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Navigate to Settings directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Settings பக்கம்: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Settings பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Top navbar or Ctrl+K Command Palette use panni Settings page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Settings",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "settings"
+    ]
+  },
+  {
+    "id": "proj_page_0071",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Overview page 71",
+        "what is on Overview 71",
+        "explain Overview view 71",
+        "open Overview 71",
+        "navigate to Overview 71",
+        "Overview features 71"
+      ],
+      "ta": [
+        "Overview பக்கத்தை எவ்வாறு பயன்படுத்துவது 71",
+        "Overview பக்கத்தில் என்ன உள்ளது 71",
+        "Overview பக்கம் விளக்கம் 71",
+        "Overview திற 71",
+        "Overview வசதிகள் 71",
+        "Overview வழிகாட்டி 71"
+      ],
+      "tanglish": [
+        "Overview page epdi use panradhu 71",
+        "Overview page la enna irukku 71",
+        "Overview view explain pannu 71",
+        "Overview open pannu 71",
+        "Overview guide kudu 71",
+        "Overview details 71"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Navigate to Overview directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Overview பக்கம்: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Overview பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Top navbar or Ctrl+K Command Palette use panni Overview page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Overview",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "overview"
+    ]
+  },
+  {
+    "id": "proj_page_0072",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Alerts page 72",
+        "what is on Alerts 72",
+        "explain Alerts view 72",
+        "open Alerts 72",
+        "navigate to Alerts 72",
+        "Alerts features 72"
+      ],
+      "ta": [
+        "Alerts பக்கத்தை எவ்வாறு பயன்படுத்துவது 72",
+        "Alerts பக்கத்தில் என்ன உள்ளது 72",
+        "Alerts பக்கம் விளக்கம் 72",
+        "Alerts திற 72",
+        "Alerts வசதிகள் 72",
+        "Alerts வழிகாட்டி 72"
+      ],
+      "tanglish": [
+        "Alerts page epdi use panradhu 72",
+        "Alerts page la enna irukku 72",
+        "Alerts view explain pannu 72",
+        "Alerts open pannu 72",
+        "Alerts guide kudu 72",
+        "Alerts details 72"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Navigate to Alerts directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Alerts பக்கம்: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Alerts பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Top navbar or Ctrl+K Command Palette use panni Alerts page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Alerts",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "alerts"
+    ]
+  },
+  {
+    "id": "proj_page_0073",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Incidents page 73",
+        "what is on Incidents 73",
+        "explain Incidents view 73",
+        "open Incidents 73",
+        "navigate to Incidents 73",
+        "Incidents features 73"
+      ],
+      "ta": [
+        "Incidents பக்கத்தை எவ்வாறு பயன்படுத்துவது 73",
+        "Incidents பக்கத்தில் என்ன உள்ளது 73",
+        "Incidents பக்கம் விளக்கம் 73",
+        "Incidents திற 73",
+        "Incidents வசதிகள் 73",
+        "Incidents வழிகாட்டி 73"
+      ],
+      "tanglish": [
+        "Incidents page epdi use panradhu 73",
+        "Incidents page la enna irukku 73",
+        "Incidents view explain pannu 73",
+        "Incidents open pannu 73",
+        "Incidents guide kudu 73",
+        "Incidents details 73"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Navigate to Incidents directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Incidents பக்கம்: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Incidents பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Top navbar or Ctrl+K Command Palette use panni Incidents page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Incidents",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "incidents"
+    ]
+  },
+  {
+    "id": "proj_page_0074",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Radar page 74",
+        "what is on Radar 74",
+        "explain Radar view 74",
+        "open Radar 74",
+        "navigate to Radar 74",
+        "Radar features 74"
+      ],
+      "ta": [
+        "Radar பக்கத்தை எவ்வாறு பயன்படுத்துவது 74",
+        "Radar பக்கத்தில் என்ன உள்ளது 74",
+        "Radar பக்கம் விளக்கம் 74",
+        "Radar திற 74",
+        "Radar வசதிகள் 74",
+        "Radar வழிகாட்டி 74"
+      ],
+      "tanglish": [
+        "Radar page epdi use panradhu 74",
+        "Radar page la enna irukku 74",
+        "Radar view explain pannu 74",
+        "Radar open pannu 74",
+        "Radar guide kudu 74",
+        "Radar details 74"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Navigate to Radar directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Radar பக்கம்: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Radar பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Top navbar or Ctrl+K Command Palette use panni Radar page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Radar",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "radar"
+    ]
+  },
+  {
+    "id": "proj_page_0075",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Endpoints page 75",
+        "what is on Endpoints 75",
+        "explain Endpoints view 75",
+        "open Endpoints 75",
+        "navigate to Endpoints 75",
+        "Endpoints features 75"
+      ],
+      "ta": [
+        "Endpoints பக்கத்தை எவ்வாறு பயன்படுத்துவது 75",
+        "Endpoints பக்கத்தில் என்ன உள்ளது 75",
+        "Endpoints பக்கம் விளக்கம் 75",
+        "Endpoints திற 75",
+        "Endpoints வசதிகள் 75",
+        "Endpoints வழிகாட்டி 75"
+      ],
+      "tanglish": [
+        "Endpoints page epdi use panradhu 75",
+        "Endpoints page la enna irukku 75",
+        "Endpoints view explain pannu 75",
+        "Endpoints open pannu 75",
+        "Endpoints guide kudu 75",
+        "Endpoints details 75"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Navigate to Endpoints directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Endpoints பக்கம்: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Endpoints பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Top navbar or Ctrl+K Command Palette use panni Endpoints page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Endpoints",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "endpoints"
+    ]
+  },
+  {
+    "id": "proj_page_0076",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Rules page 76",
+        "what is on Rules 76",
+        "explain Rules view 76",
+        "open Rules 76",
+        "navigate to Rules 76",
+        "Rules features 76"
+      ],
+      "ta": [
+        "Rules பக்கத்தை எவ்வாறு பயன்படுத்துவது 76",
+        "Rules பக்கத்தில் என்ன உள்ளது 76",
+        "Rules பக்கம் விளக்கம் 76",
+        "Rules திற 76",
+        "Rules வசதிகள் 76",
+        "Rules வழிகாட்டி 76"
+      ],
+      "tanglish": [
+        "Rules page epdi use panradhu 76",
+        "Rules page la enna irukku 76",
+        "Rules view explain pannu 76",
+        "Rules open pannu 76",
+        "Rules guide kudu 76",
+        "Rules details 76"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Navigate to Rules directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Rules பக்கம்: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Rules பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Top navbar or Ctrl+K Command Palette use panni Rules page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Rules",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "rules"
+    ]
+  },
+  {
+    "id": "proj_page_0077",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Simulator page 77",
+        "what is on Simulator 77",
+        "explain Simulator view 77",
+        "open Simulator 77",
+        "navigate to Simulator 77",
+        "Simulator features 77"
+      ],
+      "ta": [
+        "Simulator பக்கத்தை எவ்வாறு பயன்படுத்துவது 77",
+        "Simulator பக்கத்தில் என்ன உள்ளது 77",
+        "Simulator பக்கம் விளக்கம் 77",
+        "Simulator திற 77",
+        "Simulator வசதிகள் 77",
+        "Simulator வழிகாட்டி 77"
+      ],
+      "tanglish": [
+        "Simulator page epdi use panradhu 77",
+        "Simulator page la enna irukku 77",
+        "Simulator view explain pannu 77",
+        "Simulator open pannu 77",
+        "Simulator guide kudu 77",
+        "Simulator details 77"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Navigate to Simulator directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Simulator பக்கம்: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Simulator பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Top navbar or Ctrl+K Command Palette use panni Simulator page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Simulator",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "simulator"
+    ]
+  },
+  {
+    "id": "proj_page_0078",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Reports page 78",
+        "what is on Reports 78",
+        "explain Reports view 78",
+        "open Reports 78",
+        "navigate to Reports 78",
+        "Reports features 78"
+      ],
+      "ta": [
+        "Reports பக்கத்தை எவ்வாறு பயன்படுத்துவது 78",
+        "Reports பக்கத்தில் என்ன உள்ளது 78",
+        "Reports பக்கம் விளக்கம் 78",
+        "Reports திற 78",
+        "Reports வசதிகள் 78",
+        "Reports வழிகாட்டி 78"
+      ],
+      "tanglish": [
+        "Reports page epdi use panradhu 78",
+        "Reports page la enna irukku 78",
+        "Reports view explain pannu 78",
+        "Reports open pannu 78",
+        "Reports guide kudu 78",
+        "Reports details 78"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Navigate to Reports directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Reports பக்கம்: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Reports பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Top navbar or Ctrl+K Command Palette use panni Reports page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Reports",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "reports"
+    ]
+  },
+  {
+    "id": "proj_page_0079",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Models page 79",
+        "what is on Models 79",
+        "explain Models view 79",
+        "open Models 79",
+        "navigate to Models 79",
+        "Models features 79"
+      ],
+      "ta": [
+        "Models பக்கத்தை எவ்வாறு பயன்படுத்துவது 79",
+        "Models பக்கத்தில் என்ன உள்ளது 79",
+        "Models பக்கம் விளக்கம் 79",
+        "Models திற 79",
+        "Models வசதிகள் 79",
+        "Models வழிகாட்டி 79"
+      ],
+      "tanglish": [
+        "Models page epdi use panradhu 79",
+        "Models page la enna irukku 79",
+        "Models view explain pannu 79",
+        "Models open pannu 79",
+        "Models guide kudu 79",
+        "Models details 79"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Navigate to Models directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Models பக்கம்: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Models பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Top navbar or Ctrl+K Command Palette use panni Models page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Models",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "models"
+    ]
+  },
+  {
+    "id": "proj_page_0080",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Settings page 80",
+        "what is on Settings 80",
+        "explain Settings view 80",
+        "open Settings 80",
+        "navigate to Settings 80",
+        "Settings features 80"
+      ],
+      "ta": [
+        "Settings பக்கத்தை எவ்வாறு பயன்படுத்துவது 80",
+        "Settings பக்கத்தில் என்ன உள்ளது 80",
+        "Settings பக்கம் விளக்கம் 80",
+        "Settings திற 80",
+        "Settings வசதிகள் 80",
+        "Settings வழிகாட்டி 80"
+      ],
+      "tanglish": [
+        "Settings page epdi use panradhu 80",
+        "Settings page la enna irukku 80",
+        "Settings view explain pannu 80",
+        "Settings open pannu 80",
+        "Settings guide kudu 80",
+        "Settings details 80"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Navigate to Settings directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Settings பக்கம்: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Settings பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Top navbar or Ctrl+K Command Palette use panni Settings page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Settings",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "settings"
+    ]
+  },
+  {
+    "id": "proj_page_0081",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Overview page 81",
+        "what is on Overview 81",
+        "explain Overview view 81",
+        "open Overview 81",
+        "navigate to Overview 81",
+        "Overview features 81"
+      ],
+      "ta": [
+        "Overview பக்கத்தை எவ்வாறு பயன்படுத்துவது 81",
+        "Overview பக்கத்தில் என்ன உள்ளது 81",
+        "Overview பக்கம் விளக்கம் 81",
+        "Overview திற 81",
+        "Overview வசதிகள் 81",
+        "Overview வழிகாட்டி 81"
+      ],
+      "tanglish": [
+        "Overview page epdi use panradhu 81",
+        "Overview page la enna irukku 81",
+        "Overview view explain pannu 81",
+        "Overview open pannu 81",
+        "Overview guide kudu 81",
+        "Overview details 81"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Navigate to Overview directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Overview பக்கம்: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Overview பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Overview Page: Unified telemetry HUD with Health Score, 4 core StatCards (Allowed/Warned/Blocked), RiskGauge, and LiveTrafficChart.",
+        "Top navbar or Ctrl+K Command Palette use panni Overview page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Overview",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "overview"
+    ]
+  },
+  {
+    "id": "proj_page_0082",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Alerts page 82",
+        "what is on Alerts 82",
+        "explain Alerts view 82",
+        "open Alerts 82",
+        "navigate to Alerts 82",
+        "Alerts features 82"
+      ],
+      "ta": [
+        "Alerts பக்கத்தை எவ்வாறு பயன்படுத்துவது 82",
+        "Alerts பக்கத்தில் என்ன உள்ளது 82",
+        "Alerts பக்கம் விளக்கம் 82",
+        "Alerts திற 82",
+        "Alerts வசதிகள் 82",
+        "Alerts வழிகாட்டி 82"
+      ],
+      "tanglish": [
+        "Alerts page epdi use panradhu 82",
+        "Alerts page la enna irukku 82",
+        "Alerts view explain pannu 82",
+        "Alerts open pannu 82",
+        "Alerts guide kudu 82",
+        "Alerts details 82"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Navigate to Alerts directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Alerts பக்கம்: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Alerts பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Alerts Page: Searchable, filterable real-time security alerts table with TreeSHAP breakdown, MITRE technique ID, and FP/TP analyst feedback buttons.",
+        "Top navbar or Ctrl+K Command Palette use panni Alerts page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Alerts",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "alerts"
+    ]
+  },
+  {
+    "id": "proj_page_0083",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Incidents page 83",
+        "what is on Incidents 83",
+        "explain Incidents view 83",
+        "open Incidents 83",
+        "navigate to Incidents 83",
+        "Incidents features 83"
+      ],
+      "ta": [
+        "Incidents பக்கத்தை எவ்வாறு பயன்படுத்துவது 83",
+        "Incidents பக்கத்தில் என்ன உள்ளது 83",
+        "Incidents பக்கம் விளக்கம் 83",
+        "Incidents திற 83",
+        "Incidents வசதிகள் 83",
+        "Incidents வழிகாட்டி 83"
+      ],
+      "tanglish": [
+        "Incidents page epdi use panradhu 83",
+        "Incidents page la enna irukku 83",
+        "Incidents view explain pannu 83",
+        "Incidents open pannu 83",
+        "Incidents guide kudu 83",
+        "Incidents details 83"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Navigate to Incidents directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Incidents பக்கம்: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Incidents பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Incidents Page: Correlates individual alerts into coherent attack campaigns across Recon, Probing, Exploit, and Block kill-chain phases.",
+        "Top navbar or Ctrl+K Command Palette use panni Incidents page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Incidents",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "incidents"
+    ]
+  },
+  {
+    "id": "proj_page_0084",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Radar page 84",
+        "what is on Radar 84",
+        "explain Radar view 84",
+        "open Radar 84",
+        "navigate to Radar 84",
+        "Radar features 84"
+      ],
+      "ta": [
+        "Radar பக்கத்தை எவ்வாறு பயன்படுத்துவது 84",
+        "Radar பக்கத்தில் என்ன உள்ளது 84",
+        "Radar பக்கம் விளக்கம் 84",
+        "Radar திற 84",
+        "Radar வசதிகள் 84",
+        "Radar வழிகாட்டி 84"
+      ],
+      "tanglish": [
+        "Radar page epdi use panradhu 84",
+        "Radar page la enna irukku 84",
+        "Radar view explain pannu 84",
+        "Radar open pannu 84",
+        "Radar guide kudu 84",
+        "Radar details 84"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Navigate to Radar directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Radar பக்கம்: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Radar பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Radar Page: 360-degree perimeter threat radar displaying active client connection blips, attack classifications, and forensic IP modals.",
+        "Top navbar or Ctrl+K Command Palette use panni Radar page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Radar",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "radar"
+    ]
+  },
+  {
+    "id": "proj_page_0085",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Endpoints page 85",
+        "what is on Endpoints 85",
+        "explain Endpoints view 85",
+        "open Endpoints 85",
+        "navigate to Endpoints 85",
+        "Endpoints features 85"
+      ],
+      "ta": [
+        "Endpoints பக்கத்தை எவ்வாறு பயன்படுத்துவது 85",
+        "Endpoints பக்கத்தில் என்ன உள்ளது 85",
+        "Endpoints பக்கம் விளக்கம் 85",
+        "Endpoints திற 85",
+        "Endpoints வசதிகள் 85",
+        "Endpoints வழிகாட்டி 85"
+      ],
+      "tanglish": [
+        "Endpoints page epdi use panradhu 85",
+        "Endpoints page la enna irukku 85",
+        "Endpoints view explain pannu 85",
+        "Endpoints open pannu 85",
+        "Endpoints guide kudu 85",
+        "Endpoints details 85"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Navigate to Endpoints directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Endpoints பக்கம்: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Endpoints பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Endpoints Page: Automatic API route discovery from live traffic, calculating endpoint risk heatmaps and OpenAPI schema validation.",
+        "Top navbar or Ctrl+K Command Palette use panni Endpoints page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Endpoints",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "endpoints"
+    ]
+  },
+  {
+    "id": "proj_page_0086",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Rules page 86",
+        "what is on Rules 86",
+        "explain Rules view 86",
+        "open Rules 86",
+        "navigate to Rules 86",
+        "Rules features 86"
+      ],
+      "ta": [
+        "Rules பக்கத்தை எவ்வாறு பயன்படுத்துவது 86",
+        "Rules பக்கத்தில் என்ன உள்ளது 86",
+        "Rules பக்கம் விளக்கம் 86",
+        "Rules திற 86",
+        "Rules வசதிகள் 86",
+        "Rules வழிகாட்டி 86"
+      ],
+      "tanglish": [
+        "Rules page epdi use panradhu 86",
+        "Rules page la enna irukku 86",
+        "Rules view explain pannu 86",
+        "Rules open pannu 86",
+        "Rules guide kudu 86",
+        "Rules details 86"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Navigate to Rules directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Rules பக்கம்: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Rules பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Rules Page: No-code visual rule builder with safe ReDoS-proof regex evaluation, priority ordering, and live sandbox testing.",
+        "Top navbar or Ctrl+K Command Palette use panni Rules page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Rules",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "rules"
+    ]
+  },
+  {
+    "id": "proj_page_0087",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Simulator page 87",
+        "what is on Simulator 87",
+        "explain Simulator view 87",
+        "open Simulator 87",
+        "navigate to Simulator 87",
+        "Simulator features 87"
+      ],
+      "ta": [
+        "Simulator பக்கத்தை எவ்வாறு பயன்படுத்துவது 87",
+        "Simulator பக்கத்தில் என்ன உள்ளது 87",
+        "Simulator பக்கம் விளக்கம் 87",
+        "Simulator திற 87",
+        "Simulator வசதிகள் 87",
+        "Simulator வழிகாட்டி 87"
+      ],
+      "tanglish": [
+        "Simulator page epdi use panradhu 87",
+        "Simulator page la enna irukku 87",
+        "Simulator view explain pannu 87",
+        "Simulator open pannu 87",
+        "Simulator guide kudu 87",
+        "Simulator details 87"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Navigate to Simulator directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Simulator பக்கம்: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Simulator பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Simulator Page: Interactive attack testing suite with pre-built scenarios, Red vs Blue benchmarks, and evasion lab bypass experiments.",
+        "Top navbar or Ctrl+K Command Palette use panni Simulator page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Simulator",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "simulator"
+    ]
+  },
+  {
+    "id": "proj_page_0088",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Reports page 88",
+        "what is on Reports 88",
+        "explain Reports view 88",
+        "open Reports 88",
+        "navigate to Reports 88",
+        "Reports features 88"
+      ],
+      "ta": [
+        "Reports பக்கத்தை எவ்வாறு பயன்படுத்துவது 88",
+        "Reports பக்கத்தில் என்ன உள்ளது 88",
+        "Reports பக்கம் விளக்கம் 88",
+        "Reports திற 88",
+        "Reports வசதிகள் 88",
+        "Reports வழிகாட்டி 88"
+      ],
+      "tanglish": [
+        "Reports page epdi use panradhu 88",
+        "Reports page la enna irukku 88",
+        "Reports view explain pannu 88",
+        "Reports open pannu 88",
+        "Reports guide kudu 88",
+        "Reports details 88"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Navigate to Reports directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Reports பக்கம்: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Reports பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Reports Page: One-click IEEE-style forensic academic PDF dossier generator with mathematical formulas and executive summaries.",
+        "Top navbar or Ctrl+K Command Palette use panni Reports page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Reports",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "reports"
+    ]
+  },
+  {
+    "id": "proj_page_0089",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Models page 89",
+        "what is on Models 89",
+        "explain Models view 89",
+        "open Models 89",
+        "navigate to Models 89",
+        "Models features 89"
+      ],
+      "ta": [
+        "Models பக்கத்தை எவ்வாறு பயன்படுத்துவது 89",
+        "Models பக்கத்தில் என்ன உள்ளது 89",
+        "Models பக்கம் விளக்கம் 89",
+        "Models திற 89",
+        "Models வசதிகள் 89",
+        "Models வழிகாட்டி 89"
+      ],
+      "tanglish": [
+        "Models page epdi use panradhu 89",
+        "Models page la enna irukku 89",
+        "Models view explain pannu 89",
+        "Models open pannu 89",
+        "Models guide kudu 89",
+        "Models details 89"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Navigate to Models directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Models பக்கம்: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Models பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Models Page: Machine learning performance monitoring, confusion matrices, ROC/PR curves, and safe retraining verification.",
+        "Top navbar or Ctrl+K Command Palette use panni Models page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Models",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "models"
+    ]
+  },
+  {
+    "id": "proj_page_0090",
+    "category": "dashboard_pages",
+    "patterns": {
+      "en": [
+        "how to use Settings page 90",
+        "what is on Settings 90",
+        "explain Settings view 90",
+        "open Settings 90",
+        "navigate to Settings 90",
+        "Settings features 90"
+      ],
+      "ta": [
+        "Settings பக்கத்தை எவ்வாறு பயன்படுத்துவது 90",
+        "Settings பக்கத்தில் என்ன உள்ளது 90",
+        "Settings பக்கம் விளக்கம் 90",
+        "Settings திற 90",
+        "Settings வசதிகள் 90",
+        "Settings வழிகாட்டி 90"
+      ],
+      "tanglish": [
+        "Settings page epdi use panradhu 90",
+        "Settings page la enna irukku 90",
+        "Settings view explain pannu 90",
+        "Settings open pannu 90",
+        "Settings guide kudu 90",
+        "Settings details 90"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Navigate to Settings directly from the top navigation bar or via the Command Palette (Ctrl+K)."
+      ],
+      "ta": [
+        "Settings பக்கம்: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "முதன்மை வழிசெலுத்தல் பட்டி அல்லது Ctrl+K வழியாக Settings பக்கத்திற்கு செல்லலாம்."
+      ],
+      "tanglish": [
+        "Settings Page: Gateway configuration hub hosting General thresholds, Perimeter Radar, Custom Rules, and Attack Simulator sub-tabs.",
+        "Top navbar or Ctrl+K Command Palette use panni Settings page-ku navigate pannalam."
+      ]
+    },
+    "chips": [
+      "Open Settings",
+      "/status",
+      "Launch product tour"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "dashboard",
+      "navigation",
+      "settings"
+    ]
+  }
+]

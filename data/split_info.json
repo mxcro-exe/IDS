@@ -1,0 +1,85 @@
+{
+  "random_seed": 42,
+  "classes": [
+    "Benign",
+    "SQLi",
+    "XSS",
+    "Path Traversal",
+    "Command Injection",
+    "Brute Force/Auth Abuse",
+    "Other"
+  ],
+  "splits": {
+    "train": {
+      "file": "train.csv",
+      "samples": 360,
+      "unique_seeds": 209,
+      "sha256": "a39298aa32b3c87c968f6dbdd9ffe0e36c06fb87f180ee9aa10d911b6d4756fe",
+      "class_distribution": {
+        "SQLi": 153,
+        "XSS": 136,
+        "Benign": 34,
+        "Path Traversal": 14,
+        "Brute Force/Auth Abuse": 10,
+        "Command Injection": 9,
+        "Other": 4
+      }
+    },
+    "validation": {
+      "file": "val.csv",
+      "samples": 32,
+      "unique_seeds": 32,
+      "sha256": "1e8c98c334c568547f188e9b3846589a47d692bf52afec1da437d7211515995b",
+      "class_distribution": {
+        "SQLi": 12,
+        "XSS": 11,
+        "Benign": 5,
+        "Other": 1,
+        "Path Traversal": 1,
+        "Brute Force/Auth Abuse": 1,
+        "Command Injection": 1
+      }
+    },
+    "calibration": {
+      "file": "calib.csv",
+      "samples": 32,
+      "unique_seeds": 32,
+      "sha256": "3a88b6edafa270a1ad6c9f91cdb50cfee43b1e53ab5b61c33c0e801436fff9f6",
+      "class_distribution": {
+        "SQLi": 12,
+        "XSS": 11,
+        "Benign": 5,
+        "Brute Force/Auth Abuse": 1,
+        "Command Injection": 1,
+        "Path Traversal": 1,
+        "Other": 1
+      }
+    },
+    "test": {
+      "file": "test.csv",
+      "samples": 48,
+      "unique_seeds": 48,
+      "sha256": "8c4a8ddc05868d593c5f8ba06a8ec392f7f04ec168b13f8c420f7778d8ac7b8a",
+      "class_distribution": {
+        "SQLi": 20,
+        "XSS": 16,
+        "Benign": 8,
+        "Path Traversal": 2,
+        "Command Injection": 2
+      }
+    },
+    "unseen_mutations_test": {
+      "file": "test_unseen_mutations.csv",
+      "samples": 160,
+      "unique_seeds": 40,
+      "sha256": "64e160dbe321883a7973d141c9ed4c5166c03c3868d1663939e37cc777394141"
+    }
+  },
+  "leakage_verification": {
+    "train_val_overlap": 0,
+    "train_calib_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0,
+    "status": "PASSED_ZERO_LEAKAGE"
+  }
+}

@@ -1,0 +1,5602 @@
+[
+  {
+    "id": "gen_uimeta_0001",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 1",
+        "change language 1",
+        "switch theme 1",
+        "dark mode 1",
+        "light mode 1",
+        "privacy policy 1"
+      ],
+      "ta": [
+        "அரட்டையை அழி 1",
+        "மொழியை மாற்று 1",
+        "தீம் மாற்று 1",
+        "டார்க் மோட் 1",
+        "லைட் மோட் 1",
+        "தனியுரிமை கொள்கை 1"
+      ],
+      "tanglish": [
+        "chat clear pannu 1",
+        "language mathu 1",
+        "theme change 1",
+        "dark mode pottu 1",
+        "light mode vai 1",
+        "privacy details 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0002",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 2",
+        "change language 2",
+        "switch theme 2",
+        "dark mode 2",
+        "light mode 2",
+        "privacy policy 2"
+      ],
+      "ta": [
+        "அரட்டையை அழி 2",
+        "மொழியை மாற்று 2",
+        "தீம் மாற்று 2",
+        "டார்க் மோட் 2",
+        "லைட் மோட் 2",
+        "தனியுரிமை கொள்கை 2"
+      ],
+      "tanglish": [
+        "chat clear pannu 2",
+        "language mathu 2",
+        "theme change 2",
+        "dark mode pottu 2",
+        "light mode vai 2",
+        "privacy details 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0003",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 3",
+        "change language 3",
+        "switch theme 3",
+        "dark mode 3",
+        "light mode 3",
+        "privacy policy 3"
+      ],
+      "ta": [
+        "அரட்டையை அழி 3",
+        "மொழியை மாற்று 3",
+        "தீம் மாற்று 3",
+        "டார்க் மோட் 3",
+        "லைட் மோட் 3",
+        "தனியுரிமை கொள்கை 3"
+      ],
+      "tanglish": [
+        "chat clear pannu 3",
+        "language mathu 3",
+        "theme change 3",
+        "dark mode pottu 3",
+        "light mode vai 3",
+        "privacy details 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0004",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 4",
+        "change language 4",
+        "switch theme 4",
+        "dark mode 4",
+        "light mode 4",
+        "privacy policy 4"
+      ],
+      "ta": [
+        "அரட்டையை அழி 4",
+        "மொழியை மாற்று 4",
+        "தீம் மாற்று 4",
+        "டார்க் மோட் 4",
+        "லைட் மோட் 4",
+        "தனியுரிமை கொள்கை 4"
+      ],
+      "tanglish": [
+        "chat clear pannu 4",
+        "language mathu 4",
+        "theme change 4",
+        "dark mode pottu 4",
+        "light mode vai 4",
+        "privacy details 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0005",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 5",
+        "change language 5",
+        "switch theme 5",
+        "dark mode 5",
+        "light mode 5",
+        "privacy policy 5"
+      ],
+      "ta": [
+        "அரட்டையை அழி 5",
+        "மொழியை மாற்று 5",
+        "தீம் மாற்று 5",
+        "டார்க் மோட் 5",
+        "லைட் மோட் 5",
+        "தனியுரிமை கொள்கை 5"
+      ],
+      "tanglish": [
+        "chat clear pannu 5",
+        "language mathu 5",
+        "theme change 5",
+        "dark mode pottu 5",
+        "light mode vai 5",
+        "privacy details 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0006",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 6",
+        "change language 6",
+        "switch theme 6",
+        "dark mode 6",
+        "light mode 6",
+        "privacy policy 6"
+      ],
+      "ta": [
+        "அரட்டையை அழி 6",
+        "மொழியை மாற்று 6",
+        "தீம் மாற்று 6",
+        "டார்க் மோட் 6",
+        "லைட் மோட் 6",
+        "தனியுரிமை கொள்கை 6"
+      ],
+      "tanglish": [
+        "chat clear pannu 6",
+        "language mathu 6",
+        "theme change 6",
+        "dark mode pottu 6",
+        "light mode vai 6",
+        "privacy details 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0007",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 7",
+        "change language 7",
+        "switch theme 7",
+        "dark mode 7",
+        "light mode 7",
+        "privacy policy 7"
+      ],
+      "ta": [
+        "அரட்டையை அழி 7",
+        "மொழியை மாற்று 7",
+        "தீம் மாற்று 7",
+        "டார்க் மோட் 7",
+        "லைட் மோட் 7",
+        "தனியுரிமை கொள்கை 7"
+      ],
+      "tanglish": [
+        "chat clear pannu 7",
+        "language mathu 7",
+        "theme change 7",
+        "dark mode pottu 7",
+        "light mode vai 7",
+        "privacy details 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0008",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 8",
+        "change language 8",
+        "switch theme 8",
+        "dark mode 8",
+        "light mode 8",
+        "privacy policy 8"
+      ],
+      "ta": [
+        "அரட்டையை அழி 8",
+        "மொழியை மாற்று 8",
+        "தீம் மாற்று 8",
+        "டார்க் மோட் 8",
+        "லைட் மோட் 8",
+        "தனியுரிமை கொள்கை 8"
+      ],
+      "tanglish": [
+        "chat clear pannu 8",
+        "language mathu 8",
+        "theme change 8",
+        "dark mode pottu 8",
+        "light mode vai 8",
+        "privacy details 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0009",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 9",
+        "change language 9",
+        "switch theme 9",
+        "dark mode 9",
+        "light mode 9",
+        "privacy policy 9"
+      ],
+      "ta": [
+        "அரட்டையை அழி 9",
+        "மொழியை மாற்று 9",
+        "தீம் மாற்று 9",
+        "டார்க் மோட் 9",
+        "லைட் மோட் 9",
+        "தனியுரிமை கொள்கை 9"
+      ],
+      "tanglish": [
+        "chat clear pannu 9",
+        "language mathu 9",
+        "theme change 9",
+        "dark mode pottu 9",
+        "light mode vai 9",
+        "privacy details 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0010",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 10",
+        "change language 10",
+        "switch theme 10",
+        "dark mode 10",
+        "light mode 10",
+        "privacy policy 10"
+      ],
+      "ta": [
+        "அரட்டையை அழி 10",
+        "மொழியை மாற்று 10",
+        "தீம் மாற்று 10",
+        "டார்க் மோட் 10",
+        "லைட் மோட் 10",
+        "தனியுரிமை கொள்கை 10"
+      ],
+      "tanglish": [
+        "chat clear pannu 10",
+        "language mathu 10",
+        "theme change 10",
+        "dark mode pottu 10",
+        "light mode vai 10",
+        "privacy details 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0011",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 11",
+        "change language 11",
+        "switch theme 11",
+        "dark mode 11",
+        "light mode 11",
+        "privacy policy 11"
+      ],
+      "ta": [
+        "அரட்டையை அழி 11",
+        "மொழியை மாற்று 11",
+        "தீம் மாற்று 11",
+        "டார்க் மோட் 11",
+        "லைட் மோட் 11",
+        "தனியுரிமை கொள்கை 11"
+      ],
+      "tanglish": [
+        "chat clear pannu 11",
+        "language mathu 11",
+        "theme change 11",
+        "dark mode pottu 11",
+        "light mode vai 11",
+        "privacy details 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0012",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 12",
+        "change language 12",
+        "switch theme 12",
+        "dark mode 12",
+        "light mode 12",
+        "privacy policy 12"
+      ],
+      "ta": [
+        "அரட்டையை அழி 12",
+        "மொழியை மாற்று 12",
+        "தீம் மாற்று 12",
+        "டார்க் மோட் 12",
+        "லைட் மோட் 12",
+        "தனியுரிமை கொள்கை 12"
+      ],
+      "tanglish": [
+        "chat clear pannu 12",
+        "language mathu 12",
+        "theme change 12",
+        "dark mode pottu 12",
+        "light mode vai 12",
+        "privacy details 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0013",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 13",
+        "change language 13",
+        "switch theme 13",
+        "dark mode 13",
+        "light mode 13",
+        "privacy policy 13"
+      ],
+      "ta": [
+        "அரட்டையை அழி 13",
+        "மொழியை மாற்று 13",
+        "தீம் மாற்று 13",
+        "டார்க் மோட் 13",
+        "லைட் மோட் 13",
+        "தனியுரிமை கொள்கை 13"
+      ],
+      "tanglish": [
+        "chat clear pannu 13",
+        "language mathu 13",
+        "theme change 13",
+        "dark mode pottu 13",
+        "light mode vai 13",
+        "privacy details 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0014",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 14",
+        "change language 14",
+        "switch theme 14",
+        "dark mode 14",
+        "light mode 14",
+        "privacy policy 14"
+      ],
+      "ta": [
+        "அரட்டையை அழி 14",
+        "மொழியை மாற்று 14",
+        "தீம் மாற்று 14",
+        "டார்க் மோட் 14",
+        "லைட் மோட் 14",
+        "தனியுரிமை கொள்கை 14"
+      ],
+      "tanglish": [
+        "chat clear pannu 14",
+        "language mathu 14",
+        "theme change 14",
+        "dark mode pottu 14",
+        "light mode vai 14",
+        "privacy details 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0015",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 15",
+        "change language 15",
+        "switch theme 15",
+        "dark mode 15",
+        "light mode 15",
+        "privacy policy 15"
+      ],
+      "ta": [
+        "அரட்டையை அழி 15",
+        "மொழியை மாற்று 15",
+        "தீம் மாற்று 15",
+        "டார்க் மோட் 15",
+        "லைட் மோட் 15",
+        "தனியுரிமை கொள்கை 15"
+      ],
+      "tanglish": [
+        "chat clear pannu 15",
+        "language mathu 15",
+        "theme change 15",
+        "dark mode pottu 15",
+        "light mode vai 15",
+        "privacy details 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0016",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 16",
+        "change language 16",
+        "switch theme 16",
+        "dark mode 16",
+        "light mode 16",
+        "privacy policy 16"
+      ],
+      "ta": [
+        "அரட்டையை அழி 16",
+        "மொழியை மாற்று 16",
+        "தீம் மாற்று 16",
+        "டார்க் மோட் 16",
+        "லைட் மோட் 16",
+        "தனியுரிமை கொள்கை 16"
+      ],
+      "tanglish": [
+        "chat clear pannu 16",
+        "language mathu 16",
+        "theme change 16",
+        "dark mode pottu 16",
+        "light mode vai 16",
+        "privacy details 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0017",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 17",
+        "change language 17",
+        "switch theme 17",
+        "dark mode 17",
+        "light mode 17",
+        "privacy policy 17"
+      ],
+      "ta": [
+        "அரட்டையை அழி 17",
+        "மொழியை மாற்று 17",
+        "தீம் மாற்று 17",
+        "டார்க் மோட் 17",
+        "லைட் மோட் 17",
+        "தனியுரிமை கொள்கை 17"
+      ],
+      "tanglish": [
+        "chat clear pannu 17",
+        "language mathu 17",
+        "theme change 17",
+        "dark mode pottu 17",
+        "light mode vai 17",
+        "privacy details 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0018",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 18",
+        "change language 18",
+        "switch theme 18",
+        "dark mode 18",
+        "light mode 18",
+        "privacy policy 18"
+      ],
+      "ta": [
+        "அரட்டையை அழி 18",
+        "மொழியை மாற்று 18",
+        "தீம் மாற்று 18",
+        "டார்க் மோட் 18",
+        "லைட் மோட் 18",
+        "தனியுரிமை கொள்கை 18"
+      ],
+      "tanglish": [
+        "chat clear pannu 18",
+        "language mathu 18",
+        "theme change 18",
+        "dark mode pottu 18",
+        "light mode vai 18",
+        "privacy details 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0019",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 19",
+        "change language 19",
+        "switch theme 19",
+        "dark mode 19",
+        "light mode 19",
+        "privacy policy 19"
+      ],
+      "ta": [
+        "அரட்டையை அழி 19",
+        "மொழியை மாற்று 19",
+        "தீம் மாற்று 19",
+        "டார்க் மோட் 19",
+        "லைட் மோட் 19",
+        "தனியுரிமை கொள்கை 19"
+      ],
+      "tanglish": [
+        "chat clear pannu 19",
+        "language mathu 19",
+        "theme change 19",
+        "dark mode pottu 19",
+        "light mode vai 19",
+        "privacy details 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0020",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 20",
+        "change language 20",
+        "switch theme 20",
+        "dark mode 20",
+        "light mode 20",
+        "privacy policy 20"
+      ],
+      "ta": [
+        "அரட்டையை அழி 20",
+        "மொழியை மாற்று 20",
+        "தீம் மாற்று 20",
+        "டார்க் மோட் 20",
+        "லைட் மோட் 20",
+        "தனியுரிமை கொள்கை 20"
+      ],
+      "tanglish": [
+        "chat clear pannu 20",
+        "language mathu 20",
+        "theme change 20",
+        "dark mode pottu 20",
+        "light mode vai 20",
+        "privacy details 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0021",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 21",
+        "change language 21",
+        "switch theme 21",
+        "dark mode 21",
+        "light mode 21",
+        "privacy policy 21"
+      ],
+      "ta": [
+        "அரட்டையை அழி 21",
+        "மொழியை மாற்று 21",
+        "தீம் மாற்று 21",
+        "டார்க் மோட் 21",
+        "லைட் மோட் 21",
+        "தனியுரிமை கொள்கை 21"
+      ],
+      "tanglish": [
+        "chat clear pannu 21",
+        "language mathu 21",
+        "theme change 21",
+        "dark mode pottu 21",
+        "light mode vai 21",
+        "privacy details 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0022",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 22",
+        "change language 22",
+        "switch theme 22",
+        "dark mode 22",
+        "light mode 22",
+        "privacy policy 22"
+      ],
+      "ta": [
+        "அரட்டையை அழி 22",
+        "மொழியை மாற்று 22",
+        "தீம் மாற்று 22",
+        "டார்க் மோட் 22",
+        "லைட் மோட் 22",
+        "தனியுரிமை கொள்கை 22"
+      ],
+      "tanglish": [
+        "chat clear pannu 22",
+        "language mathu 22",
+        "theme change 22",
+        "dark mode pottu 22",
+        "light mode vai 22",
+        "privacy details 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0023",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 23",
+        "change language 23",
+        "switch theme 23",
+        "dark mode 23",
+        "light mode 23",
+        "privacy policy 23"
+      ],
+      "ta": [
+        "அரட்டையை அழி 23",
+        "மொழியை மாற்று 23",
+        "தீம் மாற்று 23",
+        "டார்க் மோட் 23",
+        "லைட் மோட் 23",
+        "தனியுரிமை கொள்கை 23"
+      ],
+      "tanglish": [
+        "chat clear pannu 23",
+        "language mathu 23",
+        "theme change 23",
+        "dark mode pottu 23",
+        "light mode vai 23",
+        "privacy details 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0024",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 24",
+        "change language 24",
+        "switch theme 24",
+        "dark mode 24",
+        "light mode 24",
+        "privacy policy 24"
+      ],
+      "ta": [
+        "அரட்டையை அழி 24",
+        "மொழியை மாற்று 24",
+        "தீம் மாற்று 24",
+        "டார்க் மோட் 24",
+        "லைட் மோட் 24",
+        "தனியுரிமை கொள்கை 24"
+      ],
+      "tanglish": [
+        "chat clear pannu 24",
+        "language mathu 24",
+        "theme change 24",
+        "dark mode pottu 24",
+        "light mode vai 24",
+        "privacy details 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0025",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 25",
+        "change language 25",
+        "switch theme 25",
+        "dark mode 25",
+        "light mode 25",
+        "privacy policy 25"
+      ],
+      "ta": [
+        "அரட்டையை அழி 25",
+        "மொழியை மாற்று 25",
+        "தீம் மாற்று 25",
+        "டார்க் மோட் 25",
+        "லைட் மோட் 25",
+        "தனியுரிமை கொள்கை 25"
+      ],
+      "tanglish": [
+        "chat clear pannu 25",
+        "language mathu 25",
+        "theme change 25",
+        "dark mode pottu 25",
+        "light mode vai 25",
+        "privacy details 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0026",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 26",
+        "change language 26",
+        "switch theme 26",
+        "dark mode 26",
+        "light mode 26",
+        "privacy policy 26"
+      ],
+      "ta": [
+        "அரட்டையை அழி 26",
+        "மொழியை மாற்று 26",
+        "தீம் மாற்று 26",
+        "டார்க் மோட் 26",
+        "லைட் மோட் 26",
+        "தனியுரிமை கொள்கை 26"
+      ],
+      "tanglish": [
+        "chat clear pannu 26",
+        "language mathu 26",
+        "theme change 26",
+        "dark mode pottu 26",
+        "light mode vai 26",
+        "privacy details 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0027",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 27",
+        "change language 27",
+        "switch theme 27",
+        "dark mode 27",
+        "light mode 27",
+        "privacy policy 27"
+      ],
+      "ta": [
+        "அரட்டையை அழி 27",
+        "மொழியை மாற்று 27",
+        "தீம் மாற்று 27",
+        "டார்க் மோட் 27",
+        "லைட் மோட் 27",
+        "தனியுரிமை கொள்கை 27"
+      ],
+      "tanglish": [
+        "chat clear pannu 27",
+        "language mathu 27",
+        "theme change 27",
+        "dark mode pottu 27",
+        "light mode vai 27",
+        "privacy details 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0028",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 28",
+        "change language 28",
+        "switch theme 28",
+        "dark mode 28",
+        "light mode 28",
+        "privacy policy 28"
+      ],
+      "ta": [
+        "அரட்டையை அழி 28",
+        "மொழியை மாற்று 28",
+        "தீம் மாற்று 28",
+        "டார்க் மோட் 28",
+        "லைட் மோட் 28",
+        "தனியுரிமை கொள்கை 28"
+      ],
+      "tanglish": [
+        "chat clear pannu 28",
+        "language mathu 28",
+        "theme change 28",
+        "dark mode pottu 28",
+        "light mode vai 28",
+        "privacy details 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0029",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 29",
+        "change language 29",
+        "switch theme 29",
+        "dark mode 29",
+        "light mode 29",
+        "privacy policy 29"
+      ],
+      "ta": [
+        "அரட்டையை அழி 29",
+        "மொழியை மாற்று 29",
+        "தீம் மாற்று 29",
+        "டார்க் மோட் 29",
+        "லைட் மோட் 29",
+        "தனியுரிமை கொள்கை 29"
+      ],
+      "tanglish": [
+        "chat clear pannu 29",
+        "language mathu 29",
+        "theme change 29",
+        "dark mode pottu 29",
+        "light mode vai 29",
+        "privacy details 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0030",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 30",
+        "change language 30",
+        "switch theme 30",
+        "dark mode 30",
+        "light mode 30",
+        "privacy policy 30"
+      ],
+      "ta": [
+        "அரட்டையை அழி 30",
+        "மொழியை மாற்று 30",
+        "தீம் மாற்று 30",
+        "டார்க் மோட் 30",
+        "லைட் மோட் 30",
+        "தனியுரிமை கொள்கை 30"
+      ],
+      "tanglish": [
+        "chat clear pannu 30",
+        "language mathu 30",
+        "theme change 30",
+        "dark mode pottu 30",
+        "light mode vai 30",
+        "privacy details 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0031",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 31",
+        "change language 31",
+        "switch theme 31",
+        "dark mode 31",
+        "light mode 31",
+        "privacy policy 31"
+      ],
+      "ta": [
+        "அரட்டையை அழி 31",
+        "மொழியை மாற்று 31",
+        "தீம் மாற்று 31",
+        "டார்க் மோட் 31",
+        "லைட் மோட் 31",
+        "தனியுரிமை கொள்கை 31"
+      ],
+      "tanglish": [
+        "chat clear pannu 31",
+        "language mathu 31",
+        "theme change 31",
+        "dark mode pottu 31",
+        "light mode vai 31",
+        "privacy details 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0032",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 32",
+        "change language 32",
+        "switch theme 32",
+        "dark mode 32",
+        "light mode 32",
+        "privacy policy 32"
+      ],
+      "ta": [
+        "அரட்டையை அழி 32",
+        "மொழியை மாற்று 32",
+        "தீம் மாற்று 32",
+        "டார்க் மோட் 32",
+        "லைட் மோட் 32",
+        "தனியுரிமை கொள்கை 32"
+      ],
+      "tanglish": [
+        "chat clear pannu 32",
+        "language mathu 32",
+        "theme change 32",
+        "dark mode pottu 32",
+        "light mode vai 32",
+        "privacy details 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0033",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 33",
+        "change language 33",
+        "switch theme 33",
+        "dark mode 33",
+        "light mode 33",
+        "privacy policy 33"
+      ],
+      "ta": [
+        "அரட்டையை அழி 33",
+        "மொழியை மாற்று 33",
+        "தீம் மாற்று 33",
+        "டார்க் மோட் 33",
+        "லைட் மோட் 33",
+        "தனியுரிமை கொள்கை 33"
+      ],
+      "tanglish": [
+        "chat clear pannu 33",
+        "language mathu 33",
+        "theme change 33",
+        "dark mode pottu 33",
+        "light mode vai 33",
+        "privacy details 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0034",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 34",
+        "change language 34",
+        "switch theme 34",
+        "dark mode 34",
+        "light mode 34",
+        "privacy policy 34"
+      ],
+      "ta": [
+        "அரட்டையை அழி 34",
+        "மொழியை மாற்று 34",
+        "தீம் மாற்று 34",
+        "டார்க் மோட் 34",
+        "லைட் மோட் 34",
+        "தனியுரிமை கொள்கை 34"
+      ],
+      "tanglish": [
+        "chat clear pannu 34",
+        "language mathu 34",
+        "theme change 34",
+        "dark mode pottu 34",
+        "light mode vai 34",
+        "privacy details 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0035",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 35",
+        "change language 35",
+        "switch theme 35",
+        "dark mode 35",
+        "light mode 35",
+        "privacy policy 35"
+      ],
+      "ta": [
+        "அரட்டையை அழி 35",
+        "மொழியை மாற்று 35",
+        "தீம் மாற்று 35",
+        "டார்க் மோட் 35",
+        "லைட் மோட் 35",
+        "தனியுரிமை கொள்கை 35"
+      ],
+      "tanglish": [
+        "chat clear pannu 35",
+        "language mathu 35",
+        "theme change 35",
+        "dark mode pottu 35",
+        "light mode vai 35",
+        "privacy details 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0036",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 36",
+        "change language 36",
+        "switch theme 36",
+        "dark mode 36",
+        "light mode 36",
+        "privacy policy 36"
+      ],
+      "ta": [
+        "அரட்டையை அழி 36",
+        "மொழியை மாற்று 36",
+        "தீம் மாற்று 36",
+        "டார்க் மோட் 36",
+        "லைட் மோட் 36",
+        "தனியுரிமை கொள்கை 36"
+      ],
+      "tanglish": [
+        "chat clear pannu 36",
+        "language mathu 36",
+        "theme change 36",
+        "dark mode pottu 36",
+        "light mode vai 36",
+        "privacy details 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0037",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 37",
+        "change language 37",
+        "switch theme 37",
+        "dark mode 37",
+        "light mode 37",
+        "privacy policy 37"
+      ],
+      "ta": [
+        "அரட்டையை அழி 37",
+        "மொழியை மாற்று 37",
+        "தீம் மாற்று 37",
+        "டார்க் மோட் 37",
+        "லைட் மோட் 37",
+        "தனியுரிமை கொள்கை 37"
+      ],
+      "tanglish": [
+        "chat clear pannu 37",
+        "language mathu 37",
+        "theme change 37",
+        "dark mode pottu 37",
+        "light mode vai 37",
+        "privacy details 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0038",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 38",
+        "change language 38",
+        "switch theme 38",
+        "dark mode 38",
+        "light mode 38",
+        "privacy policy 38"
+      ],
+      "ta": [
+        "அரட்டையை அழி 38",
+        "மொழியை மாற்று 38",
+        "தீம் மாற்று 38",
+        "டார்க் மோட் 38",
+        "லைட் மோட் 38",
+        "தனியுரிமை கொள்கை 38"
+      ],
+      "tanglish": [
+        "chat clear pannu 38",
+        "language mathu 38",
+        "theme change 38",
+        "dark mode pottu 38",
+        "light mode vai 38",
+        "privacy details 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0039",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 39",
+        "change language 39",
+        "switch theme 39",
+        "dark mode 39",
+        "light mode 39",
+        "privacy policy 39"
+      ],
+      "ta": [
+        "அரட்டையை அழி 39",
+        "மொழியை மாற்று 39",
+        "தீம் மாற்று 39",
+        "டார்க் மோட் 39",
+        "லைட் மோட் 39",
+        "தனியுரிமை கொள்கை 39"
+      ],
+      "tanglish": [
+        "chat clear pannu 39",
+        "language mathu 39",
+        "theme change 39",
+        "dark mode pottu 39",
+        "light mode vai 39",
+        "privacy details 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0040",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 40",
+        "change language 40",
+        "switch theme 40",
+        "dark mode 40",
+        "light mode 40",
+        "privacy policy 40"
+      ],
+      "ta": [
+        "அரட்டையை அழி 40",
+        "மொழியை மாற்று 40",
+        "தீம் மாற்று 40",
+        "டார்க் மோட் 40",
+        "லைட் மோட் 40",
+        "தனியுரிமை கொள்கை 40"
+      ],
+      "tanglish": [
+        "chat clear pannu 40",
+        "language mathu 40",
+        "theme change 40",
+        "dark mode pottu 40",
+        "light mode vai 40",
+        "privacy details 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0041",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 41",
+        "change language 41",
+        "switch theme 41",
+        "dark mode 41",
+        "light mode 41",
+        "privacy policy 41"
+      ],
+      "ta": [
+        "அரட்டையை அழி 41",
+        "மொழியை மாற்று 41",
+        "தீம் மாற்று 41",
+        "டார்க் மோட் 41",
+        "லைட் மோட் 41",
+        "தனியுரிமை கொள்கை 41"
+      ],
+      "tanglish": [
+        "chat clear pannu 41",
+        "language mathu 41",
+        "theme change 41",
+        "dark mode pottu 41",
+        "light mode vai 41",
+        "privacy details 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0042",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 42",
+        "change language 42",
+        "switch theme 42",
+        "dark mode 42",
+        "light mode 42",
+        "privacy policy 42"
+      ],
+      "ta": [
+        "அரட்டையை அழி 42",
+        "மொழியை மாற்று 42",
+        "தீம் மாற்று 42",
+        "டார்க் மோட் 42",
+        "லைட் மோட் 42",
+        "தனியுரிமை கொள்கை 42"
+      ],
+      "tanglish": [
+        "chat clear pannu 42",
+        "language mathu 42",
+        "theme change 42",
+        "dark mode pottu 42",
+        "light mode vai 42",
+        "privacy details 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0043",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 43",
+        "change language 43",
+        "switch theme 43",
+        "dark mode 43",
+        "light mode 43",
+        "privacy policy 43"
+      ],
+      "ta": [
+        "அரட்டையை அழி 43",
+        "மொழியை மாற்று 43",
+        "தீம் மாற்று 43",
+        "டார்க் மோட் 43",
+        "லைட் மோட் 43",
+        "தனியுரிமை கொள்கை 43"
+      ],
+      "tanglish": [
+        "chat clear pannu 43",
+        "language mathu 43",
+        "theme change 43",
+        "dark mode pottu 43",
+        "light mode vai 43",
+        "privacy details 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0044",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 44",
+        "change language 44",
+        "switch theme 44",
+        "dark mode 44",
+        "light mode 44",
+        "privacy policy 44"
+      ],
+      "ta": [
+        "அரட்டையை அழி 44",
+        "மொழியை மாற்று 44",
+        "தீம் மாற்று 44",
+        "டார்க் மோட் 44",
+        "லைட் மோட் 44",
+        "தனியுரிமை கொள்கை 44"
+      ],
+      "tanglish": [
+        "chat clear pannu 44",
+        "language mathu 44",
+        "theme change 44",
+        "dark mode pottu 44",
+        "light mode vai 44",
+        "privacy details 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0045",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 45",
+        "change language 45",
+        "switch theme 45",
+        "dark mode 45",
+        "light mode 45",
+        "privacy policy 45"
+      ],
+      "ta": [
+        "அரட்டையை அழி 45",
+        "மொழியை மாற்று 45",
+        "தீம் மாற்று 45",
+        "டார்க் மோட் 45",
+        "லைட் மோட் 45",
+        "தனியுரிமை கொள்கை 45"
+      ],
+      "tanglish": [
+        "chat clear pannu 45",
+        "language mathu 45",
+        "theme change 45",
+        "dark mode pottu 45",
+        "light mode vai 45",
+        "privacy details 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0046",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 46",
+        "change language 46",
+        "switch theme 46",
+        "dark mode 46",
+        "light mode 46",
+        "privacy policy 46"
+      ],
+      "ta": [
+        "அரட்டையை அழி 46",
+        "மொழியை மாற்று 46",
+        "தீம் மாற்று 46",
+        "டார்க் மோட் 46",
+        "லைட் மோட் 46",
+        "தனியுரிமை கொள்கை 46"
+      ],
+      "tanglish": [
+        "chat clear pannu 46",
+        "language mathu 46",
+        "theme change 46",
+        "dark mode pottu 46",
+        "light mode vai 46",
+        "privacy details 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0047",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 47",
+        "change language 47",
+        "switch theme 47",
+        "dark mode 47",
+        "light mode 47",
+        "privacy policy 47"
+      ],
+      "ta": [
+        "அரட்டையை அழி 47",
+        "மொழியை மாற்று 47",
+        "தீம் மாற்று 47",
+        "டார்க் மோட் 47",
+        "லைட் மோட் 47",
+        "தனியுரிமை கொள்கை 47"
+      ],
+      "tanglish": [
+        "chat clear pannu 47",
+        "language mathu 47",
+        "theme change 47",
+        "dark mode pottu 47",
+        "light mode vai 47",
+        "privacy details 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0048",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 48",
+        "change language 48",
+        "switch theme 48",
+        "dark mode 48",
+        "light mode 48",
+        "privacy policy 48"
+      ],
+      "ta": [
+        "அரட்டையை அழி 48",
+        "மொழியை மாற்று 48",
+        "தீம் மாற்று 48",
+        "டார்க் மோட் 48",
+        "லைட் மோட் 48",
+        "தனியுரிமை கொள்கை 48"
+      ],
+      "tanglish": [
+        "chat clear pannu 48",
+        "language mathu 48",
+        "theme change 48",
+        "dark mode pottu 48",
+        "light mode vai 48",
+        "privacy details 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0049",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 49",
+        "change language 49",
+        "switch theme 49",
+        "dark mode 49",
+        "light mode 49",
+        "privacy policy 49"
+      ],
+      "ta": [
+        "அரட்டையை அழி 49",
+        "மொழியை மாற்று 49",
+        "தீம் மாற்று 49",
+        "டார்க் மோட் 49",
+        "லைட் மோட் 49",
+        "தனியுரிமை கொள்கை 49"
+      ],
+      "tanglish": [
+        "chat clear pannu 49",
+        "language mathu 49",
+        "theme change 49",
+        "dark mode pottu 49",
+        "light mode vai 49",
+        "privacy details 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0050",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 50",
+        "change language 50",
+        "switch theme 50",
+        "dark mode 50",
+        "light mode 50",
+        "privacy policy 50"
+      ],
+      "ta": [
+        "அரட்டையை அழி 50",
+        "மொழியை மாற்று 50",
+        "தீம் மாற்று 50",
+        "டார்க் மோட் 50",
+        "லைட் மோட் 50",
+        "தனியுரிமை கொள்கை 50"
+      ],
+      "tanglish": [
+        "chat clear pannu 50",
+        "language mathu 50",
+        "theme change 50",
+        "dark mode pottu 50",
+        "light mode vai 50",
+        "privacy details 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0051",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 51",
+        "change language 51",
+        "switch theme 51",
+        "dark mode 51",
+        "light mode 51",
+        "privacy policy 51"
+      ],
+      "ta": [
+        "அரட்டையை அழி 51",
+        "மொழியை மாற்று 51",
+        "தீம் மாற்று 51",
+        "டார்க் மோட் 51",
+        "லைட் மோட் 51",
+        "தனியுரிமை கொள்கை 51"
+      ],
+      "tanglish": [
+        "chat clear pannu 51",
+        "language mathu 51",
+        "theme change 51",
+        "dark mode pottu 51",
+        "light mode vai 51",
+        "privacy details 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0052",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 52",
+        "change language 52",
+        "switch theme 52",
+        "dark mode 52",
+        "light mode 52",
+        "privacy policy 52"
+      ],
+      "ta": [
+        "அரட்டையை அழி 52",
+        "மொழியை மாற்று 52",
+        "தீம் மாற்று 52",
+        "டார்க் மோட் 52",
+        "லைட் மோட் 52",
+        "தனியுரிமை கொள்கை 52"
+      ],
+      "tanglish": [
+        "chat clear pannu 52",
+        "language mathu 52",
+        "theme change 52",
+        "dark mode pottu 52",
+        "light mode vai 52",
+        "privacy details 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0053",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 53",
+        "change language 53",
+        "switch theme 53",
+        "dark mode 53",
+        "light mode 53",
+        "privacy policy 53"
+      ],
+      "ta": [
+        "அரட்டையை அழி 53",
+        "மொழியை மாற்று 53",
+        "தீம் மாற்று 53",
+        "டார்க் மோட் 53",
+        "லைட் மோட் 53",
+        "தனியுரிமை கொள்கை 53"
+      ],
+      "tanglish": [
+        "chat clear pannu 53",
+        "language mathu 53",
+        "theme change 53",
+        "dark mode pottu 53",
+        "light mode vai 53",
+        "privacy details 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0054",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 54",
+        "change language 54",
+        "switch theme 54",
+        "dark mode 54",
+        "light mode 54",
+        "privacy policy 54"
+      ],
+      "ta": [
+        "அரட்டையை அழி 54",
+        "மொழியை மாற்று 54",
+        "தீம் மாற்று 54",
+        "டார்க் மோட் 54",
+        "லைட் மோட் 54",
+        "தனியுரிமை கொள்கை 54"
+      ],
+      "tanglish": [
+        "chat clear pannu 54",
+        "language mathu 54",
+        "theme change 54",
+        "dark mode pottu 54",
+        "light mode vai 54",
+        "privacy details 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0055",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 55",
+        "change language 55",
+        "switch theme 55",
+        "dark mode 55",
+        "light mode 55",
+        "privacy policy 55"
+      ],
+      "ta": [
+        "அரட்டையை அழி 55",
+        "மொழியை மாற்று 55",
+        "தீம் மாற்று 55",
+        "டார்க் மோட் 55",
+        "லைட் மோட் 55",
+        "தனியுரிமை கொள்கை 55"
+      ],
+      "tanglish": [
+        "chat clear pannu 55",
+        "language mathu 55",
+        "theme change 55",
+        "dark mode pottu 55",
+        "light mode vai 55",
+        "privacy details 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0056",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 56",
+        "change language 56",
+        "switch theme 56",
+        "dark mode 56",
+        "light mode 56",
+        "privacy policy 56"
+      ],
+      "ta": [
+        "அரட்டையை அழி 56",
+        "மொழியை மாற்று 56",
+        "தீம் மாற்று 56",
+        "டார்க் மோட் 56",
+        "லைட் மோட் 56",
+        "தனியுரிமை கொள்கை 56"
+      ],
+      "tanglish": [
+        "chat clear pannu 56",
+        "language mathu 56",
+        "theme change 56",
+        "dark mode pottu 56",
+        "light mode vai 56",
+        "privacy details 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0057",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 57",
+        "change language 57",
+        "switch theme 57",
+        "dark mode 57",
+        "light mode 57",
+        "privacy policy 57"
+      ],
+      "ta": [
+        "அரட்டையை அழி 57",
+        "மொழியை மாற்று 57",
+        "தீம் மாற்று 57",
+        "டார்க் மோட் 57",
+        "லைட் மோட் 57",
+        "தனியுரிமை கொள்கை 57"
+      ],
+      "tanglish": [
+        "chat clear pannu 57",
+        "language mathu 57",
+        "theme change 57",
+        "dark mode pottu 57",
+        "light mode vai 57",
+        "privacy details 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0058",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 58",
+        "change language 58",
+        "switch theme 58",
+        "dark mode 58",
+        "light mode 58",
+        "privacy policy 58"
+      ],
+      "ta": [
+        "அரட்டையை அழி 58",
+        "மொழியை மாற்று 58",
+        "தீம் மாற்று 58",
+        "டார்க் மோட் 58",
+        "லைட் மோட் 58",
+        "தனியுரிமை கொள்கை 58"
+      ],
+      "tanglish": [
+        "chat clear pannu 58",
+        "language mathu 58",
+        "theme change 58",
+        "dark mode pottu 58",
+        "light mode vai 58",
+        "privacy details 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0059",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 59",
+        "change language 59",
+        "switch theme 59",
+        "dark mode 59",
+        "light mode 59",
+        "privacy policy 59"
+      ],
+      "ta": [
+        "அரட்டையை அழி 59",
+        "மொழியை மாற்று 59",
+        "தீம் மாற்று 59",
+        "டார்க் மோட் 59",
+        "லைட் மோட் 59",
+        "தனியுரிமை கொள்கை 59"
+      ],
+      "tanglish": [
+        "chat clear pannu 59",
+        "language mathu 59",
+        "theme change 59",
+        "dark mode pottu 59",
+        "light mode vai 59",
+        "privacy details 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0060",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 60",
+        "change language 60",
+        "switch theme 60",
+        "dark mode 60",
+        "light mode 60",
+        "privacy policy 60"
+      ],
+      "ta": [
+        "அரட்டையை அழி 60",
+        "மொழியை மாற்று 60",
+        "தீம் மாற்று 60",
+        "டார்க் மோட் 60",
+        "லைட் மோட் 60",
+        "தனியுரிமை கொள்கை 60"
+      ],
+      "tanglish": [
+        "chat clear pannu 60",
+        "language mathu 60",
+        "theme change 60",
+        "dark mode pottu 60",
+        "light mode vai 60",
+        "privacy details 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0061",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 61",
+        "change language 61",
+        "switch theme 61",
+        "dark mode 61",
+        "light mode 61",
+        "privacy policy 61"
+      ],
+      "ta": [
+        "அரட்டையை அழி 61",
+        "மொழியை மாற்று 61",
+        "தீம் மாற்று 61",
+        "டார்க் மோட் 61",
+        "லைட் மோட் 61",
+        "தனியுரிமை கொள்கை 61"
+      ],
+      "tanglish": [
+        "chat clear pannu 61",
+        "language mathu 61",
+        "theme change 61",
+        "dark mode pottu 61",
+        "light mode vai 61",
+        "privacy details 61"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0062",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 62",
+        "change language 62",
+        "switch theme 62",
+        "dark mode 62",
+        "light mode 62",
+        "privacy policy 62"
+      ],
+      "ta": [
+        "அரட்டையை அழி 62",
+        "மொழியை மாற்று 62",
+        "தீம் மாற்று 62",
+        "டார்க் மோட் 62",
+        "லைட் மோட் 62",
+        "தனியுரிமை கொள்கை 62"
+      ],
+      "tanglish": [
+        "chat clear pannu 62",
+        "language mathu 62",
+        "theme change 62",
+        "dark mode pottu 62",
+        "light mode vai 62",
+        "privacy details 62"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0063",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 63",
+        "change language 63",
+        "switch theme 63",
+        "dark mode 63",
+        "light mode 63",
+        "privacy policy 63"
+      ],
+      "ta": [
+        "அரட்டையை அழி 63",
+        "மொழியை மாற்று 63",
+        "தீம் மாற்று 63",
+        "டார்க் மோட் 63",
+        "லைட் மோட் 63",
+        "தனியுரிமை கொள்கை 63"
+      ],
+      "tanglish": [
+        "chat clear pannu 63",
+        "language mathu 63",
+        "theme change 63",
+        "dark mode pottu 63",
+        "light mode vai 63",
+        "privacy details 63"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0064",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 64",
+        "change language 64",
+        "switch theme 64",
+        "dark mode 64",
+        "light mode 64",
+        "privacy policy 64"
+      ],
+      "ta": [
+        "அரட்டையை அழி 64",
+        "மொழியை மாற்று 64",
+        "தீம் மாற்று 64",
+        "டார்க் மோட் 64",
+        "லைட் மோட் 64",
+        "தனியுரிமை கொள்கை 64"
+      ],
+      "tanglish": [
+        "chat clear pannu 64",
+        "language mathu 64",
+        "theme change 64",
+        "dark mode pottu 64",
+        "light mode vai 64",
+        "privacy details 64"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0065",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 65",
+        "change language 65",
+        "switch theme 65",
+        "dark mode 65",
+        "light mode 65",
+        "privacy policy 65"
+      ],
+      "ta": [
+        "அரட்டையை அழி 65",
+        "மொழியை மாற்று 65",
+        "தீம் மாற்று 65",
+        "டார்க் மோட் 65",
+        "லைட் மோட் 65",
+        "தனியுரிமை கொள்கை 65"
+      ],
+      "tanglish": [
+        "chat clear pannu 65",
+        "language mathu 65",
+        "theme change 65",
+        "dark mode pottu 65",
+        "light mode vai 65",
+        "privacy details 65"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0066",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 66",
+        "change language 66",
+        "switch theme 66",
+        "dark mode 66",
+        "light mode 66",
+        "privacy policy 66"
+      ],
+      "ta": [
+        "அரட்டையை அழி 66",
+        "மொழியை மாற்று 66",
+        "தீம் மாற்று 66",
+        "டார்க் மோட் 66",
+        "லைட் மோட் 66",
+        "தனியுரிமை கொள்கை 66"
+      ],
+      "tanglish": [
+        "chat clear pannu 66",
+        "language mathu 66",
+        "theme change 66",
+        "dark mode pottu 66",
+        "light mode vai 66",
+        "privacy details 66"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0067",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 67",
+        "change language 67",
+        "switch theme 67",
+        "dark mode 67",
+        "light mode 67",
+        "privacy policy 67"
+      ],
+      "ta": [
+        "அரட்டையை அழி 67",
+        "மொழியை மாற்று 67",
+        "தீம் மாற்று 67",
+        "டார்க் மோட் 67",
+        "லைட் மோட் 67",
+        "தனியுரிமை கொள்கை 67"
+      ],
+      "tanglish": [
+        "chat clear pannu 67",
+        "language mathu 67",
+        "theme change 67",
+        "dark mode pottu 67",
+        "light mode vai 67",
+        "privacy details 67"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0068",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 68",
+        "change language 68",
+        "switch theme 68",
+        "dark mode 68",
+        "light mode 68",
+        "privacy policy 68"
+      ],
+      "ta": [
+        "அரட்டையை அழி 68",
+        "மொழியை மாற்று 68",
+        "தீம் மாற்று 68",
+        "டார்க் மோட் 68",
+        "லைட் மோட் 68",
+        "தனியுரிமை கொள்கை 68"
+      ],
+      "tanglish": [
+        "chat clear pannu 68",
+        "language mathu 68",
+        "theme change 68",
+        "dark mode pottu 68",
+        "light mode vai 68",
+        "privacy details 68"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0069",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 69",
+        "change language 69",
+        "switch theme 69",
+        "dark mode 69",
+        "light mode 69",
+        "privacy policy 69"
+      ],
+      "ta": [
+        "அரட்டையை அழி 69",
+        "மொழியை மாற்று 69",
+        "தீம் மாற்று 69",
+        "டார்க் மோட் 69",
+        "லைட் மோட் 69",
+        "தனியுரிமை கொள்கை 69"
+      ],
+      "tanglish": [
+        "chat clear pannu 69",
+        "language mathu 69",
+        "theme change 69",
+        "dark mode pottu 69",
+        "light mode vai 69",
+        "privacy details 69"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0070",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 70",
+        "change language 70",
+        "switch theme 70",
+        "dark mode 70",
+        "light mode 70",
+        "privacy policy 70"
+      ],
+      "ta": [
+        "அரட்டையை அழி 70",
+        "மொழியை மாற்று 70",
+        "தீம் மாற்று 70",
+        "டார்க் மோட் 70",
+        "லைட் மோட் 70",
+        "தனியுரிமை கொள்கை 70"
+      ],
+      "tanglish": [
+        "chat clear pannu 70",
+        "language mathu 70",
+        "theme change 70",
+        "dark mode pottu 70",
+        "light mode vai 70",
+        "privacy details 70"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0071",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 71",
+        "change language 71",
+        "switch theme 71",
+        "dark mode 71",
+        "light mode 71",
+        "privacy policy 71"
+      ],
+      "ta": [
+        "அரட்டையை அழி 71",
+        "மொழியை மாற்று 71",
+        "தீம் மாற்று 71",
+        "டார்க் மோட் 71",
+        "லைட் மோட் 71",
+        "தனியுரிமை கொள்கை 71"
+      ],
+      "tanglish": [
+        "chat clear pannu 71",
+        "language mathu 71",
+        "theme change 71",
+        "dark mode pottu 71",
+        "light mode vai 71",
+        "privacy details 71"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0072",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 72",
+        "change language 72",
+        "switch theme 72",
+        "dark mode 72",
+        "light mode 72",
+        "privacy policy 72"
+      ],
+      "ta": [
+        "அரட்டையை அழி 72",
+        "மொழியை மாற்று 72",
+        "தீம் மாற்று 72",
+        "டார்க் மோட் 72",
+        "லைட் மோட் 72",
+        "தனியுரிமை கொள்கை 72"
+      ],
+      "tanglish": [
+        "chat clear pannu 72",
+        "language mathu 72",
+        "theme change 72",
+        "dark mode pottu 72",
+        "light mode vai 72",
+        "privacy details 72"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0073",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 73",
+        "change language 73",
+        "switch theme 73",
+        "dark mode 73",
+        "light mode 73",
+        "privacy policy 73"
+      ],
+      "ta": [
+        "அரட்டையை அழி 73",
+        "மொழியை மாற்று 73",
+        "தீம் மாற்று 73",
+        "டார்க் மோட் 73",
+        "லைட் மோட் 73",
+        "தனியுரிமை கொள்கை 73"
+      ],
+      "tanglish": [
+        "chat clear pannu 73",
+        "language mathu 73",
+        "theme change 73",
+        "dark mode pottu 73",
+        "light mode vai 73",
+        "privacy details 73"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0074",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 74",
+        "change language 74",
+        "switch theme 74",
+        "dark mode 74",
+        "light mode 74",
+        "privacy policy 74"
+      ],
+      "ta": [
+        "அரட்டையை அழி 74",
+        "மொழியை மாற்று 74",
+        "தீம் மாற்று 74",
+        "டார்க் மோட் 74",
+        "லைட் மோட் 74",
+        "தனியுரிமை கொள்கை 74"
+      ],
+      "tanglish": [
+        "chat clear pannu 74",
+        "language mathu 74",
+        "theme change 74",
+        "dark mode pottu 74",
+        "light mode vai 74",
+        "privacy details 74"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0075",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 75",
+        "change language 75",
+        "switch theme 75",
+        "dark mode 75",
+        "light mode 75",
+        "privacy policy 75"
+      ],
+      "ta": [
+        "அரட்டையை அழி 75",
+        "மொழியை மாற்று 75",
+        "தீம் மாற்று 75",
+        "டார்க் மோட் 75",
+        "லைட் மோட் 75",
+        "தனியுரிமை கொள்கை 75"
+      ],
+      "tanglish": [
+        "chat clear pannu 75",
+        "language mathu 75",
+        "theme change 75",
+        "dark mode pottu 75",
+        "light mode vai 75",
+        "privacy details 75"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0076",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 76",
+        "change language 76",
+        "switch theme 76",
+        "dark mode 76",
+        "light mode 76",
+        "privacy policy 76"
+      ],
+      "ta": [
+        "அரட்டையை அழி 76",
+        "மொழியை மாற்று 76",
+        "தீம் மாற்று 76",
+        "டார்க் மோட் 76",
+        "லைட் மோட் 76",
+        "தனியுரிமை கொள்கை 76"
+      ],
+      "tanglish": [
+        "chat clear pannu 76",
+        "language mathu 76",
+        "theme change 76",
+        "dark mode pottu 76",
+        "light mode vai 76",
+        "privacy details 76"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0077",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 77",
+        "change language 77",
+        "switch theme 77",
+        "dark mode 77",
+        "light mode 77",
+        "privacy policy 77"
+      ],
+      "ta": [
+        "அரட்டையை அழி 77",
+        "மொழியை மாற்று 77",
+        "தீம் மாற்று 77",
+        "டார்க் மோட் 77",
+        "லைட் மோட் 77",
+        "தனியுரிமை கொள்கை 77"
+      ],
+      "tanglish": [
+        "chat clear pannu 77",
+        "language mathu 77",
+        "theme change 77",
+        "dark mode pottu 77",
+        "light mode vai 77",
+        "privacy details 77"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0078",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 78",
+        "change language 78",
+        "switch theme 78",
+        "dark mode 78",
+        "light mode 78",
+        "privacy policy 78"
+      ],
+      "ta": [
+        "அரட்டையை அழி 78",
+        "மொழியை மாற்று 78",
+        "தீம் மாற்று 78",
+        "டார்க் மோட் 78",
+        "லைட் மோட் 78",
+        "தனியுரிமை கொள்கை 78"
+      ],
+      "tanglish": [
+        "chat clear pannu 78",
+        "language mathu 78",
+        "theme change 78",
+        "dark mode pottu 78",
+        "light mode vai 78",
+        "privacy details 78"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0079",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 79",
+        "change language 79",
+        "switch theme 79",
+        "dark mode 79",
+        "light mode 79",
+        "privacy policy 79"
+      ],
+      "ta": [
+        "அரட்டையை அழி 79",
+        "மொழியை மாற்று 79",
+        "தீம் மாற்று 79",
+        "டார்க் மோட் 79",
+        "லைட் மோட் 79",
+        "தனியுரிமை கொள்கை 79"
+      ],
+      "tanglish": [
+        "chat clear pannu 79",
+        "language mathu 79",
+        "theme change 79",
+        "dark mode pottu 79",
+        "light mode vai 79",
+        "privacy details 79"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0080",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 80",
+        "change language 80",
+        "switch theme 80",
+        "dark mode 80",
+        "light mode 80",
+        "privacy policy 80"
+      ],
+      "ta": [
+        "அரட்டையை அழி 80",
+        "மொழியை மாற்று 80",
+        "தீம் மாற்று 80",
+        "டார்க் மோட் 80",
+        "லைட் மோட் 80",
+        "தனியுரிமை கொள்கை 80"
+      ],
+      "tanglish": [
+        "chat clear pannu 80",
+        "language mathu 80",
+        "theme change 80",
+        "dark mode pottu 80",
+        "light mode vai 80",
+        "privacy details 80"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0081",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 81",
+        "change language 81",
+        "switch theme 81",
+        "dark mode 81",
+        "light mode 81",
+        "privacy policy 81"
+      ],
+      "ta": [
+        "அரட்டையை அழி 81",
+        "மொழியை மாற்று 81",
+        "தீம் மாற்று 81",
+        "டார்க் மோட் 81",
+        "லைட் மோட் 81",
+        "தனியுரிமை கொள்கை 81"
+      ],
+      "tanglish": [
+        "chat clear pannu 81",
+        "language mathu 81",
+        "theme change 81",
+        "dark mode pottu 81",
+        "light mode vai 81",
+        "privacy details 81"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0082",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 82",
+        "change language 82",
+        "switch theme 82",
+        "dark mode 82",
+        "light mode 82",
+        "privacy policy 82"
+      ],
+      "ta": [
+        "அரட்டையை அழி 82",
+        "மொழியை மாற்று 82",
+        "தீம் மாற்று 82",
+        "டார்க் மோட் 82",
+        "லைட் மோட் 82",
+        "தனியுரிமை கொள்கை 82"
+      ],
+      "tanglish": [
+        "chat clear pannu 82",
+        "language mathu 82",
+        "theme change 82",
+        "dark mode pottu 82",
+        "light mode vai 82",
+        "privacy details 82"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0083",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 83",
+        "change language 83",
+        "switch theme 83",
+        "dark mode 83",
+        "light mode 83",
+        "privacy policy 83"
+      ],
+      "ta": [
+        "அரட்டையை அழி 83",
+        "மொழியை மாற்று 83",
+        "தீம் மாற்று 83",
+        "டார்க் மோட் 83",
+        "லைட் மோட் 83",
+        "தனியுரிமை கொள்கை 83"
+      ],
+      "tanglish": [
+        "chat clear pannu 83",
+        "language mathu 83",
+        "theme change 83",
+        "dark mode pottu 83",
+        "light mode vai 83",
+        "privacy details 83"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0084",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 84",
+        "change language 84",
+        "switch theme 84",
+        "dark mode 84",
+        "light mode 84",
+        "privacy policy 84"
+      ],
+      "ta": [
+        "அரட்டையை அழி 84",
+        "மொழியை மாற்று 84",
+        "தீம் மாற்று 84",
+        "டார்க் மோட் 84",
+        "லைட் மோட் 84",
+        "தனியுரிமை கொள்கை 84"
+      ],
+      "tanglish": [
+        "chat clear pannu 84",
+        "language mathu 84",
+        "theme change 84",
+        "dark mode pottu 84",
+        "light mode vai 84",
+        "privacy details 84"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0085",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 85",
+        "change language 85",
+        "switch theme 85",
+        "dark mode 85",
+        "light mode 85",
+        "privacy policy 85"
+      ],
+      "ta": [
+        "அரட்டையை அழி 85",
+        "மொழியை மாற்று 85",
+        "தீம் மாற்று 85",
+        "டார்க் மோட் 85",
+        "லைட் மோட் 85",
+        "தனியுரிமை கொள்கை 85"
+      ],
+      "tanglish": [
+        "chat clear pannu 85",
+        "language mathu 85",
+        "theme change 85",
+        "dark mode pottu 85",
+        "light mode vai 85",
+        "privacy details 85"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0086",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 86",
+        "change language 86",
+        "switch theme 86",
+        "dark mode 86",
+        "light mode 86",
+        "privacy policy 86"
+      ],
+      "ta": [
+        "அரட்டையை அழி 86",
+        "மொழியை மாற்று 86",
+        "தீம் மாற்று 86",
+        "டார்க் மோட் 86",
+        "லைட் மோட் 86",
+        "தனியுரிமை கொள்கை 86"
+      ],
+      "tanglish": [
+        "chat clear pannu 86",
+        "language mathu 86",
+        "theme change 86",
+        "dark mode pottu 86",
+        "light mode vai 86",
+        "privacy details 86"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0087",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 87",
+        "change language 87",
+        "switch theme 87",
+        "dark mode 87",
+        "light mode 87",
+        "privacy policy 87"
+      ],
+      "ta": [
+        "அரட்டையை அழி 87",
+        "மொழியை மாற்று 87",
+        "தீம் மாற்று 87",
+        "டார்க் மோட் 87",
+        "லைட் மோட் 87",
+        "தனியுரிமை கொள்கை 87"
+      ],
+      "tanglish": [
+        "chat clear pannu 87",
+        "language mathu 87",
+        "theme change 87",
+        "dark mode pottu 87",
+        "light mode vai 87",
+        "privacy details 87"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0088",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 88",
+        "change language 88",
+        "switch theme 88",
+        "dark mode 88",
+        "light mode 88",
+        "privacy policy 88"
+      ],
+      "ta": [
+        "அரட்டையை அழி 88",
+        "மொழியை மாற்று 88",
+        "தீம் மாற்று 88",
+        "டார்க் மோட் 88",
+        "லைட் மோட் 88",
+        "தனியுரிமை கொள்கை 88"
+      ],
+      "tanglish": [
+        "chat clear pannu 88",
+        "language mathu 88",
+        "theme change 88",
+        "dark mode pottu 88",
+        "light mode vai 88",
+        "privacy details 88"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0089",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 89",
+        "change language 89",
+        "switch theme 89",
+        "dark mode 89",
+        "light mode 89",
+        "privacy policy 89"
+      ],
+      "ta": [
+        "அரட்டையை அழி 89",
+        "மொழியை மாற்று 89",
+        "தீம் மாற்று 89",
+        "டார்க் மோட் 89",
+        "லைட் மோட் 89",
+        "தனியுரிமை கொள்கை 89"
+      ],
+      "tanglish": [
+        "chat clear pannu 89",
+        "language mathu 89",
+        "theme change 89",
+        "dark mode pottu 89",
+        "light mode vai 89",
+        "privacy details 89"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0090",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 90",
+        "change language 90",
+        "switch theme 90",
+        "dark mode 90",
+        "light mode 90",
+        "privacy policy 90"
+      ],
+      "ta": [
+        "அரட்டையை அழி 90",
+        "மொழியை மாற்று 90",
+        "தீம் மாற்று 90",
+        "டார்க் மோட் 90",
+        "லைட் மோட் 90",
+        "தனியுரிமை கொள்கை 90"
+      ],
+      "tanglish": [
+        "chat clear pannu 90",
+        "language mathu 90",
+        "theme change 90",
+        "dark mode pottu 90",
+        "light mode vai 90",
+        "privacy details 90"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0091",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 91",
+        "change language 91",
+        "switch theme 91",
+        "dark mode 91",
+        "light mode 91",
+        "privacy policy 91"
+      ],
+      "ta": [
+        "அரட்டையை அழி 91",
+        "மொழியை மாற்று 91",
+        "தீம் மாற்று 91",
+        "டார்க் மோட் 91",
+        "லைட் மோட் 91",
+        "தனியுரிமை கொள்கை 91"
+      ],
+      "tanglish": [
+        "chat clear pannu 91",
+        "language mathu 91",
+        "theme change 91",
+        "dark mode pottu 91",
+        "light mode vai 91",
+        "privacy details 91"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0092",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 92",
+        "change language 92",
+        "switch theme 92",
+        "dark mode 92",
+        "light mode 92",
+        "privacy policy 92"
+      ],
+      "ta": [
+        "அரட்டையை அழி 92",
+        "மொழியை மாற்று 92",
+        "தீம் மாற்று 92",
+        "டார்க் மோட் 92",
+        "லைட் மோட் 92",
+        "தனியுரிமை கொள்கை 92"
+      ],
+      "tanglish": [
+        "chat clear pannu 92",
+        "language mathu 92",
+        "theme change 92",
+        "dark mode pottu 92",
+        "light mode vai 92",
+        "privacy details 92"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0093",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 93",
+        "change language 93",
+        "switch theme 93",
+        "dark mode 93",
+        "light mode 93",
+        "privacy policy 93"
+      ],
+      "ta": [
+        "அரட்டையை அழி 93",
+        "மொழியை மாற்று 93",
+        "தீம் மாற்று 93",
+        "டார்க் மோட் 93",
+        "லைட் மோட் 93",
+        "தனியுரிமை கொள்கை 93"
+      ],
+      "tanglish": [
+        "chat clear pannu 93",
+        "language mathu 93",
+        "theme change 93",
+        "dark mode pottu 93",
+        "light mode vai 93",
+        "privacy details 93"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0094",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 94",
+        "change language 94",
+        "switch theme 94",
+        "dark mode 94",
+        "light mode 94",
+        "privacy policy 94"
+      ],
+      "ta": [
+        "அரட்டையை அழி 94",
+        "மொழியை மாற்று 94",
+        "தீம் மாற்று 94",
+        "டார்க் மோட் 94",
+        "லைட் மோட் 94",
+        "தனியுரிமை கொள்கை 94"
+      ],
+      "tanglish": [
+        "chat clear pannu 94",
+        "language mathu 94",
+        "theme change 94",
+        "dark mode pottu 94",
+        "light mode vai 94",
+        "privacy details 94"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0095",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 95",
+        "change language 95",
+        "switch theme 95",
+        "dark mode 95",
+        "light mode 95",
+        "privacy policy 95"
+      ],
+      "ta": [
+        "அரட்டையை அழி 95",
+        "மொழியை மாற்று 95",
+        "தீம் மாற்று 95",
+        "டார்க் மோட் 95",
+        "லைட் மோட் 95",
+        "தனியுரிமை கொள்கை 95"
+      ],
+      "tanglish": [
+        "chat clear pannu 95",
+        "language mathu 95",
+        "theme change 95",
+        "dark mode pottu 95",
+        "light mode vai 95",
+        "privacy details 95"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0096",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 96",
+        "change language 96",
+        "switch theme 96",
+        "dark mode 96",
+        "light mode 96",
+        "privacy policy 96"
+      ],
+      "ta": [
+        "அரட்டையை அழி 96",
+        "மொழியை மாற்று 96",
+        "தீம் மாற்று 96",
+        "டார்க் மோட் 96",
+        "லைட் மோட் 96",
+        "தனியுரிமை கொள்கை 96"
+      ],
+      "tanglish": [
+        "chat clear pannu 96",
+        "language mathu 96",
+        "theme change 96",
+        "dark mode pottu 96",
+        "light mode vai 96",
+        "privacy details 96"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0097",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 97",
+        "change language 97",
+        "switch theme 97",
+        "dark mode 97",
+        "light mode 97",
+        "privacy policy 97"
+      ],
+      "ta": [
+        "அரட்டையை அழி 97",
+        "மொழியை மாற்று 97",
+        "தீம் மாற்று 97",
+        "டார்க் மோட் 97",
+        "லைட் மோட் 97",
+        "தனியுரிமை கொள்கை 97"
+      ],
+      "tanglish": [
+        "chat clear pannu 97",
+        "language mathu 97",
+        "theme change 97",
+        "dark mode pottu 97",
+        "light mode vai 97",
+        "privacy details 97"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0098",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 98",
+        "change language 98",
+        "switch theme 98",
+        "dark mode 98",
+        "light mode 98",
+        "privacy policy 98"
+      ],
+      "ta": [
+        "அரட்டையை அழி 98",
+        "மொழியை மாற்று 98",
+        "தீம் மாற்று 98",
+        "டார்க் மோட் 98",
+        "லைட் மோட் 98",
+        "தனியுரிமை கொள்கை 98"
+      ],
+      "tanglish": [
+        "chat clear pannu 98",
+        "language mathu 98",
+        "theme change 98",
+        "dark mode pottu 98",
+        "light mode vai 98",
+        "privacy details 98"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0099",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 99",
+        "change language 99",
+        "switch theme 99",
+        "dark mode 99",
+        "light mode 99",
+        "privacy policy 99"
+      ],
+      "ta": [
+        "அரட்டையை அழி 99",
+        "மொழியை மாற்று 99",
+        "தீம் மாற்று 99",
+        "டார்க் மோட் 99",
+        "லைட் மோட் 99",
+        "தனியுரிமை கொள்கை 99"
+      ],
+      "tanglish": [
+        "chat clear pannu 99",
+        "language mathu 99",
+        "theme change 99",
+        "dark mode pottu 99",
+        "light mode vai 99",
+        "privacy details 99"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  },
+  {
+    "id": "gen_uimeta_0100",
+    "category": "ui_meta",
+    "patterns": {
+      "en": [
+        "clear chat 100",
+        "change language 100",
+        "switch theme 100",
+        "dark mode 100",
+        "light mode 100",
+        "privacy policy 100"
+      ],
+      "ta": [
+        "அரட்டையை அழி 100",
+        "மொழியை மாற்று 100",
+        "தீம் மாற்று 100",
+        "டார்க் மோட் 100",
+        "லைட் மோட் 100",
+        "தனியுரிமை கொள்கை 100"
+      ],
+      "tanglish": [
+        "chat clear pannu 100",
+        "language mathu 100",
+        "theme change 100",
+        "dark mode pottu 100",
+        "light mode vai 100",
+        "privacy details 100"
+      ]
+    },
+    "responses": {
+      "en": [
+        "You can toggle themes using the sun/moon icon on the top navbar, and switch languages between English and Tamil anytime using the Globe button.",
+        "Chat records are kept in memory and never transmitted to external parties unless Cloud AI is specifically enabled."
+      ],
+      "ta": [
+        "டாஷ்போர்டின் மேல் பட்டியில் உள்ள ஐகான் மூலம் டார்க்/லைட் தீம் மற்றும் தமிழ்/ஆங்கில மொழியை மாற்றிக்கொள்ளலாம்.",
+        "உங்கள் அரட்டை பதிவுகள் உங்கள் உலாவியிலேயே பாதுகாப்பாக வைக்கப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Top navbar la ulla Globe icon use panni language mathalam, Sun/Moon icon la theme switch pannalam.",
+        "Chat history safe-ah browser memory la dhaan store aagudhu."
+      ]
+    },
+    "chips": [
+      "Switch theme",
+      "Change to Tamil",
+      "Clear chat"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "ui",
+      "theme",
+      "meta"
+    ]
+  }
+]

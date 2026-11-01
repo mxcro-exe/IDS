@@ -1,0 +1,3992 @@
+[
+  {
+    "id": "proj_ops_0001",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 1",
+        "how to install requirements 1",
+        "how to start docker 1",
+        "default ports used 1",
+        "database location 1",
+        "how to start ids 1"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 1",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 1",
+        "டாக்கர் இயக்குவது எப்படி 1",
+        "போர்ட் எண்கள் 1",
+        "தரவுத்தள பாதை 1",
+        "துவக்க கட்டளைகள் 1"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 1",
+        "requirements install panna command 1",
+        "docker compose up 1",
+        "ports enna enna 1",
+        "database path sollu 1",
+        "ids start panna steps 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0002",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 2",
+        "how to install requirements 2",
+        "how to start docker 2",
+        "default ports used 2",
+        "database location 2",
+        "how to start ids 2"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 2",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 2",
+        "டாக்கர் இயக்குவது எப்படி 2",
+        "போர்ட் எண்கள் 2",
+        "தரவுத்தள பாதை 2",
+        "துவக்க கட்டளைகள் 2"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 2",
+        "requirements install panna command 2",
+        "docker compose up 2",
+        "ports enna enna 2",
+        "database path sollu 2",
+        "ids start panna steps 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0003",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 3",
+        "how to install requirements 3",
+        "how to start docker 3",
+        "default ports used 3",
+        "database location 3",
+        "how to start ids 3"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 3",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 3",
+        "டாக்கர் இயக்குவது எப்படி 3",
+        "போர்ட் எண்கள் 3",
+        "தரவுத்தள பாதை 3",
+        "துவக்க கட்டளைகள் 3"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 3",
+        "requirements install panna command 3",
+        "docker compose up 3",
+        "ports enna enna 3",
+        "database path sollu 3",
+        "ids start panna steps 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0004",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 4",
+        "how to install requirements 4",
+        "how to start docker 4",
+        "default ports used 4",
+        "database location 4",
+        "how to start ids 4"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 4",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 4",
+        "டாக்கர் இயக்குவது எப்படி 4",
+        "போர்ட் எண்கள் 4",
+        "தரவுத்தள பாதை 4",
+        "துவக்க கட்டளைகள் 4"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 4",
+        "requirements install panna command 4",
+        "docker compose up 4",
+        "ports enna enna 4",
+        "database path sollu 4",
+        "ids start panna steps 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0005",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 5",
+        "how to install requirements 5",
+        "how to start docker 5",
+        "default ports used 5",
+        "database location 5",
+        "how to start ids 5"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 5",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 5",
+        "டாக்கர் இயக்குவது எப்படி 5",
+        "போர்ட் எண்கள் 5",
+        "தரவுத்தள பாதை 5",
+        "துவக்க கட்டளைகள் 5"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 5",
+        "requirements install panna command 5",
+        "docker compose up 5",
+        "ports enna enna 5",
+        "database path sollu 5",
+        "ids start panna steps 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0006",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 6",
+        "how to install requirements 6",
+        "how to start docker 6",
+        "default ports used 6",
+        "database location 6",
+        "how to start ids 6"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 6",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 6",
+        "டாக்கர் இயக்குவது எப்படி 6",
+        "போர்ட் எண்கள் 6",
+        "தரவுத்தள பாதை 6",
+        "துவக்க கட்டளைகள் 6"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 6",
+        "requirements install panna command 6",
+        "docker compose up 6",
+        "ports enna enna 6",
+        "database path sollu 6",
+        "ids start panna steps 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0007",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 7",
+        "how to install requirements 7",
+        "how to start docker 7",
+        "default ports used 7",
+        "database location 7",
+        "how to start ids 7"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 7",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 7",
+        "டாக்கர் இயக்குவது எப்படி 7",
+        "போர்ட் எண்கள் 7",
+        "தரவுத்தள பாதை 7",
+        "துவக்க கட்டளைகள் 7"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 7",
+        "requirements install panna command 7",
+        "docker compose up 7",
+        "ports enna enna 7",
+        "database path sollu 7",
+        "ids start panna steps 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0008",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 8",
+        "how to install requirements 8",
+        "how to start docker 8",
+        "default ports used 8",
+        "database location 8",
+        "how to start ids 8"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 8",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 8",
+        "டாக்கர் இயக்குவது எப்படி 8",
+        "போர்ட் எண்கள் 8",
+        "தரவுத்தள பாதை 8",
+        "துவக்க கட்டளைகள் 8"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 8",
+        "requirements install panna command 8",
+        "docker compose up 8",
+        "ports enna enna 8",
+        "database path sollu 8",
+        "ids start panna steps 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0009",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 9",
+        "how to install requirements 9",
+        "how to start docker 9",
+        "default ports used 9",
+        "database location 9",
+        "how to start ids 9"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 9",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 9",
+        "டாக்கர் இயக்குவது எப்படி 9",
+        "போர்ட் எண்கள் 9",
+        "தரவுத்தள பாதை 9",
+        "துவக்க கட்டளைகள் 9"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 9",
+        "requirements install panna command 9",
+        "docker compose up 9",
+        "ports enna enna 9",
+        "database path sollu 9",
+        "ids start panna steps 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0010",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 10",
+        "how to install requirements 10",
+        "how to start docker 10",
+        "default ports used 10",
+        "database location 10",
+        "how to start ids 10"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 10",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 10",
+        "டாக்கர் இயக்குவது எப்படி 10",
+        "போர்ட் எண்கள் 10",
+        "தரவுத்தள பாதை 10",
+        "துவக்க கட்டளைகள் 10"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 10",
+        "requirements install panna command 10",
+        "docker compose up 10",
+        "ports enna enna 10",
+        "database path sollu 10",
+        "ids start panna steps 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0011",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 11",
+        "how to install requirements 11",
+        "how to start docker 11",
+        "default ports used 11",
+        "database location 11",
+        "how to start ids 11"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 11",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 11",
+        "டாக்கர் இயக்குவது எப்படி 11",
+        "போர்ட் எண்கள் 11",
+        "தரவுத்தள பாதை 11",
+        "துவக்க கட்டளைகள் 11"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 11",
+        "requirements install panna command 11",
+        "docker compose up 11",
+        "ports enna enna 11",
+        "database path sollu 11",
+        "ids start panna steps 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0012",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 12",
+        "how to install requirements 12",
+        "how to start docker 12",
+        "default ports used 12",
+        "database location 12",
+        "how to start ids 12"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 12",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 12",
+        "டாக்கர் இயக்குவது எப்படி 12",
+        "போர்ட் எண்கள் 12",
+        "தரவுத்தள பாதை 12",
+        "துவக்க கட்டளைகள் 12"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 12",
+        "requirements install panna command 12",
+        "docker compose up 12",
+        "ports enna enna 12",
+        "database path sollu 12",
+        "ids start panna steps 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0013",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 13",
+        "how to install requirements 13",
+        "how to start docker 13",
+        "default ports used 13",
+        "database location 13",
+        "how to start ids 13"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 13",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 13",
+        "டாக்கர் இயக்குவது எப்படி 13",
+        "போர்ட் எண்கள் 13",
+        "தரவுத்தள பாதை 13",
+        "துவக்க கட்டளைகள் 13"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 13",
+        "requirements install panna command 13",
+        "docker compose up 13",
+        "ports enna enna 13",
+        "database path sollu 13",
+        "ids start panna steps 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0014",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 14",
+        "how to install requirements 14",
+        "how to start docker 14",
+        "default ports used 14",
+        "database location 14",
+        "how to start ids 14"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 14",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 14",
+        "டாக்கர் இயக்குவது எப்படி 14",
+        "போர்ட் எண்கள் 14",
+        "தரவுத்தள பாதை 14",
+        "துவக்க கட்டளைகள் 14"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 14",
+        "requirements install panna command 14",
+        "docker compose up 14",
+        "ports enna enna 14",
+        "database path sollu 14",
+        "ids start panna steps 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0015",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 15",
+        "how to install requirements 15",
+        "how to start docker 15",
+        "default ports used 15",
+        "database location 15",
+        "how to start ids 15"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 15",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 15",
+        "டாக்கர் இயக்குவது எப்படி 15",
+        "போர்ட் எண்கள் 15",
+        "தரவுத்தள பாதை 15",
+        "துவக்க கட்டளைகள் 15"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 15",
+        "requirements install panna command 15",
+        "docker compose up 15",
+        "ports enna enna 15",
+        "database path sollu 15",
+        "ids start panna steps 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0016",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 16",
+        "how to install requirements 16",
+        "how to start docker 16",
+        "default ports used 16",
+        "database location 16",
+        "how to start ids 16"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 16",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 16",
+        "டாக்கர் இயக்குவது எப்படி 16",
+        "போர்ட் எண்கள் 16",
+        "தரவுத்தள பாதை 16",
+        "துவக்க கட்டளைகள் 16"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 16",
+        "requirements install panna command 16",
+        "docker compose up 16",
+        "ports enna enna 16",
+        "database path sollu 16",
+        "ids start panna steps 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0017",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 17",
+        "how to install requirements 17",
+        "how to start docker 17",
+        "default ports used 17",
+        "database location 17",
+        "how to start ids 17"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 17",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 17",
+        "டாக்கர் இயக்குவது எப்படி 17",
+        "போர்ட் எண்கள் 17",
+        "தரவுத்தள பாதை 17",
+        "துவக்க கட்டளைகள் 17"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 17",
+        "requirements install panna command 17",
+        "docker compose up 17",
+        "ports enna enna 17",
+        "database path sollu 17",
+        "ids start panna steps 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0018",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 18",
+        "how to install requirements 18",
+        "how to start docker 18",
+        "default ports used 18",
+        "database location 18",
+        "how to start ids 18"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 18",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 18",
+        "டாக்கர் இயக்குவது எப்படி 18",
+        "போர்ட் எண்கள் 18",
+        "தரவுத்தள பாதை 18",
+        "துவக்க கட்டளைகள் 18"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 18",
+        "requirements install panna command 18",
+        "docker compose up 18",
+        "ports enna enna 18",
+        "database path sollu 18",
+        "ids start panna steps 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0019",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 19",
+        "how to install requirements 19",
+        "how to start docker 19",
+        "default ports used 19",
+        "database location 19",
+        "how to start ids 19"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 19",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 19",
+        "டாக்கர் இயக்குவது எப்படி 19",
+        "போர்ட் எண்கள் 19",
+        "தரவுத்தள பாதை 19",
+        "துவக்க கட்டளைகள் 19"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 19",
+        "requirements install panna command 19",
+        "docker compose up 19",
+        "ports enna enna 19",
+        "database path sollu 19",
+        "ids start panna steps 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0020",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 20",
+        "how to install requirements 20",
+        "how to start docker 20",
+        "default ports used 20",
+        "database location 20",
+        "how to start ids 20"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 20",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 20",
+        "டாக்கர் இயக்குவது எப்படி 20",
+        "போர்ட் எண்கள் 20",
+        "தரவுத்தள பாதை 20",
+        "துவக்க கட்டளைகள் 20"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 20",
+        "requirements install panna command 20",
+        "docker compose up 20",
+        "ports enna enna 20",
+        "database path sollu 20",
+        "ids start panna steps 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0021",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 21",
+        "how to install requirements 21",
+        "how to start docker 21",
+        "default ports used 21",
+        "database location 21",
+        "how to start ids 21"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 21",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 21",
+        "டாக்கர் இயக்குவது எப்படி 21",
+        "போர்ட் எண்கள் 21",
+        "தரவுத்தள பாதை 21",
+        "துவக்க கட்டளைகள் 21"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 21",
+        "requirements install panna command 21",
+        "docker compose up 21",
+        "ports enna enna 21",
+        "database path sollu 21",
+        "ids start panna steps 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0022",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 22",
+        "how to install requirements 22",
+        "how to start docker 22",
+        "default ports used 22",
+        "database location 22",
+        "how to start ids 22"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 22",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 22",
+        "டாக்கர் இயக்குவது எப்படி 22",
+        "போர்ட் எண்கள் 22",
+        "தரவுத்தள பாதை 22",
+        "துவக்க கட்டளைகள் 22"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 22",
+        "requirements install panna command 22",
+        "docker compose up 22",
+        "ports enna enna 22",
+        "database path sollu 22",
+        "ids start panna steps 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0023",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 23",
+        "how to install requirements 23",
+        "how to start docker 23",
+        "default ports used 23",
+        "database location 23",
+        "how to start ids 23"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 23",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 23",
+        "டாக்கர் இயக்குவது எப்படி 23",
+        "போர்ட் எண்கள் 23",
+        "தரவுத்தள பாதை 23",
+        "துவக்க கட்டளைகள் 23"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 23",
+        "requirements install panna command 23",
+        "docker compose up 23",
+        "ports enna enna 23",
+        "database path sollu 23",
+        "ids start panna steps 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0024",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 24",
+        "how to install requirements 24",
+        "how to start docker 24",
+        "default ports used 24",
+        "database location 24",
+        "how to start ids 24"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 24",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 24",
+        "டாக்கர் இயக்குவது எப்படி 24",
+        "போர்ட் எண்கள் 24",
+        "தரவுத்தள பாதை 24",
+        "துவக்க கட்டளைகள் 24"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 24",
+        "requirements install panna command 24",
+        "docker compose up 24",
+        "ports enna enna 24",
+        "database path sollu 24",
+        "ids start panna steps 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0025",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 25",
+        "how to install requirements 25",
+        "how to start docker 25",
+        "default ports used 25",
+        "database location 25",
+        "how to start ids 25"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 25",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 25",
+        "டாக்கர் இயக்குவது எப்படி 25",
+        "போர்ட் எண்கள் 25",
+        "தரவுத்தள பாதை 25",
+        "துவக்க கட்டளைகள் 25"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 25",
+        "requirements install panna command 25",
+        "docker compose up 25",
+        "ports enna enna 25",
+        "database path sollu 25",
+        "ids start panna steps 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0026",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 26",
+        "how to install requirements 26",
+        "how to start docker 26",
+        "default ports used 26",
+        "database location 26",
+        "how to start ids 26"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 26",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 26",
+        "டாக்கர் இயக்குவது எப்படி 26",
+        "போர்ட் எண்கள் 26",
+        "தரவுத்தள பாதை 26",
+        "துவக்க கட்டளைகள் 26"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 26",
+        "requirements install panna command 26",
+        "docker compose up 26",
+        "ports enna enna 26",
+        "database path sollu 26",
+        "ids start panna steps 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0027",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 27",
+        "how to install requirements 27",
+        "how to start docker 27",
+        "default ports used 27",
+        "database location 27",
+        "how to start ids 27"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 27",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 27",
+        "டாக்கர் இயக்குவது எப்படி 27",
+        "போர்ட் எண்கள் 27",
+        "தரவுத்தள பாதை 27",
+        "துவக்க கட்டளைகள் 27"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 27",
+        "requirements install panna command 27",
+        "docker compose up 27",
+        "ports enna enna 27",
+        "database path sollu 27",
+        "ids start panna steps 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0028",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 28",
+        "how to install requirements 28",
+        "how to start docker 28",
+        "default ports used 28",
+        "database location 28",
+        "how to start ids 28"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 28",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 28",
+        "டாக்கர் இயக்குவது எப்படி 28",
+        "போர்ட் எண்கள் 28",
+        "தரவுத்தள பாதை 28",
+        "துவக்க கட்டளைகள் 28"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 28",
+        "requirements install panna command 28",
+        "docker compose up 28",
+        "ports enna enna 28",
+        "database path sollu 28",
+        "ids start panna steps 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0029",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 29",
+        "how to install requirements 29",
+        "how to start docker 29",
+        "default ports used 29",
+        "database location 29",
+        "how to start ids 29"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 29",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 29",
+        "டாக்கர் இயக்குவது எப்படி 29",
+        "போர்ட் எண்கள் 29",
+        "தரவுத்தள பாதை 29",
+        "துவக்க கட்டளைகள் 29"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 29",
+        "requirements install panna command 29",
+        "docker compose up 29",
+        "ports enna enna 29",
+        "database path sollu 29",
+        "ids start panna steps 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0030",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 30",
+        "how to install requirements 30",
+        "how to start docker 30",
+        "default ports used 30",
+        "database location 30",
+        "how to start ids 30"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 30",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 30",
+        "டாக்கர் இயக்குவது எப்படி 30",
+        "போர்ட் எண்கள் 30",
+        "தரவுத்தள பாதை 30",
+        "துவக்க கட்டளைகள் 30"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 30",
+        "requirements install panna command 30",
+        "docker compose up 30",
+        "ports enna enna 30",
+        "database path sollu 30",
+        "ids start panna steps 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0031",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 31",
+        "how to install requirements 31",
+        "how to start docker 31",
+        "default ports used 31",
+        "database location 31",
+        "how to start ids 31"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 31",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 31",
+        "டாக்கர் இயக்குவது எப்படி 31",
+        "போர்ட் எண்கள் 31",
+        "தரவுத்தள பாதை 31",
+        "துவக்க கட்டளைகள் 31"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 31",
+        "requirements install panna command 31",
+        "docker compose up 31",
+        "ports enna enna 31",
+        "database path sollu 31",
+        "ids start panna steps 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0032",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 32",
+        "how to install requirements 32",
+        "how to start docker 32",
+        "default ports used 32",
+        "database location 32",
+        "how to start ids 32"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 32",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 32",
+        "டாக்கர் இயக்குவது எப்படி 32",
+        "போர்ட் எண்கள் 32",
+        "தரவுத்தள பாதை 32",
+        "துவக்க கட்டளைகள் 32"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 32",
+        "requirements install panna command 32",
+        "docker compose up 32",
+        "ports enna enna 32",
+        "database path sollu 32",
+        "ids start panna steps 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0033",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 33",
+        "how to install requirements 33",
+        "how to start docker 33",
+        "default ports used 33",
+        "database location 33",
+        "how to start ids 33"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 33",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 33",
+        "டாக்கர் இயக்குவது எப்படி 33",
+        "போர்ட் எண்கள் 33",
+        "தரவுத்தள பாதை 33",
+        "துவக்க கட்டளைகள் 33"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 33",
+        "requirements install panna command 33",
+        "docker compose up 33",
+        "ports enna enna 33",
+        "database path sollu 33",
+        "ids start panna steps 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0034",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 34",
+        "how to install requirements 34",
+        "how to start docker 34",
+        "default ports used 34",
+        "database location 34",
+        "how to start ids 34"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 34",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 34",
+        "டாக்கர் இயக்குவது எப்படி 34",
+        "போர்ட் எண்கள் 34",
+        "தரவுத்தள பாதை 34",
+        "துவக்க கட்டளைகள் 34"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 34",
+        "requirements install panna command 34",
+        "docker compose up 34",
+        "ports enna enna 34",
+        "database path sollu 34",
+        "ids start panna steps 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0035",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 35",
+        "how to install requirements 35",
+        "how to start docker 35",
+        "default ports used 35",
+        "database location 35",
+        "how to start ids 35"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 35",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 35",
+        "டாக்கர் இயக்குவது எப்படி 35",
+        "போர்ட் எண்கள் 35",
+        "தரவுத்தள பாதை 35",
+        "துவக்க கட்டளைகள் 35"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 35",
+        "requirements install panna command 35",
+        "docker compose up 35",
+        "ports enna enna 35",
+        "database path sollu 35",
+        "ids start panna steps 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0036",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 36",
+        "how to install requirements 36",
+        "how to start docker 36",
+        "default ports used 36",
+        "database location 36",
+        "how to start ids 36"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 36",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 36",
+        "டாக்கர் இயக்குவது எப்படி 36",
+        "போர்ட் எண்கள் 36",
+        "தரவுத்தள பாதை 36",
+        "துவக்க கட்டளைகள் 36"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 36",
+        "requirements install panna command 36",
+        "docker compose up 36",
+        "ports enna enna 36",
+        "database path sollu 36",
+        "ids start panna steps 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0037",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 37",
+        "how to install requirements 37",
+        "how to start docker 37",
+        "default ports used 37",
+        "database location 37",
+        "how to start ids 37"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 37",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 37",
+        "டாக்கர் இயக்குவது எப்படி 37",
+        "போர்ட் எண்கள் 37",
+        "தரவுத்தள பாதை 37",
+        "துவக்க கட்டளைகள் 37"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 37",
+        "requirements install panna command 37",
+        "docker compose up 37",
+        "ports enna enna 37",
+        "database path sollu 37",
+        "ids start panna steps 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0038",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 38",
+        "how to install requirements 38",
+        "how to start docker 38",
+        "default ports used 38",
+        "database location 38",
+        "how to start ids 38"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 38",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 38",
+        "டாக்கர் இயக்குவது எப்படி 38",
+        "போர்ட் எண்கள் 38",
+        "தரவுத்தள பாதை 38",
+        "துவக்க கட்டளைகள் 38"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 38",
+        "requirements install panna command 38",
+        "docker compose up 38",
+        "ports enna enna 38",
+        "database path sollu 38",
+        "ids start panna steps 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0039",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 39",
+        "how to install requirements 39",
+        "how to start docker 39",
+        "default ports used 39",
+        "database location 39",
+        "how to start ids 39"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 39",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 39",
+        "டாக்கர் இயக்குவது எப்படி 39",
+        "போர்ட் எண்கள் 39",
+        "தரவுத்தள பாதை 39",
+        "துவக்க கட்டளைகள் 39"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 39",
+        "requirements install panna command 39",
+        "docker compose up 39",
+        "ports enna enna 39",
+        "database path sollu 39",
+        "ids start panna steps 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0040",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 40",
+        "how to install requirements 40",
+        "how to start docker 40",
+        "default ports used 40",
+        "database location 40",
+        "how to start ids 40"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 40",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 40",
+        "டாக்கர் இயக்குவது எப்படி 40",
+        "போர்ட் எண்கள் 40",
+        "தரவுத்தள பாதை 40",
+        "துவக்க கட்டளைகள் 40"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 40",
+        "requirements install panna command 40",
+        "docker compose up 40",
+        "ports enna enna 40",
+        "database path sollu 40",
+        "ids start panna steps 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0041",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 41",
+        "how to install requirements 41",
+        "how to start docker 41",
+        "default ports used 41",
+        "database location 41",
+        "how to start ids 41"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 41",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 41",
+        "டாக்கர் இயக்குவது எப்படி 41",
+        "போர்ட் எண்கள் 41",
+        "தரவுத்தள பாதை 41",
+        "துவக்க கட்டளைகள் 41"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 41",
+        "requirements install panna command 41",
+        "docker compose up 41",
+        "ports enna enna 41",
+        "database path sollu 41",
+        "ids start panna steps 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0042",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 42",
+        "how to install requirements 42",
+        "how to start docker 42",
+        "default ports used 42",
+        "database location 42",
+        "how to start ids 42"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 42",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 42",
+        "டாக்கர் இயக்குவது எப்படி 42",
+        "போர்ட் எண்கள் 42",
+        "தரவுத்தள பாதை 42",
+        "துவக்க கட்டளைகள் 42"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 42",
+        "requirements install panna command 42",
+        "docker compose up 42",
+        "ports enna enna 42",
+        "database path sollu 42",
+        "ids start panna steps 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0043",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 43",
+        "how to install requirements 43",
+        "how to start docker 43",
+        "default ports used 43",
+        "database location 43",
+        "how to start ids 43"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 43",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 43",
+        "டாக்கர் இயக்குவது எப்படி 43",
+        "போர்ட் எண்கள் 43",
+        "தரவுத்தள பாதை 43",
+        "துவக்க கட்டளைகள் 43"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 43",
+        "requirements install panna command 43",
+        "docker compose up 43",
+        "ports enna enna 43",
+        "database path sollu 43",
+        "ids start panna steps 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0044",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 44",
+        "how to install requirements 44",
+        "how to start docker 44",
+        "default ports used 44",
+        "database location 44",
+        "how to start ids 44"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 44",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 44",
+        "டாக்கர் இயக்குவது எப்படி 44",
+        "போர்ட் எண்கள் 44",
+        "தரவுத்தள பாதை 44",
+        "துவக்க கட்டளைகள் 44"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 44",
+        "requirements install panna command 44",
+        "docker compose up 44",
+        "ports enna enna 44",
+        "database path sollu 44",
+        "ids start panna steps 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0045",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 45",
+        "how to install requirements 45",
+        "how to start docker 45",
+        "default ports used 45",
+        "database location 45",
+        "how to start ids 45"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 45",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 45",
+        "டாக்கர் இயக்குவது எப்படி 45",
+        "போர்ட் எண்கள் 45",
+        "தரவுத்தள பாதை 45",
+        "துவக்க கட்டளைகள் 45"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 45",
+        "requirements install panna command 45",
+        "docker compose up 45",
+        "ports enna enna 45",
+        "database path sollu 45",
+        "ids start panna steps 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0046",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 46",
+        "how to install requirements 46",
+        "how to start docker 46",
+        "default ports used 46",
+        "database location 46",
+        "how to start ids 46"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 46",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 46",
+        "டாக்கர் இயக்குவது எப்படி 46",
+        "போர்ட் எண்கள் 46",
+        "தரவுத்தள பாதை 46",
+        "துவக்க கட்டளைகள் 46"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 46",
+        "requirements install panna command 46",
+        "docker compose up 46",
+        "ports enna enna 46",
+        "database path sollu 46",
+        "ids start panna steps 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0047",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 47",
+        "how to install requirements 47",
+        "how to start docker 47",
+        "default ports used 47",
+        "database location 47",
+        "how to start ids 47"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 47",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 47",
+        "டாக்கர் இயக்குவது எப்படி 47",
+        "போர்ட் எண்கள் 47",
+        "தரவுத்தள பாதை 47",
+        "துவக்க கட்டளைகள் 47"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 47",
+        "requirements install panna command 47",
+        "docker compose up 47",
+        "ports enna enna 47",
+        "database path sollu 47",
+        "ids start panna steps 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0048",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 48",
+        "how to install requirements 48",
+        "how to start docker 48",
+        "default ports used 48",
+        "database location 48",
+        "how to start ids 48"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 48",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 48",
+        "டாக்கர் இயக்குவது எப்படி 48",
+        "போர்ட் எண்கள் 48",
+        "தரவுத்தள பாதை 48",
+        "துவக்க கட்டளைகள் 48"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 48",
+        "requirements install panna command 48",
+        "docker compose up 48",
+        "ports enna enna 48",
+        "database path sollu 48",
+        "ids start panna steps 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0049",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 49",
+        "how to install requirements 49",
+        "how to start docker 49",
+        "default ports used 49",
+        "database location 49",
+        "how to start ids 49"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 49",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 49",
+        "டாக்கர் இயக்குவது எப்படி 49",
+        "போர்ட் எண்கள் 49",
+        "தரவுத்தள பாதை 49",
+        "துவக்க கட்டளைகள் 49"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 49",
+        "requirements install panna command 49",
+        "docker compose up 49",
+        "ports enna enna 49",
+        "database path sollu 49",
+        "ids start panna steps 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0050",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 50",
+        "how to install requirements 50",
+        "how to start docker 50",
+        "default ports used 50",
+        "database location 50",
+        "how to start ids 50"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 50",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 50",
+        "டாக்கர் இயக்குவது எப்படி 50",
+        "போர்ட் எண்கள் 50",
+        "தரவுத்தள பாதை 50",
+        "துவக்க கட்டளைகள் 50"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 50",
+        "requirements install panna command 50",
+        "docker compose up 50",
+        "ports enna enna 50",
+        "database path sollu 50",
+        "ids start panna steps 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0051",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 51",
+        "how to install requirements 51",
+        "how to start docker 51",
+        "default ports used 51",
+        "database location 51",
+        "how to start ids 51"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 51",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 51",
+        "டாக்கர் இயக்குவது எப்படி 51",
+        "போர்ட் எண்கள் 51",
+        "தரவுத்தள பாதை 51",
+        "துவக்க கட்டளைகள் 51"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 51",
+        "requirements install panna command 51",
+        "docker compose up 51",
+        "ports enna enna 51",
+        "database path sollu 51",
+        "ids start panna steps 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0052",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 52",
+        "how to install requirements 52",
+        "how to start docker 52",
+        "default ports used 52",
+        "database location 52",
+        "how to start ids 52"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 52",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 52",
+        "டாக்கர் இயக்குவது எப்படி 52",
+        "போர்ட் எண்கள் 52",
+        "தரவுத்தள பாதை 52",
+        "துவக்க கட்டளைகள் 52"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 52",
+        "requirements install panna command 52",
+        "docker compose up 52",
+        "ports enna enna 52",
+        "database path sollu 52",
+        "ids start panna steps 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0053",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 53",
+        "how to install requirements 53",
+        "how to start docker 53",
+        "default ports used 53",
+        "database location 53",
+        "how to start ids 53"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 53",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 53",
+        "டாக்கர் இயக்குவது எப்படி 53",
+        "போர்ட் எண்கள் 53",
+        "தரவுத்தள பாதை 53",
+        "துவக்க கட்டளைகள் 53"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 53",
+        "requirements install panna command 53",
+        "docker compose up 53",
+        "ports enna enna 53",
+        "database path sollu 53",
+        "ids start panna steps 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0054",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 54",
+        "how to install requirements 54",
+        "how to start docker 54",
+        "default ports used 54",
+        "database location 54",
+        "how to start ids 54"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 54",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 54",
+        "டாக்கர் இயக்குவது எப்படி 54",
+        "போர்ட் எண்கள் 54",
+        "தரவுத்தள பாதை 54",
+        "துவக்க கட்டளைகள் 54"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 54",
+        "requirements install panna command 54",
+        "docker compose up 54",
+        "ports enna enna 54",
+        "database path sollu 54",
+        "ids start panna steps 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0055",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 55",
+        "how to install requirements 55",
+        "how to start docker 55",
+        "default ports used 55",
+        "database location 55",
+        "how to start ids 55"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 55",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 55",
+        "டாக்கர் இயக்குவது எப்படி 55",
+        "போர்ட் எண்கள் 55",
+        "தரவுத்தள பாதை 55",
+        "துவக்க கட்டளைகள் 55"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 55",
+        "requirements install panna command 55",
+        "docker compose up 55",
+        "ports enna enna 55",
+        "database path sollu 55",
+        "ids start panna steps 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0056",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 56",
+        "how to install requirements 56",
+        "how to start docker 56",
+        "default ports used 56",
+        "database location 56",
+        "how to start ids 56"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 56",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 56",
+        "டாக்கர் இயக்குவது எப்படி 56",
+        "போர்ட் எண்கள் 56",
+        "தரவுத்தள பாதை 56",
+        "துவக்க கட்டளைகள் 56"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 56",
+        "requirements install panna command 56",
+        "docker compose up 56",
+        "ports enna enna 56",
+        "database path sollu 56",
+        "ids start panna steps 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0057",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 57",
+        "how to install requirements 57",
+        "how to start docker 57",
+        "default ports used 57",
+        "database location 57",
+        "how to start ids 57"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 57",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 57",
+        "டாக்கர் இயக்குவது எப்படி 57",
+        "போர்ட் எண்கள் 57",
+        "தரவுத்தள பாதை 57",
+        "துவக்க கட்டளைகள் 57"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 57",
+        "requirements install panna command 57",
+        "docker compose up 57",
+        "ports enna enna 57",
+        "database path sollu 57",
+        "ids start panna steps 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0058",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 58",
+        "how to install requirements 58",
+        "how to start docker 58",
+        "default ports used 58",
+        "database location 58",
+        "how to start ids 58"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 58",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 58",
+        "டாக்கர் இயக்குவது எப்படி 58",
+        "போர்ட் எண்கள் 58",
+        "தரவுத்தள பாதை 58",
+        "துவக்க கட்டளைகள் 58"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 58",
+        "requirements install panna command 58",
+        "docker compose up 58",
+        "ports enna enna 58",
+        "database path sollu 58",
+        "ids start panna steps 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0059",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 59",
+        "how to install requirements 59",
+        "how to start docker 59",
+        "default ports used 59",
+        "database location 59",
+        "how to start ids 59"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 59",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 59",
+        "டாக்கர் இயக்குவது எப்படி 59",
+        "போர்ட் எண்கள் 59",
+        "தரவுத்தள பாதை 59",
+        "துவக்க கட்டளைகள் 59"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 59",
+        "requirements install panna command 59",
+        "docker compose up 59",
+        "ports enna enna 59",
+        "database path sollu 59",
+        "ids start panna steps 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0060",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 60",
+        "how to install requirements 60",
+        "how to start docker 60",
+        "default ports used 60",
+        "database location 60",
+        "how to start ids 60"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 60",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 60",
+        "டாக்கர் இயக்குவது எப்படி 60",
+        "போர்ட் எண்கள் 60",
+        "தரவுத்தள பாதை 60",
+        "துவக்க கட்டளைகள் 60"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 60",
+        "requirements install panna command 60",
+        "docker compose up 60",
+        "ports enna enna 60",
+        "database path sollu 60",
+        "ids start panna steps 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0061",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 61",
+        "how to install requirements 61",
+        "how to start docker 61",
+        "default ports used 61",
+        "database location 61",
+        "how to start ids 61"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 61",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 61",
+        "டாக்கர் இயக்குவது எப்படி 61",
+        "போர்ட் எண்கள் 61",
+        "தரவுத்தள பாதை 61",
+        "துவக்க கட்டளைகள் 61"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 61",
+        "requirements install panna command 61",
+        "docker compose up 61",
+        "ports enna enna 61",
+        "database path sollu 61",
+        "ids start panna steps 61"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0062",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 62",
+        "how to install requirements 62",
+        "how to start docker 62",
+        "default ports used 62",
+        "database location 62",
+        "how to start ids 62"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 62",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 62",
+        "டாக்கர் இயக்குவது எப்படி 62",
+        "போர்ட் எண்கள் 62",
+        "தரவுத்தள பாதை 62",
+        "துவக்க கட்டளைகள் 62"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 62",
+        "requirements install panna command 62",
+        "docker compose up 62",
+        "ports enna enna 62",
+        "database path sollu 62",
+        "ids start panna steps 62"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0063",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 63",
+        "how to install requirements 63",
+        "how to start docker 63",
+        "default ports used 63",
+        "database location 63",
+        "how to start ids 63"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 63",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 63",
+        "டாக்கர் இயக்குவது எப்படி 63",
+        "போர்ட் எண்கள் 63",
+        "தரவுத்தள பாதை 63",
+        "துவக்க கட்டளைகள் 63"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 63",
+        "requirements install panna command 63",
+        "docker compose up 63",
+        "ports enna enna 63",
+        "database path sollu 63",
+        "ids start panna steps 63"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0064",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 64",
+        "how to install requirements 64",
+        "how to start docker 64",
+        "default ports used 64",
+        "database location 64",
+        "how to start ids 64"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 64",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 64",
+        "டாக்கர் இயக்குவது எப்படி 64",
+        "போர்ட் எண்கள் 64",
+        "தரவுத்தள பாதை 64",
+        "துவக்க கட்டளைகள் 64"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 64",
+        "requirements install panna command 64",
+        "docker compose up 64",
+        "ports enna enna 64",
+        "database path sollu 64",
+        "ids start panna steps 64"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0065",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 65",
+        "how to install requirements 65",
+        "how to start docker 65",
+        "default ports used 65",
+        "database location 65",
+        "how to start ids 65"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 65",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 65",
+        "டாக்கர் இயக்குவது எப்படி 65",
+        "போர்ட் எண்கள் 65",
+        "தரவுத்தள பாதை 65",
+        "துவக்க கட்டளைகள் 65"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 65",
+        "requirements install panna command 65",
+        "docker compose up 65",
+        "ports enna enna 65",
+        "database path sollu 65",
+        "ids start panna steps 65"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0066",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 66",
+        "how to install requirements 66",
+        "how to start docker 66",
+        "default ports used 66",
+        "database location 66",
+        "how to start ids 66"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 66",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 66",
+        "டாக்கர் இயக்குவது எப்படி 66",
+        "போர்ட் எண்கள் 66",
+        "தரவுத்தள பாதை 66",
+        "துவக்க கட்டளைகள் 66"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 66",
+        "requirements install panna command 66",
+        "docker compose up 66",
+        "ports enna enna 66",
+        "database path sollu 66",
+        "ids start panna steps 66"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0067",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 67",
+        "how to install requirements 67",
+        "how to start docker 67",
+        "default ports used 67",
+        "database location 67",
+        "how to start ids 67"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 67",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 67",
+        "டாக்கர் இயக்குவது எப்படி 67",
+        "போர்ட் எண்கள் 67",
+        "தரவுத்தள பாதை 67",
+        "துவக்க கட்டளைகள் 67"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 67",
+        "requirements install panna command 67",
+        "docker compose up 67",
+        "ports enna enna 67",
+        "database path sollu 67",
+        "ids start panna steps 67"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0068",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 68",
+        "how to install requirements 68",
+        "how to start docker 68",
+        "default ports used 68",
+        "database location 68",
+        "how to start ids 68"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 68",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 68",
+        "டாக்கர் இயக்குவது எப்படி 68",
+        "போர்ட் எண்கள் 68",
+        "தரவுத்தள பாதை 68",
+        "துவக்க கட்டளைகள் 68"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 68",
+        "requirements install panna command 68",
+        "docker compose up 68",
+        "ports enna enna 68",
+        "database path sollu 68",
+        "ids start panna steps 68"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0069",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 69",
+        "how to install requirements 69",
+        "how to start docker 69",
+        "default ports used 69",
+        "database location 69",
+        "how to start ids 69"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 69",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 69",
+        "டாக்கர் இயக்குவது எப்படி 69",
+        "போர்ட் எண்கள் 69",
+        "தரவுத்தள பாதை 69",
+        "துவக்க கட்டளைகள் 69"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 69",
+        "requirements install panna command 69",
+        "docker compose up 69",
+        "ports enna enna 69",
+        "database path sollu 69",
+        "ids start panna steps 69"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  },
+  {
+    "id": "proj_ops_0070",
+    "category": "setup_operations",
+    "patterns": {
+      "en": [
+        "how to run project 70",
+        "how to install requirements 70",
+        "how to start docker 70",
+        "default ports used 70",
+        "database location 70",
+        "how to start ids 70"
+      ],
+      "ta": [
+        "திட்டத்தை எவ்வாறு இயக்குவது 70",
+        "தேவையான மென்பொருட்களை நிறுவுவது எப்படி 70",
+        "டாக்கர் இயக்குவது எப்படி 70",
+        "போர்ட் எண்கள் 70",
+        "தரவுத்தள பாதை 70",
+        "துவக்க கட்டளைகள் 70"
+      ],
+      "tanglish": [
+        "project epdi run panradhu 70",
+        "requirements install panna command 70",
+        "docker compose up 70",
+        "ports enna enna 70",
+        "database path sollu 70",
+        "ids start panna steps 70"
+      ]
+    },
+    "responses": {
+      "en": [
+        "To start the project: Run 'START_IDS.bat' or execute 'python app.py' directly. FastAPI runs on port 8000 (Dashboard at http://localhost:8000/dashboard, Vite at http://localhost:5173).",
+        "Database: SQLite audit database is located at data/gateway_ids.db. Docker: Run 'docker-compose up --build' for containerized deployment."
+      ],
+      "ta": [
+        "திட்டத்தை இயக்க: 'START_IDS.bat' அல்லது 'python app.py' கட்டளையை இயக்கவும். டாஷ்போர்டு முகவரி: http://localhost:8000/dashboard.",
+        "தரவுத்தளம் data/gateway_ids.db பாதையில் உள்ளது. டாக்கர் பயன்படுத்த 'docker-compose up --build' இயக்கவும்."
+      ],
+      "tanglish": [
+        "Run Steps: 'START_IDS.bat' double click pannunga or terminal la 'python app.py'. Dashboard runs at http://localhost:8000/dashboard.",
+        "Ports: 8000 (FastAPI gateway) and 5173 (Vite frontend dev server). SQLite DB at data/gateway_ids.db."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check health score",
+      "View API docs"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "setup",
+      "install",
+      "docker",
+      "ports"
+    ]
+  }
+]

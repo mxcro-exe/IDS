@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  aegis-gateway-ids:
+    build: .
+    container_name: aegis_api_gateway_ids
+    ports:
+      - "8000:8000"
+    environment:
+      - GATEWAY_HOST=0.0.0.0
+      - GATEWAY_PORT=8000
+      - OPERATION_MODE=protect
+      - TARGET_API_URL=http://127.0.0.1:8000/demo
+      - WEIGHT_ML=0.45
+      - WEIGHT_BEHAVIORAL=0.35
+      - WEIGHT_RULES=0.20
+      - WARN_THRESHOLD=0.40
+      - BLOCK_THRESHOLD=0.70
+      - RATE_LIMIT_MAX_REQUESTS=50
+      - RATE_LIMIT_WINDOW_SECONDS=60
+      - AUTOBAN_MINUTES=10
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./reports:/app/reports
+    restart: unless-stopped

@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "gen_secaware_0001",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 1",
+        "what is 2fa 1",
+        "phishing signs 1",
+        "public wifi danger 1",
+        "software updates 1",
+        "backup importance 1"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 1",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 1",
+        "ஃபிஷிங் அறிகுறிகள் 1",
+        "பொது வைஃபை ஆபத்து 1",
+        "மென்பொருள் புதுப்பித்தல் 1",
+        "காப்புப்பிரதி முக்கியத்துவம் 1"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 1",
+        "2fa na enna 1",
+        "phishing epdi kandupidikardhu 1",
+        "public wifi safe ah 1",
+        "backup yen mukkiyam 1",
+        "software update pannalama 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0002",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 2",
+        "what is 2fa 2",
+        "phishing signs 2",
+        "public wifi danger 2",
+        "software updates 2",
+        "backup importance 2"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 2",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 2",
+        "ஃபிஷிங் அறிகுறிகள் 2",
+        "பொது வைஃபை ஆபத்து 2",
+        "மென்பொருள் புதுப்பித்தல் 2",
+        "காப்புப்பிரதி முக்கியத்துவம் 2"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 2",
+        "2fa na enna 2",
+        "phishing epdi kandupidikardhu 2",
+        "public wifi safe ah 2",
+        "backup yen mukkiyam 2",
+        "software update pannalama 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0003",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 3",
+        "what is 2fa 3",
+        "phishing signs 3",
+        "public wifi danger 3",
+        "software updates 3",
+        "backup importance 3"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 3",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 3",
+        "ஃபிஷிங் அறிகுறிகள் 3",
+        "பொது வைஃபை ஆபத்து 3",
+        "மென்பொருள் புதுப்பித்தல் 3",
+        "காப்புப்பிரதி முக்கியத்துவம் 3"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 3",
+        "2fa na enna 3",
+        "phishing epdi kandupidikardhu 3",
+        "public wifi safe ah 3",
+        "backup yen mukkiyam 3",
+        "software update pannalama 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0004",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 4",
+        "what is 2fa 4",
+        "phishing signs 4",
+        "public wifi danger 4",
+        "software updates 4",
+        "backup importance 4"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 4",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 4",
+        "ஃபிஷிங் அறிகுறிகள் 4",
+        "பொது வைஃபை ஆபத்து 4",
+        "மென்பொருள் புதுப்பித்தல் 4",
+        "காப்புப்பிரதி முக்கியத்துவம் 4"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 4",
+        "2fa na enna 4",
+        "phishing epdi kandupidikardhu 4",
+        "public wifi safe ah 4",
+        "backup yen mukkiyam 4",
+        "software update pannalama 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0005",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 5",
+        "what is 2fa 5",
+        "phishing signs 5",
+        "public wifi danger 5",
+        "software updates 5",
+        "backup importance 5"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 5",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 5",
+        "ஃபிஷிங் அறிகுறிகள் 5",
+        "பொது வைஃபை ஆபத்து 5",
+        "மென்பொருள் புதுப்பித்தல் 5",
+        "காப்புப்பிரதி முக்கியத்துவம் 5"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 5",
+        "2fa na enna 5",
+        "phishing epdi kandupidikardhu 5",
+        "public wifi safe ah 5",
+        "backup yen mukkiyam 5",
+        "software update pannalama 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0006",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 6",
+        "what is 2fa 6",
+        "phishing signs 6",
+        "public wifi danger 6",
+        "software updates 6",
+        "backup importance 6"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 6",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 6",
+        "ஃபிஷிங் அறிகுறிகள் 6",
+        "பொது வைஃபை ஆபத்து 6",
+        "மென்பொருள் புதுப்பித்தல் 6",
+        "காப்புப்பிரதி முக்கியத்துவம் 6"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 6",
+        "2fa na enna 6",
+        "phishing epdi kandupidikardhu 6",
+        "public wifi safe ah 6",
+        "backup yen mukkiyam 6",
+        "software update pannalama 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0007",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 7",
+        "what is 2fa 7",
+        "phishing signs 7",
+        "public wifi danger 7",
+        "software updates 7",
+        "backup importance 7"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 7",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 7",
+        "ஃபிஷிங் அறிகுறிகள் 7",
+        "பொது வைஃபை ஆபத்து 7",
+        "மென்பொருள் புதுப்பித்தல் 7",
+        "காப்புப்பிரதி முக்கியத்துவம் 7"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 7",
+        "2fa na enna 7",
+        "phishing epdi kandupidikardhu 7",
+        "public wifi safe ah 7",
+        "backup yen mukkiyam 7",
+        "software update pannalama 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0008",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 8",
+        "what is 2fa 8",
+        "phishing signs 8",
+        "public wifi danger 8",
+        "software updates 8",
+        "backup importance 8"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 8",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 8",
+        "ஃபிஷிங் அறிகுறிகள் 8",
+        "பொது வைஃபை ஆபத்து 8",
+        "மென்பொருள் புதுப்பித்தல் 8",
+        "காப்புப்பிரதி முக்கியத்துவம் 8"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 8",
+        "2fa na enna 8",
+        "phishing epdi kandupidikardhu 8",
+        "public wifi safe ah 8",
+        "backup yen mukkiyam 8",
+        "software update pannalama 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0009",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 9",
+        "what is 2fa 9",
+        "phishing signs 9",
+        "public wifi danger 9",
+        "software updates 9",
+        "backup importance 9"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 9",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 9",
+        "ஃபிஷிங் அறிகுறிகள் 9",
+        "பொது வைஃபை ஆபத்து 9",
+        "மென்பொருள் புதுப்பித்தல் 9",
+        "காப்புப்பிரதி முக்கியத்துவம் 9"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 9",
+        "2fa na enna 9",
+        "phishing epdi kandupidikardhu 9",
+        "public wifi safe ah 9",
+        "backup yen mukkiyam 9",
+        "software update pannalama 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0010",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 10",
+        "what is 2fa 10",
+        "phishing signs 10",
+        "public wifi danger 10",
+        "software updates 10",
+        "backup importance 10"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 10",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 10",
+        "ஃபிஷிங் அறிகுறிகள் 10",
+        "பொது வைஃபை ஆபத்து 10",
+        "மென்பொருள் புதுப்பித்தல் 10",
+        "காப்புப்பிரதி முக்கியத்துவம் 10"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 10",
+        "2fa na enna 10",
+        "phishing epdi kandupidikardhu 10",
+        "public wifi safe ah 10",
+        "backup yen mukkiyam 10",
+        "software update pannalama 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0011",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 11",
+        "what is 2fa 11",
+        "phishing signs 11",
+        "public wifi danger 11",
+        "software updates 11",
+        "backup importance 11"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 11",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 11",
+        "ஃபிஷிங் அறிகுறிகள் 11",
+        "பொது வைஃபை ஆபத்து 11",
+        "மென்பொருள் புதுப்பித்தல் 11",
+        "காப்புப்பிரதி முக்கியத்துவம் 11"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 11",
+        "2fa na enna 11",
+        "phishing epdi kandupidikardhu 11",
+        "public wifi safe ah 11",
+        "backup yen mukkiyam 11",
+        "software update pannalama 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0012",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 12",
+        "what is 2fa 12",
+        "phishing signs 12",
+        "public wifi danger 12",
+        "software updates 12",
+        "backup importance 12"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 12",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 12",
+        "ஃபிஷிங் அறிகுறிகள் 12",
+        "பொது வைஃபை ஆபத்து 12",
+        "மென்பொருள் புதுப்பித்தல் 12",
+        "காப்புப்பிரதி முக்கியத்துவம் 12"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 12",
+        "2fa na enna 12",
+        "phishing epdi kandupidikardhu 12",
+        "public wifi safe ah 12",
+        "backup yen mukkiyam 12",
+        "software update pannalama 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0013",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 13",
+        "what is 2fa 13",
+        "phishing signs 13",
+        "public wifi danger 13",
+        "software updates 13",
+        "backup importance 13"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 13",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 13",
+        "ஃபிஷிங் அறிகுறிகள் 13",
+        "பொது வைஃபை ஆபத்து 13",
+        "மென்பொருள் புதுப்பித்தல் 13",
+        "காப்புப்பிரதி முக்கியத்துவம் 13"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 13",
+        "2fa na enna 13",
+        "phishing epdi kandupidikardhu 13",
+        "public wifi safe ah 13",
+        "backup yen mukkiyam 13",
+        "software update pannalama 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0014",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 14",
+        "what is 2fa 14",
+        "phishing signs 14",
+        "public wifi danger 14",
+        "software updates 14",
+        "backup importance 14"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 14",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 14",
+        "ஃபிஷிங் அறிகுறிகள் 14",
+        "பொது வைஃபை ஆபத்து 14",
+        "மென்பொருள் புதுப்பித்தல் 14",
+        "காப்புப்பிரதி முக்கியத்துவம் 14"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 14",
+        "2fa na enna 14",
+        "phishing epdi kandupidikardhu 14",
+        "public wifi safe ah 14",
+        "backup yen mukkiyam 14",
+        "software update pannalama 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0015",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 15",
+        "what is 2fa 15",
+        "phishing signs 15",
+        "public wifi danger 15",
+        "software updates 15",
+        "backup importance 15"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 15",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 15",
+        "ஃபிஷிங் அறிகுறிகள் 15",
+        "பொது வைஃபை ஆபத்து 15",
+        "மென்பொருள் புதுப்பித்தல் 15",
+        "காப்புப்பிரதி முக்கியத்துவம் 15"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 15",
+        "2fa na enna 15",
+        "phishing epdi kandupidikardhu 15",
+        "public wifi safe ah 15",
+        "backup yen mukkiyam 15",
+        "software update pannalama 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0016",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 16",
+        "what is 2fa 16",
+        "phishing signs 16",
+        "public wifi danger 16",
+        "software updates 16",
+        "backup importance 16"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 16",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 16",
+        "ஃபிஷிங் அறிகுறிகள் 16",
+        "பொது வைஃபை ஆபத்து 16",
+        "மென்பொருள் புதுப்பித்தல் 16",
+        "காப்புப்பிரதி முக்கியத்துவம் 16"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 16",
+        "2fa na enna 16",
+        "phishing epdi kandupidikardhu 16",
+        "public wifi safe ah 16",
+        "backup yen mukkiyam 16",
+        "software update pannalama 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0017",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 17",
+        "what is 2fa 17",
+        "phishing signs 17",
+        "public wifi danger 17",
+        "software updates 17",
+        "backup importance 17"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 17",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 17",
+        "ஃபிஷிங் அறிகுறிகள் 17",
+        "பொது வைஃபை ஆபத்து 17",
+        "மென்பொருள் புதுப்பித்தல் 17",
+        "காப்புப்பிரதி முக்கியத்துவம் 17"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 17",
+        "2fa na enna 17",
+        "phishing epdi kandupidikardhu 17",
+        "public wifi safe ah 17",
+        "backup yen mukkiyam 17",
+        "software update pannalama 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0018",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 18",
+        "what is 2fa 18",
+        "phishing signs 18",
+        "public wifi danger 18",
+        "software updates 18",
+        "backup importance 18"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 18",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 18",
+        "ஃபிஷிங் அறிகுறிகள் 18",
+        "பொது வைஃபை ஆபத்து 18",
+        "மென்பொருள் புதுப்பித்தல் 18",
+        "காப்புப்பிரதி முக்கியத்துவம் 18"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 18",
+        "2fa na enna 18",
+        "phishing epdi kandupidikardhu 18",
+        "public wifi safe ah 18",
+        "backup yen mukkiyam 18",
+        "software update pannalama 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0019",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 19",
+        "what is 2fa 19",
+        "phishing signs 19",
+        "public wifi danger 19",
+        "software updates 19",
+        "backup importance 19"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 19",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 19",
+        "ஃபிஷிங் அறிகுறிகள் 19",
+        "பொது வைஃபை ஆபத்து 19",
+        "மென்பொருள் புதுப்பித்தல் 19",
+        "காப்புப்பிரதி முக்கியத்துவம் 19"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 19",
+        "2fa na enna 19",
+        "phishing epdi kandupidikardhu 19",
+        "public wifi safe ah 19",
+        "backup yen mukkiyam 19",
+        "software update pannalama 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0020",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 20",
+        "what is 2fa 20",
+        "phishing signs 20",
+        "public wifi danger 20",
+        "software updates 20",
+        "backup importance 20"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 20",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 20",
+        "ஃபிஷிங் அறிகுறிகள் 20",
+        "பொது வைஃபை ஆபத்து 20",
+        "மென்பொருள் புதுப்பித்தல் 20",
+        "காப்புப்பிரதி முக்கியத்துவம் 20"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 20",
+        "2fa na enna 20",
+        "phishing epdi kandupidikardhu 20",
+        "public wifi safe ah 20",
+        "backup yen mukkiyam 20",
+        "software update pannalama 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0021",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 21",
+        "what is 2fa 21",
+        "phishing signs 21",
+        "public wifi danger 21",
+        "software updates 21",
+        "backup importance 21"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 21",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 21",
+        "ஃபிஷிங் அறிகுறிகள் 21",
+        "பொது வைஃபை ஆபத்து 21",
+        "மென்பொருள் புதுப்பித்தல் 21",
+        "காப்புப்பிரதி முக்கியத்துவம் 21"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 21",
+        "2fa na enna 21",
+        "phishing epdi kandupidikardhu 21",
+        "public wifi safe ah 21",
+        "backup yen mukkiyam 21",
+        "software update pannalama 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0022",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 22",
+        "what is 2fa 22",
+        "phishing signs 22",
+        "public wifi danger 22",
+        "software updates 22",
+        "backup importance 22"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 22",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 22",
+        "ஃபிஷிங் அறிகுறிகள் 22",
+        "பொது வைஃபை ஆபத்து 22",
+        "மென்பொருள் புதுப்பித்தல் 22",
+        "காப்புப்பிரதி முக்கியத்துவம் 22"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 22",
+        "2fa na enna 22",
+        "phishing epdi kandupidikardhu 22",
+        "public wifi safe ah 22",
+        "backup yen mukkiyam 22",
+        "software update pannalama 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0023",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 23",
+        "what is 2fa 23",
+        "phishing signs 23",
+        "public wifi danger 23",
+        "software updates 23",
+        "backup importance 23"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 23",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 23",
+        "ஃபிஷிங் அறிகுறிகள் 23",
+        "பொது வைஃபை ஆபத்து 23",
+        "மென்பொருள் புதுப்பித்தல் 23",
+        "காப்புப்பிரதி முக்கியத்துவம் 23"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 23",
+        "2fa na enna 23",
+        "phishing epdi kandupidikardhu 23",
+        "public wifi safe ah 23",
+        "backup yen mukkiyam 23",
+        "software update pannalama 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0024",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 24",
+        "what is 2fa 24",
+        "phishing signs 24",
+        "public wifi danger 24",
+        "software updates 24",
+        "backup importance 24"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 24",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 24",
+        "ஃபிஷிங் அறிகுறிகள் 24",
+        "பொது வைஃபை ஆபத்து 24",
+        "மென்பொருள் புதுப்பித்தல் 24",
+        "காப்புப்பிரதி முக்கியத்துவம் 24"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 24",
+        "2fa na enna 24",
+        "phishing epdi kandupidikardhu 24",
+        "public wifi safe ah 24",
+        "backup yen mukkiyam 24",
+        "software update pannalama 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0025",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 25",
+        "what is 2fa 25",
+        "phishing signs 25",
+        "public wifi danger 25",
+        "software updates 25",
+        "backup importance 25"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 25",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 25",
+        "ஃபிஷிங் அறிகுறிகள் 25",
+        "பொது வைஃபை ஆபத்து 25",
+        "மென்பொருள் புதுப்பித்தல் 25",
+        "காப்புப்பிரதி முக்கியத்துவம் 25"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 25",
+        "2fa na enna 25",
+        "phishing epdi kandupidikardhu 25",
+        "public wifi safe ah 25",
+        "backup yen mukkiyam 25",
+        "software update pannalama 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0026",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 26",
+        "what is 2fa 26",
+        "phishing signs 26",
+        "public wifi danger 26",
+        "software updates 26",
+        "backup importance 26"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 26",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 26",
+        "ஃபிஷிங் அறிகுறிகள் 26",
+        "பொது வைஃபை ஆபத்து 26",
+        "மென்பொருள் புதுப்பித்தல் 26",
+        "காப்புப்பிரதி முக்கியத்துவம் 26"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 26",
+        "2fa na enna 26",
+        "phishing epdi kandupidikardhu 26",
+        "public wifi safe ah 26",
+        "backup yen mukkiyam 26",
+        "software update pannalama 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0027",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 27",
+        "what is 2fa 27",
+        "phishing signs 27",
+        "public wifi danger 27",
+        "software updates 27",
+        "backup importance 27"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 27",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 27",
+        "ஃபிஷிங் அறிகுறிகள் 27",
+        "பொது வைஃபை ஆபத்து 27",
+        "மென்பொருள் புதுப்பித்தல் 27",
+        "காப்புப்பிரதி முக்கியத்துவம் 27"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 27",
+        "2fa na enna 27",
+        "phishing epdi kandupidikardhu 27",
+        "public wifi safe ah 27",
+        "backup yen mukkiyam 27",
+        "software update pannalama 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0028",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 28",
+        "what is 2fa 28",
+        "phishing signs 28",
+        "public wifi danger 28",
+        "software updates 28",
+        "backup importance 28"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 28",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 28",
+        "ஃபிஷிங் அறிகுறிகள் 28",
+        "பொது வைஃபை ஆபத்து 28",
+        "மென்பொருள் புதுப்பித்தல் 28",
+        "காப்புப்பிரதி முக்கியத்துவம் 28"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 28",
+        "2fa na enna 28",
+        "phishing epdi kandupidikardhu 28",
+        "public wifi safe ah 28",
+        "backup yen mukkiyam 28",
+        "software update pannalama 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0029",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 29",
+        "what is 2fa 29",
+        "phishing signs 29",
+        "public wifi danger 29",
+        "software updates 29",
+        "backup importance 29"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 29",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 29",
+        "ஃபிஷிங் அறிகுறிகள் 29",
+        "பொது வைஃபை ஆபத்து 29",
+        "மென்பொருள் புதுப்பித்தல் 29",
+        "காப்புப்பிரதி முக்கியத்துவம் 29"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 29",
+        "2fa na enna 29",
+        "phishing epdi kandupidikardhu 29",
+        "public wifi safe ah 29",
+        "backup yen mukkiyam 29",
+        "software update pannalama 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0030",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 30",
+        "what is 2fa 30",
+        "phishing signs 30",
+        "public wifi danger 30",
+        "software updates 30",
+        "backup importance 30"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 30",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 30",
+        "ஃபிஷிங் அறிகுறிகள் 30",
+        "பொது வைஃபை ஆபத்து 30",
+        "மென்பொருள் புதுப்பித்தல் 30",
+        "காப்புப்பிரதி முக்கியத்துவம் 30"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 30",
+        "2fa na enna 30",
+        "phishing epdi kandupidikardhu 30",
+        "public wifi safe ah 30",
+        "backup yen mukkiyam 30",
+        "software update pannalama 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0031",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 31",
+        "what is 2fa 31",
+        "phishing signs 31",
+        "public wifi danger 31",
+        "software updates 31",
+        "backup importance 31"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 31",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 31",
+        "ஃபிஷிங் அறிகுறிகள் 31",
+        "பொது வைஃபை ஆபத்து 31",
+        "மென்பொருள் புதுப்பித்தல் 31",
+        "காப்புப்பிரதி முக்கியத்துவம் 31"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 31",
+        "2fa na enna 31",
+        "phishing epdi kandupidikardhu 31",
+        "public wifi safe ah 31",
+        "backup yen mukkiyam 31",
+        "software update pannalama 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0032",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 32",
+        "what is 2fa 32",
+        "phishing signs 32",
+        "public wifi danger 32",
+        "software updates 32",
+        "backup importance 32"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 32",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 32",
+        "ஃபிஷிங் அறிகுறிகள் 32",
+        "பொது வைஃபை ஆபத்து 32",
+        "மென்பொருள் புதுப்பித்தல் 32",
+        "காப்புப்பிரதி முக்கியத்துவம் 32"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 32",
+        "2fa na enna 32",
+        "phishing epdi kandupidikardhu 32",
+        "public wifi safe ah 32",
+        "backup yen mukkiyam 32",
+        "software update pannalama 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0033",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 33",
+        "what is 2fa 33",
+        "phishing signs 33",
+        "public wifi danger 33",
+        "software updates 33",
+        "backup importance 33"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 33",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 33",
+        "ஃபிஷிங் அறிகுறிகள் 33",
+        "பொது வைஃபை ஆபத்து 33",
+        "மென்பொருள் புதுப்பித்தல் 33",
+        "காப்புப்பிரதி முக்கியத்துவம் 33"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 33",
+        "2fa na enna 33",
+        "phishing epdi kandupidikardhu 33",
+        "public wifi safe ah 33",
+        "backup yen mukkiyam 33",
+        "software update pannalama 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0034",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 34",
+        "what is 2fa 34",
+        "phishing signs 34",
+        "public wifi danger 34",
+        "software updates 34",
+        "backup importance 34"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 34",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 34",
+        "ஃபிஷிங் அறிகுறிகள் 34",
+        "பொது வைஃபை ஆபத்து 34",
+        "மென்பொருள் புதுப்பித்தல் 34",
+        "காப்புப்பிரதி முக்கியத்துவம் 34"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 34",
+        "2fa na enna 34",
+        "phishing epdi kandupidikardhu 34",
+        "public wifi safe ah 34",
+        "backup yen mukkiyam 34",
+        "software update pannalama 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0035",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 35",
+        "what is 2fa 35",
+        "phishing signs 35",
+        "public wifi danger 35",
+        "software updates 35",
+        "backup importance 35"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 35",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 35",
+        "ஃபிஷிங் அறிகுறிகள் 35",
+        "பொது வைஃபை ஆபத்து 35",
+        "மென்பொருள் புதுப்பித்தல் 35",
+        "காப்புப்பிரதி முக்கியத்துவம் 35"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 35",
+        "2fa na enna 35",
+        "phishing epdi kandupidikardhu 35",
+        "public wifi safe ah 35",
+        "backup yen mukkiyam 35",
+        "software update pannalama 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0036",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 36",
+        "what is 2fa 36",
+        "phishing signs 36",
+        "public wifi danger 36",
+        "software updates 36",
+        "backup importance 36"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 36",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 36",
+        "ஃபிஷிங் அறிகுறிகள் 36",
+        "பொது வைஃபை ஆபத்து 36",
+        "மென்பொருள் புதுப்பித்தல் 36",
+        "காப்புப்பிரதி முக்கியத்துவம் 36"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 36",
+        "2fa na enna 36",
+        "phishing epdi kandupidikardhu 36",
+        "public wifi safe ah 36",
+        "backup yen mukkiyam 36",
+        "software update pannalama 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0037",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 37",
+        "what is 2fa 37",
+        "phishing signs 37",
+        "public wifi danger 37",
+        "software updates 37",
+        "backup importance 37"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 37",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 37",
+        "ஃபிஷிங் அறிகுறிகள் 37",
+        "பொது வைஃபை ஆபத்து 37",
+        "மென்பொருள் புதுப்பித்தல் 37",
+        "காப்புப்பிரதி முக்கியத்துவம் 37"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 37",
+        "2fa na enna 37",
+        "phishing epdi kandupidikardhu 37",
+        "public wifi safe ah 37",
+        "backup yen mukkiyam 37",
+        "software update pannalama 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0038",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 38",
+        "what is 2fa 38",
+        "phishing signs 38",
+        "public wifi danger 38",
+        "software updates 38",
+        "backup importance 38"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 38",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 38",
+        "ஃபிஷிங் அறிகுறிகள் 38",
+        "பொது வைஃபை ஆபத்து 38",
+        "மென்பொருள் புதுப்பித்தல் 38",
+        "காப்புப்பிரதி முக்கியத்துவம் 38"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 38",
+        "2fa na enna 38",
+        "phishing epdi kandupidikardhu 38",
+        "public wifi safe ah 38",
+        "backup yen mukkiyam 38",
+        "software update pannalama 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0039",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 39",
+        "what is 2fa 39",
+        "phishing signs 39",
+        "public wifi danger 39",
+        "software updates 39",
+        "backup importance 39"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 39",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 39",
+        "ஃபிஷிங் அறிகுறிகள் 39",
+        "பொது வைஃபை ஆபத்து 39",
+        "மென்பொருள் புதுப்பித்தல் 39",
+        "காப்புப்பிரதி முக்கியத்துவம் 39"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 39",
+        "2fa na enna 39",
+        "phishing epdi kandupidikardhu 39",
+        "public wifi safe ah 39",
+        "backup yen mukkiyam 39",
+        "software update pannalama 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0040",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 40",
+        "what is 2fa 40",
+        "phishing signs 40",
+        "public wifi danger 40",
+        "software updates 40",
+        "backup importance 40"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 40",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 40",
+        "ஃபிஷிங் அறிகுறிகள் 40",
+        "பொது வைஃபை ஆபத்து 40",
+        "மென்பொருள் புதுப்பித்தல் 40",
+        "காப்புப்பிரதி முக்கியத்துவம் 40"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 40",
+        "2fa na enna 40",
+        "phishing epdi kandupidikardhu 40",
+        "public wifi safe ah 40",
+        "backup yen mukkiyam 40",
+        "software update pannalama 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0041",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 41",
+        "what is 2fa 41",
+        "phishing signs 41",
+        "public wifi danger 41",
+        "software updates 41",
+        "backup importance 41"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 41",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 41",
+        "ஃபிஷிங் அறிகுறிகள் 41",
+        "பொது வைஃபை ஆபத்து 41",
+        "மென்பொருள் புதுப்பித்தல் 41",
+        "காப்புப்பிரதி முக்கியத்துவம் 41"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 41",
+        "2fa na enna 41",
+        "phishing epdi kandupidikardhu 41",
+        "public wifi safe ah 41",
+        "backup yen mukkiyam 41",
+        "software update pannalama 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0042",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 42",
+        "what is 2fa 42",
+        "phishing signs 42",
+        "public wifi danger 42",
+        "software updates 42",
+        "backup importance 42"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 42",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 42",
+        "ஃபிஷிங் அறிகுறிகள் 42",
+        "பொது வைஃபை ஆபத்து 42",
+        "மென்பொருள் புதுப்பித்தல் 42",
+        "காப்புப்பிரதி முக்கியத்துவம் 42"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 42",
+        "2fa na enna 42",
+        "phishing epdi kandupidikardhu 42",
+        "public wifi safe ah 42",
+        "backup yen mukkiyam 42",
+        "software update pannalama 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0043",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 43",
+        "what is 2fa 43",
+        "phishing signs 43",
+        "public wifi danger 43",
+        "software updates 43",
+        "backup importance 43"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 43",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 43",
+        "ஃபிஷிங் அறிகுறிகள் 43",
+        "பொது வைஃபை ஆபத்து 43",
+        "மென்பொருள் புதுப்பித்தல் 43",
+        "காப்புப்பிரதி முக்கியத்துவம் 43"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 43",
+        "2fa na enna 43",
+        "phishing epdi kandupidikardhu 43",
+        "public wifi safe ah 43",
+        "backup yen mukkiyam 43",
+        "software update pannalama 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0044",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 44",
+        "what is 2fa 44",
+        "phishing signs 44",
+        "public wifi danger 44",
+        "software updates 44",
+        "backup importance 44"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 44",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 44",
+        "ஃபிஷிங் அறிகுறிகள் 44",
+        "பொது வைஃபை ஆபத்து 44",
+        "மென்பொருள் புதுப்பித்தல் 44",
+        "காப்புப்பிரதி முக்கியத்துவம் 44"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 44",
+        "2fa na enna 44",
+        "phishing epdi kandupidikardhu 44",
+        "public wifi safe ah 44",
+        "backup yen mukkiyam 44",
+        "software update pannalama 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0045",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 45",
+        "what is 2fa 45",
+        "phishing signs 45",
+        "public wifi danger 45",
+        "software updates 45",
+        "backup importance 45"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 45",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 45",
+        "ஃபிஷிங் அறிகுறிகள் 45",
+        "பொது வைஃபை ஆபத்து 45",
+        "மென்பொருள் புதுப்பித்தல் 45",
+        "காப்புப்பிரதி முக்கியத்துவம் 45"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 45",
+        "2fa na enna 45",
+        "phishing epdi kandupidikardhu 45",
+        "public wifi safe ah 45",
+        "backup yen mukkiyam 45",
+        "software update pannalama 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0046",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 46",
+        "what is 2fa 46",
+        "phishing signs 46",
+        "public wifi danger 46",
+        "software updates 46",
+        "backup importance 46"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 46",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 46",
+        "ஃபிஷிங் அறிகுறிகள் 46",
+        "பொது வைஃபை ஆபத்து 46",
+        "மென்பொருள் புதுப்பித்தல் 46",
+        "காப்புப்பிரதி முக்கியத்துவம் 46"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 46",
+        "2fa na enna 46",
+        "phishing epdi kandupidikardhu 46",
+        "public wifi safe ah 46",
+        "backup yen mukkiyam 46",
+        "software update pannalama 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0047",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 47",
+        "what is 2fa 47",
+        "phishing signs 47",
+        "public wifi danger 47",
+        "software updates 47",
+        "backup importance 47"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 47",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 47",
+        "ஃபிஷிங் அறிகுறிகள் 47",
+        "பொது வைஃபை ஆபத்து 47",
+        "மென்பொருள் புதுப்பித்தல் 47",
+        "காப்புப்பிரதி முக்கியத்துவம் 47"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 47",
+        "2fa na enna 47",
+        "phishing epdi kandupidikardhu 47",
+        "public wifi safe ah 47",
+        "backup yen mukkiyam 47",
+        "software update pannalama 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0048",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 48",
+        "what is 2fa 48",
+        "phishing signs 48",
+        "public wifi danger 48",
+        "software updates 48",
+        "backup importance 48"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 48",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 48",
+        "ஃபிஷிங் அறிகுறிகள் 48",
+        "பொது வைஃபை ஆபத்து 48",
+        "மென்பொருள் புதுப்பித்தல் 48",
+        "காப்புப்பிரதி முக்கியத்துவம் 48"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 48",
+        "2fa na enna 48",
+        "phishing epdi kandupidikardhu 48",
+        "public wifi safe ah 48",
+        "backup yen mukkiyam 48",
+        "software update pannalama 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0049",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 49",
+        "what is 2fa 49",
+        "phishing signs 49",
+        "public wifi danger 49",
+        "software updates 49",
+        "backup importance 49"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 49",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 49",
+        "ஃபிஷிங் அறிகுறிகள் 49",
+        "பொது வைஃபை ஆபத்து 49",
+        "மென்பொருள் புதுப்பித்தல் 49",
+        "காப்புப்பிரதி முக்கியத்துவம் 49"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 49",
+        "2fa na enna 49",
+        "phishing epdi kandupidikardhu 49",
+        "public wifi safe ah 49",
+        "backup yen mukkiyam 49",
+        "software update pannalama 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  },
+  {
+    "id": "gen_secaware_0050",
+    "category": "security_awareness",
+    "patterns": {
+      "en": [
+        "how to create strong password 50",
+        "what is 2fa 50",
+        "phishing signs 50",
+        "public wifi danger 50",
+        "software updates 50",
+        "backup importance 50"
+      ],
+      "ta": [
+        "வலுவான கடவுச்சொல் அமைப்பது எப்படி 50",
+        "இரு காரணி அங்கீகாரம் என்றால் என்ன 50",
+        "ஃபிஷிங் அறிகுறிகள் 50",
+        "பொது வைஃபை ஆபத்து 50",
+        "மென்பொருள் புதுப்பித்தல் 50",
+        "காப்புப்பிரதி முக்கியத்துவம் 50"
+      ],
+      "tanglish": [
+        "strong password epdi podradhu 50",
+        "2fa na enna 50",
+        "phishing epdi kandupidikardhu 50",
+        "public wifi safe ah 50",
+        "backup yen mukkiyam 50",
+        "software update pannalama 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Digital Hygiene: Always use passwords with 16+ characters combining letters, numbers, and symbols. Enable hardware or TOTP 2FA everywhere and avoid public Wi-Fi without VPN.",
+        "Phishing Awareness: Never click unexpected links asking for credentials. Verify sender domain, check SSL certificates, and keep multi-factor authentication enforced."
+      ],
+      "ta": [
+        "டிஜிட்டல் பாதுகாப்பு: எப்போதும் 16+ எழுத்துக்கள் கொண்ட வலுவான கடவுச்சொற்களை பயன்படுத்துங்கள். இரு-காரணி அங்கீகாரத்தை (2FA) இயக்கி வைக்கவும்.",
+        "ஃபிஷிங் எச்சரிக்கை: அறியப்படாத இணைப்புகளை கிளிக் செய்யாதீர்கள். அனுப்பியவரின் மின்னஞ்சல் முகவரியை எப்போதும் சரிபார்க்கவும்."
+      ],
+      "tanglish": [
+        "Security Tip: Minimum 16 characters ulla strong password podunga with numbers and symbols. 2FA mandatory-ah on pannunga.",
+        "Phishing awareness: Suspicious email links-ah click pannadheenga. Always verify sender address and domain."
+      ]
+    },
+    "chips": [
+      "What is 2FA?",
+      "Check health score",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "security",
+      "awareness",
+      "passwords"
+    ]
+  }
+]

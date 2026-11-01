@@ -1,0 +1,2852 @@
+[
+  {
+    "id": "proj_comp_0001",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 1",
+        "rule based vs ml 1",
+        "gateway vs firewall 1",
+        "owasp api top 10 1",
+        "academic prototype vs production 1",
+        "future enhancements 1"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 1",
+        "விதிகள் vs இயந்திர கற்றல் 1",
+        "கேட்வே மற்றும் ஃபயர்வால் 1",
+        "OWASP API சிறந்த 10 1",
+        "தயாரிப்பு நிலை ஒப்பீடு 1",
+        "எதிர்கால மேம்பாடுகள் 1"
+      ],
+      "tanglish": [
+        "waf vs ids difference 1",
+        "rules vs machine learning 1",
+        "gateway vs firewall 1",
+        "owasp api top 10 enna 1",
+        "prototype vs production 1",
+        "future roadmap 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0002",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 2",
+        "rule based vs ml 2",
+        "gateway vs firewall 2",
+        "owasp api top 10 2",
+        "academic prototype vs production 2",
+        "future enhancements 2"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 2",
+        "விதிகள் vs இயந்திர கற்றல் 2",
+        "கேட்வே மற்றும் ஃபயர்வால் 2",
+        "OWASP API சிறந்த 10 2",
+        "தயாரிப்பு நிலை ஒப்பீடு 2",
+        "எதிர்கால மேம்பாடுகள் 2"
+      ],
+      "tanglish": [
+        "waf vs ids difference 2",
+        "rules vs machine learning 2",
+        "gateway vs firewall 2",
+        "owasp api top 10 enna 2",
+        "prototype vs production 2",
+        "future roadmap 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0003",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 3",
+        "rule based vs ml 3",
+        "gateway vs firewall 3",
+        "owasp api top 10 3",
+        "academic prototype vs production 3",
+        "future enhancements 3"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 3",
+        "விதிகள் vs இயந்திர கற்றல் 3",
+        "கேட்வே மற்றும் ஃபயர்வால் 3",
+        "OWASP API சிறந்த 10 3",
+        "தயாரிப்பு நிலை ஒப்பீடு 3",
+        "எதிர்கால மேம்பாடுகள் 3"
+      ],
+      "tanglish": [
+        "waf vs ids difference 3",
+        "rules vs machine learning 3",
+        "gateway vs firewall 3",
+        "owasp api top 10 enna 3",
+        "prototype vs production 3",
+        "future roadmap 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0004",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 4",
+        "rule based vs ml 4",
+        "gateway vs firewall 4",
+        "owasp api top 10 4",
+        "academic prototype vs production 4",
+        "future enhancements 4"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 4",
+        "விதிகள் vs இயந்திர கற்றல் 4",
+        "கேட்வே மற்றும் ஃபயர்வால் 4",
+        "OWASP API சிறந்த 10 4",
+        "தயாரிப்பு நிலை ஒப்பீடு 4",
+        "எதிர்கால மேம்பாடுகள் 4"
+      ],
+      "tanglish": [
+        "waf vs ids difference 4",
+        "rules vs machine learning 4",
+        "gateway vs firewall 4",
+        "owasp api top 10 enna 4",
+        "prototype vs production 4",
+        "future roadmap 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0005",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 5",
+        "rule based vs ml 5",
+        "gateway vs firewall 5",
+        "owasp api top 10 5",
+        "academic prototype vs production 5",
+        "future enhancements 5"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 5",
+        "விதிகள் vs இயந்திர கற்றல் 5",
+        "கேட்வே மற்றும் ஃபயர்வால் 5",
+        "OWASP API சிறந்த 10 5",
+        "தயாரிப்பு நிலை ஒப்பீடு 5",
+        "எதிர்கால மேம்பாடுகள் 5"
+      ],
+      "tanglish": [
+        "waf vs ids difference 5",
+        "rules vs machine learning 5",
+        "gateway vs firewall 5",
+        "owasp api top 10 enna 5",
+        "prototype vs production 5",
+        "future roadmap 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0006",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 6",
+        "rule based vs ml 6",
+        "gateway vs firewall 6",
+        "owasp api top 10 6",
+        "academic prototype vs production 6",
+        "future enhancements 6"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 6",
+        "விதிகள் vs இயந்திர கற்றல் 6",
+        "கேட்வே மற்றும் ஃபயர்வால் 6",
+        "OWASP API சிறந்த 10 6",
+        "தயாரிப்பு நிலை ஒப்பீடு 6",
+        "எதிர்கால மேம்பாடுகள் 6"
+      ],
+      "tanglish": [
+        "waf vs ids difference 6",
+        "rules vs machine learning 6",
+        "gateway vs firewall 6",
+        "owasp api top 10 enna 6",
+        "prototype vs production 6",
+        "future roadmap 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0007",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 7",
+        "rule based vs ml 7",
+        "gateway vs firewall 7",
+        "owasp api top 10 7",
+        "academic prototype vs production 7",
+        "future enhancements 7"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 7",
+        "விதிகள் vs இயந்திர கற்றல் 7",
+        "கேட்வே மற்றும் ஃபயர்வால் 7",
+        "OWASP API சிறந்த 10 7",
+        "தயாரிப்பு நிலை ஒப்பீடு 7",
+        "எதிர்கால மேம்பாடுகள் 7"
+      ],
+      "tanglish": [
+        "waf vs ids difference 7",
+        "rules vs machine learning 7",
+        "gateway vs firewall 7",
+        "owasp api top 10 enna 7",
+        "prototype vs production 7",
+        "future roadmap 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0008",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 8",
+        "rule based vs ml 8",
+        "gateway vs firewall 8",
+        "owasp api top 10 8",
+        "academic prototype vs production 8",
+        "future enhancements 8"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 8",
+        "விதிகள் vs இயந்திர கற்றல் 8",
+        "கேட்வே மற்றும் ஃபயர்வால் 8",
+        "OWASP API சிறந்த 10 8",
+        "தயாரிப்பு நிலை ஒப்பீடு 8",
+        "எதிர்கால மேம்பாடுகள் 8"
+      ],
+      "tanglish": [
+        "waf vs ids difference 8",
+        "rules vs machine learning 8",
+        "gateway vs firewall 8",
+        "owasp api top 10 enna 8",
+        "prototype vs production 8",
+        "future roadmap 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0009",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 9",
+        "rule based vs ml 9",
+        "gateway vs firewall 9",
+        "owasp api top 10 9",
+        "academic prototype vs production 9",
+        "future enhancements 9"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 9",
+        "விதிகள் vs இயந்திர கற்றல் 9",
+        "கேட்வே மற்றும் ஃபயர்வால் 9",
+        "OWASP API சிறந்த 10 9",
+        "தயாரிப்பு நிலை ஒப்பீடு 9",
+        "எதிர்கால மேம்பாடுகள் 9"
+      ],
+      "tanglish": [
+        "waf vs ids difference 9",
+        "rules vs machine learning 9",
+        "gateway vs firewall 9",
+        "owasp api top 10 enna 9",
+        "prototype vs production 9",
+        "future roadmap 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0010",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 10",
+        "rule based vs ml 10",
+        "gateway vs firewall 10",
+        "owasp api top 10 10",
+        "academic prototype vs production 10",
+        "future enhancements 10"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 10",
+        "விதிகள் vs இயந்திர கற்றல் 10",
+        "கேட்வே மற்றும் ஃபயர்வால் 10",
+        "OWASP API சிறந்த 10 10",
+        "தயாரிப்பு நிலை ஒப்பீடு 10",
+        "எதிர்கால மேம்பாடுகள் 10"
+      ],
+      "tanglish": [
+        "waf vs ids difference 10",
+        "rules vs machine learning 10",
+        "gateway vs firewall 10",
+        "owasp api top 10 enna 10",
+        "prototype vs production 10",
+        "future roadmap 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0011",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 11",
+        "rule based vs ml 11",
+        "gateway vs firewall 11",
+        "owasp api top 10 11",
+        "academic prototype vs production 11",
+        "future enhancements 11"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 11",
+        "விதிகள் vs இயந்திர கற்றல் 11",
+        "கேட்வே மற்றும் ஃபயர்வால் 11",
+        "OWASP API சிறந்த 10 11",
+        "தயாரிப்பு நிலை ஒப்பீடு 11",
+        "எதிர்கால மேம்பாடுகள் 11"
+      ],
+      "tanglish": [
+        "waf vs ids difference 11",
+        "rules vs machine learning 11",
+        "gateway vs firewall 11",
+        "owasp api top 10 enna 11",
+        "prototype vs production 11",
+        "future roadmap 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0012",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 12",
+        "rule based vs ml 12",
+        "gateway vs firewall 12",
+        "owasp api top 10 12",
+        "academic prototype vs production 12",
+        "future enhancements 12"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 12",
+        "விதிகள் vs இயந்திர கற்றல் 12",
+        "கேட்வே மற்றும் ஃபயர்வால் 12",
+        "OWASP API சிறந்த 10 12",
+        "தயாரிப்பு நிலை ஒப்பீடு 12",
+        "எதிர்கால மேம்பாடுகள் 12"
+      ],
+      "tanglish": [
+        "waf vs ids difference 12",
+        "rules vs machine learning 12",
+        "gateway vs firewall 12",
+        "owasp api top 10 enna 12",
+        "prototype vs production 12",
+        "future roadmap 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0013",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 13",
+        "rule based vs ml 13",
+        "gateway vs firewall 13",
+        "owasp api top 10 13",
+        "academic prototype vs production 13",
+        "future enhancements 13"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 13",
+        "விதிகள் vs இயந்திர கற்றல் 13",
+        "கேட்வே மற்றும் ஃபயர்வால் 13",
+        "OWASP API சிறந்த 10 13",
+        "தயாரிப்பு நிலை ஒப்பீடு 13",
+        "எதிர்கால மேம்பாடுகள் 13"
+      ],
+      "tanglish": [
+        "waf vs ids difference 13",
+        "rules vs machine learning 13",
+        "gateway vs firewall 13",
+        "owasp api top 10 enna 13",
+        "prototype vs production 13",
+        "future roadmap 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0014",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 14",
+        "rule based vs ml 14",
+        "gateway vs firewall 14",
+        "owasp api top 10 14",
+        "academic prototype vs production 14",
+        "future enhancements 14"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 14",
+        "விதிகள் vs இயந்திர கற்றல் 14",
+        "கேட்வே மற்றும் ஃபயர்வால் 14",
+        "OWASP API சிறந்த 10 14",
+        "தயாரிப்பு நிலை ஒப்பீடு 14",
+        "எதிர்கால மேம்பாடுகள் 14"
+      ],
+      "tanglish": [
+        "waf vs ids difference 14",
+        "rules vs machine learning 14",
+        "gateway vs firewall 14",
+        "owasp api top 10 enna 14",
+        "prototype vs production 14",
+        "future roadmap 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0015",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 15",
+        "rule based vs ml 15",
+        "gateway vs firewall 15",
+        "owasp api top 10 15",
+        "academic prototype vs production 15",
+        "future enhancements 15"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 15",
+        "விதிகள் vs இயந்திர கற்றல் 15",
+        "கேட்வே மற்றும் ஃபயர்வால் 15",
+        "OWASP API சிறந்த 10 15",
+        "தயாரிப்பு நிலை ஒப்பீடு 15",
+        "எதிர்கால மேம்பாடுகள் 15"
+      ],
+      "tanglish": [
+        "waf vs ids difference 15",
+        "rules vs machine learning 15",
+        "gateway vs firewall 15",
+        "owasp api top 10 enna 15",
+        "prototype vs production 15",
+        "future roadmap 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0016",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 16",
+        "rule based vs ml 16",
+        "gateway vs firewall 16",
+        "owasp api top 10 16",
+        "academic prototype vs production 16",
+        "future enhancements 16"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 16",
+        "விதிகள் vs இயந்திர கற்றல் 16",
+        "கேட்வே மற்றும் ஃபயர்வால் 16",
+        "OWASP API சிறந்த 10 16",
+        "தயாரிப்பு நிலை ஒப்பீடு 16",
+        "எதிர்கால மேம்பாடுகள் 16"
+      ],
+      "tanglish": [
+        "waf vs ids difference 16",
+        "rules vs machine learning 16",
+        "gateway vs firewall 16",
+        "owasp api top 10 enna 16",
+        "prototype vs production 16",
+        "future roadmap 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0017",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 17",
+        "rule based vs ml 17",
+        "gateway vs firewall 17",
+        "owasp api top 10 17",
+        "academic prototype vs production 17",
+        "future enhancements 17"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 17",
+        "விதிகள் vs இயந்திர கற்றல் 17",
+        "கேட்வே மற்றும் ஃபயர்வால் 17",
+        "OWASP API சிறந்த 10 17",
+        "தயாரிப்பு நிலை ஒப்பீடு 17",
+        "எதிர்கால மேம்பாடுகள் 17"
+      ],
+      "tanglish": [
+        "waf vs ids difference 17",
+        "rules vs machine learning 17",
+        "gateway vs firewall 17",
+        "owasp api top 10 enna 17",
+        "prototype vs production 17",
+        "future roadmap 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0018",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 18",
+        "rule based vs ml 18",
+        "gateway vs firewall 18",
+        "owasp api top 10 18",
+        "academic prototype vs production 18",
+        "future enhancements 18"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 18",
+        "விதிகள் vs இயந்திர கற்றல் 18",
+        "கேட்வே மற்றும் ஃபயர்வால் 18",
+        "OWASP API சிறந்த 10 18",
+        "தயாரிப்பு நிலை ஒப்பீடு 18",
+        "எதிர்கால மேம்பாடுகள் 18"
+      ],
+      "tanglish": [
+        "waf vs ids difference 18",
+        "rules vs machine learning 18",
+        "gateway vs firewall 18",
+        "owasp api top 10 enna 18",
+        "prototype vs production 18",
+        "future roadmap 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0019",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 19",
+        "rule based vs ml 19",
+        "gateway vs firewall 19",
+        "owasp api top 10 19",
+        "academic prototype vs production 19",
+        "future enhancements 19"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 19",
+        "விதிகள் vs இயந்திர கற்றல் 19",
+        "கேட்வே மற்றும் ஃபயர்வால் 19",
+        "OWASP API சிறந்த 10 19",
+        "தயாரிப்பு நிலை ஒப்பீடு 19",
+        "எதிர்கால மேம்பாடுகள் 19"
+      ],
+      "tanglish": [
+        "waf vs ids difference 19",
+        "rules vs machine learning 19",
+        "gateway vs firewall 19",
+        "owasp api top 10 enna 19",
+        "prototype vs production 19",
+        "future roadmap 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0020",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 20",
+        "rule based vs ml 20",
+        "gateway vs firewall 20",
+        "owasp api top 10 20",
+        "academic prototype vs production 20",
+        "future enhancements 20"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 20",
+        "விதிகள் vs இயந்திர கற்றல் 20",
+        "கேட்வே மற்றும் ஃபயர்வால் 20",
+        "OWASP API சிறந்த 10 20",
+        "தயாரிப்பு நிலை ஒப்பீடு 20",
+        "எதிர்கால மேம்பாடுகள் 20"
+      ],
+      "tanglish": [
+        "waf vs ids difference 20",
+        "rules vs machine learning 20",
+        "gateway vs firewall 20",
+        "owasp api top 10 enna 20",
+        "prototype vs production 20",
+        "future roadmap 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0021",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 21",
+        "rule based vs ml 21",
+        "gateway vs firewall 21",
+        "owasp api top 10 21",
+        "academic prototype vs production 21",
+        "future enhancements 21"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 21",
+        "விதிகள் vs இயந்திர கற்றல் 21",
+        "கேட்வே மற்றும் ஃபயர்வால் 21",
+        "OWASP API சிறந்த 10 21",
+        "தயாரிப்பு நிலை ஒப்பீடு 21",
+        "எதிர்கால மேம்பாடுகள் 21"
+      ],
+      "tanglish": [
+        "waf vs ids difference 21",
+        "rules vs machine learning 21",
+        "gateway vs firewall 21",
+        "owasp api top 10 enna 21",
+        "prototype vs production 21",
+        "future roadmap 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0022",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 22",
+        "rule based vs ml 22",
+        "gateway vs firewall 22",
+        "owasp api top 10 22",
+        "academic prototype vs production 22",
+        "future enhancements 22"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 22",
+        "விதிகள் vs இயந்திர கற்றல் 22",
+        "கேட்வே மற்றும் ஃபயர்வால் 22",
+        "OWASP API சிறந்த 10 22",
+        "தயாரிப்பு நிலை ஒப்பீடு 22",
+        "எதிர்கால மேம்பாடுகள் 22"
+      ],
+      "tanglish": [
+        "waf vs ids difference 22",
+        "rules vs machine learning 22",
+        "gateway vs firewall 22",
+        "owasp api top 10 enna 22",
+        "prototype vs production 22",
+        "future roadmap 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0023",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 23",
+        "rule based vs ml 23",
+        "gateway vs firewall 23",
+        "owasp api top 10 23",
+        "academic prototype vs production 23",
+        "future enhancements 23"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 23",
+        "விதிகள் vs இயந்திர கற்றல் 23",
+        "கேட்வே மற்றும் ஃபயர்வால் 23",
+        "OWASP API சிறந்த 10 23",
+        "தயாரிப்பு நிலை ஒப்பீடு 23",
+        "எதிர்கால மேம்பாடுகள் 23"
+      ],
+      "tanglish": [
+        "waf vs ids difference 23",
+        "rules vs machine learning 23",
+        "gateway vs firewall 23",
+        "owasp api top 10 enna 23",
+        "prototype vs production 23",
+        "future roadmap 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0024",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 24",
+        "rule based vs ml 24",
+        "gateway vs firewall 24",
+        "owasp api top 10 24",
+        "academic prototype vs production 24",
+        "future enhancements 24"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 24",
+        "விதிகள் vs இயந்திர கற்றல் 24",
+        "கேட்வே மற்றும் ஃபயர்வால் 24",
+        "OWASP API சிறந்த 10 24",
+        "தயாரிப்பு நிலை ஒப்பீடு 24",
+        "எதிர்கால மேம்பாடுகள் 24"
+      ],
+      "tanglish": [
+        "waf vs ids difference 24",
+        "rules vs machine learning 24",
+        "gateway vs firewall 24",
+        "owasp api top 10 enna 24",
+        "prototype vs production 24",
+        "future roadmap 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0025",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 25",
+        "rule based vs ml 25",
+        "gateway vs firewall 25",
+        "owasp api top 10 25",
+        "academic prototype vs production 25",
+        "future enhancements 25"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 25",
+        "விதிகள் vs இயந்திர கற்றல் 25",
+        "கேட்வே மற்றும் ஃபயர்வால் 25",
+        "OWASP API சிறந்த 10 25",
+        "தயாரிப்பு நிலை ஒப்பீடு 25",
+        "எதிர்கால மேம்பாடுகள் 25"
+      ],
+      "tanglish": [
+        "waf vs ids difference 25",
+        "rules vs machine learning 25",
+        "gateway vs firewall 25",
+        "owasp api top 10 enna 25",
+        "prototype vs production 25",
+        "future roadmap 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0026",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 26",
+        "rule based vs ml 26",
+        "gateway vs firewall 26",
+        "owasp api top 10 26",
+        "academic prototype vs production 26",
+        "future enhancements 26"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 26",
+        "விதிகள் vs இயந்திர கற்றல் 26",
+        "கேட்வே மற்றும் ஃபயர்வால் 26",
+        "OWASP API சிறந்த 10 26",
+        "தயாரிப்பு நிலை ஒப்பீடு 26",
+        "எதிர்கால மேம்பாடுகள் 26"
+      ],
+      "tanglish": [
+        "waf vs ids difference 26",
+        "rules vs machine learning 26",
+        "gateway vs firewall 26",
+        "owasp api top 10 enna 26",
+        "prototype vs production 26",
+        "future roadmap 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0027",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 27",
+        "rule based vs ml 27",
+        "gateway vs firewall 27",
+        "owasp api top 10 27",
+        "academic prototype vs production 27",
+        "future enhancements 27"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 27",
+        "விதிகள் vs இயந்திர கற்றல் 27",
+        "கேட்வே மற்றும் ஃபயர்வால் 27",
+        "OWASP API சிறந்த 10 27",
+        "தயாரிப்பு நிலை ஒப்பீடு 27",
+        "எதிர்கால மேம்பாடுகள் 27"
+      ],
+      "tanglish": [
+        "waf vs ids difference 27",
+        "rules vs machine learning 27",
+        "gateway vs firewall 27",
+        "owasp api top 10 enna 27",
+        "prototype vs production 27",
+        "future roadmap 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0028",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 28",
+        "rule based vs ml 28",
+        "gateway vs firewall 28",
+        "owasp api top 10 28",
+        "academic prototype vs production 28",
+        "future enhancements 28"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 28",
+        "விதிகள் vs இயந்திர கற்றல் 28",
+        "கேட்வே மற்றும் ஃபயர்வால் 28",
+        "OWASP API சிறந்த 10 28",
+        "தயாரிப்பு நிலை ஒப்பீடு 28",
+        "எதிர்கால மேம்பாடுகள் 28"
+      ],
+      "tanglish": [
+        "waf vs ids difference 28",
+        "rules vs machine learning 28",
+        "gateway vs firewall 28",
+        "owasp api top 10 enna 28",
+        "prototype vs production 28",
+        "future roadmap 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0029",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 29",
+        "rule based vs ml 29",
+        "gateway vs firewall 29",
+        "owasp api top 10 29",
+        "academic prototype vs production 29",
+        "future enhancements 29"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 29",
+        "விதிகள் vs இயந்திர கற்றல் 29",
+        "கேட்வே மற்றும் ஃபயர்வால் 29",
+        "OWASP API சிறந்த 10 29",
+        "தயாரிப்பு நிலை ஒப்பீடு 29",
+        "எதிர்கால மேம்பாடுகள் 29"
+      ],
+      "tanglish": [
+        "waf vs ids difference 29",
+        "rules vs machine learning 29",
+        "gateway vs firewall 29",
+        "owasp api top 10 enna 29",
+        "prototype vs production 29",
+        "future roadmap 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0030",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 30",
+        "rule based vs ml 30",
+        "gateway vs firewall 30",
+        "owasp api top 10 30",
+        "academic prototype vs production 30",
+        "future enhancements 30"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 30",
+        "விதிகள் vs இயந்திர கற்றல் 30",
+        "கேட்வே மற்றும் ஃபயர்வால் 30",
+        "OWASP API சிறந்த 10 30",
+        "தயாரிப்பு நிலை ஒப்பீடு 30",
+        "எதிர்கால மேம்பாடுகள் 30"
+      ],
+      "tanglish": [
+        "waf vs ids difference 30",
+        "rules vs machine learning 30",
+        "gateway vs firewall 30",
+        "owasp api top 10 enna 30",
+        "prototype vs production 30",
+        "future roadmap 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0031",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 31",
+        "rule based vs ml 31",
+        "gateway vs firewall 31",
+        "owasp api top 10 31",
+        "academic prototype vs production 31",
+        "future enhancements 31"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 31",
+        "விதிகள் vs இயந்திர கற்றல் 31",
+        "கேட்வே மற்றும் ஃபயர்வால் 31",
+        "OWASP API சிறந்த 10 31",
+        "தயாரிப்பு நிலை ஒப்பீடு 31",
+        "எதிர்கால மேம்பாடுகள் 31"
+      ],
+      "tanglish": [
+        "waf vs ids difference 31",
+        "rules vs machine learning 31",
+        "gateway vs firewall 31",
+        "owasp api top 10 enna 31",
+        "prototype vs production 31",
+        "future roadmap 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0032",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 32",
+        "rule based vs ml 32",
+        "gateway vs firewall 32",
+        "owasp api top 10 32",
+        "academic prototype vs production 32",
+        "future enhancements 32"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 32",
+        "விதிகள் vs இயந்திர கற்றல் 32",
+        "கேட்வே மற்றும் ஃபயர்வால் 32",
+        "OWASP API சிறந்த 10 32",
+        "தயாரிப்பு நிலை ஒப்பீடு 32",
+        "எதிர்கால மேம்பாடுகள் 32"
+      ],
+      "tanglish": [
+        "waf vs ids difference 32",
+        "rules vs machine learning 32",
+        "gateway vs firewall 32",
+        "owasp api top 10 enna 32",
+        "prototype vs production 32",
+        "future roadmap 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0033",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 33",
+        "rule based vs ml 33",
+        "gateway vs firewall 33",
+        "owasp api top 10 33",
+        "academic prototype vs production 33",
+        "future enhancements 33"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 33",
+        "விதிகள் vs இயந்திர கற்றல் 33",
+        "கேட்வே மற்றும் ஃபயர்வால் 33",
+        "OWASP API சிறந்த 10 33",
+        "தயாரிப்பு நிலை ஒப்பீடு 33",
+        "எதிர்கால மேம்பாடுகள் 33"
+      ],
+      "tanglish": [
+        "waf vs ids difference 33",
+        "rules vs machine learning 33",
+        "gateway vs firewall 33",
+        "owasp api top 10 enna 33",
+        "prototype vs production 33",
+        "future roadmap 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0034",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 34",
+        "rule based vs ml 34",
+        "gateway vs firewall 34",
+        "owasp api top 10 34",
+        "academic prototype vs production 34",
+        "future enhancements 34"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 34",
+        "விதிகள் vs இயந்திர கற்றல் 34",
+        "கேட்வே மற்றும் ஃபயர்வால் 34",
+        "OWASP API சிறந்த 10 34",
+        "தயாரிப்பு நிலை ஒப்பீடு 34",
+        "எதிர்கால மேம்பாடுகள் 34"
+      ],
+      "tanglish": [
+        "waf vs ids difference 34",
+        "rules vs machine learning 34",
+        "gateway vs firewall 34",
+        "owasp api top 10 enna 34",
+        "prototype vs production 34",
+        "future roadmap 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0035",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 35",
+        "rule based vs ml 35",
+        "gateway vs firewall 35",
+        "owasp api top 10 35",
+        "academic prototype vs production 35",
+        "future enhancements 35"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 35",
+        "விதிகள் vs இயந்திர கற்றல் 35",
+        "கேட்வே மற்றும் ஃபயர்வால் 35",
+        "OWASP API சிறந்த 10 35",
+        "தயாரிப்பு நிலை ஒப்பீடு 35",
+        "எதிர்கால மேம்பாடுகள் 35"
+      ],
+      "tanglish": [
+        "waf vs ids difference 35",
+        "rules vs machine learning 35",
+        "gateway vs firewall 35",
+        "owasp api top 10 enna 35",
+        "prototype vs production 35",
+        "future roadmap 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0036",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 36",
+        "rule based vs ml 36",
+        "gateway vs firewall 36",
+        "owasp api top 10 36",
+        "academic prototype vs production 36",
+        "future enhancements 36"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 36",
+        "விதிகள் vs இயந்திர கற்றல் 36",
+        "கேட்வே மற்றும் ஃபயர்வால் 36",
+        "OWASP API சிறந்த 10 36",
+        "தயாரிப்பு நிலை ஒப்பீடு 36",
+        "எதிர்கால மேம்பாடுகள் 36"
+      ],
+      "tanglish": [
+        "waf vs ids difference 36",
+        "rules vs machine learning 36",
+        "gateway vs firewall 36",
+        "owasp api top 10 enna 36",
+        "prototype vs production 36",
+        "future roadmap 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0037",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 37",
+        "rule based vs ml 37",
+        "gateway vs firewall 37",
+        "owasp api top 10 37",
+        "academic prototype vs production 37",
+        "future enhancements 37"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 37",
+        "விதிகள் vs இயந்திர கற்றல் 37",
+        "கேட்வே மற்றும் ஃபயர்வால் 37",
+        "OWASP API சிறந்த 10 37",
+        "தயாரிப்பு நிலை ஒப்பீடு 37",
+        "எதிர்கால மேம்பாடுகள் 37"
+      ],
+      "tanglish": [
+        "waf vs ids difference 37",
+        "rules vs machine learning 37",
+        "gateway vs firewall 37",
+        "owasp api top 10 enna 37",
+        "prototype vs production 37",
+        "future roadmap 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0038",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 38",
+        "rule based vs ml 38",
+        "gateway vs firewall 38",
+        "owasp api top 10 38",
+        "academic prototype vs production 38",
+        "future enhancements 38"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 38",
+        "விதிகள் vs இயந்திர கற்றல் 38",
+        "கேட்வே மற்றும் ஃபயர்வால் 38",
+        "OWASP API சிறந்த 10 38",
+        "தயாரிப்பு நிலை ஒப்பீடு 38",
+        "எதிர்கால மேம்பாடுகள் 38"
+      ],
+      "tanglish": [
+        "waf vs ids difference 38",
+        "rules vs machine learning 38",
+        "gateway vs firewall 38",
+        "owasp api top 10 enna 38",
+        "prototype vs production 38",
+        "future roadmap 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0039",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 39",
+        "rule based vs ml 39",
+        "gateway vs firewall 39",
+        "owasp api top 10 39",
+        "academic prototype vs production 39",
+        "future enhancements 39"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 39",
+        "விதிகள் vs இயந்திர கற்றல் 39",
+        "கேட்வே மற்றும் ஃபயர்வால் 39",
+        "OWASP API சிறந்த 10 39",
+        "தயாரிப்பு நிலை ஒப்பீடு 39",
+        "எதிர்கால மேம்பாடுகள் 39"
+      ],
+      "tanglish": [
+        "waf vs ids difference 39",
+        "rules vs machine learning 39",
+        "gateway vs firewall 39",
+        "owasp api top 10 enna 39",
+        "prototype vs production 39",
+        "future roadmap 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0040",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 40",
+        "rule based vs ml 40",
+        "gateway vs firewall 40",
+        "owasp api top 10 40",
+        "academic prototype vs production 40",
+        "future enhancements 40"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 40",
+        "விதிகள் vs இயந்திர கற்றல் 40",
+        "கேட்வே மற்றும் ஃபயர்வால் 40",
+        "OWASP API சிறந்த 10 40",
+        "தயாரிப்பு நிலை ஒப்பீடு 40",
+        "எதிர்கால மேம்பாடுகள் 40"
+      ],
+      "tanglish": [
+        "waf vs ids difference 40",
+        "rules vs machine learning 40",
+        "gateway vs firewall 40",
+        "owasp api top 10 enna 40",
+        "prototype vs production 40",
+        "future roadmap 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0041",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 41",
+        "rule based vs ml 41",
+        "gateway vs firewall 41",
+        "owasp api top 10 41",
+        "academic prototype vs production 41",
+        "future enhancements 41"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 41",
+        "விதிகள் vs இயந்திர கற்றல் 41",
+        "கேட்வே மற்றும் ஃபயர்வால் 41",
+        "OWASP API சிறந்த 10 41",
+        "தயாரிப்பு நிலை ஒப்பீடு 41",
+        "எதிர்கால மேம்பாடுகள் 41"
+      ],
+      "tanglish": [
+        "waf vs ids difference 41",
+        "rules vs machine learning 41",
+        "gateway vs firewall 41",
+        "owasp api top 10 enna 41",
+        "prototype vs production 41",
+        "future roadmap 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0042",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 42",
+        "rule based vs ml 42",
+        "gateway vs firewall 42",
+        "owasp api top 10 42",
+        "academic prototype vs production 42",
+        "future enhancements 42"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 42",
+        "விதிகள் vs இயந்திர கற்றல் 42",
+        "கேட்வே மற்றும் ஃபயர்வால் 42",
+        "OWASP API சிறந்த 10 42",
+        "தயாரிப்பு நிலை ஒப்பீடு 42",
+        "எதிர்கால மேம்பாடுகள் 42"
+      ],
+      "tanglish": [
+        "waf vs ids difference 42",
+        "rules vs machine learning 42",
+        "gateway vs firewall 42",
+        "owasp api top 10 enna 42",
+        "prototype vs production 42",
+        "future roadmap 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0043",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 43",
+        "rule based vs ml 43",
+        "gateway vs firewall 43",
+        "owasp api top 10 43",
+        "academic prototype vs production 43",
+        "future enhancements 43"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 43",
+        "விதிகள் vs இயந்திர கற்றல் 43",
+        "கேட்வே மற்றும் ஃபயர்வால் 43",
+        "OWASP API சிறந்த 10 43",
+        "தயாரிப்பு நிலை ஒப்பீடு 43",
+        "எதிர்கால மேம்பாடுகள் 43"
+      ],
+      "tanglish": [
+        "waf vs ids difference 43",
+        "rules vs machine learning 43",
+        "gateway vs firewall 43",
+        "owasp api top 10 enna 43",
+        "prototype vs production 43",
+        "future roadmap 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0044",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 44",
+        "rule based vs ml 44",
+        "gateway vs firewall 44",
+        "owasp api top 10 44",
+        "academic prototype vs production 44",
+        "future enhancements 44"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 44",
+        "விதிகள் vs இயந்திர கற்றல் 44",
+        "கேட்வே மற்றும் ஃபயர்வால் 44",
+        "OWASP API சிறந்த 10 44",
+        "தயாரிப்பு நிலை ஒப்பீடு 44",
+        "எதிர்கால மேம்பாடுகள் 44"
+      ],
+      "tanglish": [
+        "waf vs ids difference 44",
+        "rules vs machine learning 44",
+        "gateway vs firewall 44",
+        "owasp api top 10 enna 44",
+        "prototype vs production 44",
+        "future roadmap 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0045",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 45",
+        "rule based vs ml 45",
+        "gateway vs firewall 45",
+        "owasp api top 10 45",
+        "academic prototype vs production 45",
+        "future enhancements 45"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 45",
+        "விதிகள் vs இயந்திர கற்றல் 45",
+        "கேட்வே மற்றும் ஃபயர்வால் 45",
+        "OWASP API சிறந்த 10 45",
+        "தயாரிப்பு நிலை ஒப்பீடு 45",
+        "எதிர்கால மேம்பாடுகள் 45"
+      ],
+      "tanglish": [
+        "waf vs ids difference 45",
+        "rules vs machine learning 45",
+        "gateway vs firewall 45",
+        "owasp api top 10 enna 45",
+        "prototype vs production 45",
+        "future roadmap 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0046",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 46",
+        "rule based vs ml 46",
+        "gateway vs firewall 46",
+        "owasp api top 10 46",
+        "academic prototype vs production 46",
+        "future enhancements 46"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 46",
+        "விதிகள் vs இயந்திர கற்றல் 46",
+        "கேட்வே மற்றும் ஃபயர்வால் 46",
+        "OWASP API சிறந்த 10 46",
+        "தயாரிப்பு நிலை ஒப்பீடு 46",
+        "எதிர்கால மேம்பாடுகள் 46"
+      ],
+      "tanglish": [
+        "waf vs ids difference 46",
+        "rules vs machine learning 46",
+        "gateway vs firewall 46",
+        "owasp api top 10 enna 46",
+        "prototype vs production 46",
+        "future roadmap 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0047",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 47",
+        "rule based vs ml 47",
+        "gateway vs firewall 47",
+        "owasp api top 10 47",
+        "academic prototype vs production 47",
+        "future enhancements 47"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 47",
+        "விதிகள் vs இயந்திர கற்றல் 47",
+        "கேட்வே மற்றும் ஃபயர்வால் 47",
+        "OWASP API சிறந்த 10 47",
+        "தயாரிப்பு நிலை ஒப்பீடு 47",
+        "எதிர்கால மேம்பாடுகள் 47"
+      ],
+      "tanglish": [
+        "waf vs ids difference 47",
+        "rules vs machine learning 47",
+        "gateway vs firewall 47",
+        "owasp api top 10 enna 47",
+        "prototype vs production 47",
+        "future roadmap 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0048",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 48",
+        "rule based vs ml 48",
+        "gateway vs firewall 48",
+        "owasp api top 10 48",
+        "academic prototype vs production 48",
+        "future enhancements 48"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 48",
+        "விதிகள் vs இயந்திர கற்றல் 48",
+        "கேட்வே மற்றும் ஃபயர்வால் 48",
+        "OWASP API சிறந்த 10 48",
+        "தயாரிப்பு நிலை ஒப்பீடு 48",
+        "எதிர்கால மேம்பாடுகள் 48"
+      ],
+      "tanglish": [
+        "waf vs ids difference 48",
+        "rules vs machine learning 48",
+        "gateway vs firewall 48",
+        "owasp api top 10 enna 48",
+        "prototype vs production 48",
+        "future roadmap 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0049",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 49",
+        "rule based vs ml 49",
+        "gateway vs firewall 49",
+        "owasp api top 10 49",
+        "academic prototype vs production 49",
+        "future enhancements 49"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 49",
+        "விதிகள் vs இயந்திர கற்றல் 49",
+        "கேட்வே மற்றும் ஃபயர்வால் 49",
+        "OWASP API சிறந்த 10 49",
+        "தயாரிப்பு நிலை ஒப்பீடு 49",
+        "எதிர்கால மேம்பாடுகள் 49"
+      ],
+      "tanglish": [
+        "waf vs ids difference 49",
+        "rules vs machine learning 49",
+        "gateway vs firewall 49",
+        "owasp api top 10 enna 49",
+        "prototype vs production 49",
+        "future roadmap 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  },
+  {
+    "id": "proj_comp_0050",
+    "category": "concepts_comparison",
+    "patterns": {
+      "en": [
+        "waf vs ids vs ips 50",
+        "rule based vs ml 50",
+        "gateway vs firewall 50",
+        "owasp api top 10 50",
+        "academic prototype vs production 50",
+        "future enhancements 50"
+      ],
+      "ta": [
+        "WAF மற்றும் IDS வேறுபாடு 50",
+        "விதிகள் vs இயந்திர கற்றல் 50",
+        "கேட்வே மற்றும் ஃபயர்வால் 50",
+        "OWASP API சிறந்த 10 50",
+        "தயாரிப்பு நிலை ஒப்பீடு 50",
+        "எதிர்கால மேம்பாடுகள் 50"
+      ],
+      "tanglish": [
+        "waf vs ids difference 50",
+        "rules vs machine learning 50",
+        "gateway vs firewall 50",
+        "owasp api top 10 enna 50",
+        "prototype vs production 50",
+        "future roadmap 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "WAF vs IDS vs AegisGate: Traditional WAFs rely on brittle static regexes. AegisGate combines an inline reverse-proxy gateway with hybrid Machine Learning and TreeSHAP explainability to catch zero-day mutation evasions with sub-3ms latency.",
+        "OWASP API Top 10: AegisGate directly addresses API1 (BOLA), API2 (Broken Auth), API3 (BOPLA), API4 (Resource Consumption via Rate Limiter), and API8 (Security Misconfiguration via Honeypots)."
+      ],
+      "ta": [
+        "WAF vs IDS: வழக்கமான WAF நிலையான விதிகளை மட்டுமே நம்பியுள்ளது. AegisGate இயந்திர கற்றல் மற்றும் TreeSHAP மூலம் புதிய அச்சுறுத்தல்களையும் 3 மில்லி விநாடிகளுக்குள் கண்டறிந்து தடுக்கிறது.",
+        "OWASP API Top 10: AegisGate BOLA, Broken Auth, SQLi/XSS, மற்றும் அதீத கோரிக்கைகளை (Resource Consumption) முழுமையாக தடுக்கிறது."
+      ],
+      "tanglish": [
+        "WAF vs AegisGate: Normal WAF regex bypass panna mudiyum, but AegisGate 23 features + Random Forest + SHAP use panradhala mutation evasions-ah catch pannidum.",
+        "OWASP API Top 10 coverage: BOLA, Broken Auth, Resource Consumption (rate limiter), and Misconfiguration (honeypots)."
+      ]
+    },
+    "chips": [
+      "Explain 23 features",
+      "What is SQL injection?",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "comparison",
+      "concepts",
+      "waf",
+      "owasp"
+    ]
+  }
+]

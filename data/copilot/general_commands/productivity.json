@@ -1,0 +1,5602 @@
+[
+  {
+    "id": "gen_prod_0001",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 1",
+        "how to study security 1",
+        "coding best practices 1",
+        "how to focus 1",
+        "work advice 1",
+        "time management 1"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 1",
+        "பாதுகாப்பு படிப்பது எப்படி 1",
+        "நிரலாக்க சிறந்த முறைகள் 1",
+        "கவனத்தை அதிகரிப்பது எப்படி 1",
+        "வேலை ஆலோசனை 1",
+        "நேர மேலாண்மை 1"
+      ],
+      "tanglish": [
+        "study tips kudu 1",
+        "security epdi padikardhu 1",
+        "coding tips 1",
+        "focus panna tips 1",
+        "time management sollu 1",
+        "productivity advice 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0002",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 2",
+        "how to study security 2",
+        "coding best practices 2",
+        "how to focus 2",
+        "work advice 2",
+        "time management 2"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 2",
+        "பாதுகாப்பு படிப்பது எப்படி 2",
+        "நிரலாக்க சிறந்த முறைகள் 2",
+        "கவனத்தை அதிகரிப்பது எப்படி 2",
+        "வேலை ஆலோசனை 2",
+        "நேர மேலாண்மை 2"
+      ],
+      "tanglish": [
+        "study tips kudu 2",
+        "security epdi padikardhu 2",
+        "coding tips 2",
+        "focus panna tips 2",
+        "time management sollu 2",
+        "productivity advice 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0003",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 3",
+        "how to study security 3",
+        "coding best practices 3",
+        "how to focus 3",
+        "work advice 3",
+        "time management 3"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 3",
+        "பாதுகாப்பு படிப்பது எப்படி 3",
+        "நிரலாக்க சிறந்த முறைகள் 3",
+        "கவனத்தை அதிகரிப்பது எப்படி 3",
+        "வேலை ஆலோசனை 3",
+        "நேர மேலாண்மை 3"
+      ],
+      "tanglish": [
+        "study tips kudu 3",
+        "security epdi padikardhu 3",
+        "coding tips 3",
+        "focus panna tips 3",
+        "time management sollu 3",
+        "productivity advice 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0004",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 4",
+        "how to study security 4",
+        "coding best practices 4",
+        "how to focus 4",
+        "work advice 4",
+        "time management 4"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 4",
+        "பாதுகாப்பு படிப்பது எப்படி 4",
+        "நிரலாக்க சிறந்த முறைகள் 4",
+        "கவனத்தை அதிகரிப்பது எப்படி 4",
+        "வேலை ஆலோசனை 4",
+        "நேர மேலாண்மை 4"
+      ],
+      "tanglish": [
+        "study tips kudu 4",
+        "security epdi padikardhu 4",
+        "coding tips 4",
+        "focus panna tips 4",
+        "time management sollu 4",
+        "productivity advice 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0005",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 5",
+        "how to study security 5",
+        "coding best practices 5",
+        "how to focus 5",
+        "work advice 5",
+        "time management 5"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 5",
+        "பாதுகாப்பு படிப்பது எப்படி 5",
+        "நிரலாக்க சிறந்த முறைகள் 5",
+        "கவனத்தை அதிகரிப்பது எப்படி 5",
+        "வேலை ஆலோசனை 5",
+        "நேர மேலாண்மை 5"
+      ],
+      "tanglish": [
+        "study tips kudu 5",
+        "security epdi padikardhu 5",
+        "coding tips 5",
+        "focus panna tips 5",
+        "time management sollu 5",
+        "productivity advice 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0006",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 6",
+        "how to study security 6",
+        "coding best practices 6",
+        "how to focus 6",
+        "work advice 6",
+        "time management 6"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 6",
+        "பாதுகாப்பு படிப்பது எப்படி 6",
+        "நிரலாக்க சிறந்த முறைகள் 6",
+        "கவனத்தை அதிகரிப்பது எப்படி 6",
+        "வேலை ஆலோசனை 6",
+        "நேர மேலாண்மை 6"
+      ],
+      "tanglish": [
+        "study tips kudu 6",
+        "security epdi padikardhu 6",
+        "coding tips 6",
+        "focus panna tips 6",
+        "time management sollu 6",
+        "productivity advice 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0007",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 7",
+        "how to study security 7",
+        "coding best practices 7",
+        "how to focus 7",
+        "work advice 7",
+        "time management 7"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 7",
+        "பாதுகாப்பு படிப்பது எப்படி 7",
+        "நிரலாக்க சிறந்த முறைகள் 7",
+        "கவனத்தை அதிகரிப்பது எப்படி 7",
+        "வேலை ஆலோசனை 7",
+        "நேர மேலாண்மை 7"
+      ],
+      "tanglish": [
+        "study tips kudu 7",
+        "security epdi padikardhu 7",
+        "coding tips 7",
+        "focus panna tips 7",
+        "time management sollu 7",
+        "productivity advice 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0008",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 8",
+        "how to study security 8",
+        "coding best practices 8",
+        "how to focus 8",
+        "work advice 8",
+        "time management 8"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 8",
+        "பாதுகாப்பு படிப்பது எப்படி 8",
+        "நிரலாக்க சிறந்த முறைகள் 8",
+        "கவனத்தை அதிகரிப்பது எப்படி 8",
+        "வேலை ஆலோசனை 8",
+        "நேர மேலாண்மை 8"
+      ],
+      "tanglish": [
+        "study tips kudu 8",
+        "security epdi padikardhu 8",
+        "coding tips 8",
+        "focus panna tips 8",
+        "time management sollu 8",
+        "productivity advice 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0009",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 9",
+        "how to study security 9",
+        "coding best practices 9",
+        "how to focus 9",
+        "work advice 9",
+        "time management 9"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 9",
+        "பாதுகாப்பு படிப்பது எப்படி 9",
+        "நிரலாக்க சிறந்த முறைகள் 9",
+        "கவனத்தை அதிகரிப்பது எப்படி 9",
+        "வேலை ஆலோசனை 9",
+        "நேர மேலாண்மை 9"
+      ],
+      "tanglish": [
+        "study tips kudu 9",
+        "security epdi padikardhu 9",
+        "coding tips 9",
+        "focus panna tips 9",
+        "time management sollu 9",
+        "productivity advice 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0010",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 10",
+        "how to study security 10",
+        "coding best practices 10",
+        "how to focus 10",
+        "work advice 10",
+        "time management 10"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 10",
+        "பாதுகாப்பு படிப்பது எப்படி 10",
+        "நிரலாக்க சிறந்த முறைகள் 10",
+        "கவனத்தை அதிகரிப்பது எப்படி 10",
+        "வேலை ஆலோசனை 10",
+        "நேர மேலாண்மை 10"
+      ],
+      "tanglish": [
+        "study tips kudu 10",
+        "security epdi padikardhu 10",
+        "coding tips 10",
+        "focus panna tips 10",
+        "time management sollu 10",
+        "productivity advice 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0011",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 11",
+        "how to study security 11",
+        "coding best practices 11",
+        "how to focus 11",
+        "work advice 11",
+        "time management 11"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 11",
+        "பாதுகாப்பு படிப்பது எப்படி 11",
+        "நிரலாக்க சிறந்த முறைகள் 11",
+        "கவனத்தை அதிகரிப்பது எப்படி 11",
+        "வேலை ஆலோசனை 11",
+        "நேர மேலாண்மை 11"
+      ],
+      "tanglish": [
+        "study tips kudu 11",
+        "security epdi padikardhu 11",
+        "coding tips 11",
+        "focus panna tips 11",
+        "time management sollu 11",
+        "productivity advice 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0012",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 12",
+        "how to study security 12",
+        "coding best practices 12",
+        "how to focus 12",
+        "work advice 12",
+        "time management 12"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 12",
+        "பாதுகாப்பு படிப்பது எப்படி 12",
+        "நிரலாக்க சிறந்த முறைகள் 12",
+        "கவனத்தை அதிகரிப்பது எப்படி 12",
+        "வேலை ஆலோசனை 12",
+        "நேர மேலாண்மை 12"
+      ],
+      "tanglish": [
+        "study tips kudu 12",
+        "security epdi padikardhu 12",
+        "coding tips 12",
+        "focus panna tips 12",
+        "time management sollu 12",
+        "productivity advice 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0013",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 13",
+        "how to study security 13",
+        "coding best practices 13",
+        "how to focus 13",
+        "work advice 13",
+        "time management 13"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 13",
+        "பாதுகாப்பு படிப்பது எப்படி 13",
+        "நிரலாக்க சிறந்த முறைகள் 13",
+        "கவனத்தை அதிகரிப்பது எப்படி 13",
+        "வேலை ஆலோசனை 13",
+        "நேர மேலாண்மை 13"
+      ],
+      "tanglish": [
+        "study tips kudu 13",
+        "security epdi padikardhu 13",
+        "coding tips 13",
+        "focus panna tips 13",
+        "time management sollu 13",
+        "productivity advice 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0014",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 14",
+        "how to study security 14",
+        "coding best practices 14",
+        "how to focus 14",
+        "work advice 14",
+        "time management 14"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 14",
+        "பாதுகாப்பு படிப்பது எப்படி 14",
+        "நிரலாக்க சிறந்த முறைகள் 14",
+        "கவனத்தை அதிகரிப்பது எப்படி 14",
+        "வேலை ஆலோசனை 14",
+        "நேர மேலாண்மை 14"
+      ],
+      "tanglish": [
+        "study tips kudu 14",
+        "security epdi padikardhu 14",
+        "coding tips 14",
+        "focus panna tips 14",
+        "time management sollu 14",
+        "productivity advice 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0015",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 15",
+        "how to study security 15",
+        "coding best practices 15",
+        "how to focus 15",
+        "work advice 15",
+        "time management 15"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 15",
+        "பாதுகாப்பு படிப்பது எப்படி 15",
+        "நிரலாக்க சிறந்த முறைகள் 15",
+        "கவனத்தை அதிகரிப்பது எப்படி 15",
+        "வேலை ஆலோசனை 15",
+        "நேர மேலாண்மை 15"
+      ],
+      "tanglish": [
+        "study tips kudu 15",
+        "security epdi padikardhu 15",
+        "coding tips 15",
+        "focus panna tips 15",
+        "time management sollu 15",
+        "productivity advice 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0016",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 16",
+        "how to study security 16",
+        "coding best practices 16",
+        "how to focus 16",
+        "work advice 16",
+        "time management 16"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 16",
+        "பாதுகாப்பு படிப்பது எப்படி 16",
+        "நிரலாக்க சிறந்த முறைகள் 16",
+        "கவனத்தை அதிகரிப்பது எப்படி 16",
+        "வேலை ஆலோசனை 16",
+        "நேர மேலாண்மை 16"
+      ],
+      "tanglish": [
+        "study tips kudu 16",
+        "security epdi padikardhu 16",
+        "coding tips 16",
+        "focus panna tips 16",
+        "time management sollu 16",
+        "productivity advice 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0017",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 17",
+        "how to study security 17",
+        "coding best practices 17",
+        "how to focus 17",
+        "work advice 17",
+        "time management 17"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 17",
+        "பாதுகாப்பு படிப்பது எப்படி 17",
+        "நிரலாக்க சிறந்த முறைகள் 17",
+        "கவனத்தை அதிகரிப்பது எப்படி 17",
+        "வேலை ஆலோசனை 17",
+        "நேர மேலாண்மை 17"
+      ],
+      "tanglish": [
+        "study tips kudu 17",
+        "security epdi padikardhu 17",
+        "coding tips 17",
+        "focus panna tips 17",
+        "time management sollu 17",
+        "productivity advice 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0018",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 18",
+        "how to study security 18",
+        "coding best practices 18",
+        "how to focus 18",
+        "work advice 18",
+        "time management 18"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 18",
+        "பாதுகாப்பு படிப்பது எப்படி 18",
+        "நிரலாக்க சிறந்த முறைகள் 18",
+        "கவனத்தை அதிகரிப்பது எப்படி 18",
+        "வேலை ஆலோசனை 18",
+        "நேர மேலாண்மை 18"
+      ],
+      "tanglish": [
+        "study tips kudu 18",
+        "security epdi padikardhu 18",
+        "coding tips 18",
+        "focus panna tips 18",
+        "time management sollu 18",
+        "productivity advice 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0019",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 19",
+        "how to study security 19",
+        "coding best practices 19",
+        "how to focus 19",
+        "work advice 19",
+        "time management 19"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 19",
+        "பாதுகாப்பு படிப்பது எப்படி 19",
+        "நிரலாக்க சிறந்த முறைகள் 19",
+        "கவனத்தை அதிகரிப்பது எப்படி 19",
+        "வேலை ஆலோசனை 19",
+        "நேர மேலாண்மை 19"
+      ],
+      "tanglish": [
+        "study tips kudu 19",
+        "security epdi padikardhu 19",
+        "coding tips 19",
+        "focus panna tips 19",
+        "time management sollu 19",
+        "productivity advice 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0020",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 20",
+        "how to study security 20",
+        "coding best practices 20",
+        "how to focus 20",
+        "work advice 20",
+        "time management 20"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 20",
+        "பாதுகாப்பு படிப்பது எப்படி 20",
+        "நிரலாக்க சிறந்த முறைகள் 20",
+        "கவனத்தை அதிகரிப்பது எப்படி 20",
+        "வேலை ஆலோசனை 20",
+        "நேர மேலாண்மை 20"
+      ],
+      "tanglish": [
+        "study tips kudu 20",
+        "security epdi padikardhu 20",
+        "coding tips 20",
+        "focus panna tips 20",
+        "time management sollu 20",
+        "productivity advice 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0021",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 21",
+        "how to study security 21",
+        "coding best practices 21",
+        "how to focus 21",
+        "work advice 21",
+        "time management 21"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 21",
+        "பாதுகாப்பு படிப்பது எப்படி 21",
+        "நிரலாக்க சிறந்த முறைகள் 21",
+        "கவனத்தை அதிகரிப்பது எப்படி 21",
+        "வேலை ஆலோசனை 21",
+        "நேர மேலாண்மை 21"
+      ],
+      "tanglish": [
+        "study tips kudu 21",
+        "security epdi padikardhu 21",
+        "coding tips 21",
+        "focus panna tips 21",
+        "time management sollu 21",
+        "productivity advice 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0022",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 22",
+        "how to study security 22",
+        "coding best practices 22",
+        "how to focus 22",
+        "work advice 22",
+        "time management 22"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 22",
+        "பாதுகாப்பு படிப்பது எப்படி 22",
+        "நிரலாக்க சிறந்த முறைகள் 22",
+        "கவனத்தை அதிகரிப்பது எப்படி 22",
+        "வேலை ஆலோசனை 22",
+        "நேர மேலாண்மை 22"
+      ],
+      "tanglish": [
+        "study tips kudu 22",
+        "security epdi padikardhu 22",
+        "coding tips 22",
+        "focus panna tips 22",
+        "time management sollu 22",
+        "productivity advice 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0023",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 23",
+        "how to study security 23",
+        "coding best practices 23",
+        "how to focus 23",
+        "work advice 23",
+        "time management 23"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 23",
+        "பாதுகாப்பு படிப்பது எப்படி 23",
+        "நிரலாக்க சிறந்த முறைகள் 23",
+        "கவனத்தை அதிகரிப்பது எப்படி 23",
+        "வேலை ஆலோசனை 23",
+        "நேர மேலாண்மை 23"
+      ],
+      "tanglish": [
+        "study tips kudu 23",
+        "security epdi padikardhu 23",
+        "coding tips 23",
+        "focus panna tips 23",
+        "time management sollu 23",
+        "productivity advice 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0024",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 24",
+        "how to study security 24",
+        "coding best practices 24",
+        "how to focus 24",
+        "work advice 24",
+        "time management 24"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 24",
+        "பாதுகாப்பு படிப்பது எப்படி 24",
+        "நிரலாக்க சிறந்த முறைகள் 24",
+        "கவனத்தை அதிகரிப்பது எப்படி 24",
+        "வேலை ஆலோசனை 24",
+        "நேர மேலாண்மை 24"
+      ],
+      "tanglish": [
+        "study tips kudu 24",
+        "security epdi padikardhu 24",
+        "coding tips 24",
+        "focus panna tips 24",
+        "time management sollu 24",
+        "productivity advice 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0025",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 25",
+        "how to study security 25",
+        "coding best practices 25",
+        "how to focus 25",
+        "work advice 25",
+        "time management 25"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 25",
+        "பாதுகாப்பு படிப்பது எப்படி 25",
+        "நிரலாக்க சிறந்த முறைகள் 25",
+        "கவனத்தை அதிகரிப்பது எப்படி 25",
+        "வேலை ஆலோசனை 25",
+        "நேர மேலாண்மை 25"
+      ],
+      "tanglish": [
+        "study tips kudu 25",
+        "security epdi padikardhu 25",
+        "coding tips 25",
+        "focus panna tips 25",
+        "time management sollu 25",
+        "productivity advice 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0026",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 26",
+        "how to study security 26",
+        "coding best practices 26",
+        "how to focus 26",
+        "work advice 26",
+        "time management 26"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 26",
+        "பாதுகாப்பு படிப்பது எப்படி 26",
+        "நிரலாக்க சிறந்த முறைகள் 26",
+        "கவனத்தை அதிகரிப்பது எப்படி 26",
+        "வேலை ஆலோசனை 26",
+        "நேர மேலாண்மை 26"
+      ],
+      "tanglish": [
+        "study tips kudu 26",
+        "security epdi padikardhu 26",
+        "coding tips 26",
+        "focus panna tips 26",
+        "time management sollu 26",
+        "productivity advice 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0027",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 27",
+        "how to study security 27",
+        "coding best practices 27",
+        "how to focus 27",
+        "work advice 27",
+        "time management 27"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 27",
+        "பாதுகாப்பு படிப்பது எப்படி 27",
+        "நிரலாக்க சிறந்த முறைகள் 27",
+        "கவனத்தை அதிகரிப்பது எப்படி 27",
+        "வேலை ஆலோசனை 27",
+        "நேர மேலாண்மை 27"
+      ],
+      "tanglish": [
+        "study tips kudu 27",
+        "security epdi padikardhu 27",
+        "coding tips 27",
+        "focus panna tips 27",
+        "time management sollu 27",
+        "productivity advice 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0028",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 28",
+        "how to study security 28",
+        "coding best practices 28",
+        "how to focus 28",
+        "work advice 28",
+        "time management 28"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 28",
+        "பாதுகாப்பு படிப்பது எப்படி 28",
+        "நிரலாக்க சிறந்த முறைகள் 28",
+        "கவனத்தை அதிகரிப்பது எப்படி 28",
+        "வேலை ஆலோசனை 28",
+        "நேர மேலாண்மை 28"
+      ],
+      "tanglish": [
+        "study tips kudu 28",
+        "security epdi padikardhu 28",
+        "coding tips 28",
+        "focus panna tips 28",
+        "time management sollu 28",
+        "productivity advice 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0029",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 29",
+        "how to study security 29",
+        "coding best practices 29",
+        "how to focus 29",
+        "work advice 29",
+        "time management 29"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 29",
+        "பாதுகாப்பு படிப்பது எப்படி 29",
+        "நிரலாக்க சிறந்த முறைகள் 29",
+        "கவனத்தை அதிகரிப்பது எப்படி 29",
+        "வேலை ஆலோசனை 29",
+        "நேர மேலாண்மை 29"
+      ],
+      "tanglish": [
+        "study tips kudu 29",
+        "security epdi padikardhu 29",
+        "coding tips 29",
+        "focus panna tips 29",
+        "time management sollu 29",
+        "productivity advice 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0030",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 30",
+        "how to study security 30",
+        "coding best practices 30",
+        "how to focus 30",
+        "work advice 30",
+        "time management 30"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 30",
+        "பாதுகாப்பு படிப்பது எப்படி 30",
+        "நிரலாக்க சிறந்த முறைகள் 30",
+        "கவனத்தை அதிகரிப்பது எப்படி 30",
+        "வேலை ஆலோசனை 30",
+        "நேர மேலாண்மை 30"
+      ],
+      "tanglish": [
+        "study tips kudu 30",
+        "security epdi padikardhu 30",
+        "coding tips 30",
+        "focus panna tips 30",
+        "time management sollu 30",
+        "productivity advice 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0031",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 31",
+        "how to study security 31",
+        "coding best practices 31",
+        "how to focus 31",
+        "work advice 31",
+        "time management 31"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 31",
+        "பாதுகாப்பு படிப்பது எப்படி 31",
+        "நிரலாக்க சிறந்த முறைகள் 31",
+        "கவனத்தை அதிகரிப்பது எப்படி 31",
+        "வேலை ஆலோசனை 31",
+        "நேர மேலாண்மை 31"
+      ],
+      "tanglish": [
+        "study tips kudu 31",
+        "security epdi padikardhu 31",
+        "coding tips 31",
+        "focus panna tips 31",
+        "time management sollu 31",
+        "productivity advice 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0032",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 32",
+        "how to study security 32",
+        "coding best practices 32",
+        "how to focus 32",
+        "work advice 32",
+        "time management 32"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 32",
+        "பாதுகாப்பு படிப்பது எப்படி 32",
+        "நிரலாக்க சிறந்த முறைகள் 32",
+        "கவனத்தை அதிகரிப்பது எப்படி 32",
+        "வேலை ஆலோசனை 32",
+        "நேர மேலாண்மை 32"
+      ],
+      "tanglish": [
+        "study tips kudu 32",
+        "security epdi padikardhu 32",
+        "coding tips 32",
+        "focus panna tips 32",
+        "time management sollu 32",
+        "productivity advice 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0033",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 33",
+        "how to study security 33",
+        "coding best practices 33",
+        "how to focus 33",
+        "work advice 33",
+        "time management 33"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 33",
+        "பாதுகாப்பு படிப்பது எப்படி 33",
+        "நிரலாக்க சிறந்த முறைகள் 33",
+        "கவனத்தை அதிகரிப்பது எப்படி 33",
+        "வேலை ஆலோசனை 33",
+        "நேர மேலாண்மை 33"
+      ],
+      "tanglish": [
+        "study tips kudu 33",
+        "security epdi padikardhu 33",
+        "coding tips 33",
+        "focus panna tips 33",
+        "time management sollu 33",
+        "productivity advice 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0034",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 34",
+        "how to study security 34",
+        "coding best practices 34",
+        "how to focus 34",
+        "work advice 34",
+        "time management 34"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 34",
+        "பாதுகாப்பு படிப்பது எப்படி 34",
+        "நிரலாக்க சிறந்த முறைகள் 34",
+        "கவனத்தை அதிகரிப்பது எப்படி 34",
+        "வேலை ஆலோசனை 34",
+        "நேர மேலாண்மை 34"
+      ],
+      "tanglish": [
+        "study tips kudu 34",
+        "security epdi padikardhu 34",
+        "coding tips 34",
+        "focus panna tips 34",
+        "time management sollu 34",
+        "productivity advice 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0035",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 35",
+        "how to study security 35",
+        "coding best practices 35",
+        "how to focus 35",
+        "work advice 35",
+        "time management 35"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 35",
+        "பாதுகாப்பு படிப்பது எப்படி 35",
+        "நிரலாக்க சிறந்த முறைகள் 35",
+        "கவனத்தை அதிகரிப்பது எப்படி 35",
+        "வேலை ஆலோசனை 35",
+        "நேர மேலாண்மை 35"
+      ],
+      "tanglish": [
+        "study tips kudu 35",
+        "security epdi padikardhu 35",
+        "coding tips 35",
+        "focus panna tips 35",
+        "time management sollu 35",
+        "productivity advice 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0036",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 36",
+        "how to study security 36",
+        "coding best practices 36",
+        "how to focus 36",
+        "work advice 36",
+        "time management 36"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 36",
+        "பாதுகாப்பு படிப்பது எப்படி 36",
+        "நிரலாக்க சிறந்த முறைகள் 36",
+        "கவனத்தை அதிகரிப்பது எப்படி 36",
+        "வேலை ஆலோசனை 36",
+        "நேர மேலாண்மை 36"
+      ],
+      "tanglish": [
+        "study tips kudu 36",
+        "security epdi padikardhu 36",
+        "coding tips 36",
+        "focus panna tips 36",
+        "time management sollu 36",
+        "productivity advice 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0037",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 37",
+        "how to study security 37",
+        "coding best practices 37",
+        "how to focus 37",
+        "work advice 37",
+        "time management 37"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 37",
+        "பாதுகாப்பு படிப்பது எப்படி 37",
+        "நிரலாக்க சிறந்த முறைகள் 37",
+        "கவனத்தை அதிகரிப்பது எப்படி 37",
+        "வேலை ஆலோசனை 37",
+        "நேர மேலாண்மை 37"
+      ],
+      "tanglish": [
+        "study tips kudu 37",
+        "security epdi padikardhu 37",
+        "coding tips 37",
+        "focus panna tips 37",
+        "time management sollu 37",
+        "productivity advice 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0038",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 38",
+        "how to study security 38",
+        "coding best practices 38",
+        "how to focus 38",
+        "work advice 38",
+        "time management 38"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 38",
+        "பாதுகாப்பு படிப்பது எப்படி 38",
+        "நிரலாக்க சிறந்த முறைகள் 38",
+        "கவனத்தை அதிகரிப்பது எப்படி 38",
+        "வேலை ஆலோசனை 38",
+        "நேர மேலாண்மை 38"
+      ],
+      "tanglish": [
+        "study tips kudu 38",
+        "security epdi padikardhu 38",
+        "coding tips 38",
+        "focus panna tips 38",
+        "time management sollu 38",
+        "productivity advice 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0039",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 39",
+        "how to study security 39",
+        "coding best practices 39",
+        "how to focus 39",
+        "work advice 39",
+        "time management 39"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 39",
+        "பாதுகாப்பு படிப்பது எப்படி 39",
+        "நிரலாக்க சிறந்த முறைகள் 39",
+        "கவனத்தை அதிகரிப்பது எப்படி 39",
+        "வேலை ஆலோசனை 39",
+        "நேர மேலாண்மை 39"
+      ],
+      "tanglish": [
+        "study tips kudu 39",
+        "security epdi padikardhu 39",
+        "coding tips 39",
+        "focus panna tips 39",
+        "time management sollu 39",
+        "productivity advice 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0040",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 40",
+        "how to study security 40",
+        "coding best practices 40",
+        "how to focus 40",
+        "work advice 40",
+        "time management 40"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 40",
+        "பாதுகாப்பு படிப்பது எப்படி 40",
+        "நிரலாக்க சிறந்த முறைகள் 40",
+        "கவனத்தை அதிகரிப்பது எப்படி 40",
+        "வேலை ஆலோசனை 40",
+        "நேர மேலாண்மை 40"
+      ],
+      "tanglish": [
+        "study tips kudu 40",
+        "security epdi padikardhu 40",
+        "coding tips 40",
+        "focus panna tips 40",
+        "time management sollu 40",
+        "productivity advice 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0041",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 41",
+        "how to study security 41",
+        "coding best practices 41",
+        "how to focus 41",
+        "work advice 41",
+        "time management 41"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 41",
+        "பாதுகாப்பு படிப்பது எப்படி 41",
+        "நிரலாக்க சிறந்த முறைகள் 41",
+        "கவனத்தை அதிகரிப்பது எப்படி 41",
+        "வேலை ஆலோசனை 41",
+        "நேர மேலாண்மை 41"
+      ],
+      "tanglish": [
+        "study tips kudu 41",
+        "security epdi padikardhu 41",
+        "coding tips 41",
+        "focus panna tips 41",
+        "time management sollu 41",
+        "productivity advice 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0042",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 42",
+        "how to study security 42",
+        "coding best practices 42",
+        "how to focus 42",
+        "work advice 42",
+        "time management 42"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 42",
+        "பாதுகாப்பு படிப்பது எப்படி 42",
+        "நிரலாக்க சிறந்த முறைகள் 42",
+        "கவனத்தை அதிகரிப்பது எப்படி 42",
+        "வேலை ஆலோசனை 42",
+        "நேர மேலாண்மை 42"
+      ],
+      "tanglish": [
+        "study tips kudu 42",
+        "security epdi padikardhu 42",
+        "coding tips 42",
+        "focus panna tips 42",
+        "time management sollu 42",
+        "productivity advice 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0043",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 43",
+        "how to study security 43",
+        "coding best practices 43",
+        "how to focus 43",
+        "work advice 43",
+        "time management 43"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 43",
+        "பாதுகாப்பு படிப்பது எப்படி 43",
+        "நிரலாக்க சிறந்த முறைகள் 43",
+        "கவனத்தை அதிகரிப்பது எப்படி 43",
+        "வேலை ஆலோசனை 43",
+        "நேர மேலாண்மை 43"
+      ],
+      "tanglish": [
+        "study tips kudu 43",
+        "security epdi padikardhu 43",
+        "coding tips 43",
+        "focus panna tips 43",
+        "time management sollu 43",
+        "productivity advice 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0044",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 44",
+        "how to study security 44",
+        "coding best practices 44",
+        "how to focus 44",
+        "work advice 44",
+        "time management 44"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 44",
+        "பாதுகாப்பு படிப்பது எப்படி 44",
+        "நிரலாக்க சிறந்த முறைகள் 44",
+        "கவனத்தை அதிகரிப்பது எப்படி 44",
+        "வேலை ஆலோசனை 44",
+        "நேர மேலாண்மை 44"
+      ],
+      "tanglish": [
+        "study tips kudu 44",
+        "security epdi padikardhu 44",
+        "coding tips 44",
+        "focus panna tips 44",
+        "time management sollu 44",
+        "productivity advice 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0045",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 45",
+        "how to study security 45",
+        "coding best practices 45",
+        "how to focus 45",
+        "work advice 45",
+        "time management 45"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 45",
+        "பாதுகாப்பு படிப்பது எப்படி 45",
+        "நிரலாக்க சிறந்த முறைகள் 45",
+        "கவனத்தை அதிகரிப்பது எப்படி 45",
+        "வேலை ஆலோசனை 45",
+        "நேர மேலாண்மை 45"
+      ],
+      "tanglish": [
+        "study tips kudu 45",
+        "security epdi padikardhu 45",
+        "coding tips 45",
+        "focus panna tips 45",
+        "time management sollu 45",
+        "productivity advice 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0046",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 46",
+        "how to study security 46",
+        "coding best practices 46",
+        "how to focus 46",
+        "work advice 46",
+        "time management 46"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 46",
+        "பாதுகாப்பு படிப்பது எப்படி 46",
+        "நிரலாக்க சிறந்த முறைகள் 46",
+        "கவனத்தை அதிகரிப்பது எப்படி 46",
+        "வேலை ஆலோசனை 46",
+        "நேர மேலாண்மை 46"
+      ],
+      "tanglish": [
+        "study tips kudu 46",
+        "security epdi padikardhu 46",
+        "coding tips 46",
+        "focus panna tips 46",
+        "time management sollu 46",
+        "productivity advice 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0047",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 47",
+        "how to study security 47",
+        "coding best practices 47",
+        "how to focus 47",
+        "work advice 47",
+        "time management 47"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 47",
+        "பாதுகாப்பு படிப்பது எப்படி 47",
+        "நிரலாக்க சிறந்த முறைகள் 47",
+        "கவனத்தை அதிகரிப்பது எப்படி 47",
+        "வேலை ஆலோசனை 47",
+        "நேர மேலாண்மை 47"
+      ],
+      "tanglish": [
+        "study tips kudu 47",
+        "security epdi padikardhu 47",
+        "coding tips 47",
+        "focus panna tips 47",
+        "time management sollu 47",
+        "productivity advice 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0048",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 48",
+        "how to study security 48",
+        "coding best practices 48",
+        "how to focus 48",
+        "work advice 48",
+        "time management 48"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 48",
+        "பாதுகாப்பு படிப்பது எப்படி 48",
+        "நிரலாக்க சிறந்த முறைகள் 48",
+        "கவனத்தை அதிகரிப்பது எப்படி 48",
+        "வேலை ஆலோசனை 48",
+        "நேர மேலாண்மை 48"
+      ],
+      "tanglish": [
+        "study tips kudu 48",
+        "security epdi padikardhu 48",
+        "coding tips 48",
+        "focus panna tips 48",
+        "time management sollu 48",
+        "productivity advice 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0049",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 49",
+        "how to study security 49",
+        "coding best practices 49",
+        "how to focus 49",
+        "work advice 49",
+        "time management 49"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 49",
+        "பாதுகாப்பு படிப்பது எப்படி 49",
+        "நிரலாக்க சிறந்த முறைகள் 49",
+        "கவனத்தை அதிகரிப்பது எப்படி 49",
+        "வேலை ஆலோசனை 49",
+        "நேர மேலாண்மை 49"
+      ],
+      "tanglish": [
+        "study tips kudu 49",
+        "security epdi padikardhu 49",
+        "coding tips 49",
+        "focus panna tips 49",
+        "time management sollu 49",
+        "productivity advice 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0050",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 50",
+        "how to study security 50",
+        "coding best practices 50",
+        "how to focus 50",
+        "work advice 50",
+        "time management 50"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 50",
+        "பாதுகாப்பு படிப்பது எப்படி 50",
+        "நிரலாக்க சிறந்த முறைகள் 50",
+        "கவனத்தை அதிகரிப்பது எப்படி 50",
+        "வேலை ஆலோசனை 50",
+        "நேர மேலாண்மை 50"
+      ],
+      "tanglish": [
+        "study tips kudu 50",
+        "security epdi padikardhu 50",
+        "coding tips 50",
+        "focus panna tips 50",
+        "time management sollu 50",
+        "productivity advice 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0051",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 51",
+        "how to study security 51",
+        "coding best practices 51",
+        "how to focus 51",
+        "work advice 51",
+        "time management 51"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 51",
+        "பாதுகாப்பு படிப்பது எப்படி 51",
+        "நிரலாக்க சிறந்த முறைகள் 51",
+        "கவனத்தை அதிகரிப்பது எப்படி 51",
+        "வேலை ஆலோசனை 51",
+        "நேர மேலாண்மை 51"
+      ],
+      "tanglish": [
+        "study tips kudu 51",
+        "security epdi padikardhu 51",
+        "coding tips 51",
+        "focus panna tips 51",
+        "time management sollu 51",
+        "productivity advice 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0052",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 52",
+        "how to study security 52",
+        "coding best practices 52",
+        "how to focus 52",
+        "work advice 52",
+        "time management 52"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 52",
+        "பாதுகாப்பு படிப்பது எப்படி 52",
+        "நிரலாக்க சிறந்த முறைகள் 52",
+        "கவனத்தை அதிகரிப்பது எப்படி 52",
+        "வேலை ஆலோசனை 52",
+        "நேர மேலாண்மை 52"
+      ],
+      "tanglish": [
+        "study tips kudu 52",
+        "security epdi padikardhu 52",
+        "coding tips 52",
+        "focus panna tips 52",
+        "time management sollu 52",
+        "productivity advice 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0053",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 53",
+        "how to study security 53",
+        "coding best practices 53",
+        "how to focus 53",
+        "work advice 53",
+        "time management 53"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 53",
+        "பாதுகாப்பு படிப்பது எப்படி 53",
+        "நிரலாக்க சிறந்த முறைகள் 53",
+        "கவனத்தை அதிகரிப்பது எப்படி 53",
+        "வேலை ஆலோசனை 53",
+        "நேர மேலாண்மை 53"
+      ],
+      "tanglish": [
+        "study tips kudu 53",
+        "security epdi padikardhu 53",
+        "coding tips 53",
+        "focus panna tips 53",
+        "time management sollu 53",
+        "productivity advice 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0054",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 54",
+        "how to study security 54",
+        "coding best practices 54",
+        "how to focus 54",
+        "work advice 54",
+        "time management 54"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 54",
+        "பாதுகாப்பு படிப்பது எப்படி 54",
+        "நிரலாக்க சிறந்த முறைகள் 54",
+        "கவனத்தை அதிகரிப்பது எப்படி 54",
+        "வேலை ஆலோசனை 54",
+        "நேர மேலாண்மை 54"
+      ],
+      "tanglish": [
+        "study tips kudu 54",
+        "security epdi padikardhu 54",
+        "coding tips 54",
+        "focus panna tips 54",
+        "time management sollu 54",
+        "productivity advice 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0055",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 55",
+        "how to study security 55",
+        "coding best practices 55",
+        "how to focus 55",
+        "work advice 55",
+        "time management 55"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 55",
+        "பாதுகாப்பு படிப்பது எப்படி 55",
+        "நிரலாக்க சிறந்த முறைகள் 55",
+        "கவனத்தை அதிகரிப்பது எப்படி 55",
+        "வேலை ஆலோசனை 55",
+        "நேர மேலாண்மை 55"
+      ],
+      "tanglish": [
+        "study tips kudu 55",
+        "security epdi padikardhu 55",
+        "coding tips 55",
+        "focus panna tips 55",
+        "time management sollu 55",
+        "productivity advice 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0056",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 56",
+        "how to study security 56",
+        "coding best practices 56",
+        "how to focus 56",
+        "work advice 56",
+        "time management 56"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 56",
+        "பாதுகாப்பு படிப்பது எப்படி 56",
+        "நிரலாக்க சிறந்த முறைகள் 56",
+        "கவனத்தை அதிகரிப்பது எப்படி 56",
+        "வேலை ஆலோசனை 56",
+        "நேர மேலாண்மை 56"
+      ],
+      "tanglish": [
+        "study tips kudu 56",
+        "security epdi padikardhu 56",
+        "coding tips 56",
+        "focus panna tips 56",
+        "time management sollu 56",
+        "productivity advice 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0057",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 57",
+        "how to study security 57",
+        "coding best practices 57",
+        "how to focus 57",
+        "work advice 57",
+        "time management 57"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 57",
+        "பாதுகாப்பு படிப்பது எப்படி 57",
+        "நிரலாக்க சிறந்த முறைகள் 57",
+        "கவனத்தை அதிகரிப்பது எப்படி 57",
+        "வேலை ஆலோசனை 57",
+        "நேர மேலாண்மை 57"
+      ],
+      "tanglish": [
+        "study tips kudu 57",
+        "security epdi padikardhu 57",
+        "coding tips 57",
+        "focus panna tips 57",
+        "time management sollu 57",
+        "productivity advice 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0058",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 58",
+        "how to study security 58",
+        "coding best practices 58",
+        "how to focus 58",
+        "work advice 58",
+        "time management 58"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 58",
+        "பாதுகாப்பு படிப்பது எப்படி 58",
+        "நிரலாக்க சிறந்த முறைகள் 58",
+        "கவனத்தை அதிகரிப்பது எப்படி 58",
+        "வேலை ஆலோசனை 58",
+        "நேர மேலாண்மை 58"
+      ],
+      "tanglish": [
+        "study tips kudu 58",
+        "security epdi padikardhu 58",
+        "coding tips 58",
+        "focus panna tips 58",
+        "time management sollu 58",
+        "productivity advice 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0059",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 59",
+        "how to study security 59",
+        "coding best practices 59",
+        "how to focus 59",
+        "work advice 59",
+        "time management 59"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 59",
+        "பாதுகாப்பு படிப்பது எப்படி 59",
+        "நிரலாக்க சிறந்த முறைகள் 59",
+        "கவனத்தை அதிகரிப்பது எப்படி 59",
+        "வேலை ஆலோசனை 59",
+        "நேர மேலாண்மை 59"
+      ],
+      "tanglish": [
+        "study tips kudu 59",
+        "security epdi padikardhu 59",
+        "coding tips 59",
+        "focus panna tips 59",
+        "time management sollu 59",
+        "productivity advice 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0060",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 60",
+        "how to study security 60",
+        "coding best practices 60",
+        "how to focus 60",
+        "work advice 60",
+        "time management 60"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 60",
+        "பாதுகாப்பு படிப்பது எப்படி 60",
+        "நிரலாக்க சிறந்த முறைகள் 60",
+        "கவனத்தை அதிகரிப்பது எப்படி 60",
+        "வேலை ஆலோசனை 60",
+        "நேர மேலாண்மை 60"
+      ],
+      "tanglish": [
+        "study tips kudu 60",
+        "security epdi padikardhu 60",
+        "coding tips 60",
+        "focus panna tips 60",
+        "time management sollu 60",
+        "productivity advice 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0061",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 61",
+        "how to study security 61",
+        "coding best practices 61",
+        "how to focus 61",
+        "work advice 61",
+        "time management 61"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 61",
+        "பாதுகாப்பு படிப்பது எப்படி 61",
+        "நிரலாக்க சிறந்த முறைகள் 61",
+        "கவனத்தை அதிகரிப்பது எப்படி 61",
+        "வேலை ஆலோசனை 61",
+        "நேர மேலாண்மை 61"
+      ],
+      "tanglish": [
+        "study tips kudu 61",
+        "security epdi padikardhu 61",
+        "coding tips 61",
+        "focus panna tips 61",
+        "time management sollu 61",
+        "productivity advice 61"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0062",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 62",
+        "how to study security 62",
+        "coding best practices 62",
+        "how to focus 62",
+        "work advice 62",
+        "time management 62"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 62",
+        "பாதுகாப்பு படிப்பது எப்படி 62",
+        "நிரலாக்க சிறந்த முறைகள் 62",
+        "கவனத்தை அதிகரிப்பது எப்படி 62",
+        "வேலை ஆலோசனை 62",
+        "நேர மேலாண்மை 62"
+      ],
+      "tanglish": [
+        "study tips kudu 62",
+        "security epdi padikardhu 62",
+        "coding tips 62",
+        "focus panna tips 62",
+        "time management sollu 62",
+        "productivity advice 62"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0063",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 63",
+        "how to study security 63",
+        "coding best practices 63",
+        "how to focus 63",
+        "work advice 63",
+        "time management 63"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 63",
+        "பாதுகாப்பு படிப்பது எப்படி 63",
+        "நிரலாக்க சிறந்த முறைகள் 63",
+        "கவனத்தை அதிகரிப்பது எப்படி 63",
+        "வேலை ஆலோசனை 63",
+        "நேர மேலாண்மை 63"
+      ],
+      "tanglish": [
+        "study tips kudu 63",
+        "security epdi padikardhu 63",
+        "coding tips 63",
+        "focus panna tips 63",
+        "time management sollu 63",
+        "productivity advice 63"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0064",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 64",
+        "how to study security 64",
+        "coding best practices 64",
+        "how to focus 64",
+        "work advice 64",
+        "time management 64"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 64",
+        "பாதுகாப்பு படிப்பது எப்படி 64",
+        "நிரலாக்க சிறந்த முறைகள் 64",
+        "கவனத்தை அதிகரிப்பது எப்படி 64",
+        "வேலை ஆலோசனை 64",
+        "நேர மேலாண்மை 64"
+      ],
+      "tanglish": [
+        "study tips kudu 64",
+        "security epdi padikardhu 64",
+        "coding tips 64",
+        "focus panna tips 64",
+        "time management sollu 64",
+        "productivity advice 64"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0065",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 65",
+        "how to study security 65",
+        "coding best practices 65",
+        "how to focus 65",
+        "work advice 65",
+        "time management 65"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 65",
+        "பாதுகாப்பு படிப்பது எப்படி 65",
+        "நிரலாக்க சிறந்த முறைகள் 65",
+        "கவனத்தை அதிகரிப்பது எப்படி 65",
+        "வேலை ஆலோசனை 65",
+        "நேர மேலாண்மை 65"
+      ],
+      "tanglish": [
+        "study tips kudu 65",
+        "security epdi padikardhu 65",
+        "coding tips 65",
+        "focus panna tips 65",
+        "time management sollu 65",
+        "productivity advice 65"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0066",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 66",
+        "how to study security 66",
+        "coding best practices 66",
+        "how to focus 66",
+        "work advice 66",
+        "time management 66"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 66",
+        "பாதுகாப்பு படிப்பது எப்படி 66",
+        "நிரலாக்க சிறந்த முறைகள் 66",
+        "கவனத்தை அதிகரிப்பது எப்படி 66",
+        "வேலை ஆலோசனை 66",
+        "நேர மேலாண்மை 66"
+      ],
+      "tanglish": [
+        "study tips kudu 66",
+        "security epdi padikardhu 66",
+        "coding tips 66",
+        "focus panna tips 66",
+        "time management sollu 66",
+        "productivity advice 66"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0067",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 67",
+        "how to study security 67",
+        "coding best practices 67",
+        "how to focus 67",
+        "work advice 67",
+        "time management 67"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 67",
+        "பாதுகாப்பு படிப்பது எப்படி 67",
+        "நிரலாக்க சிறந்த முறைகள் 67",
+        "கவனத்தை அதிகரிப்பது எப்படி 67",
+        "வேலை ஆலோசனை 67",
+        "நேர மேலாண்மை 67"
+      ],
+      "tanglish": [
+        "study tips kudu 67",
+        "security epdi padikardhu 67",
+        "coding tips 67",
+        "focus panna tips 67",
+        "time management sollu 67",
+        "productivity advice 67"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0068",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 68",
+        "how to study security 68",
+        "coding best practices 68",
+        "how to focus 68",
+        "work advice 68",
+        "time management 68"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 68",
+        "பாதுகாப்பு படிப்பது எப்படி 68",
+        "நிரலாக்க சிறந்த முறைகள் 68",
+        "கவனத்தை அதிகரிப்பது எப்படி 68",
+        "வேலை ஆலோசனை 68",
+        "நேர மேலாண்மை 68"
+      ],
+      "tanglish": [
+        "study tips kudu 68",
+        "security epdi padikardhu 68",
+        "coding tips 68",
+        "focus panna tips 68",
+        "time management sollu 68",
+        "productivity advice 68"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0069",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 69",
+        "how to study security 69",
+        "coding best practices 69",
+        "how to focus 69",
+        "work advice 69",
+        "time management 69"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 69",
+        "பாதுகாப்பு படிப்பது எப்படி 69",
+        "நிரலாக்க சிறந்த முறைகள் 69",
+        "கவனத்தை அதிகரிப்பது எப்படி 69",
+        "வேலை ஆலோசனை 69",
+        "நேர மேலாண்மை 69"
+      ],
+      "tanglish": [
+        "study tips kudu 69",
+        "security epdi padikardhu 69",
+        "coding tips 69",
+        "focus panna tips 69",
+        "time management sollu 69",
+        "productivity advice 69"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0070",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 70",
+        "how to study security 70",
+        "coding best practices 70",
+        "how to focus 70",
+        "work advice 70",
+        "time management 70"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 70",
+        "பாதுகாப்பு படிப்பது எப்படி 70",
+        "நிரலாக்க சிறந்த முறைகள் 70",
+        "கவனத்தை அதிகரிப்பது எப்படி 70",
+        "வேலை ஆலோசனை 70",
+        "நேர மேலாண்மை 70"
+      ],
+      "tanglish": [
+        "study tips kudu 70",
+        "security epdi padikardhu 70",
+        "coding tips 70",
+        "focus panna tips 70",
+        "time management sollu 70",
+        "productivity advice 70"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0071",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 71",
+        "how to study security 71",
+        "coding best practices 71",
+        "how to focus 71",
+        "work advice 71",
+        "time management 71"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 71",
+        "பாதுகாப்பு படிப்பது எப்படி 71",
+        "நிரலாக்க சிறந்த முறைகள் 71",
+        "கவனத்தை அதிகரிப்பது எப்படி 71",
+        "வேலை ஆலோசனை 71",
+        "நேர மேலாண்மை 71"
+      ],
+      "tanglish": [
+        "study tips kudu 71",
+        "security epdi padikardhu 71",
+        "coding tips 71",
+        "focus panna tips 71",
+        "time management sollu 71",
+        "productivity advice 71"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0072",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 72",
+        "how to study security 72",
+        "coding best practices 72",
+        "how to focus 72",
+        "work advice 72",
+        "time management 72"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 72",
+        "பாதுகாப்பு படிப்பது எப்படி 72",
+        "நிரலாக்க சிறந்த முறைகள் 72",
+        "கவனத்தை அதிகரிப்பது எப்படி 72",
+        "வேலை ஆலோசனை 72",
+        "நேர மேலாண்மை 72"
+      ],
+      "tanglish": [
+        "study tips kudu 72",
+        "security epdi padikardhu 72",
+        "coding tips 72",
+        "focus panna tips 72",
+        "time management sollu 72",
+        "productivity advice 72"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0073",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 73",
+        "how to study security 73",
+        "coding best practices 73",
+        "how to focus 73",
+        "work advice 73",
+        "time management 73"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 73",
+        "பாதுகாப்பு படிப்பது எப்படி 73",
+        "நிரலாக்க சிறந்த முறைகள் 73",
+        "கவனத்தை அதிகரிப்பது எப்படி 73",
+        "வேலை ஆலோசனை 73",
+        "நேர மேலாண்மை 73"
+      ],
+      "tanglish": [
+        "study tips kudu 73",
+        "security epdi padikardhu 73",
+        "coding tips 73",
+        "focus panna tips 73",
+        "time management sollu 73",
+        "productivity advice 73"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0074",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 74",
+        "how to study security 74",
+        "coding best practices 74",
+        "how to focus 74",
+        "work advice 74",
+        "time management 74"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 74",
+        "பாதுகாப்பு படிப்பது எப்படி 74",
+        "நிரலாக்க சிறந்த முறைகள் 74",
+        "கவனத்தை அதிகரிப்பது எப்படி 74",
+        "வேலை ஆலோசனை 74",
+        "நேர மேலாண்மை 74"
+      ],
+      "tanglish": [
+        "study tips kudu 74",
+        "security epdi padikardhu 74",
+        "coding tips 74",
+        "focus panna tips 74",
+        "time management sollu 74",
+        "productivity advice 74"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0075",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 75",
+        "how to study security 75",
+        "coding best practices 75",
+        "how to focus 75",
+        "work advice 75",
+        "time management 75"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 75",
+        "பாதுகாப்பு படிப்பது எப்படி 75",
+        "நிரலாக்க சிறந்த முறைகள் 75",
+        "கவனத்தை அதிகரிப்பது எப்படி 75",
+        "வேலை ஆலோசனை 75",
+        "நேர மேலாண்மை 75"
+      ],
+      "tanglish": [
+        "study tips kudu 75",
+        "security epdi padikardhu 75",
+        "coding tips 75",
+        "focus panna tips 75",
+        "time management sollu 75",
+        "productivity advice 75"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0076",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 76",
+        "how to study security 76",
+        "coding best practices 76",
+        "how to focus 76",
+        "work advice 76",
+        "time management 76"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 76",
+        "பாதுகாப்பு படிப்பது எப்படி 76",
+        "நிரலாக்க சிறந்த முறைகள் 76",
+        "கவனத்தை அதிகரிப்பது எப்படி 76",
+        "வேலை ஆலோசனை 76",
+        "நேர மேலாண்மை 76"
+      ],
+      "tanglish": [
+        "study tips kudu 76",
+        "security epdi padikardhu 76",
+        "coding tips 76",
+        "focus panna tips 76",
+        "time management sollu 76",
+        "productivity advice 76"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0077",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 77",
+        "how to study security 77",
+        "coding best practices 77",
+        "how to focus 77",
+        "work advice 77",
+        "time management 77"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 77",
+        "பாதுகாப்பு படிப்பது எப்படி 77",
+        "நிரலாக்க சிறந்த முறைகள் 77",
+        "கவனத்தை அதிகரிப்பது எப்படி 77",
+        "வேலை ஆலோசனை 77",
+        "நேர மேலாண்மை 77"
+      ],
+      "tanglish": [
+        "study tips kudu 77",
+        "security epdi padikardhu 77",
+        "coding tips 77",
+        "focus panna tips 77",
+        "time management sollu 77",
+        "productivity advice 77"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0078",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 78",
+        "how to study security 78",
+        "coding best practices 78",
+        "how to focus 78",
+        "work advice 78",
+        "time management 78"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 78",
+        "பாதுகாப்பு படிப்பது எப்படி 78",
+        "நிரலாக்க சிறந்த முறைகள் 78",
+        "கவனத்தை அதிகரிப்பது எப்படி 78",
+        "வேலை ஆலோசனை 78",
+        "நேர மேலாண்மை 78"
+      ],
+      "tanglish": [
+        "study tips kudu 78",
+        "security epdi padikardhu 78",
+        "coding tips 78",
+        "focus panna tips 78",
+        "time management sollu 78",
+        "productivity advice 78"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0079",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 79",
+        "how to study security 79",
+        "coding best practices 79",
+        "how to focus 79",
+        "work advice 79",
+        "time management 79"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 79",
+        "பாதுகாப்பு படிப்பது எப்படி 79",
+        "நிரலாக்க சிறந்த முறைகள் 79",
+        "கவனத்தை அதிகரிப்பது எப்படி 79",
+        "வேலை ஆலோசனை 79",
+        "நேர மேலாண்மை 79"
+      ],
+      "tanglish": [
+        "study tips kudu 79",
+        "security epdi padikardhu 79",
+        "coding tips 79",
+        "focus panna tips 79",
+        "time management sollu 79",
+        "productivity advice 79"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0080",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 80",
+        "how to study security 80",
+        "coding best practices 80",
+        "how to focus 80",
+        "work advice 80",
+        "time management 80"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 80",
+        "பாதுகாப்பு படிப்பது எப்படி 80",
+        "நிரலாக்க சிறந்த முறைகள் 80",
+        "கவனத்தை அதிகரிப்பது எப்படி 80",
+        "வேலை ஆலோசனை 80",
+        "நேர மேலாண்மை 80"
+      ],
+      "tanglish": [
+        "study tips kudu 80",
+        "security epdi padikardhu 80",
+        "coding tips 80",
+        "focus panna tips 80",
+        "time management sollu 80",
+        "productivity advice 80"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0081",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 81",
+        "how to study security 81",
+        "coding best practices 81",
+        "how to focus 81",
+        "work advice 81",
+        "time management 81"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 81",
+        "பாதுகாப்பு படிப்பது எப்படி 81",
+        "நிரலாக்க சிறந்த முறைகள் 81",
+        "கவனத்தை அதிகரிப்பது எப்படி 81",
+        "வேலை ஆலோசனை 81",
+        "நேர மேலாண்மை 81"
+      ],
+      "tanglish": [
+        "study tips kudu 81",
+        "security epdi padikardhu 81",
+        "coding tips 81",
+        "focus panna tips 81",
+        "time management sollu 81",
+        "productivity advice 81"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0082",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 82",
+        "how to study security 82",
+        "coding best practices 82",
+        "how to focus 82",
+        "work advice 82",
+        "time management 82"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 82",
+        "பாதுகாப்பு படிப்பது எப்படி 82",
+        "நிரலாக்க சிறந்த முறைகள் 82",
+        "கவனத்தை அதிகரிப்பது எப்படி 82",
+        "வேலை ஆலோசனை 82",
+        "நேர மேலாண்மை 82"
+      ],
+      "tanglish": [
+        "study tips kudu 82",
+        "security epdi padikardhu 82",
+        "coding tips 82",
+        "focus panna tips 82",
+        "time management sollu 82",
+        "productivity advice 82"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0083",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 83",
+        "how to study security 83",
+        "coding best practices 83",
+        "how to focus 83",
+        "work advice 83",
+        "time management 83"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 83",
+        "பாதுகாப்பு படிப்பது எப்படி 83",
+        "நிரலாக்க சிறந்த முறைகள் 83",
+        "கவனத்தை அதிகரிப்பது எப்படி 83",
+        "வேலை ஆலோசனை 83",
+        "நேர மேலாண்மை 83"
+      ],
+      "tanglish": [
+        "study tips kudu 83",
+        "security epdi padikardhu 83",
+        "coding tips 83",
+        "focus panna tips 83",
+        "time management sollu 83",
+        "productivity advice 83"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0084",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 84",
+        "how to study security 84",
+        "coding best practices 84",
+        "how to focus 84",
+        "work advice 84",
+        "time management 84"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 84",
+        "பாதுகாப்பு படிப்பது எப்படி 84",
+        "நிரலாக்க சிறந்த முறைகள் 84",
+        "கவனத்தை அதிகரிப்பது எப்படி 84",
+        "வேலை ஆலோசனை 84",
+        "நேர மேலாண்மை 84"
+      ],
+      "tanglish": [
+        "study tips kudu 84",
+        "security epdi padikardhu 84",
+        "coding tips 84",
+        "focus panna tips 84",
+        "time management sollu 84",
+        "productivity advice 84"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0085",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 85",
+        "how to study security 85",
+        "coding best practices 85",
+        "how to focus 85",
+        "work advice 85",
+        "time management 85"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 85",
+        "பாதுகாப்பு படிப்பது எப்படி 85",
+        "நிரலாக்க சிறந்த முறைகள் 85",
+        "கவனத்தை அதிகரிப்பது எப்படி 85",
+        "வேலை ஆலோசனை 85",
+        "நேர மேலாண்மை 85"
+      ],
+      "tanglish": [
+        "study tips kudu 85",
+        "security epdi padikardhu 85",
+        "coding tips 85",
+        "focus panna tips 85",
+        "time management sollu 85",
+        "productivity advice 85"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0086",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 86",
+        "how to study security 86",
+        "coding best practices 86",
+        "how to focus 86",
+        "work advice 86",
+        "time management 86"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 86",
+        "பாதுகாப்பு படிப்பது எப்படி 86",
+        "நிரலாக்க சிறந்த முறைகள் 86",
+        "கவனத்தை அதிகரிப்பது எப்படி 86",
+        "வேலை ஆலோசனை 86",
+        "நேர மேலாண்மை 86"
+      ],
+      "tanglish": [
+        "study tips kudu 86",
+        "security epdi padikardhu 86",
+        "coding tips 86",
+        "focus panna tips 86",
+        "time management sollu 86",
+        "productivity advice 86"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0087",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 87",
+        "how to study security 87",
+        "coding best practices 87",
+        "how to focus 87",
+        "work advice 87",
+        "time management 87"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 87",
+        "பாதுகாப்பு படிப்பது எப்படி 87",
+        "நிரலாக்க சிறந்த முறைகள் 87",
+        "கவனத்தை அதிகரிப்பது எப்படி 87",
+        "வேலை ஆலோசனை 87",
+        "நேர மேலாண்மை 87"
+      ],
+      "tanglish": [
+        "study tips kudu 87",
+        "security epdi padikardhu 87",
+        "coding tips 87",
+        "focus panna tips 87",
+        "time management sollu 87",
+        "productivity advice 87"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0088",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 88",
+        "how to study security 88",
+        "coding best practices 88",
+        "how to focus 88",
+        "work advice 88",
+        "time management 88"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 88",
+        "பாதுகாப்பு படிப்பது எப்படி 88",
+        "நிரலாக்க சிறந்த முறைகள் 88",
+        "கவனத்தை அதிகரிப்பது எப்படி 88",
+        "வேலை ஆலோசனை 88",
+        "நேர மேலாண்மை 88"
+      ],
+      "tanglish": [
+        "study tips kudu 88",
+        "security epdi padikardhu 88",
+        "coding tips 88",
+        "focus panna tips 88",
+        "time management sollu 88",
+        "productivity advice 88"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0089",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 89",
+        "how to study security 89",
+        "coding best practices 89",
+        "how to focus 89",
+        "work advice 89",
+        "time management 89"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 89",
+        "பாதுகாப்பு படிப்பது எப்படி 89",
+        "நிரலாக்க சிறந்த முறைகள் 89",
+        "கவனத்தை அதிகரிப்பது எப்படி 89",
+        "வேலை ஆலோசனை 89",
+        "நேர மேலாண்மை 89"
+      ],
+      "tanglish": [
+        "study tips kudu 89",
+        "security epdi padikardhu 89",
+        "coding tips 89",
+        "focus panna tips 89",
+        "time management sollu 89",
+        "productivity advice 89"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0090",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 90",
+        "how to study security 90",
+        "coding best practices 90",
+        "how to focus 90",
+        "work advice 90",
+        "time management 90"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 90",
+        "பாதுகாப்பு படிப்பது எப்படி 90",
+        "நிரலாக்க சிறந்த முறைகள் 90",
+        "கவனத்தை அதிகரிப்பது எப்படி 90",
+        "வேலை ஆலோசனை 90",
+        "நேர மேலாண்மை 90"
+      ],
+      "tanglish": [
+        "study tips kudu 90",
+        "security epdi padikardhu 90",
+        "coding tips 90",
+        "focus panna tips 90",
+        "time management sollu 90",
+        "productivity advice 90"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0091",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 91",
+        "how to study security 91",
+        "coding best practices 91",
+        "how to focus 91",
+        "work advice 91",
+        "time management 91"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 91",
+        "பாதுகாப்பு படிப்பது எப்படி 91",
+        "நிரலாக்க சிறந்த முறைகள் 91",
+        "கவனத்தை அதிகரிப்பது எப்படி 91",
+        "வேலை ஆலோசனை 91",
+        "நேர மேலாண்மை 91"
+      ],
+      "tanglish": [
+        "study tips kudu 91",
+        "security epdi padikardhu 91",
+        "coding tips 91",
+        "focus panna tips 91",
+        "time management sollu 91",
+        "productivity advice 91"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0092",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 92",
+        "how to study security 92",
+        "coding best practices 92",
+        "how to focus 92",
+        "work advice 92",
+        "time management 92"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 92",
+        "பாதுகாப்பு படிப்பது எப்படி 92",
+        "நிரலாக்க சிறந்த முறைகள் 92",
+        "கவனத்தை அதிகரிப்பது எப்படி 92",
+        "வேலை ஆலோசனை 92",
+        "நேர மேலாண்மை 92"
+      ],
+      "tanglish": [
+        "study tips kudu 92",
+        "security epdi padikardhu 92",
+        "coding tips 92",
+        "focus panna tips 92",
+        "time management sollu 92",
+        "productivity advice 92"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0093",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 93",
+        "how to study security 93",
+        "coding best practices 93",
+        "how to focus 93",
+        "work advice 93",
+        "time management 93"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 93",
+        "பாதுகாப்பு படிப்பது எப்படி 93",
+        "நிரலாக்க சிறந்த முறைகள் 93",
+        "கவனத்தை அதிகரிப்பது எப்படி 93",
+        "வேலை ஆலோசனை 93",
+        "நேர மேலாண்மை 93"
+      ],
+      "tanglish": [
+        "study tips kudu 93",
+        "security epdi padikardhu 93",
+        "coding tips 93",
+        "focus panna tips 93",
+        "time management sollu 93",
+        "productivity advice 93"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0094",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 94",
+        "how to study security 94",
+        "coding best practices 94",
+        "how to focus 94",
+        "work advice 94",
+        "time management 94"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 94",
+        "பாதுகாப்பு படிப்பது எப்படி 94",
+        "நிரலாக்க சிறந்த முறைகள் 94",
+        "கவனத்தை அதிகரிப்பது எப்படி 94",
+        "வேலை ஆலோசனை 94",
+        "நேர மேலாண்மை 94"
+      ],
+      "tanglish": [
+        "study tips kudu 94",
+        "security epdi padikardhu 94",
+        "coding tips 94",
+        "focus panna tips 94",
+        "time management sollu 94",
+        "productivity advice 94"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0095",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 95",
+        "how to study security 95",
+        "coding best practices 95",
+        "how to focus 95",
+        "work advice 95",
+        "time management 95"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 95",
+        "பாதுகாப்பு படிப்பது எப்படி 95",
+        "நிரலாக்க சிறந்த முறைகள் 95",
+        "கவனத்தை அதிகரிப்பது எப்படி 95",
+        "வேலை ஆலோசனை 95",
+        "நேர மேலாண்மை 95"
+      ],
+      "tanglish": [
+        "study tips kudu 95",
+        "security epdi padikardhu 95",
+        "coding tips 95",
+        "focus panna tips 95",
+        "time management sollu 95",
+        "productivity advice 95"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0096",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 96",
+        "how to study security 96",
+        "coding best practices 96",
+        "how to focus 96",
+        "work advice 96",
+        "time management 96"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 96",
+        "பாதுகாப்பு படிப்பது எப்படி 96",
+        "நிரலாக்க சிறந்த முறைகள் 96",
+        "கவனத்தை அதிகரிப்பது எப்படி 96",
+        "வேலை ஆலோசனை 96",
+        "நேர மேலாண்மை 96"
+      ],
+      "tanglish": [
+        "study tips kudu 96",
+        "security epdi padikardhu 96",
+        "coding tips 96",
+        "focus panna tips 96",
+        "time management sollu 96",
+        "productivity advice 96"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0097",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 97",
+        "how to study security 97",
+        "coding best practices 97",
+        "how to focus 97",
+        "work advice 97",
+        "time management 97"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 97",
+        "பாதுகாப்பு படிப்பது எப்படி 97",
+        "நிரலாக்க சிறந்த முறைகள் 97",
+        "கவனத்தை அதிகரிப்பது எப்படி 97",
+        "வேலை ஆலோசனை 97",
+        "நேர மேலாண்மை 97"
+      ],
+      "tanglish": [
+        "study tips kudu 97",
+        "security epdi padikardhu 97",
+        "coding tips 97",
+        "focus panna tips 97",
+        "time management sollu 97",
+        "productivity advice 97"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0098",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 98",
+        "how to study security 98",
+        "coding best practices 98",
+        "how to focus 98",
+        "work advice 98",
+        "time management 98"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 98",
+        "பாதுகாப்பு படிப்பது எப்படி 98",
+        "நிரலாக்க சிறந்த முறைகள் 98",
+        "கவனத்தை அதிகரிப்பது எப்படி 98",
+        "வேலை ஆலோசனை 98",
+        "நேர மேலாண்மை 98"
+      ],
+      "tanglish": [
+        "study tips kudu 98",
+        "security epdi padikardhu 98",
+        "coding tips 98",
+        "focus panna tips 98",
+        "time management sollu 98",
+        "productivity advice 98"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0099",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 99",
+        "how to study security 99",
+        "coding best practices 99",
+        "how to focus 99",
+        "work advice 99",
+        "time management 99"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 99",
+        "பாதுகாப்பு படிப்பது எப்படி 99",
+        "நிரலாக்க சிறந்த முறைகள் 99",
+        "கவனத்தை அதிகரிப்பது எப்படி 99",
+        "வேலை ஆலோசனை 99",
+        "நேர மேலாண்மை 99"
+      ],
+      "tanglish": [
+        "study tips kudu 99",
+        "security epdi padikardhu 99",
+        "coding tips 99",
+        "focus panna tips 99",
+        "time management sollu 99",
+        "productivity advice 99"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  },
+  {
+    "id": "gen_prod_0100",
+    "category": "productivity",
+    "patterns": {
+      "en": [
+        "productivity tip 100",
+        "how to study security 100",
+        "coding best practices 100",
+        "how to focus 100",
+        "work advice 100",
+        "time management 100"
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்புகள் 100",
+        "பாதுகாப்பு படிப்பது எப்படி 100",
+        "நிரலாக்க சிறந்த முறைகள் 100",
+        "கவனத்தை அதிகரிப்பது எப்படி 100",
+        "வேலை ஆலோசனை 100",
+        "நேர மேலாண்மை 100"
+      ],
+      "tanglish": [
+        "study tips kudu 100",
+        "security epdi padikardhu 100",
+        "coding tips 100",
+        "focus panna tips 100",
+        "time management sollu 100",
+        "productivity advice 100"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Productivity Tip: Use the Pomodoro technique (25 min deep focus, 5 min break) and automate repetitive security checks with scripts.",
+        "Cybersecurity Study Advice: Practice on sandboxed platforms (TryHackMe, OWASP Juice Shop) and master API fundamentals (HTTP methods, headers, JWT, rate limiting)."
+      ],
+      "ta": [
+        "பயனுள்ள குறிப்பு: 25 நிமிட ஆழ்ந்த கவனம் மற்றும் 5 நிமிட இடைவெளி கொண்ட போமோடோரோ நுட்பத்தைப் பயன்படுத்துங்கள்.",
+        "பாதுகாப்பு படிப்பு ஆலோசனை: OWASP API Top 10 பட்டியலை நன்கு படித்து, நடைமுறை சோதனைகளை சாண்ட்பாக்ஸில் செய்து பாருங்கள்."
+      ],
+      "tanglish": [
+        "Productivity tip: Pomodoro technique (25 min work + 5 min break) romba effective. And repetitive tasks-ah automate pannunga.",
+        "Security study tip: OWASP API Top 10 nalla padunga, and hands-on lab la test panni practical knowledge develop pannunga."
+      ]
+    },
+    "chips": [
+      "What is OWASP API Top 10?",
+      "/status",
+      "Explain SQL injection"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "productivity",
+      "study",
+      "tips"
+    ]
+  }
+]

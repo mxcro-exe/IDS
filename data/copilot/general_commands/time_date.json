@@ -1,0 +1,5502 @@
+[
+  {
+    "id": "gen_timedate_0001",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 1",
+        "today date 1",
+        "which day 1",
+        "current time 1",
+        "what is the date 1",
+        "is it weekend 1"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 1",
+        "இன்றைய தேதி 1",
+        "இன்று என்ன கிழமை 1",
+        "தற்போதைய நேரம் 1",
+        "தேதி என்ன 1",
+        "நாட்காட்டி 1"
+      ],
+      "tanglish": [
+        "time enna 1",
+        "innaiku date enna 1",
+        "enna kizhamai 1",
+        "current time sollu 1",
+        "date sollu 1",
+        "time check 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0002",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 2",
+        "today date 2",
+        "which day 2",
+        "current time 2",
+        "what is the date 2",
+        "is it weekend 2"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 2",
+        "இன்றைய தேதி 2",
+        "இன்று என்ன கிழமை 2",
+        "தற்போதைய நேரம் 2",
+        "தேதி என்ன 2",
+        "நாட்காட்டி 2"
+      ],
+      "tanglish": [
+        "time enna 2",
+        "innaiku date enna 2",
+        "enna kizhamai 2",
+        "current time sollu 2",
+        "date sollu 2",
+        "time check 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0003",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 3",
+        "today date 3",
+        "which day 3",
+        "current time 3",
+        "what is the date 3",
+        "is it weekend 3"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 3",
+        "இன்றைய தேதி 3",
+        "இன்று என்ன கிழமை 3",
+        "தற்போதைய நேரம் 3",
+        "தேதி என்ன 3",
+        "நாட்காட்டி 3"
+      ],
+      "tanglish": [
+        "time enna 3",
+        "innaiku date enna 3",
+        "enna kizhamai 3",
+        "current time sollu 3",
+        "date sollu 3",
+        "time check 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0004",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 4",
+        "today date 4",
+        "which day 4",
+        "current time 4",
+        "what is the date 4",
+        "is it weekend 4"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 4",
+        "இன்றைய தேதி 4",
+        "இன்று என்ன கிழமை 4",
+        "தற்போதைய நேரம் 4",
+        "தேதி என்ன 4",
+        "நாட்காட்டி 4"
+      ],
+      "tanglish": [
+        "time enna 4",
+        "innaiku date enna 4",
+        "enna kizhamai 4",
+        "current time sollu 4",
+        "date sollu 4",
+        "time check 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0005",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 5",
+        "today date 5",
+        "which day 5",
+        "current time 5",
+        "what is the date 5",
+        "is it weekend 5"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 5",
+        "இன்றைய தேதி 5",
+        "இன்று என்ன கிழமை 5",
+        "தற்போதைய நேரம் 5",
+        "தேதி என்ன 5",
+        "நாட்காட்டி 5"
+      ],
+      "tanglish": [
+        "time enna 5",
+        "innaiku date enna 5",
+        "enna kizhamai 5",
+        "current time sollu 5",
+        "date sollu 5",
+        "time check 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0006",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 6",
+        "today date 6",
+        "which day 6",
+        "current time 6",
+        "what is the date 6",
+        "is it weekend 6"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 6",
+        "இன்றைய தேதி 6",
+        "இன்று என்ன கிழமை 6",
+        "தற்போதைய நேரம் 6",
+        "தேதி என்ன 6",
+        "நாட்காட்டி 6"
+      ],
+      "tanglish": [
+        "time enna 6",
+        "innaiku date enna 6",
+        "enna kizhamai 6",
+        "current time sollu 6",
+        "date sollu 6",
+        "time check 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0007",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 7",
+        "today date 7",
+        "which day 7",
+        "current time 7",
+        "what is the date 7",
+        "is it weekend 7"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 7",
+        "இன்றைய தேதி 7",
+        "இன்று என்ன கிழமை 7",
+        "தற்போதைய நேரம் 7",
+        "தேதி என்ன 7",
+        "நாட்காட்டி 7"
+      ],
+      "tanglish": [
+        "time enna 7",
+        "innaiku date enna 7",
+        "enna kizhamai 7",
+        "current time sollu 7",
+        "date sollu 7",
+        "time check 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0008",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 8",
+        "today date 8",
+        "which day 8",
+        "current time 8",
+        "what is the date 8",
+        "is it weekend 8"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 8",
+        "இன்றைய தேதி 8",
+        "இன்று என்ன கிழமை 8",
+        "தற்போதைய நேரம் 8",
+        "தேதி என்ன 8",
+        "நாட்காட்டி 8"
+      ],
+      "tanglish": [
+        "time enna 8",
+        "innaiku date enna 8",
+        "enna kizhamai 8",
+        "current time sollu 8",
+        "date sollu 8",
+        "time check 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0009",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 9",
+        "today date 9",
+        "which day 9",
+        "current time 9",
+        "what is the date 9",
+        "is it weekend 9"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 9",
+        "இன்றைய தேதி 9",
+        "இன்று என்ன கிழமை 9",
+        "தற்போதைய நேரம் 9",
+        "தேதி என்ன 9",
+        "நாட்காட்டி 9"
+      ],
+      "tanglish": [
+        "time enna 9",
+        "innaiku date enna 9",
+        "enna kizhamai 9",
+        "current time sollu 9",
+        "date sollu 9",
+        "time check 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0010",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 10",
+        "today date 10",
+        "which day 10",
+        "current time 10",
+        "what is the date 10",
+        "is it weekend 10"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 10",
+        "இன்றைய தேதி 10",
+        "இன்று என்ன கிழமை 10",
+        "தற்போதைய நேரம் 10",
+        "தேதி என்ன 10",
+        "நாட்காட்டி 10"
+      ],
+      "tanglish": [
+        "time enna 10",
+        "innaiku date enna 10",
+        "enna kizhamai 10",
+        "current time sollu 10",
+        "date sollu 10",
+        "time check 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0011",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 11",
+        "today date 11",
+        "which day 11",
+        "current time 11",
+        "what is the date 11",
+        "is it weekend 11"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 11",
+        "இன்றைய தேதி 11",
+        "இன்று என்ன கிழமை 11",
+        "தற்போதைய நேரம் 11",
+        "தேதி என்ன 11",
+        "நாட்காட்டி 11"
+      ],
+      "tanglish": [
+        "time enna 11",
+        "innaiku date enna 11",
+        "enna kizhamai 11",
+        "current time sollu 11",
+        "date sollu 11",
+        "time check 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0012",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 12",
+        "today date 12",
+        "which day 12",
+        "current time 12",
+        "what is the date 12",
+        "is it weekend 12"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 12",
+        "இன்றைய தேதி 12",
+        "இன்று என்ன கிழமை 12",
+        "தற்போதைய நேரம் 12",
+        "தேதி என்ன 12",
+        "நாட்காட்டி 12"
+      ],
+      "tanglish": [
+        "time enna 12",
+        "innaiku date enna 12",
+        "enna kizhamai 12",
+        "current time sollu 12",
+        "date sollu 12",
+        "time check 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0013",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 13",
+        "today date 13",
+        "which day 13",
+        "current time 13",
+        "what is the date 13",
+        "is it weekend 13"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 13",
+        "இன்றைய தேதி 13",
+        "இன்று என்ன கிழமை 13",
+        "தற்போதைய நேரம் 13",
+        "தேதி என்ன 13",
+        "நாட்காட்டி 13"
+      ],
+      "tanglish": [
+        "time enna 13",
+        "innaiku date enna 13",
+        "enna kizhamai 13",
+        "current time sollu 13",
+        "date sollu 13",
+        "time check 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0014",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 14",
+        "today date 14",
+        "which day 14",
+        "current time 14",
+        "what is the date 14",
+        "is it weekend 14"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 14",
+        "இன்றைய தேதி 14",
+        "இன்று என்ன கிழமை 14",
+        "தற்போதைய நேரம் 14",
+        "தேதி என்ன 14",
+        "நாட்காட்டி 14"
+      ],
+      "tanglish": [
+        "time enna 14",
+        "innaiku date enna 14",
+        "enna kizhamai 14",
+        "current time sollu 14",
+        "date sollu 14",
+        "time check 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0015",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 15",
+        "today date 15",
+        "which day 15",
+        "current time 15",
+        "what is the date 15",
+        "is it weekend 15"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 15",
+        "இன்றைய தேதி 15",
+        "இன்று என்ன கிழமை 15",
+        "தற்போதைய நேரம் 15",
+        "தேதி என்ன 15",
+        "நாட்காட்டி 15"
+      ],
+      "tanglish": [
+        "time enna 15",
+        "innaiku date enna 15",
+        "enna kizhamai 15",
+        "current time sollu 15",
+        "date sollu 15",
+        "time check 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0016",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 16",
+        "today date 16",
+        "which day 16",
+        "current time 16",
+        "what is the date 16",
+        "is it weekend 16"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 16",
+        "இன்றைய தேதி 16",
+        "இன்று என்ன கிழமை 16",
+        "தற்போதைய நேரம் 16",
+        "தேதி என்ன 16",
+        "நாட்காட்டி 16"
+      ],
+      "tanglish": [
+        "time enna 16",
+        "innaiku date enna 16",
+        "enna kizhamai 16",
+        "current time sollu 16",
+        "date sollu 16",
+        "time check 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0017",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 17",
+        "today date 17",
+        "which day 17",
+        "current time 17",
+        "what is the date 17",
+        "is it weekend 17"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 17",
+        "இன்றைய தேதி 17",
+        "இன்று என்ன கிழமை 17",
+        "தற்போதைய நேரம் 17",
+        "தேதி என்ன 17",
+        "நாட்காட்டி 17"
+      ],
+      "tanglish": [
+        "time enna 17",
+        "innaiku date enna 17",
+        "enna kizhamai 17",
+        "current time sollu 17",
+        "date sollu 17",
+        "time check 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0018",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 18",
+        "today date 18",
+        "which day 18",
+        "current time 18",
+        "what is the date 18",
+        "is it weekend 18"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 18",
+        "இன்றைய தேதி 18",
+        "இன்று என்ன கிழமை 18",
+        "தற்போதைய நேரம் 18",
+        "தேதி என்ன 18",
+        "நாட்காட்டி 18"
+      ],
+      "tanglish": [
+        "time enna 18",
+        "innaiku date enna 18",
+        "enna kizhamai 18",
+        "current time sollu 18",
+        "date sollu 18",
+        "time check 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0019",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 19",
+        "today date 19",
+        "which day 19",
+        "current time 19",
+        "what is the date 19",
+        "is it weekend 19"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 19",
+        "இன்றைய தேதி 19",
+        "இன்று என்ன கிழமை 19",
+        "தற்போதைய நேரம் 19",
+        "தேதி என்ன 19",
+        "நாட்காட்டி 19"
+      ],
+      "tanglish": [
+        "time enna 19",
+        "innaiku date enna 19",
+        "enna kizhamai 19",
+        "current time sollu 19",
+        "date sollu 19",
+        "time check 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0020",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 20",
+        "today date 20",
+        "which day 20",
+        "current time 20",
+        "what is the date 20",
+        "is it weekend 20"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 20",
+        "இன்றைய தேதி 20",
+        "இன்று என்ன கிழமை 20",
+        "தற்போதைய நேரம் 20",
+        "தேதி என்ன 20",
+        "நாட்காட்டி 20"
+      ],
+      "tanglish": [
+        "time enna 20",
+        "innaiku date enna 20",
+        "enna kizhamai 20",
+        "current time sollu 20",
+        "date sollu 20",
+        "time check 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0021",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 21",
+        "today date 21",
+        "which day 21",
+        "current time 21",
+        "what is the date 21",
+        "is it weekend 21"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 21",
+        "இன்றைய தேதி 21",
+        "இன்று என்ன கிழமை 21",
+        "தற்போதைய நேரம் 21",
+        "தேதி என்ன 21",
+        "நாட்காட்டி 21"
+      ],
+      "tanglish": [
+        "time enna 21",
+        "innaiku date enna 21",
+        "enna kizhamai 21",
+        "current time sollu 21",
+        "date sollu 21",
+        "time check 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0022",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 22",
+        "today date 22",
+        "which day 22",
+        "current time 22",
+        "what is the date 22",
+        "is it weekend 22"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 22",
+        "இன்றைய தேதி 22",
+        "இன்று என்ன கிழமை 22",
+        "தற்போதைய நேரம் 22",
+        "தேதி என்ன 22",
+        "நாட்காட்டி 22"
+      ],
+      "tanglish": [
+        "time enna 22",
+        "innaiku date enna 22",
+        "enna kizhamai 22",
+        "current time sollu 22",
+        "date sollu 22",
+        "time check 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0023",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 23",
+        "today date 23",
+        "which day 23",
+        "current time 23",
+        "what is the date 23",
+        "is it weekend 23"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 23",
+        "இன்றைய தேதி 23",
+        "இன்று என்ன கிழமை 23",
+        "தற்போதைய நேரம் 23",
+        "தேதி என்ன 23",
+        "நாட்காட்டி 23"
+      ],
+      "tanglish": [
+        "time enna 23",
+        "innaiku date enna 23",
+        "enna kizhamai 23",
+        "current time sollu 23",
+        "date sollu 23",
+        "time check 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0024",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 24",
+        "today date 24",
+        "which day 24",
+        "current time 24",
+        "what is the date 24",
+        "is it weekend 24"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 24",
+        "இன்றைய தேதி 24",
+        "இன்று என்ன கிழமை 24",
+        "தற்போதைய நேரம் 24",
+        "தேதி என்ன 24",
+        "நாட்காட்டி 24"
+      ],
+      "tanglish": [
+        "time enna 24",
+        "innaiku date enna 24",
+        "enna kizhamai 24",
+        "current time sollu 24",
+        "date sollu 24",
+        "time check 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0025",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 25",
+        "today date 25",
+        "which day 25",
+        "current time 25",
+        "what is the date 25",
+        "is it weekend 25"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 25",
+        "இன்றைய தேதி 25",
+        "இன்று என்ன கிழமை 25",
+        "தற்போதைய நேரம் 25",
+        "தேதி என்ன 25",
+        "நாட்காட்டி 25"
+      ],
+      "tanglish": [
+        "time enna 25",
+        "innaiku date enna 25",
+        "enna kizhamai 25",
+        "current time sollu 25",
+        "date sollu 25",
+        "time check 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0026",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 26",
+        "today date 26",
+        "which day 26",
+        "current time 26",
+        "what is the date 26",
+        "is it weekend 26"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 26",
+        "இன்றைய தேதி 26",
+        "இன்று என்ன கிழமை 26",
+        "தற்போதைய நேரம் 26",
+        "தேதி என்ன 26",
+        "நாட்காட்டி 26"
+      ],
+      "tanglish": [
+        "time enna 26",
+        "innaiku date enna 26",
+        "enna kizhamai 26",
+        "current time sollu 26",
+        "date sollu 26",
+        "time check 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0027",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 27",
+        "today date 27",
+        "which day 27",
+        "current time 27",
+        "what is the date 27",
+        "is it weekend 27"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 27",
+        "இன்றைய தேதி 27",
+        "இன்று என்ன கிழமை 27",
+        "தற்போதைய நேரம் 27",
+        "தேதி என்ன 27",
+        "நாட்காட்டி 27"
+      ],
+      "tanglish": [
+        "time enna 27",
+        "innaiku date enna 27",
+        "enna kizhamai 27",
+        "current time sollu 27",
+        "date sollu 27",
+        "time check 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0028",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 28",
+        "today date 28",
+        "which day 28",
+        "current time 28",
+        "what is the date 28",
+        "is it weekend 28"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 28",
+        "இன்றைய தேதி 28",
+        "இன்று என்ன கிழமை 28",
+        "தற்போதைய நேரம் 28",
+        "தேதி என்ன 28",
+        "நாட்காட்டி 28"
+      ],
+      "tanglish": [
+        "time enna 28",
+        "innaiku date enna 28",
+        "enna kizhamai 28",
+        "current time sollu 28",
+        "date sollu 28",
+        "time check 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0029",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 29",
+        "today date 29",
+        "which day 29",
+        "current time 29",
+        "what is the date 29",
+        "is it weekend 29"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 29",
+        "இன்றைய தேதி 29",
+        "இன்று என்ன கிழமை 29",
+        "தற்போதைய நேரம் 29",
+        "தேதி என்ன 29",
+        "நாட்காட்டி 29"
+      ],
+      "tanglish": [
+        "time enna 29",
+        "innaiku date enna 29",
+        "enna kizhamai 29",
+        "current time sollu 29",
+        "date sollu 29",
+        "time check 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0030",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 30",
+        "today date 30",
+        "which day 30",
+        "current time 30",
+        "what is the date 30",
+        "is it weekend 30"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 30",
+        "இன்றைய தேதி 30",
+        "இன்று என்ன கிழமை 30",
+        "தற்போதைய நேரம் 30",
+        "தேதி என்ன 30",
+        "நாட்காட்டி 30"
+      ],
+      "tanglish": [
+        "time enna 30",
+        "innaiku date enna 30",
+        "enna kizhamai 30",
+        "current time sollu 30",
+        "date sollu 30",
+        "time check 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0031",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 31",
+        "today date 31",
+        "which day 31",
+        "current time 31",
+        "what is the date 31",
+        "is it weekend 31"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 31",
+        "இன்றைய தேதி 31",
+        "இன்று என்ன கிழமை 31",
+        "தற்போதைய நேரம் 31",
+        "தேதி என்ன 31",
+        "நாட்காட்டி 31"
+      ],
+      "tanglish": [
+        "time enna 31",
+        "innaiku date enna 31",
+        "enna kizhamai 31",
+        "current time sollu 31",
+        "date sollu 31",
+        "time check 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0032",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 32",
+        "today date 32",
+        "which day 32",
+        "current time 32",
+        "what is the date 32",
+        "is it weekend 32"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 32",
+        "இன்றைய தேதி 32",
+        "இன்று என்ன கிழமை 32",
+        "தற்போதைய நேரம் 32",
+        "தேதி என்ன 32",
+        "நாட்காட்டி 32"
+      ],
+      "tanglish": [
+        "time enna 32",
+        "innaiku date enna 32",
+        "enna kizhamai 32",
+        "current time sollu 32",
+        "date sollu 32",
+        "time check 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0033",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 33",
+        "today date 33",
+        "which day 33",
+        "current time 33",
+        "what is the date 33",
+        "is it weekend 33"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 33",
+        "இன்றைய தேதி 33",
+        "இன்று என்ன கிழமை 33",
+        "தற்போதைய நேரம் 33",
+        "தேதி என்ன 33",
+        "நாட்காட்டி 33"
+      ],
+      "tanglish": [
+        "time enna 33",
+        "innaiku date enna 33",
+        "enna kizhamai 33",
+        "current time sollu 33",
+        "date sollu 33",
+        "time check 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0034",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 34",
+        "today date 34",
+        "which day 34",
+        "current time 34",
+        "what is the date 34",
+        "is it weekend 34"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 34",
+        "இன்றைய தேதி 34",
+        "இன்று என்ன கிழமை 34",
+        "தற்போதைய நேரம் 34",
+        "தேதி என்ன 34",
+        "நாட்காட்டி 34"
+      ],
+      "tanglish": [
+        "time enna 34",
+        "innaiku date enna 34",
+        "enna kizhamai 34",
+        "current time sollu 34",
+        "date sollu 34",
+        "time check 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0035",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 35",
+        "today date 35",
+        "which day 35",
+        "current time 35",
+        "what is the date 35",
+        "is it weekend 35"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 35",
+        "இன்றைய தேதி 35",
+        "இன்று என்ன கிழமை 35",
+        "தற்போதைய நேரம் 35",
+        "தேதி என்ன 35",
+        "நாட்காட்டி 35"
+      ],
+      "tanglish": [
+        "time enna 35",
+        "innaiku date enna 35",
+        "enna kizhamai 35",
+        "current time sollu 35",
+        "date sollu 35",
+        "time check 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0036",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 36",
+        "today date 36",
+        "which day 36",
+        "current time 36",
+        "what is the date 36",
+        "is it weekend 36"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 36",
+        "இன்றைய தேதி 36",
+        "இன்று என்ன கிழமை 36",
+        "தற்போதைய நேரம் 36",
+        "தேதி என்ன 36",
+        "நாட்காட்டி 36"
+      ],
+      "tanglish": [
+        "time enna 36",
+        "innaiku date enna 36",
+        "enna kizhamai 36",
+        "current time sollu 36",
+        "date sollu 36",
+        "time check 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0037",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 37",
+        "today date 37",
+        "which day 37",
+        "current time 37",
+        "what is the date 37",
+        "is it weekend 37"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 37",
+        "இன்றைய தேதி 37",
+        "இன்று என்ன கிழமை 37",
+        "தற்போதைய நேரம் 37",
+        "தேதி என்ன 37",
+        "நாட்காட்டி 37"
+      ],
+      "tanglish": [
+        "time enna 37",
+        "innaiku date enna 37",
+        "enna kizhamai 37",
+        "current time sollu 37",
+        "date sollu 37",
+        "time check 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0038",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 38",
+        "today date 38",
+        "which day 38",
+        "current time 38",
+        "what is the date 38",
+        "is it weekend 38"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 38",
+        "இன்றைய தேதி 38",
+        "இன்று என்ன கிழமை 38",
+        "தற்போதைய நேரம் 38",
+        "தேதி என்ன 38",
+        "நாட்காட்டி 38"
+      ],
+      "tanglish": [
+        "time enna 38",
+        "innaiku date enna 38",
+        "enna kizhamai 38",
+        "current time sollu 38",
+        "date sollu 38",
+        "time check 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0039",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 39",
+        "today date 39",
+        "which day 39",
+        "current time 39",
+        "what is the date 39",
+        "is it weekend 39"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 39",
+        "இன்றைய தேதி 39",
+        "இன்று என்ன கிழமை 39",
+        "தற்போதைய நேரம் 39",
+        "தேதி என்ன 39",
+        "நாட்காட்டி 39"
+      ],
+      "tanglish": [
+        "time enna 39",
+        "innaiku date enna 39",
+        "enna kizhamai 39",
+        "current time sollu 39",
+        "date sollu 39",
+        "time check 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0040",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 40",
+        "today date 40",
+        "which day 40",
+        "current time 40",
+        "what is the date 40",
+        "is it weekend 40"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 40",
+        "இன்றைய தேதி 40",
+        "இன்று என்ன கிழமை 40",
+        "தற்போதைய நேரம் 40",
+        "தேதி என்ன 40",
+        "நாட்காட்டி 40"
+      ],
+      "tanglish": [
+        "time enna 40",
+        "innaiku date enna 40",
+        "enna kizhamai 40",
+        "current time sollu 40",
+        "date sollu 40",
+        "time check 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0041",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 41",
+        "today date 41",
+        "which day 41",
+        "current time 41",
+        "what is the date 41",
+        "is it weekend 41"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 41",
+        "இன்றைய தேதி 41",
+        "இன்று என்ன கிழமை 41",
+        "தற்போதைய நேரம் 41",
+        "தேதி என்ன 41",
+        "நாட்காட்டி 41"
+      ],
+      "tanglish": [
+        "time enna 41",
+        "innaiku date enna 41",
+        "enna kizhamai 41",
+        "current time sollu 41",
+        "date sollu 41",
+        "time check 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0042",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 42",
+        "today date 42",
+        "which day 42",
+        "current time 42",
+        "what is the date 42",
+        "is it weekend 42"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 42",
+        "இன்றைய தேதி 42",
+        "இன்று என்ன கிழமை 42",
+        "தற்போதைய நேரம் 42",
+        "தேதி என்ன 42",
+        "நாட்காட்டி 42"
+      ],
+      "tanglish": [
+        "time enna 42",
+        "innaiku date enna 42",
+        "enna kizhamai 42",
+        "current time sollu 42",
+        "date sollu 42",
+        "time check 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0043",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 43",
+        "today date 43",
+        "which day 43",
+        "current time 43",
+        "what is the date 43",
+        "is it weekend 43"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 43",
+        "இன்றைய தேதி 43",
+        "இன்று என்ன கிழமை 43",
+        "தற்போதைய நேரம் 43",
+        "தேதி என்ன 43",
+        "நாட்காட்டி 43"
+      ],
+      "tanglish": [
+        "time enna 43",
+        "innaiku date enna 43",
+        "enna kizhamai 43",
+        "current time sollu 43",
+        "date sollu 43",
+        "time check 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0044",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 44",
+        "today date 44",
+        "which day 44",
+        "current time 44",
+        "what is the date 44",
+        "is it weekend 44"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 44",
+        "இன்றைய தேதி 44",
+        "இன்று என்ன கிழமை 44",
+        "தற்போதைய நேரம் 44",
+        "தேதி என்ன 44",
+        "நாட்காட்டி 44"
+      ],
+      "tanglish": [
+        "time enna 44",
+        "innaiku date enna 44",
+        "enna kizhamai 44",
+        "current time sollu 44",
+        "date sollu 44",
+        "time check 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0045",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 45",
+        "today date 45",
+        "which day 45",
+        "current time 45",
+        "what is the date 45",
+        "is it weekend 45"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 45",
+        "இன்றைய தேதி 45",
+        "இன்று என்ன கிழமை 45",
+        "தற்போதைய நேரம் 45",
+        "தேதி என்ன 45",
+        "நாட்காட்டி 45"
+      ],
+      "tanglish": [
+        "time enna 45",
+        "innaiku date enna 45",
+        "enna kizhamai 45",
+        "current time sollu 45",
+        "date sollu 45",
+        "time check 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0046",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 46",
+        "today date 46",
+        "which day 46",
+        "current time 46",
+        "what is the date 46",
+        "is it weekend 46"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 46",
+        "இன்றைய தேதி 46",
+        "இன்று என்ன கிழமை 46",
+        "தற்போதைய நேரம் 46",
+        "தேதி என்ன 46",
+        "நாட்காட்டி 46"
+      ],
+      "tanglish": [
+        "time enna 46",
+        "innaiku date enna 46",
+        "enna kizhamai 46",
+        "current time sollu 46",
+        "date sollu 46",
+        "time check 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0047",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 47",
+        "today date 47",
+        "which day 47",
+        "current time 47",
+        "what is the date 47",
+        "is it weekend 47"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 47",
+        "இன்றைய தேதி 47",
+        "இன்று என்ன கிழமை 47",
+        "தற்போதைய நேரம் 47",
+        "தேதி என்ன 47",
+        "நாட்காட்டி 47"
+      ],
+      "tanglish": [
+        "time enna 47",
+        "innaiku date enna 47",
+        "enna kizhamai 47",
+        "current time sollu 47",
+        "date sollu 47",
+        "time check 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0048",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 48",
+        "today date 48",
+        "which day 48",
+        "current time 48",
+        "what is the date 48",
+        "is it weekend 48"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 48",
+        "இன்றைய தேதி 48",
+        "இன்று என்ன கிழமை 48",
+        "தற்போதைய நேரம் 48",
+        "தேதி என்ன 48",
+        "நாட்காட்டி 48"
+      ],
+      "tanglish": [
+        "time enna 48",
+        "innaiku date enna 48",
+        "enna kizhamai 48",
+        "current time sollu 48",
+        "date sollu 48",
+        "time check 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0049",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 49",
+        "today date 49",
+        "which day 49",
+        "current time 49",
+        "what is the date 49",
+        "is it weekend 49"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 49",
+        "இன்றைய தேதி 49",
+        "இன்று என்ன கிழமை 49",
+        "தற்போதைய நேரம் 49",
+        "தேதி என்ன 49",
+        "நாட்காட்டி 49"
+      ],
+      "tanglish": [
+        "time enna 49",
+        "innaiku date enna 49",
+        "enna kizhamai 49",
+        "current time sollu 49",
+        "date sollu 49",
+        "time check 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0050",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 50",
+        "today date 50",
+        "which day 50",
+        "current time 50",
+        "what is the date 50",
+        "is it weekend 50"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 50",
+        "இன்றைய தேதி 50",
+        "இன்று என்ன கிழமை 50",
+        "தற்போதைய நேரம் 50",
+        "தேதி என்ன 50",
+        "நாட்காட்டி 50"
+      ],
+      "tanglish": [
+        "time enna 50",
+        "innaiku date enna 50",
+        "enna kizhamai 50",
+        "current time sollu 50",
+        "date sollu 50",
+        "time check 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0051",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 51",
+        "today date 51",
+        "which day 51",
+        "current time 51",
+        "what is the date 51",
+        "is it weekend 51"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 51",
+        "இன்றைய தேதி 51",
+        "இன்று என்ன கிழமை 51",
+        "தற்போதைய நேரம் 51",
+        "தேதி என்ன 51",
+        "நாட்காட்டி 51"
+      ],
+      "tanglish": [
+        "time enna 51",
+        "innaiku date enna 51",
+        "enna kizhamai 51",
+        "current time sollu 51",
+        "date sollu 51",
+        "time check 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0052",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 52",
+        "today date 52",
+        "which day 52",
+        "current time 52",
+        "what is the date 52",
+        "is it weekend 52"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 52",
+        "இன்றைய தேதி 52",
+        "இன்று என்ன கிழமை 52",
+        "தற்போதைய நேரம் 52",
+        "தேதி என்ன 52",
+        "நாட்காட்டி 52"
+      ],
+      "tanglish": [
+        "time enna 52",
+        "innaiku date enna 52",
+        "enna kizhamai 52",
+        "current time sollu 52",
+        "date sollu 52",
+        "time check 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0053",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 53",
+        "today date 53",
+        "which day 53",
+        "current time 53",
+        "what is the date 53",
+        "is it weekend 53"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 53",
+        "இன்றைய தேதி 53",
+        "இன்று என்ன கிழமை 53",
+        "தற்போதைய நேரம் 53",
+        "தேதி என்ன 53",
+        "நாட்காட்டி 53"
+      ],
+      "tanglish": [
+        "time enna 53",
+        "innaiku date enna 53",
+        "enna kizhamai 53",
+        "current time sollu 53",
+        "date sollu 53",
+        "time check 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0054",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 54",
+        "today date 54",
+        "which day 54",
+        "current time 54",
+        "what is the date 54",
+        "is it weekend 54"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 54",
+        "இன்றைய தேதி 54",
+        "இன்று என்ன கிழமை 54",
+        "தற்போதைய நேரம் 54",
+        "தேதி என்ன 54",
+        "நாட்காட்டி 54"
+      ],
+      "tanglish": [
+        "time enna 54",
+        "innaiku date enna 54",
+        "enna kizhamai 54",
+        "current time sollu 54",
+        "date sollu 54",
+        "time check 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0055",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 55",
+        "today date 55",
+        "which day 55",
+        "current time 55",
+        "what is the date 55",
+        "is it weekend 55"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 55",
+        "இன்றைய தேதி 55",
+        "இன்று என்ன கிழமை 55",
+        "தற்போதைய நேரம் 55",
+        "தேதி என்ன 55",
+        "நாட்காட்டி 55"
+      ],
+      "tanglish": [
+        "time enna 55",
+        "innaiku date enna 55",
+        "enna kizhamai 55",
+        "current time sollu 55",
+        "date sollu 55",
+        "time check 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0056",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 56",
+        "today date 56",
+        "which day 56",
+        "current time 56",
+        "what is the date 56",
+        "is it weekend 56"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 56",
+        "இன்றைய தேதி 56",
+        "இன்று என்ன கிழமை 56",
+        "தற்போதைய நேரம் 56",
+        "தேதி என்ன 56",
+        "நாட்காட்டி 56"
+      ],
+      "tanglish": [
+        "time enna 56",
+        "innaiku date enna 56",
+        "enna kizhamai 56",
+        "current time sollu 56",
+        "date sollu 56",
+        "time check 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0057",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 57",
+        "today date 57",
+        "which day 57",
+        "current time 57",
+        "what is the date 57",
+        "is it weekend 57"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 57",
+        "இன்றைய தேதி 57",
+        "இன்று என்ன கிழமை 57",
+        "தற்போதைய நேரம் 57",
+        "தேதி என்ன 57",
+        "நாட்காட்டி 57"
+      ],
+      "tanglish": [
+        "time enna 57",
+        "innaiku date enna 57",
+        "enna kizhamai 57",
+        "current time sollu 57",
+        "date sollu 57",
+        "time check 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0058",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 58",
+        "today date 58",
+        "which day 58",
+        "current time 58",
+        "what is the date 58",
+        "is it weekend 58"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 58",
+        "இன்றைய தேதி 58",
+        "இன்று என்ன கிழமை 58",
+        "தற்போதைய நேரம் 58",
+        "தேதி என்ன 58",
+        "நாட்காட்டி 58"
+      ],
+      "tanglish": [
+        "time enna 58",
+        "innaiku date enna 58",
+        "enna kizhamai 58",
+        "current time sollu 58",
+        "date sollu 58",
+        "time check 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0059",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 59",
+        "today date 59",
+        "which day 59",
+        "current time 59",
+        "what is the date 59",
+        "is it weekend 59"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 59",
+        "இன்றைய தேதி 59",
+        "இன்று என்ன கிழமை 59",
+        "தற்போதைய நேரம் 59",
+        "தேதி என்ன 59",
+        "நாட்காட்டி 59"
+      ],
+      "tanglish": [
+        "time enna 59",
+        "innaiku date enna 59",
+        "enna kizhamai 59",
+        "current time sollu 59",
+        "date sollu 59",
+        "time check 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0060",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 60",
+        "today date 60",
+        "which day 60",
+        "current time 60",
+        "what is the date 60",
+        "is it weekend 60"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 60",
+        "இன்றைய தேதி 60",
+        "இன்று என்ன கிழமை 60",
+        "தற்போதைய நேரம் 60",
+        "தேதி என்ன 60",
+        "நாட்காட்டி 60"
+      ],
+      "tanglish": [
+        "time enna 60",
+        "innaiku date enna 60",
+        "enna kizhamai 60",
+        "current time sollu 60",
+        "date sollu 60",
+        "time check 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0061",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 61",
+        "today date 61",
+        "which day 61",
+        "current time 61",
+        "what is the date 61",
+        "is it weekend 61"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 61",
+        "இன்றைய தேதி 61",
+        "இன்று என்ன கிழமை 61",
+        "தற்போதைய நேரம் 61",
+        "தேதி என்ன 61",
+        "நாட்காட்டி 61"
+      ],
+      "tanglish": [
+        "time enna 61",
+        "innaiku date enna 61",
+        "enna kizhamai 61",
+        "current time sollu 61",
+        "date sollu 61",
+        "time check 61"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0062",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 62",
+        "today date 62",
+        "which day 62",
+        "current time 62",
+        "what is the date 62",
+        "is it weekend 62"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 62",
+        "இன்றைய தேதி 62",
+        "இன்று என்ன கிழமை 62",
+        "தற்போதைய நேரம் 62",
+        "தேதி என்ன 62",
+        "நாட்காட்டி 62"
+      ],
+      "tanglish": [
+        "time enna 62",
+        "innaiku date enna 62",
+        "enna kizhamai 62",
+        "current time sollu 62",
+        "date sollu 62",
+        "time check 62"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0063",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 63",
+        "today date 63",
+        "which day 63",
+        "current time 63",
+        "what is the date 63",
+        "is it weekend 63"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 63",
+        "இன்றைய தேதி 63",
+        "இன்று என்ன கிழமை 63",
+        "தற்போதைய நேரம் 63",
+        "தேதி என்ன 63",
+        "நாட்காட்டி 63"
+      ],
+      "tanglish": [
+        "time enna 63",
+        "innaiku date enna 63",
+        "enna kizhamai 63",
+        "current time sollu 63",
+        "date sollu 63",
+        "time check 63"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0064",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 64",
+        "today date 64",
+        "which day 64",
+        "current time 64",
+        "what is the date 64",
+        "is it weekend 64"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 64",
+        "இன்றைய தேதி 64",
+        "இன்று என்ன கிழமை 64",
+        "தற்போதைய நேரம் 64",
+        "தேதி என்ன 64",
+        "நாட்காட்டி 64"
+      ],
+      "tanglish": [
+        "time enna 64",
+        "innaiku date enna 64",
+        "enna kizhamai 64",
+        "current time sollu 64",
+        "date sollu 64",
+        "time check 64"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0065",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 65",
+        "today date 65",
+        "which day 65",
+        "current time 65",
+        "what is the date 65",
+        "is it weekend 65"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 65",
+        "இன்றைய தேதி 65",
+        "இன்று என்ன கிழமை 65",
+        "தற்போதைய நேரம் 65",
+        "தேதி என்ன 65",
+        "நாட்காட்டி 65"
+      ],
+      "tanglish": [
+        "time enna 65",
+        "innaiku date enna 65",
+        "enna kizhamai 65",
+        "current time sollu 65",
+        "date sollu 65",
+        "time check 65"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0066",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 66",
+        "today date 66",
+        "which day 66",
+        "current time 66",
+        "what is the date 66",
+        "is it weekend 66"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 66",
+        "இன்றைய தேதி 66",
+        "இன்று என்ன கிழமை 66",
+        "தற்போதைய நேரம் 66",
+        "தேதி என்ன 66",
+        "நாட்காட்டி 66"
+      ],
+      "tanglish": [
+        "time enna 66",
+        "innaiku date enna 66",
+        "enna kizhamai 66",
+        "current time sollu 66",
+        "date sollu 66",
+        "time check 66"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0067",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 67",
+        "today date 67",
+        "which day 67",
+        "current time 67",
+        "what is the date 67",
+        "is it weekend 67"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 67",
+        "இன்றைய தேதி 67",
+        "இன்று என்ன கிழமை 67",
+        "தற்போதைய நேரம் 67",
+        "தேதி என்ன 67",
+        "நாட்காட்டி 67"
+      ],
+      "tanglish": [
+        "time enna 67",
+        "innaiku date enna 67",
+        "enna kizhamai 67",
+        "current time sollu 67",
+        "date sollu 67",
+        "time check 67"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0068",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 68",
+        "today date 68",
+        "which day 68",
+        "current time 68",
+        "what is the date 68",
+        "is it weekend 68"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 68",
+        "இன்றைய தேதி 68",
+        "இன்று என்ன கிழமை 68",
+        "தற்போதைய நேரம் 68",
+        "தேதி என்ன 68",
+        "நாட்காட்டி 68"
+      ],
+      "tanglish": [
+        "time enna 68",
+        "innaiku date enna 68",
+        "enna kizhamai 68",
+        "current time sollu 68",
+        "date sollu 68",
+        "time check 68"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0069",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 69",
+        "today date 69",
+        "which day 69",
+        "current time 69",
+        "what is the date 69",
+        "is it weekend 69"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 69",
+        "இன்றைய தேதி 69",
+        "இன்று என்ன கிழமை 69",
+        "தற்போதைய நேரம் 69",
+        "தேதி என்ன 69",
+        "நாட்காட்டி 69"
+      ],
+      "tanglish": [
+        "time enna 69",
+        "innaiku date enna 69",
+        "enna kizhamai 69",
+        "current time sollu 69",
+        "date sollu 69",
+        "time check 69"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0070",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 70",
+        "today date 70",
+        "which day 70",
+        "current time 70",
+        "what is the date 70",
+        "is it weekend 70"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 70",
+        "இன்றைய தேதி 70",
+        "இன்று என்ன கிழமை 70",
+        "தற்போதைய நேரம் 70",
+        "தேதி என்ன 70",
+        "நாட்காட்டி 70"
+      ],
+      "tanglish": [
+        "time enna 70",
+        "innaiku date enna 70",
+        "enna kizhamai 70",
+        "current time sollu 70",
+        "date sollu 70",
+        "time check 70"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0071",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 71",
+        "today date 71",
+        "which day 71",
+        "current time 71",
+        "what is the date 71",
+        "is it weekend 71"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 71",
+        "இன்றைய தேதி 71",
+        "இன்று என்ன கிழமை 71",
+        "தற்போதைய நேரம் 71",
+        "தேதி என்ன 71",
+        "நாட்காட்டி 71"
+      ],
+      "tanglish": [
+        "time enna 71",
+        "innaiku date enna 71",
+        "enna kizhamai 71",
+        "current time sollu 71",
+        "date sollu 71",
+        "time check 71"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0072",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 72",
+        "today date 72",
+        "which day 72",
+        "current time 72",
+        "what is the date 72",
+        "is it weekend 72"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 72",
+        "இன்றைய தேதி 72",
+        "இன்று என்ன கிழமை 72",
+        "தற்போதைய நேரம் 72",
+        "தேதி என்ன 72",
+        "நாட்காட்டி 72"
+      ],
+      "tanglish": [
+        "time enna 72",
+        "innaiku date enna 72",
+        "enna kizhamai 72",
+        "current time sollu 72",
+        "date sollu 72",
+        "time check 72"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0073",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 73",
+        "today date 73",
+        "which day 73",
+        "current time 73",
+        "what is the date 73",
+        "is it weekend 73"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 73",
+        "இன்றைய தேதி 73",
+        "இன்று என்ன கிழமை 73",
+        "தற்போதைய நேரம் 73",
+        "தேதி என்ன 73",
+        "நாட்காட்டி 73"
+      ],
+      "tanglish": [
+        "time enna 73",
+        "innaiku date enna 73",
+        "enna kizhamai 73",
+        "current time sollu 73",
+        "date sollu 73",
+        "time check 73"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0074",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 74",
+        "today date 74",
+        "which day 74",
+        "current time 74",
+        "what is the date 74",
+        "is it weekend 74"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 74",
+        "இன்றைய தேதி 74",
+        "இன்று என்ன கிழமை 74",
+        "தற்போதைய நேரம் 74",
+        "தேதி என்ன 74",
+        "நாட்காட்டி 74"
+      ],
+      "tanglish": [
+        "time enna 74",
+        "innaiku date enna 74",
+        "enna kizhamai 74",
+        "current time sollu 74",
+        "date sollu 74",
+        "time check 74"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0075",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 75",
+        "today date 75",
+        "which day 75",
+        "current time 75",
+        "what is the date 75",
+        "is it weekend 75"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 75",
+        "இன்றைய தேதி 75",
+        "இன்று என்ன கிழமை 75",
+        "தற்போதைய நேரம் 75",
+        "தேதி என்ன 75",
+        "நாட்காட்டி 75"
+      ],
+      "tanglish": [
+        "time enna 75",
+        "innaiku date enna 75",
+        "enna kizhamai 75",
+        "current time sollu 75",
+        "date sollu 75",
+        "time check 75"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0076",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 76",
+        "today date 76",
+        "which day 76",
+        "current time 76",
+        "what is the date 76",
+        "is it weekend 76"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 76",
+        "இன்றைய தேதி 76",
+        "இன்று என்ன கிழமை 76",
+        "தற்போதைய நேரம் 76",
+        "தேதி என்ன 76",
+        "நாட்காட்டி 76"
+      ],
+      "tanglish": [
+        "time enna 76",
+        "innaiku date enna 76",
+        "enna kizhamai 76",
+        "current time sollu 76",
+        "date sollu 76",
+        "time check 76"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0077",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 77",
+        "today date 77",
+        "which day 77",
+        "current time 77",
+        "what is the date 77",
+        "is it weekend 77"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 77",
+        "இன்றைய தேதி 77",
+        "இன்று என்ன கிழமை 77",
+        "தற்போதைய நேரம் 77",
+        "தேதி என்ன 77",
+        "நாட்காட்டி 77"
+      ],
+      "tanglish": [
+        "time enna 77",
+        "innaiku date enna 77",
+        "enna kizhamai 77",
+        "current time sollu 77",
+        "date sollu 77",
+        "time check 77"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0078",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 78",
+        "today date 78",
+        "which day 78",
+        "current time 78",
+        "what is the date 78",
+        "is it weekend 78"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 78",
+        "இன்றைய தேதி 78",
+        "இன்று என்ன கிழமை 78",
+        "தற்போதைய நேரம் 78",
+        "தேதி என்ன 78",
+        "நாட்காட்டி 78"
+      ],
+      "tanglish": [
+        "time enna 78",
+        "innaiku date enna 78",
+        "enna kizhamai 78",
+        "current time sollu 78",
+        "date sollu 78",
+        "time check 78"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0079",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 79",
+        "today date 79",
+        "which day 79",
+        "current time 79",
+        "what is the date 79",
+        "is it weekend 79"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 79",
+        "இன்றைய தேதி 79",
+        "இன்று என்ன கிழமை 79",
+        "தற்போதைய நேரம் 79",
+        "தேதி என்ன 79",
+        "நாட்காட்டி 79"
+      ],
+      "tanglish": [
+        "time enna 79",
+        "innaiku date enna 79",
+        "enna kizhamai 79",
+        "current time sollu 79",
+        "date sollu 79",
+        "time check 79"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0080",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 80",
+        "today date 80",
+        "which day 80",
+        "current time 80",
+        "what is the date 80",
+        "is it weekend 80"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 80",
+        "இன்றைய தேதி 80",
+        "இன்று என்ன கிழமை 80",
+        "தற்போதைய நேரம் 80",
+        "தேதி என்ன 80",
+        "நாட்காட்டி 80"
+      ],
+      "tanglish": [
+        "time enna 80",
+        "innaiku date enna 80",
+        "enna kizhamai 80",
+        "current time sollu 80",
+        "date sollu 80",
+        "time check 80"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0081",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 81",
+        "today date 81",
+        "which day 81",
+        "current time 81",
+        "what is the date 81",
+        "is it weekend 81"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 81",
+        "இன்றைய தேதி 81",
+        "இன்று என்ன கிழமை 81",
+        "தற்போதைய நேரம் 81",
+        "தேதி என்ன 81",
+        "நாட்காட்டி 81"
+      ],
+      "tanglish": [
+        "time enna 81",
+        "innaiku date enna 81",
+        "enna kizhamai 81",
+        "current time sollu 81",
+        "date sollu 81",
+        "time check 81"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0082",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 82",
+        "today date 82",
+        "which day 82",
+        "current time 82",
+        "what is the date 82",
+        "is it weekend 82"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 82",
+        "இன்றைய தேதி 82",
+        "இன்று என்ன கிழமை 82",
+        "தற்போதைய நேரம் 82",
+        "தேதி என்ன 82",
+        "நாட்காட்டி 82"
+      ],
+      "tanglish": [
+        "time enna 82",
+        "innaiku date enna 82",
+        "enna kizhamai 82",
+        "current time sollu 82",
+        "date sollu 82",
+        "time check 82"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0083",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 83",
+        "today date 83",
+        "which day 83",
+        "current time 83",
+        "what is the date 83",
+        "is it weekend 83"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 83",
+        "இன்றைய தேதி 83",
+        "இன்று என்ன கிழமை 83",
+        "தற்போதைய நேரம் 83",
+        "தேதி என்ன 83",
+        "நாட்காட்டி 83"
+      ],
+      "tanglish": [
+        "time enna 83",
+        "innaiku date enna 83",
+        "enna kizhamai 83",
+        "current time sollu 83",
+        "date sollu 83",
+        "time check 83"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0084",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 84",
+        "today date 84",
+        "which day 84",
+        "current time 84",
+        "what is the date 84",
+        "is it weekend 84"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 84",
+        "இன்றைய தேதி 84",
+        "இன்று என்ன கிழமை 84",
+        "தற்போதைய நேரம் 84",
+        "தேதி என்ன 84",
+        "நாட்காட்டி 84"
+      ],
+      "tanglish": [
+        "time enna 84",
+        "innaiku date enna 84",
+        "enna kizhamai 84",
+        "current time sollu 84",
+        "date sollu 84",
+        "time check 84"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0085",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 85",
+        "today date 85",
+        "which day 85",
+        "current time 85",
+        "what is the date 85",
+        "is it weekend 85"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 85",
+        "இன்றைய தேதி 85",
+        "இன்று என்ன கிழமை 85",
+        "தற்போதைய நேரம் 85",
+        "தேதி என்ன 85",
+        "நாட்காட்டி 85"
+      ],
+      "tanglish": [
+        "time enna 85",
+        "innaiku date enna 85",
+        "enna kizhamai 85",
+        "current time sollu 85",
+        "date sollu 85",
+        "time check 85"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0086",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 86",
+        "today date 86",
+        "which day 86",
+        "current time 86",
+        "what is the date 86",
+        "is it weekend 86"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 86",
+        "இன்றைய தேதி 86",
+        "இன்று என்ன கிழமை 86",
+        "தற்போதைய நேரம் 86",
+        "தேதி என்ன 86",
+        "நாட்காட்டி 86"
+      ],
+      "tanglish": [
+        "time enna 86",
+        "innaiku date enna 86",
+        "enna kizhamai 86",
+        "current time sollu 86",
+        "date sollu 86",
+        "time check 86"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0087",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 87",
+        "today date 87",
+        "which day 87",
+        "current time 87",
+        "what is the date 87",
+        "is it weekend 87"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 87",
+        "இன்றைய தேதி 87",
+        "இன்று என்ன கிழமை 87",
+        "தற்போதைய நேரம் 87",
+        "தேதி என்ன 87",
+        "நாட்காட்டி 87"
+      ],
+      "tanglish": [
+        "time enna 87",
+        "innaiku date enna 87",
+        "enna kizhamai 87",
+        "current time sollu 87",
+        "date sollu 87",
+        "time check 87"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0088",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 88",
+        "today date 88",
+        "which day 88",
+        "current time 88",
+        "what is the date 88",
+        "is it weekend 88"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 88",
+        "இன்றைய தேதி 88",
+        "இன்று என்ன கிழமை 88",
+        "தற்போதைய நேரம் 88",
+        "தேதி என்ன 88",
+        "நாட்காட்டி 88"
+      ],
+      "tanglish": [
+        "time enna 88",
+        "innaiku date enna 88",
+        "enna kizhamai 88",
+        "current time sollu 88",
+        "date sollu 88",
+        "time check 88"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0089",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 89",
+        "today date 89",
+        "which day 89",
+        "current time 89",
+        "what is the date 89",
+        "is it weekend 89"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 89",
+        "இன்றைய தேதி 89",
+        "இன்று என்ன கிழமை 89",
+        "தற்போதைய நேரம் 89",
+        "தேதி என்ன 89",
+        "நாட்காட்டி 89"
+      ],
+      "tanglish": [
+        "time enna 89",
+        "innaiku date enna 89",
+        "enna kizhamai 89",
+        "current time sollu 89",
+        "date sollu 89",
+        "time check 89"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0090",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 90",
+        "today date 90",
+        "which day 90",
+        "current time 90",
+        "what is the date 90",
+        "is it weekend 90"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 90",
+        "இன்றைய தேதி 90",
+        "இன்று என்ன கிழமை 90",
+        "தற்போதைய நேரம் 90",
+        "தேதி என்ன 90",
+        "நாட்காட்டி 90"
+      ],
+      "tanglish": [
+        "time enna 90",
+        "innaiku date enna 90",
+        "enna kizhamai 90",
+        "current time sollu 90",
+        "date sollu 90",
+        "time check 90"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0091",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 91",
+        "today date 91",
+        "which day 91",
+        "current time 91",
+        "what is the date 91",
+        "is it weekend 91"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 91",
+        "இன்றைய தேதி 91",
+        "இன்று என்ன கிழமை 91",
+        "தற்போதைய நேரம் 91",
+        "தேதி என்ன 91",
+        "நாட்காட்டி 91"
+      ],
+      "tanglish": [
+        "time enna 91",
+        "innaiku date enna 91",
+        "enna kizhamai 91",
+        "current time sollu 91",
+        "date sollu 91",
+        "time check 91"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0092",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 92",
+        "today date 92",
+        "which day 92",
+        "current time 92",
+        "what is the date 92",
+        "is it weekend 92"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 92",
+        "இன்றைய தேதி 92",
+        "இன்று என்ன கிழமை 92",
+        "தற்போதைய நேரம் 92",
+        "தேதி என்ன 92",
+        "நாட்காட்டி 92"
+      ],
+      "tanglish": [
+        "time enna 92",
+        "innaiku date enna 92",
+        "enna kizhamai 92",
+        "current time sollu 92",
+        "date sollu 92",
+        "time check 92"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0093",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 93",
+        "today date 93",
+        "which day 93",
+        "current time 93",
+        "what is the date 93",
+        "is it weekend 93"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 93",
+        "இன்றைய தேதி 93",
+        "இன்று என்ன கிழமை 93",
+        "தற்போதைய நேரம் 93",
+        "தேதி என்ன 93",
+        "நாட்காட்டி 93"
+      ],
+      "tanglish": [
+        "time enna 93",
+        "innaiku date enna 93",
+        "enna kizhamai 93",
+        "current time sollu 93",
+        "date sollu 93",
+        "time check 93"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0094",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 94",
+        "today date 94",
+        "which day 94",
+        "current time 94",
+        "what is the date 94",
+        "is it weekend 94"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 94",
+        "இன்றைய தேதி 94",
+        "இன்று என்ன கிழமை 94",
+        "தற்போதைய நேரம் 94",
+        "தேதி என்ன 94",
+        "நாட்காட்டி 94"
+      ],
+      "tanglish": [
+        "time enna 94",
+        "innaiku date enna 94",
+        "enna kizhamai 94",
+        "current time sollu 94",
+        "date sollu 94",
+        "time check 94"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0095",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 95",
+        "today date 95",
+        "which day 95",
+        "current time 95",
+        "what is the date 95",
+        "is it weekend 95"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 95",
+        "இன்றைய தேதி 95",
+        "இன்று என்ன கிழமை 95",
+        "தற்போதைய நேரம் 95",
+        "தேதி என்ன 95",
+        "நாட்காட்டி 95"
+      ],
+      "tanglish": [
+        "time enna 95",
+        "innaiku date enna 95",
+        "enna kizhamai 95",
+        "current time sollu 95",
+        "date sollu 95",
+        "time check 95"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0096",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 96",
+        "today date 96",
+        "which day 96",
+        "current time 96",
+        "what is the date 96",
+        "is it weekend 96"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 96",
+        "இன்றைய தேதி 96",
+        "இன்று என்ன கிழமை 96",
+        "தற்போதைய நேரம் 96",
+        "தேதி என்ன 96",
+        "நாட்காட்டி 96"
+      ],
+      "tanglish": [
+        "time enna 96",
+        "innaiku date enna 96",
+        "enna kizhamai 96",
+        "current time sollu 96",
+        "date sollu 96",
+        "time check 96"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0097",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 97",
+        "today date 97",
+        "which day 97",
+        "current time 97",
+        "what is the date 97",
+        "is it weekend 97"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 97",
+        "இன்றைய தேதி 97",
+        "இன்று என்ன கிழமை 97",
+        "தற்போதைய நேரம் 97",
+        "தேதி என்ன 97",
+        "நாட்காட்டி 97"
+      ],
+      "tanglish": [
+        "time enna 97",
+        "innaiku date enna 97",
+        "enna kizhamai 97",
+        "current time sollu 97",
+        "date sollu 97",
+        "time check 97"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0098",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 98",
+        "today date 98",
+        "which day 98",
+        "current time 98",
+        "what is the date 98",
+        "is it weekend 98"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 98",
+        "இன்றைய தேதி 98",
+        "இன்று என்ன கிழமை 98",
+        "தற்போதைய நேரம் 98",
+        "தேதி என்ன 98",
+        "நாட்காட்டி 98"
+      ],
+      "tanglish": [
+        "time enna 98",
+        "innaiku date enna 98",
+        "enna kizhamai 98",
+        "current time sollu 98",
+        "date sollu 98",
+        "time check 98"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0099",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 99",
+        "today date 99",
+        "which day 99",
+        "current time 99",
+        "what is the date 99",
+        "is it weekend 99"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 99",
+        "இன்றைய தேதி 99",
+        "இன்று என்ன கிழமை 99",
+        "தற்போதைய நேரம் 99",
+        "தேதி என்ன 99",
+        "நாட்காட்டி 99"
+      ],
+      "tanglish": [
+        "time enna 99",
+        "innaiku date enna 99",
+        "enna kizhamai 99",
+        "current time sollu 99",
+        "date sollu 99",
+        "time check 99"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  },
+  {
+    "id": "gen_timedate_0100",
+    "category": "time_date",
+    "patterns": {
+      "en": [
+        "what time is it 100",
+        "today date 100",
+        "which day 100",
+        "current time 100",
+        "what is the date 100",
+        "is it weekend 100"
+      ],
+      "ta": [
+        "இப்போது நேரம் என்ன 100",
+        "இன்றைய தேதி 100",
+        "இன்று என்ன கிழமை 100",
+        "தற்போதைய நேரம் 100",
+        "தேதி என்ன 100",
+        "நாட்காட்டி 100"
+      ],
+      "tanglish": [
+        "time enna 100",
+        "innaiku date enna 100",
+        "enna kizhamai 100",
+        "current time sollu 100",
+        "date sollu 100",
+        "time check 100"
+      ]
+    },
+    "responses": {
+      "en": [
+        "The current local system time is {{time}} on {{day}}, {{date}}.",
+        "System clock reads {{time}} ({{day}}, {{date}}). All gateway telemetry is stamped to millisecond UTC."
+      ],
+      "ta": [
+        "தற்போதைய கணினி நேரம் {{time}}, கிழமை: {{day}}, தேதி: {{date}}.",
+        "நேரம்: {{time}} ({{day}}, {{date}}). அனைத்து பதிவுகளும் மில்லி விநாடி துல்லியத்தில் பதியப்படுகின்றன."
+      ],
+      "tanglish": [
+        "Current time {{time}}, innaiku {{day}}, {{date}}.",
+        "System clock time: {{time}} ({{day}}, {{date}})."
+      ]
+    },
+    "chips": [
+      "/status",
+      "How many blocked today?",
+      "Check health score"
+    ],
+    "action": null,
+    "needs_live_data": true,
+    "tags": [
+      "time",
+      "date"
+    ]
+  }
+]

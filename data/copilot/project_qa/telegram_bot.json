@@ -1,0 +1,3922 @@
+[
+  {
+    "id": "proj_tg_0001",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 1",
+        "telegram commands 1",
+        "telegram bot token 1",
+        "telegram alerts 1",
+        "telegram status command 1",
+        "quiet hours telegram 1"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 1",
+        "டெலிகிராம் கட்டளைகள் 1",
+        "டெலிகிராம் எச்சரிக்கைகள் 1",
+        "டெலிகிராம் டோக்கன் 1",
+        "டெலிகிராம் பாட் செயல்பாடு 1",
+        "டெலிகிராம் அறிவிப்புகள் 1"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 1",
+        "telegram commands sollu 1",
+        "telegram bot token enna 1",
+        "telegram alerts varudha 1",
+        "telegram bot guide 1",
+        "telegram setup 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0002",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 2",
+        "telegram commands 2",
+        "telegram bot token 2",
+        "telegram alerts 2",
+        "telegram status command 2",
+        "quiet hours telegram 2"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 2",
+        "டெலிகிராம் கட்டளைகள் 2",
+        "டெலிகிராம் எச்சரிக்கைகள் 2",
+        "டெலிகிராம் டோக்கன் 2",
+        "டெலிகிராம் பாட் செயல்பாடு 2",
+        "டெலிகிராம் அறிவிப்புகள் 2"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 2",
+        "telegram commands sollu 2",
+        "telegram bot token enna 2",
+        "telegram alerts varudha 2",
+        "telegram bot guide 2",
+        "telegram setup 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0003",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 3",
+        "telegram commands 3",
+        "telegram bot token 3",
+        "telegram alerts 3",
+        "telegram status command 3",
+        "quiet hours telegram 3"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 3",
+        "டெலிகிராம் கட்டளைகள் 3",
+        "டெலிகிராம் எச்சரிக்கைகள் 3",
+        "டெலிகிராம் டோக்கன் 3",
+        "டெலிகிராம் பாட் செயல்பாடு 3",
+        "டெலிகிராம் அறிவிப்புகள் 3"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 3",
+        "telegram commands sollu 3",
+        "telegram bot token enna 3",
+        "telegram alerts varudha 3",
+        "telegram bot guide 3",
+        "telegram setup 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0004",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 4",
+        "telegram commands 4",
+        "telegram bot token 4",
+        "telegram alerts 4",
+        "telegram status command 4",
+        "quiet hours telegram 4"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 4",
+        "டெலிகிராம் கட்டளைகள் 4",
+        "டெலிகிராம் எச்சரிக்கைகள் 4",
+        "டெலிகிராம் டோக்கன் 4",
+        "டெலிகிராம் பாட் செயல்பாடு 4",
+        "டெலிகிராம் அறிவிப்புகள் 4"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 4",
+        "telegram commands sollu 4",
+        "telegram bot token enna 4",
+        "telegram alerts varudha 4",
+        "telegram bot guide 4",
+        "telegram setup 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0005",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 5",
+        "telegram commands 5",
+        "telegram bot token 5",
+        "telegram alerts 5",
+        "telegram status command 5",
+        "quiet hours telegram 5"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 5",
+        "டெலிகிராம் கட்டளைகள் 5",
+        "டெலிகிராம் எச்சரிக்கைகள் 5",
+        "டெலிகிராம் டோக்கன் 5",
+        "டெலிகிராம் பாட் செயல்பாடு 5",
+        "டெலிகிராம் அறிவிப்புகள் 5"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 5",
+        "telegram commands sollu 5",
+        "telegram bot token enna 5",
+        "telegram alerts varudha 5",
+        "telegram bot guide 5",
+        "telegram setup 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0006",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 6",
+        "telegram commands 6",
+        "telegram bot token 6",
+        "telegram alerts 6",
+        "telegram status command 6",
+        "quiet hours telegram 6"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 6",
+        "டெலிகிராம் கட்டளைகள் 6",
+        "டெலிகிராம் எச்சரிக்கைகள் 6",
+        "டெலிகிராம் டோக்கன் 6",
+        "டெலிகிராம் பாட் செயல்பாடு 6",
+        "டெலிகிராம் அறிவிப்புகள் 6"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 6",
+        "telegram commands sollu 6",
+        "telegram bot token enna 6",
+        "telegram alerts varudha 6",
+        "telegram bot guide 6",
+        "telegram setup 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0007",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 7",
+        "telegram commands 7",
+        "telegram bot token 7",
+        "telegram alerts 7",
+        "telegram status command 7",
+        "quiet hours telegram 7"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 7",
+        "டெலிகிராம் கட்டளைகள் 7",
+        "டெலிகிராம் எச்சரிக்கைகள் 7",
+        "டெலிகிராம் டோக்கன் 7",
+        "டெலிகிராம் பாட் செயல்பாடு 7",
+        "டெலிகிராம் அறிவிப்புகள் 7"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 7",
+        "telegram commands sollu 7",
+        "telegram bot token enna 7",
+        "telegram alerts varudha 7",
+        "telegram bot guide 7",
+        "telegram setup 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0008",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 8",
+        "telegram commands 8",
+        "telegram bot token 8",
+        "telegram alerts 8",
+        "telegram status command 8",
+        "quiet hours telegram 8"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 8",
+        "டெலிகிராம் கட்டளைகள் 8",
+        "டெலிகிராம் எச்சரிக்கைகள் 8",
+        "டெலிகிராம் டோக்கன் 8",
+        "டெலிகிராம் பாட் செயல்பாடு 8",
+        "டெலிகிராம் அறிவிப்புகள் 8"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 8",
+        "telegram commands sollu 8",
+        "telegram bot token enna 8",
+        "telegram alerts varudha 8",
+        "telegram bot guide 8",
+        "telegram setup 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0009",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 9",
+        "telegram commands 9",
+        "telegram bot token 9",
+        "telegram alerts 9",
+        "telegram status command 9",
+        "quiet hours telegram 9"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 9",
+        "டெலிகிராம் கட்டளைகள் 9",
+        "டெலிகிராம் எச்சரிக்கைகள் 9",
+        "டெலிகிராம் டோக்கன் 9",
+        "டெலிகிராம் பாட் செயல்பாடு 9",
+        "டெலிகிராம் அறிவிப்புகள் 9"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 9",
+        "telegram commands sollu 9",
+        "telegram bot token enna 9",
+        "telegram alerts varudha 9",
+        "telegram bot guide 9",
+        "telegram setup 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0010",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 10",
+        "telegram commands 10",
+        "telegram bot token 10",
+        "telegram alerts 10",
+        "telegram status command 10",
+        "quiet hours telegram 10"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 10",
+        "டெலிகிராம் கட்டளைகள் 10",
+        "டெலிகிராம் எச்சரிக்கைகள் 10",
+        "டெலிகிராம் டோக்கன் 10",
+        "டெலிகிராம் பாட் செயல்பாடு 10",
+        "டெலிகிராம் அறிவிப்புகள் 10"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 10",
+        "telegram commands sollu 10",
+        "telegram bot token enna 10",
+        "telegram alerts varudha 10",
+        "telegram bot guide 10",
+        "telegram setup 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0011",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 11",
+        "telegram commands 11",
+        "telegram bot token 11",
+        "telegram alerts 11",
+        "telegram status command 11",
+        "quiet hours telegram 11"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 11",
+        "டெலிகிராம் கட்டளைகள் 11",
+        "டெலிகிராம் எச்சரிக்கைகள் 11",
+        "டெலிகிராம் டோக்கன் 11",
+        "டெலிகிராம் பாட் செயல்பாடு 11",
+        "டெலிகிராம் அறிவிப்புகள் 11"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 11",
+        "telegram commands sollu 11",
+        "telegram bot token enna 11",
+        "telegram alerts varudha 11",
+        "telegram bot guide 11",
+        "telegram setup 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0012",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 12",
+        "telegram commands 12",
+        "telegram bot token 12",
+        "telegram alerts 12",
+        "telegram status command 12",
+        "quiet hours telegram 12"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 12",
+        "டெலிகிராம் கட்டளைகள் 12",
+        "டெலிகிராம் எச்சரிக்கைகள் 12",
+        "டெலிகிராம் டோக்கன் 12",
+        "டெலிகிராம் பாட் செயல்பாடு 12",
+        "டெலிகிராம் அறிவிப்புகள் 12"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 12",
+        "telegram commands sollu 12",
+        "telegram bot token enna 12",
+        "telegram alerts varudha 12",
+        "telegram bot guide 12",
+        "telegram setup 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0013",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 13",
+        "telegram commands 13",
+        "telegram bot token 13",
+        "telegram alerts 13",
+        "telegram status command 13",
+        "quiet hours telegram 13"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 13",
+        "டெலிகிராம் கட்டளைகள் 13",
+        "டெலிகிராம் எச்சரிக்கைகள் 13",
+        "டெலிகிராம் டோக்கன் 13",
+        "டெலிகிராம் பாட் செயல்பாடு 13",
+        "டெலிகிராம் அறிவிப்புகள் 13"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 13",
+        "telegram commands sollu 13",
+        "telegram bot token enna 13",
+        "telegram alerts varudha 13",
+        "telegram bot guide 13",
+        "telegram setup 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0014",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 14",
+        "telegram commands 14",
+        "telegram bot token 14",
+        "telegram alerts 14",
+        "telegram status command 14",
+        "quiet hours telegram 14"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 14",
+        "டெலிகிராம் கட்டளைகள் 14",
+        "டெலிகிராம் எச்சரிக்கைகள் 14",
+        "டெலிகிராம் டோக்கன் 14",
+        "டெலிகிராம் பாட் செயல்பாடு 14",
+        "டெலிகிராம் அறிவிப்புகள் 14"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 14",
+        "telegram commands sollu 14",
+        "telegram bot token enna 14",
+        "telegram alerts varudha 14",
+        "telegram bot guide 14",
+        "telegram setup 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0015",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 15",
+        "telegram commands 15",
+        "telegram bot token 15",
+        "telegram alerts 15",
+        "telegram status command 15",
+        "quiet hours telegram 15"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 15",
+        "டெலிகிராம் கட்டளைகள் 15",
+        "டெலிகிராம் எச்சரிக்கைகள் 15",
+        "டெலிகிராம் டோக்கன் 15",
+        "டெலிகிராம் பாட் செயல்பாடு 15",
+        "டெலிகிராம் அறிவிப்புகள் 15"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 15",
+        "telegram commands sollu 15",
+        "telegram bot token enna 15",
+        "telegram alerts varudha 15",
+        "telegram bot guide 15",
+        "telegram setup 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0016",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 16",
+        "telegram commands 16",
+        "telegram bot token 16",
+        "telegram alerts 16",
+        "telegram status command 16",
+        "quiet hours telegram 16"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 16",
+        "டெலிகிராம் கட்டளைகள் 16",
+        "டெலிகிராம் எச்சரிக்கைகள் 16",
+        "டெலிகிராம் டோக்கன் 16",
+        "டெலிகிராம் பாட் செயல்பாடு 16",
+        "டெலிகிராம் அறிவிப்புகள் 16"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 16",
+        "telegram commands sollu 16",
+        "telegram bot token enna 16",
+        "telegram alerts varudha 16",
+        "telegram bot guide 16",
+        "telegram setup 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0017",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 17",
+        "telegram commands 17",
+        "telegram bot token 17",
+        "telegram alerts 17",
+        "telegram status command 17",
+        "quiet hours telegram 17"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 17",
+        "டெலிகிராம் கட்டளைகள் 17",
+        "டெலிகிராம் எச்சரிக்கைகள் 17",
+        "டெலிகிராம் டோக்கன் 17",
+        "டெலிகிராம் பாட் செயல்பாடு 17",
+        "டெலிகிராம் அறிவிப்புகள் 17"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 17",
+        "telegram commands sollu 17",
+        "telegram bot token enna 17",
+        "telegram alerts varudha 17",
+        "telegram bot guide 17",
+        "telegram setup 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0018",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 18",
+        "telegram commands 18",
+        "telegram bot token 18",
+        "telegram alerts 18",
+        "telegram status command 18",
+        "quiet hours telegram 18"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 18",
+        "டெலிகிராம் கட்டளைகள் 18",
+        "டெலிகிராம் எச்சரிக்கைகள் 18",
+        "டெலிகிராம் டோக்கன் 18",
+        "டெலிகிராம் பாட் செயல்பாடு 18",
+        "டெலிகிராம் அறிவிப்புகள் 18"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 18",
+        "telegram commands sollu 18",
+        "telegram bot token enna 18",
+        "telegram alerts varudha 18",
+        "telegram bot guide 18",
+        "telegram setup 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0019",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 19",
+        "telegram commands 19",
+        "telegram bot token 19",
+        "telegram alerts 19",
+        "telegram status command 19",
+        "quiet hours telegram 19"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 19",
+        "டெலிகிராம் கட்டளைகள் 19",
+        "டெலிகிராம் எச்சரிக்கைகள் 19",
+        "டெலிகிராம் டோக்கன் 19",
+        "டெலிகிராம் பாட் செயல்பாடு 19",
+        "டெலிகிராம் அறிவிப்புகள் 19"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 19",
+        "telegram commands sollu 19",
+        "telegram bot token enna 19",
+        "telegram alerts varudha 19",
+        "telegram bot guide 19",
+        "telegram setup 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0020",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 20",
+        "telegram commands 20",
+        "telegram bot token 20",
+        "telegram alerts 20",
+        "telegram status command 20",
+        "quiet hours telegram 20"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 20",
+        "டெலிகிராம் கட்டளைகள் 20",
+        "டெலிகிராம் எச்சரிக்கைகள் 20",
+        "டெலிகிராம் டோக்கன் 20",
+        "டெலிகிராம் பாட் செயல்பாடு 20",
+        "டெலிகிராம் அறிவிப்புகள் 20"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 20",
+        "telegram commands sollu 20",
+        "telegram bot token enna 20",
+        "telegram alerts varudha 20",
+        "telegram bot guide 20",
+        "telegram setup 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0021",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 21",
+        "telegram commands 21",
+        "telegram bot token 21",
+        "telegram alerts 21",
+        "telegram status command 21",
+        "quiet hours telegram 21"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 21",
+        "டெலிகிராம் கட்டளைகள் 21",
+        "டெலிகிராம் எச்சரிக்கைகள் 21",
+        "டெலிகிராம் டோக்கன் 21",
+        "டெலிகிராம் பாட் செயல்பாடு 21",
+        "டெலிகிராம் அறிவிப்புகள் 21"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 21",
+        "telegram commands sollu 21",
+        "telegram bot token enna 21",
+        "telegram alerts varudha 21",
+        "telegram bot guide 21",
+        "telegram setup 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0022",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 22",
+        "telegram commands 22",
+        "telegram bot token 22",
+        "telegram alerts 22",
+        "telegram status command 22",
+        "quiet hours telegram 22"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 22",
+        "டெலிகிராம் கட்டளைகள் 22",
+        "டெலிகிராம் எச்சரிக்கைகள் 22",
+        "டெலிகிராம் டோக்கன் 22",
+        "டெலிகிராம் பாட் செயல்பாடு 22",
+        "டெலிகிராம் அறிவிப்புகள் 22"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 22",
+        "telegram commands sollu 22",
+        "telegram bot token enna 22",
+        "telegram alerts varudha 22",
+        "telegram bot guide 22",
+        "telegram setup 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0023",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 23",
+        "telegram commands 23",
+        "telegram bot token 23",
+        "telegram alerts 23",
+        "telegram status command 23",
+        "quiet hours telegram 23"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 23",
+        "டெலிகிராம் கட்டளைகள் 23",
+        "டெலிகிராம் எச்சரிக்கைகள் 23",
+        "டெலிகிராம் டோக்கன் 23",
+        "டெலிகிராம் பாட் செயல்பாடு 23",
+        "டெலிகிராம் அறிவிப்புகள் 23"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 23",
+        "telegram commands sollu 23",
+        "telegram bot token enna 23",
+        "telegram alerts varudha 23",
+        "telegram bot guide 23",
+        "telegram setup 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0024",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 24",
+        "telegram commands 24",
+        "telegram bot token 24",
+        "telegram alerts 24",
+        "telegram status command 24",
+        "quiet hours telegram 24"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 24",
+        "டெலிகிராம் கட்டளைகள் 24",
+        "டெலிகிராம் எச்சரிக்கைகள் 24",
+        "டெலிகிராம் டோக்கன் 24",
+        "டெலிகிராம் பாட் செயல்பாடு 24",
+        "டெலிகிராம் அறிவிப்புகள் 24"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 24",
+        "telegram commands sollu 24",
+        "telegram bot token enna 24",
+        "telegram alerts varudha 24",
+        "telegram bot guide 24",
+        "telegram setup 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0025",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 25",
+        "telegram commands 25",
+        "telegram bot token 25",
+        "telegram alerts 25",
+        "telegram status command 25",
+        "quiet hours telegram 25"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 25",
+        "டெலிகிராம் கட்டளைகள் 25",
+        "டெலிகிராம் எச்சரிக்கைகள் 25",
+        "டெலிகிராம் டோக்கன் 25",
+        "டெலிகிராம் பாட் செயல்பாடு 25",
+        "டெலிகிராம் அறிவிப்புகள் 25"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 25",
+        "telegram commands sollu 25",
+        "telegram bot token enna 25",
+        "telegram alerts varudha 25",
+        "telegram bot guide 25",
+        "telegram setup 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0026",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 26",
+        "telegram commands 26",
+        "telegram bot token 26",
+        "telegram alerts 26",
+        "telegram status command 26",
+        "quiet hours telegram 26"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 26",
+        "டெலிகிராம் கட்டளைகள் 26",
+        "டெலிகிராம் எச்சரிக்கைகள் 26",
+        "டெலிகிராம் டோக்கன் 26",
+        "டெலிகிராம் பாட் செயல்பாடு 26",
+        "டெலிகிராம் அறிவிப்புகள் 26"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 26",
+        "telegram commands sollu 26",
+        "telegram bot token enna 26",
+        "telegram alerts varudha 26",
+        "telegram bot guide 26",
+        "telegram setup 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0027",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 27",
+        "telegram commands 27",
+        "telegram bot token 27",
+        "telegram alerts 27",
+        "telegram status command 27",
+        "quiet hours telegram 27"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 27",
+        "டெலிகிராம் கட்டளைகள் 27",
+        "டெலிகிராம் எச்சரிக்கைகள் 27",
+        "டெலிகிராம் டோக்கன் 27",
+        "டெலிகிராம் பாட் செயல்பாடு 27",
+        "டெலிகிராம் அறிவிப்புகள் 27"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 27",
+        "telegram commands sollu 27",
+        "telegram bot token enna 27",
+        "telegram alerts varudha 27",
+        "telegram bot guide 27",
+        "telegram setup 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0028",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 28",
+        "telegram commands 28",
+        "telegram bot token 28",
+        "telegram alerts 28",
+        "telegram status command 28",
+        "quiet hours telegram 28"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 28",
+        "டெலிகிராம் கட்டளைகள் 28",
+        "டெலிகிராம் எச்சரிக்கைகள் 28",
+        "டெலிகிராம் டோக்கன் 28",
+        "டெலிகிராம் பாட் செயல்பாடு 28",
+        "டெலிகிராம் அறிவிப்புகள் 28"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 28",
+        "telegram commands sollu 28",
+        "telegram bot token enna 28",
+        "telegram alerts varudha 28",
+        "telegram bot guide 28",
+        "telegram setup 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0029",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 29",
+        "telegram commands 29",
+        "telegram bot token 29",
+        "telegram alerts 29",
+        "telegram status command 29",
+        "quiet hours telegram 29"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 29",
+        "டெலிகிராம் கட்டளைகள் 29",
+        "டெலிகிராம் எச்சரிக்கைகள் 29",
+        "டெலிகிராம் டோக்கன் 29",
+        "டெலிகிராம் பாட் செயல்பாடு 29",
+        "டெலிகிராம் அறிவிப்புகள் 29"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 29",
+        "telegram commands sollu 29",
+        "telegram bot token enna 29",
+        "telegram alerts varudha 29",
+        "telegram bot guide 29",
+        "telegram setup 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0030",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 30",
+        "telegram commands 30",
+        "telegram bot token 30",
+        "telegram alerts 30",
+        "telegram status command 30",
+        "quiet hours telegram 30"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 30",
+        "டெலிகிராம் கட்டளைகள் 30",
+        "டெலிகிராம் எச்சரிக்கைகள் 30",
+        "டெலிகிராம் டோக்கன் 30",
+        "டெலிகிராம் பாட் செயல்பாடு 30",
+        "டெலிகிராம் அறிவிப்புகள் 30"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 30",
+        "telegram commands sollu 30",
+        "telegram bot token enna 30",
+        "telegram alerts varudha 30",
+        "telegram bot guide 30",
+        "telegram setup 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0031",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 31",
+        "telegram commands 31",
+        "telegram bot token 31",
+        "telegram alerts 31",
+        "telegram status command 31",
+        "quiet hours telegram 31"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 31",
+        "டெலிகிராம் கட்டளைகள் 31",
+        "டெலிகிராம் எச்சரிக்கைகள் 31",
+        "டெலிகிராம் டோக்கன் 31",
+        "டெலிகிராம் பாட் செயல்பாடு 31",
+        "டெலிகிராம் அறிவிப்புகள் 31"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 31",
+        "telegram commands sollu 31",
+        "telegram bot token enna 31",
+        "telegram alerts varudha 31",
+        "telegram bot guide 31",
+        "telegram setup 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0032",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 32",
+        "telegram commands 32",
+        "telegram bot token 32",
+        "telegram alerts 32",
+        "telegram status command 32",
+        "quiet hours telegram 32"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 32",
+        "டெலிகிராம் கட்டளைகள் 32",
+        "டெலிகிராம் எச்சரிக்கைகள் 32",
+        "டெலிகிராம் டோக்கன் 32",
+        "டெலிகிராம் பாட் செயல்பாடு 32",
+        "டெலிகிராம் அறிவிப்புகள் 32"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 32",
+        "telegram commands sollu 32",
+        "telegram bot token enna 32",
+        "telegram alerts varudha 32",
+        "telegram bot guide 32",
+        "telegram setup 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0033",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 33",
+        "telegram commands 33",
+        "telegram bot token 33",
+        "telegram alerts 33",
+        "telegram status command 33",
+        "quiet hours telegram 33"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 33",
+        "டெலிகிராம் கட்டளைகள் 33",
+        "டெலிகிராம் எச்சரிக்கைகள் 33",
+        "டெலிகிராம் டோக்கன் 33",
+        "டெலிகிராம் பாட் செயல்பாடு 33",
+        "டெலிகிராம் அறிவிப்புகள் 33"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 33",
+        "telegram commands sollu 33",
+        "telegram bot token enna 33",
+        "telegram alerts varudha 33",
+        "telegram bot guide 33",
+        "telegram setup 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0034",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 34",
+        "telegram commands 34",
+        "telegram bot token 34",
+        "telegram alerts 34",
+        "telegram status command 34",
+        "quiet hours telegram 34"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 34",
+        "டெலிகிராம் கட்டளைகள் 34",
+        "டெலிகிராம் எச்சரிக்கைகள் 34",
+        "டெலிகிராம் டோக்கன் 34",
+        "டெலிகிராம் பாட் செயல்பாடு 34",
+        "டெலிகிராம் அறிவிப்புகள் 34"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 34",
+        "telegram commands sollu 34",
+        "telegram bot token enna 34",
+        "telegram alerts varudha 34",
+        "telegram bot guide 34",
+        "telegram setup 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0035",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 35",
+        "telegram commands 35",
+        "telegram bot token 35",
+        "telegram alerts 35",
+        "telegram status command 35",
+        "quiet hours telegram 35"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 35",
+        "டெலிகிராம் கட்டளைகள் 35",
+        "டெலிகிராம் எச்சரிக்கைகள் 35",
+        "டெலிகிராம் டோக்கன் 35",
+        "டெலிகிராம் பாட் செயல்பாடு 35",
+        "டெலிகிராம் அறிவிப்புகள் 35"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 35",
+        "telegram commands sollu 35",
+        "telegram bot token enna 35",
+        "telegram alerts varudha 35",
+        "telegram bot guide 35",
+        "telegram setup 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0036",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 36",
+        "telegram commands 36",
+        "telegram bot token 36",
+        "telegram alerts 36",
+        "telegram status command 36",
+        "quiet hours telegram 36"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 36",
+        "டெலிகிராம் கட்டளைகள் 36",
+        "டெலிகிராம் எச்சரிக்கைகள் 36",
+        "டெலிகிராம் டோக்கன் 36",
+        "டெலிகிராம் பாட் செயல்பாடு 36",
+        "டெலிகிராம் அறிவிப்புகள் 36"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 36",
+        "telegram commands sollu 36",
+        "telegram bot token enna 36",
+        "telegram alerts varudha 36",
+        "telegram bot guide 36",
+        "telegram setup 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0037",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 37",
+        "telegram commands 37",
+        "telegram bot token 37",
+        "telegram alerts 37",
+        "telegram status command 37",
+        "quiet hours telegram 37"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 37",
+        "டெலிகிராம் கட்டளைகள் 37",
+        "டெலிகிராம் எச்சரிக்கைகள் 37",
+        "டெலிகிராம் டோக்கன் 37",
+        "டெலிகிராம் பாட் செயல்பாடு 37",
+        "டெலிகிராம் அறிவிப்புகள் 37"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 37",
+        "telegram commands sollu 37",
+        "telegram bot token enna 37",
+        "telegram alerts varudha 37",
+        "telegram bot guide 37",
+        "telegram setup 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0038",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 38",
+        "telegram commands 38",
+        "telegram bot token 38",
+        "telegram alerts 38",
+        "telegram status command 38",
+        "quiet hours telegram 38"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 38",
+        "டெலிகிராம் கட்டளைகள் 38",
+        "டெலிகிராம் எச்சரிக்கைகள் 38",
+        "டெலிகிராம் டோக்கன் 38",
+        "டெலிகிராம் பாட் செயல்பாடு 38",
+        "டெலிகிராம் அறிவிப்புகள் 38"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 38",
+        "telegram commands sollu 38",
+        "telegram bot token enna 38",
+        "telegram alerts varudha 38",
+        "telegram bot guide 38",
+        "telegram setup 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0039",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 39",
+        "telegram commands 39",
+        "telegram bot token 39",
+        "telegram alerts 39",
+        "telegram status command 39",
+        "quiet hours telegram 39"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 39",
+        "டெலிகிராம் கட்டளைகள் 39",
+        "டெலிகிராம் எச்சரிக்கைகள் 39",
+        "டெலிகிராம் டோக்கன் 39",
+        "டெலிகிராம் பாட் செயல்பாடு 39",
+        "டெலிகிராம் அறிவிப்புகள் 39"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 39",
+        "telegram commands sollu 39",
+        "telegram bot token enna 39",
+        "telegram alerts varudha 39",
+        "telegram bot guide 39",
+        "telegram setup 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0040",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 40",
+        "telegram commands 40",
+        "telegram bot token 40",
+        "telegram alerts 40",
+        "telegram status command 40",
+        "quiet hours telegram 40"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 40",
+        "டெலிகிராம் கட்டளைகள் 40",
+        "டெலிகிராம் எச்சரிக்கைகள் 40",
+        "டெலிகிராம் டோக்கன் 40",
+        "டெலிகிராம் பாட் செயல்பாடு 40",
+        "டெலிகிராம் அறிவிப்புகள் 40"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 40",
+        "telegram commands sollu 40",
+        "telegram bot token enna 40",
+        "telegram alerts varudha 40",
+        "telegram bot guide 40",
+        "telegram setup 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0041",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 41",
+        "telegram commands 41",
+        "telegram bot token 41",
+        "telegram alerts 41",
+        "telegram status command 41",
+        "quiet hours telegram 41"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 41",
+        "டெலிகிராம் கட்டளைகள் 41",
+        "டெலிகிராம் எச்சரிக்கைகள் 41",
+        "டெலிகிராம் டோக்கன் 41",
+        "டெலிகிராம் பாட் செயல்பாடு 41",
+        "டெலிகிராம் அறிவிப்புகள் 41"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 41",
+        "telegram commands sollu 41",
+        "telegram bot token enna 41",
+        "telegram alerts varudha 41",
+        "telegram bot guide 41",
+        "telegram setup 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0042",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 42",
+        "telegram commands 42",
+        "telegram bot token 42",
+        "telegram alerts 42",
+        "telegram status command 42",
+        "quiet hours telegram 42"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 42",
+        "டெலிகிராம் கட்டளைகள் 42",
+        "டெலிகிராம் எச்சரிக்கைகள் 42",
+        "டெலிகிராம் டோக்கன் 42",
+        "டெலிகிராம் பாட் செயல்பாடு 42",
+        "டெலிகிராம் அறிவிப்புகள் 42"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 42",
+        "telegram commands sollu 42",
+        "telegram bot token enna 42",
+        "telegram alerts varudha 42",
+        "telegram bot guide 42",
+        "telegram setup 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0043",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 43",
+        "telegram commands 43",
+        "telegram bot token 43",
+        "telegram alerts 43",
+        "telegram status command 43",
+        "quiet hours telegram 43"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 43",
+        "டெலிகிராம் கட்டளைகள் 43",
+        "டெலிகிராம் எச்சரிக்கைகள் 43",
+        "டெலிகிராம் டோக்கன் 43",
+        "டெலிகிராம் பாட் செயல்பாடு 43",
+        "டெலிகிராம் அறிவிப்புகள் 43"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 43",
+        "telegram commands sollu 43",
+        "telegram bot token enna 43",
+        "telegram alerts varudha 43",
+        "telegram bot guide 43",
+        "telegram setup 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0044",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 44",
+        "telegram commands 44",
+        "telegram bot token 44",
+        "telegram alerts 44",
+        "telegram status command 44",
+        "quiet hours telegram 44"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 44",
+        "டெலிகிராம் கட்டளைகள் 44",
+        "டெலிகிராம் எச்சரிக்கைகள் 44",
+        "டெலிகிராம் டோக்கன் 44",
+        "டெலிகிராம் பாட் செயல்பாடு 44",
+        "டெலிகிராம் அறிவிப்புகள் 44"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 44",
+        "telegram commands sollu 44",
+        "telegram bot token enna 44",
+        "telegram alerts varudha 44",
+        "telegram bot guide 44",
+        "telegram setup 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0045",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 45",
+        "telegram commands 45",
+        "telegram bot token 45",
+        "telegram alerts 45",
+        "telegram status command 45",
+        "quiet hours telegram 45"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 45",
+        "டெலிகிராம் கட்டளைகள் 45",
+        "டெலிகிராம் எச்சரிக்கைகள் 45",
+        "டெலிகிராம் டோக்கன் 45",
+        "டெலிகிராம் பாட் செயல்பாடு 45",
+        "டெலிகிராம் அறிவிப்புகள் 45"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 45",
+        "telegram commands sollu 45",
+        "telegram bot token enna 45",
+        "telegram alerts varudha 45",
+        "telegram bot guide 45",
+        "telegram setup 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0046",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 46",
+        "telegram commands 46",
+        "telegram bot token 46",
+        "telegram alerts 46",
+        "telegram status command 46",
+        "quiet hours telegram 46"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 46",
+        "டெலிகிராம் கட்டளைகள் 46",
+        "டெலிகிராம் எச்சரிக்கைகள் 46",
+        "டெலிகிராம் டோக்கன் 46",
+        "டெலிகிராம் பாட் செயல்பாடு 46",
+        "டெலிகிராம் அறிவிப்புகள் 46"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 46",
+        "telegram commands sollu 46",
+        "telegram bot token enna 46",
+        "telegram alerts varudha 46",
+        "telegram bot guide 46",
+        "telegram setup 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0047",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 47",
+        "telegram commands 47",
+        "telegram bot token 47",
+        "telegram alerts 47",
+        "telegram status command 47",
+        "quiet hours telegram 47"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 47",
+        "டெலிகிராம் கட்டளைகள் 47",
+        "டெலிகிராம் எச்சரிக்கைகள் 47",
+        "டெலிகிராம் டோக்கன் 47",
+        "டெலிகிராம் பாட் செயல்பாடு 47",
+        "டெலிகிராம் அறிவிப்புகள் 47"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 47",
+        "telegram commands sollu 47",
+        "telegram bot token enna 47",
+        "telegram alerts varudha 47",
+        "telegram bot guide 47",
+        "telegram setup 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0048",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 48",
+        "telegram commands 48",
+        "telegram bot token 48",
+        "telegram alerts 48",
+        "telegram status command 48",
+        "quiet hours telegram 48"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 48",
+        "டெலிகிராம் கட்டளைகள் 48",
+        "டெலிகிராம் எச்சரிக்கைகள் 48",
+        "டெலிகிராம் டோக்கன் 48",
+        "டெலிகிராம் பாட் செயல்பாடு 48",
+        "டெலிகிராம் அறிவிப்புகள் 48"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 48",
+        "telegram commands sollu 48",
+        "telegram bot token enna 48",
+        "telegram alerts varudha 48",
+        "telegram bot guide 48",
+        "telegram setup 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0049",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 49",
+        "telegram commands 49",
+        "telegram bot token 49",
+        "telegram alerts 49",
+        "telegram status command 49",
+        "quiet hours telegram 49"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 49",
+        "டெலிகிராம் கட்டளைகள் 49",
+        "டெலிகிராம் எச்சரிக்கைகள் 49",
+        "டெலிகிராம் டோக்கன் 49",
+        "டெலிகிராம் பாட் செயல்பாடு 49",
+        "டெலிகிராம் அறிவிப்புகள் 49"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 49",
+        "telegram commands sollu 49",
+        "telegram bot token enna 49",
+        "telegram alerts varudha 49",
+        "telegram bot guide 49",
+        "telegram setup 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0050",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 50",
+        "telegram commands 50",
+        "telegram bot token 50",
+        "telegram alerts 50",
+        "telegram status command 50",
+        "quiet hours telegram 50"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 50",
+        "டெலிகிராம் கட்டளைகள் 50",
+        "டெலிகிராம் எச்சரிக்கைகள் 50",
+        "டெலிகிராம் டோக்கன் 50",
+        "டெலிகிராம் பாட் செயல்பாடு 50",
+        "டெலிகிராம் அறிவிப்புகள் 50"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 50",
+        "telegram commands sollu 50",
+        "telegram bot token enna 50",
+        "telegram alerts varudha 50",
+        "telegram bot guide 50",
+        "telegram setup 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0051",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 51",
+        "telegram commands 51",
+        "telegram bot token 51",
+        "telegram alerts 51",
+        "telegram status command 51",
+        "quiet hours telegram 51"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 51",
+        "டெலிகிராம் கட்டளைகள் 51",
+        "டெலிகிராம் எச்சரிக்கைகள் 51",
+        "டெலிகிராம் டோக்கன் 51",
+        "டெலிகிராம் பாட் செயல்பாடு 51",
+        "டெலிகிராம் அறிவிப்புகள் 51"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 51",
+        "telegram commands sollu 51",
+        "telegram bot token enna 51",
+        "telegram alerts varudha 51",
+        "telegram bot guide 51",
+        "telegram setup 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0052",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 52",
+        "telegram commands 52",
+        "telegram bot token 52",
+        "telegram alerts 52",
+        "telegram status command 52",
+        "quiet hours telegram 52"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 52",
+        "டெலிகிராம் கட்டளைகள் 52",
+        "டெலிகிராம் எச்சரிக்கைகள் 52",
+        "டெலிகிராம் டோக்கன் 52",
+        "டெலிகிராம் பாட் செயல்பாடு 52",
+        "டெலிகிராம் அறிவிப்புகள் 52"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 52",
+        "telegram commands sollu 52",
+        "telegram bot token enna 52",
+        "telegram alerts varudha 52",
+        "telegram bot guide 52",
+        "telegram setup 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0053",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 53",
+        "telegram commands 53",
+        "telegram bot token 53",
+        "telegram alerts 53",
+        "telegram status command 53",
+        "quiet hours telegram 53"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 53",
+        "டெலிகிராம் கட்டளைகள் 53",
+        "டெலிகிராம் எச்சரிக்கைகள் 53",
+        "டெலிகிராம் டோக்கன் 53",
+        "டெலிகிராம் பாட் செயல்பாடு 53",
+        "டெலிகிராம் அறிவிப்புகள் 53"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 53",
+        "telegram commands sollu 53",
+        "telegram bot token enna 53",
+        "telegram alerts varudha 53",
+        "telegram bot guide 53",
+        "telegram setup 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0054",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 54",
+        "telegram commands 54",
+        "telegram bot token 54",
+        "telegram alerts 54",
+        "telegram status command 54",
+        "quiet hours telegram 54"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 54",
+        "டெலிகிராம் கட்டளைகள் 54",
+        "டெலிகிராம் எச்சரிக்கைகள் 54",
+        "டெலிகிராம் டோக்கன் 54",
+        "டெலிகிராம் பாட் செயல்பாடு 54",
+        "டெலிகிராம் அறிவிப்புகள் 54"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 54",
+        "telegram commands sollu 54",
+        "telegram bot token enna 54",
+        "telegram alerts varudha 54",
+        "telegram bot guide 54",
+        "telegram setup 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0055",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 55",
+        "telegram commands 55",
+        "telegram bot token 55",
+        "telegram alerts 55",
+        "telegram status command 55",
+        "quiet hours telegram 55"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 55",
+        "டெலிகிராம் கட்டளைகள் 55",
+        "டெலிகிராம் எச்சரிக்கைகள் 55",
+        "டெலிகிராம் டோக்கன் 55",
+        "டெலிகிராம் பாட் செயல்பாடு 55",
+        "டெலிகிராம் அறிவிப்புகள் 55"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 55",
+        "telegram commands sollu 55",
+        "telegram bot token enna 55",
+        "telegram alerts varudha 55",
+        "telegram bot guide 55",
+        "telegram setup 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0056",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 56",
+        "telegram commands 56",
+        "telegram bot token 56",
+        "telegram alerts 56",
+        "telegram status command 56",
+        "quiet hours telegram 56"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 56",
+        "டெலிகிராம் கட்டளைகள் 56",
+        "டெலிகிராம் எச்சரிக்கைகள் 56",
+        "டெலிகிராம் டோக்கன் 56",
+        "டெலிகிராம் பாட் செயல்பாடு 56",
+        "டெலிகிராம் அறிவிப்புகள் 56"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 56",
+        "telegram commands sollu 56",
+        "telegram bot token enna 56",
+        "telegram alerts varudha 56",
+        "telegram bot guide 56",
+        "telegram setup 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0057",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 57",
+        "telegram commands 57",
+        "telegram bot token 57",
+        "telegram alerts 57",
+        "telegram status command 57",
+        "quiet hours telegram 57"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 57",
+        "டெலிகிராம் கட்டளைகள் 57",
+        "டெலிகிராம் எச்சரிக்கைகள் 57",
+        "டெலிகிராம் டோக்கன் 57",
+        "டெலிகிராம் பாட் செயல்பாடு 57",
+        "டெலிகிராம் அறிவிப்புகள் 57"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 57",
+        "telegram commands sollu 57",
+        "telegram bot token enna 57",
+        "telegram alerts varudha 57",
+        "telegram bot guide 57",
+        "telegram setup 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0058",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 58",
+        "telegram commands 58",
+        "telegram bot token 58",
+        "telegram alerts 58",
+        "telegram status command 58",
+        "quiet hours telegram 58"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 58",
+        "டெலிகிராம் கட்டளைகள் 58",
+        "டெலிகிராம் எச்சரிக்கைகள் 58",
+        "டெலிகிராம் டோக்கன் 58",
+        "டெலிகிராம் பாட் செயல்பாடு 58",
+        "டெலிகிராம் அறிவிப்புகள் 58"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 58",
+        "telegram commands sollu 58",
+        "telegram bot token enna 58",
+        "telegram alerts varudha 58",
+        "telegram bot guide 58",
+        "telegram setup 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0059",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 59",
+        "telegram commands 59",
+        "telegram bot token 59",
+        "telegram alerts 59",
+        "telegram status command 59",
+        "quiet hours telegram 59"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 59",
+        "டெலிகிராம் கட்டளைகள் 59",
+        "டெலிகிராம் எச்சரிக்கைகள் 59",
+        "டெலிகிராம் டோக்கன் 59",
+        "டெலிகிராம் பாட் செயல்பாடு 59",
+        "டெலிகிராம் அறிவிப்புகள் 59"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 59",
+        "telegram commands sollu 59",
+        "telegram bot token enna 59",
+        "telegram alerts varudha 59",
+        "telegram bot guide 59",
+        "telegram setup 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0060",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 60",
+        "telegram commands 60",
+        "telegram bot token 60",
+        "telegram alerts 60",
+        "telegram status command 60",
+        "quiet hours telegram 60"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 60",
+        "டெலிகிராம் கட்டளைகள் 60",
+        "டெலிகிராம் எச்சரிக்கைகள் 60",
+        "டெலிகிராம் டோக்கன் 60",
+        "டெலிகிராம் பாட் செயல்பாடு 60",
+        "டெலிகிராம் அறிவிப்புகள் 60"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 60",
+        "telegram commands sollu 60",
+        "telegram bot token enna 60",
+        "telegram alerts varudha 60",
+        "telegram bot guide 60",
+        "telegram setup 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0061",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 61",
+        "telegram commands 61",
+        "telegram bot token 61",
+        "telegram alerts 61",
+        "telegram status command 61",
+        "quiet hours telegram 61"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 61",
+        "டெலிகிராம் கட்டளைகள் 61",
+        "டெலிகிராம் எச்சரிக்கைகள் 61",
+        "டெலிகிராம் டோக்கன் 61",
+        "டெலிகிராம் பாட் செயல்பாடு 61",
+        "டெலிகிராம் அறிவிப்புகள் 61"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 61",
+        "telegram commands sollu 61",
+        "telegram bot token enna 61",
+        "telegram alerts varudha 61",
+        "telegram bot guide 61",
+        "telegram setup 61"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0062",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 62",
+        "telegram commands 62",
+        "telegram bot token 62",
+        "telegram alerts 62",
+        "telegram status command 62",
+        "quiet hours telegram 62"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 62",
+        "டெலிகிராம் கட்டளைகள் 62",
+        "டெலிகிராம் எச்சரிக்கைகள் 62",
+        "டெலிகிராம் டோக்கன் 62",
+        "டெலிகிராம் பாட் செயல்பாடு 62",
+        "டெலிகிராம் அறிவிப்புகள் 62"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 62",
+        "telegram commands sollu 62",
+        "telegram bot token enna 62",
+        "telegram alerts varudha 62",
+        "telegram bot guide 62",
+        "telegram setup 62"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0063",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 63",
+        "telegram commands 63",
+        "telegram bot token 63",
+        "telegram alerts 63",
+        "telegram status command 63",
+        "quiet hours telegram 63"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 63",
+        "டெலிகிராம் கட்டளைகள் 63",
+        "டெலிகிராம் எச்சரிக்கைகள் 63",
+        "டெலிகிராம் டோக்கன் 63",
+        "டெலிகிராம் பாட் செயல்பாடு 63",
+        "டெலிகிராம் அறிவிப்புகள் 63"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 63",
+        "telegram commands sollu 63",
+        "telegram bot token enna 63",
+        "telegram alerts varudha 63",
+        "telegram bot guide 63",
+        "telegram setup 63"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0064",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 64",
+        "telegram commands 64",
+        "telegram bot token 64",
+        "telegram alerts 64",
+        "telegram status command 64",
+        "quiet hours telegram 64"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 64",
+        "டெலிகிராம் கட்டளைகள் 64",
+        "டெலிகிராம் எச்சரிக்கைகள் 64",
+        "டெலிகிராம் டோக்கன் 64",
+        "டெலிகிராம் பாட் செயல்பாடு 64",
+        "டெலிகிராம் அறிவிப்புகள் 64"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 64",
+        "telegram commands sollu 64",
+        "telegram bot token enna 64",
+        "telegram alerts varudha 64",
+        "telegram bot guide 64",
+        "telegram setup 64"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0065",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 65",
+        "telegram commands 65",
+        "telegram bot token 65",
+        "telegram alerts 65",
+        "telegram status command 65",
+        "quiet hours telegram 65"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 65",
+        "டெலிகிராம் கட்டளைகள் 65",
+        "டெலிகிராம் எச்சரிக்கைகள் 65",
+        "டெலிகிராம் டோக்கன் 65",
+        "டெலிகிராம் பாட் செயல்பாடு 65",
+        "டெலிகிராம் அறிவிப்புகள் 65"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 65",
+        "telegram commands sollu 65",
+        "telegram bot token enna 65",
+        "telegram alerts varudha 65",
+        "telegram bot guide 65",
+        "telegram setup 65"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0066",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 66",
+        "telegram commands 66",
+        "telegram bot token 66",
+        "telegram alerts 66",
+        "telegram status command 66",
+        "quiet hours telegram 66"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 66",
+        "டெலிகிராம் கட்டளைகள் 66",
+        "டெலிகிராம் எச்சரிக்கைகள் 66",
+        "டெலிகிராம் டோக்கன் 66",
+        "டெலிகிராம் பாட் செயல்பாடு 66",
+        "டெலிகிராம் அறிவிப்புகள் 66"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 66",
+        "telegram commands sollu 66",
+        "telegram bot token enna 66",
+        "telegram alerts varudha 66",
+        "telegram bot guide 66",
+        "telegram setup 66"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0067",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 67",
+        "telegram commands 67",
+        "telegram bot token 67",
+        "telegram alerts 67",
+        "telegram status command 67",
+        "quiet hours telegram 67"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 67",
+        "டெலிகிராம் கட்டளைகள் 67",
+        "டெலிகிராம் எச்சரிக்கைகள் 67",
+        "டெலிகிராம் டோக்கன் 67",
+        "டெலிகிராம் பாட் செயல்பாடு 67",
+        "டெலிகிராம் அறிவிப்புகள் 67"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 67",
+        "telegram commands sollu 67",
+        "telegram bot token enna 67",
+        "telegram alerts varudha 67",
+        "telegram bot guide 67",
+        "telegram setup 67"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0068",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 68",
+        "telegram commands 68",
+        "telegram bot token 68",
+        "telegram alerts 68",
+        "telegram status command 68",
+        "quiet hours telegram 68"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 68",
+        "டெலிகிராம் கட்டளைகள் 68",
+        "டெலிகிராம் எச்சரிக்கைகள் 68",
+        "டெலிகிராம் டோக்கன் 68",
+        "டெலிகிராம் பாட் செயல்பாடு 68",
+        "டெலிகிராம் அறிவிப்புகள் 68"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 68",
+        "telegram commands sollu 68",
+        "telegram bot token enna 68",
+        "telegram alerts varudha 68",
+        "telegram bot guide 68",
+        "telegram setup 68"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0069",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 69",
+        "telegram commands 69",
+        "telegram bot token 69",
+        "telegram alerts 69",
+        "telegram status command 69",
+        "quiet hours telegram 69"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 69",
+        "டெலிகிராம் கட்டளைகள் 69",
+        "டெலிகிராம் எச்சரிக்கைகள் 69",
+        "டெலிகிராம் டோக்கன் 69",
+        "டெலிகிராம் பாட் செயல்பாடு 69",
+        "டெலிகிராம் அறிவிப்புகள் 69"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 69",
+        "telegram commands sollu 69",
+        "telegram bot token enna 69",
+        "telegram alerts varudha 69",
+        "telegram bot guide 69",
+        "telegram setup 69"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  },
+  {
+    "id": "proj_tg_0070",
+    "category": "telegram_bot",
+    "patterns": {
+      "en": [
+        "how to setup telegram bot 70",
+        "telegram commands 70",
+        "telegram bot token 70",
+        "telegram alerts 70",
+        "telegram status command 70",
+        "quiet hours telegram 70"
+      ],
+      "ta": [
+        "டெலிகிராம் பாட் அமைப்பது எப்படி 70",
+        "டெலிகிராம் கட்டளைகள் 70",
+        "டெலிகிராம் எச்சரிக்கைகள் 70",
+        "டெலிகிராம் டோக்கன் 70",
+        "டெலிகிராம் பாட் செயல்பாடு 70",
+        "டெலிகிராம் அறிவிப்புகள் 70"
+      ],
+      "tanglish": [
+        "telegram bot epdi setup panradhu 70",
+        "telegram commands sollu 70",
+        "telegram bot token enna 70",
+        "telegram alerts varudha 70",
+        "telegram bot guide 70",
+        "telegram setup 70"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Telegram Bot Setup: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in your .env file. The bot sends instantaneous critical incident alerts directly to security analysts.",
+        "Telegram Commands: /status (gateway metrics), /ban <ip> (block attacker), /unban <ip> (restore access), /mode <protect|monitor>, /report (summary digest)."
+      ],
+      "ta": [
+        "டெலிகிராம் அமைப்பு: .env கோப்பில் TELEGRAM_BOT_TOKEN மற்றும் TELEGRAM_CHAT_ID-ஐ அமைக்கவும். அச்சுறுத்தல்கள் உடனுக்குடன் உங்கள் மொபைலுக்கு அனுப்பப்படும்.",
+        "டெலிகிராம் கட்டளைகள்: /status (கேட்வே நிலை), /ban <ip> (IP முடக்கம்), /unban <ip> (முடக்கம் நீக்குதல்), /mode <protect|monitor>."
+      ],
+      "tanglish": [
+        "Telegram Bot Setup: .env la TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID add pannunga. Alerts mobile-ku push aagum.",
+        "Telegram Commands: /status, /ban <ip>, /unban <ip>, /mode <protect|monitor>, and /report for PDF digest."
+      ]
+    },
+    "chips": [
+      "/status",
+      "Check .env configuration",
+      "Show alerts"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "telegram",
+      "alerts",
+      "bot"
+    ]
+  }
+]

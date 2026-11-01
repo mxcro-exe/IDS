@@ -1,0 +1,33 @@
+method,path,query,headers,body,label,attack_type,source,seed_id
+GET,/tienda1/publico/buscar.jsp,texto=zapatos+deportivos&orden=precio,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",,0,Benign,csic_2010,375275622a57
+GET,/tienda1/publico/buscar.jsp,texto=<img src=x onerror=alert(document.cookie)>,"{""User-Agent"": ""Mozilla/5.0 (compatible; CSIC-Benchmark/1.0)"", ""Accept"": ""*/*""}",,1,XSS,csic_2010,171adebfefff
+PUT,/api/v1/settings/theme,,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64)""}","{""mode"": ""dark"", ""accent"": ""cyan""}",0,Benign,synthetic,ccfb8a4a05cf
+POST,/api/v1/auth/login,,"{""Content-Type"": ""application/json"", ""X-Forwarded-For"": ""192.168.1.25""}","{""username"": ""test"", ""password"": ""123456""}",1,Brute Force/Auth Abuse,synthetic,9609bfcedb40
+GET,/api/v1/products,category=electronics&sort=price_asc&limit=20,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64)""}",,0,Benign,synthetic,3ae7aa0366ef
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip=127.0.0.1%3B%20curl%20http%3A//127.0.0.1%3A9999/probe,1,Command Injection,synthetic,1f1d91d8dff1
+GET,/api/v1/search,q=admin%27%29%20OR%20%28%271%27%3D%271%27--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,eaaa6490e60a
+GET,/api/v1/comments,input=%3Cbody%20onload%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,bfacf78d7cad
+GET,/api/v1/static/..%252f..%252f..%252fetc%252fpasswd,file=..%25252f..%25252f..%25252fetc%25252fpasswd,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,synthetic,d3c8d6fe2d0f
+GET,/honeypot/admin,,"{""User-Agent"": ""AegisSecurityScanner/1.0""}",,1,Other,synthetic,4e76bd6c9688
+GET,/api/v1/comments,input=%3Csvg%20onload%3Dalert%281%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,8e063e847225
+POST,/api/v1/comments,input=%3Ciframe%20src%3D%22javascript%3Aalert%281%29%22%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,2007a83484c8
+POST,/api/v1/search,q=1%20OR%201%3D1,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,f5ebfb2408c7
+GET,/api/v1/search,q=admin%27%29%20OR%20%28%271%27%3D%271%27--,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%29%20OR%20%28%271%27%3D%271%27--&pass=123,1,SQLi,synthetic,f3e3c3ff0db8
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,synthetic,a054fbaab407
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}",1,XSS,synthetic,c6514113797c
+POST,/search,input=%3Cimg%20src%3Dx%20onerror%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,a444cac8f14a
+GET,/api/v1/search,q=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--&pass=123,1,SQLi,synthetic,3d98b6144a72
+GET,/api/v1/comments,input=%3Cimg%20src%3Dx%20onerror%3Dalert%28%27XSS%27%29%3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,synthetic,e46acaa0b51c
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<iframe src=\""javascript:alert(1)\"">""}",1,XSS,synthetic,1a4f365a9118
+POST,/api/v1/search,q=%27%20OR%20%27a%27%3D%27a,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20%27a%27%3D%27a&pass=123,1,SQLi,synthetic,68dc0c5ceb12
+POST,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%3B%20DROP%20TABLE%20logs--&pass=123,1,SQLi,synthetic,58ab87ed7115
+POST,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(document.domain)</script>""}",1,XSS,synthetic,cf202023b163
+GET,/api/v1/comments,input=%3Cscript%3Ealert%28document.domain%29%3C/script%3E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(document.domain)</script>""}",1,XSS,synthetic,9d92e6fda82d
+GET,/api/v1/login,q=admin%27%29%20OR%20%28%271%27%3D%271%27--,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%29%20OR%20%28%271%27%3D%271%27--&pass=123,1,SQLi,synthetic,f8d6f357c23e
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%20--&pass=123,1,SQLi,synthetic,a1eed578ab34
+GET,/api/v1/search,q=1%3B%20DROP%20TABLE%20logs--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,28352beb7fdd
+GET,/api/v1/login,q=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--&pass=123,1,SQLi,synthetic,dbc7498c40d0
+GET,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%29%20OR%20%28%271%27%3D%271%27--&pass=123,1,SQLi,synthetic,7f0d27ca17a2
+POST,/api/v1/login,q=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,synthetic,6cadb37b3165
+GET,/api/v1/search,q=Select%20team%20members%20for%20the%20upcoming%20hackathon%20project&category=blog&sort=relevance,"{""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""}",,0,Benign,hard_negatives,b4ba4eb17b34
+POST,/api/v1/user/avatar,,"{""Authorization"": ""Bearer data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="", ""Content-Type"": ""application/json""}","{""avatar_data"": ""data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEA""}",0,Benign,hard_negatives,91d04996e8c1

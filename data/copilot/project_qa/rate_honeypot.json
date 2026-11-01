@@ -1,0 +1,3922 @@
+[
+  {
+    "id": "proj_honeypot_0001",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 1",
+        "sliding window 429 1",
+        "what honeypot routes exist 1",
+        "how does auto ban work 1",
+        "how to unban ip 1",
+        "bot detector 1"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 1",
+        "ஸ்லைடிங் விண்டோ 429 1",
+        "தேன் தொட்டி பொறிகள் யாவை 1",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 1",
+        "IP முடக்கத்தை நீக்குவது எப்படி 1",
+        "பாட் கண்டறிதல் 1"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 1",
+        "429 too many requests 1",
+        "honeypots enna enna irukku 1",
+        "auto ban timer enna 1",
+        "ip unban panna command 1",
+        "bot detection 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0002",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 2",
+        "sliding window 429 2",
+        "what honeypot routes exist 2",
+        "how does auto ban work 2",
+        "how to unban ip 2",
+        "bot detector 2"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 2",
+        "ஸ்லைடிங் விண்டோ 429 2",
+        "தேன் தொட்டி பொறிகள் யாவை 2",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 2",
+        "IP முடக்கத்தை நீக்குவது எப்படி 2",
+        "பாட் கண்டறிதல் 2"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 2",
+        "429 too many requests 2",
+        "honeypots enna enna irukku 2",
+        "auto ban timer enna 2",
+        "ip unban panna command 2",
+        "bot detection 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0003",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 3",
+        "sliding window 429 3",
+        "what honeypot routes exist 3",
+        "how does auto ban work 3",
+        "how to unban ip 3",
+        "bot detector 3"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 3",
+        "ஸ்லைடிங் விண்டோ 429 3",
+        "தேன் தொட்டி பொறிகள் யாவை 3",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 3",
+        "IP முடக்கத்தை நீக்குவது எப்படி 3",
+        "பாட் கண்டறிதல் 3"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 3",
+        "429 too many requests 3",
+        "honeypots enna enna irukku 3",
+        "auto ban timer enna 3",
+        "ip unban panna command 3",
+        "bot detection 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0004",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 4",
+        "sliding window 429 4",
+        "what honeypot routes exist 4",
+        "how does auto ban work 4",
+        "how to unban ip 4",
+        "bot detector 4"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 4",
+        "ஸ்லைடிங் விண்டோ 429 4",
+        "தேன் தொட்டி பொறிகள் யாவை 4",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 4",
+        "IP முடக்கத்தை நீக்குவது எப்படி 4",
+        "பாட் கண்டறிதல் 4"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 4",
+        "429 too many requests 4",
+        "honeypots enna enna irukku 4",
+        "auto ban timer enna 4",
+        "ip unban panna command 4",
+        "bot detection 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0005",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 5",
+        "sliding window 429 5",
+        "what honeypot routes exist 5",
+        "how does auto ban work 5",
+        "how to unban ip 5",
+        "bot detector 5"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 5",
+        "ஸ்லைடிங் விண்டோ 429 5",
+        "தேன் தொட்டி பொறிகள் யாவை 5",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 5",
+        "IP முடக்கத்தை நீக்குவது எப்படி 5",
+        "பாட் கண்டறிதல் 5"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 5",
+        "429 too many requests 5",
+        "honeypots enna enna irukku 5",
+        "auto ban timer enna 5",
+        "ip unban panna command 5",
+        "bot detection 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0006",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 6",
+        "sliding window 429 6",
+        "what honeypot routes exist 6",
+        "how does auto ban work 6",
+        "how to unban ip 6",
+        "bot detector 6"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 6",
+        "ஸ்லைடிங் விண்டோ 429 6",
+        "தேன் தொட்டி பொறிகள் யாவை 6",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 6",
+        "IP முடக்கத்தை நீக்குவது எப்படி 6",
+        "பாட் கண்டறிதல் 6"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 6",
+        "429 too many requests 6",
+        "honeypots enna enna irukku 6",
+        "auto ban timer enna 6",
+        "ip unban panna command 6",
+        "bot detection 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0007",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 7",
+        "sliding window 429 7",
+        "what honeypot routes exist 7",
+        "how does auto ban work 7",
+        "how to unban ip 7",
+        "bot detector 7"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 7",
+        "ஸ்லைடிங் விண்டோ 429 7",
+        "தேன் தொட்டி பொறிகள் யாவை 7",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 7",
+        "IP முடக்கத்தை நீக்குவது எப்படி 7",
+        "பாட் கண்டறிதல் 7"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 7",
+        "429 too many requests 7",
+        "honeypots enna enna irukku 7",
+        "auto ban timer enna 7",
+        "ip unban panna command 7",
+        "bot detection 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0008",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 8",
+        "sliding window 429 8",
+        "what honeypot routes exist 8",
+        "how does auto ban work 8",
+        "how to unban ip 8",
+        "bot detector 8"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 8",
+        "ஸ்லைடிங் விண்டோ 429 8",
+        "தேன் தொட்டி பொறிகள் யாவை 8",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 8",
+        "IP முடக்கத்தை நீக்குவது எப்படி 8",
+        "பாட் கண்டறிதல் 8"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 8",
+        "429 too many requests 8",
+        "honeypots enna enna irukku 8",
+        "auto ban timer enna 8",
+        "ip unban panna command 8",
+        "bot detection 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0009",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 9",
+        "sliding window 429 9",
+        "what honeypot routes exist 9",
+        "how does auto ban work 9",
+        "how to unban ip 9",
+        "bot detector 9"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 9",
+        "ஸ்லைடிங் விண்டோ 429 9",
+        "தேன் தொட்டி பொறிகள் யாவை 9",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 9",
+        "IP முடக்கத்தை நீக்குவது எப்படி 9",
+        "பாட் கண்டறிதல் 9"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 9",
+        "429 too many requests 9",
+        "honeypots enna enna irukku 9",
+        "auto ban timer enna 9",
+        "ip unban panna command 9",
+        "bot detection 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0010",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 10",
+        "sliding window 429 10",
+        "what honeypot routes exist 10",
+        "how does auto ban work 10",
+        "how to unban ip 10",
+        "bot detector 10"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 10",
+        "ஸ்லைடிங் விண்டோ 429 10",
+        "தேன் தொட்டி பொறிகள் யாவை 10",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 10",
+        "IP முடக்கத்தை நீக்குவது எப்படி 10",
+        "பாட் கண்டறிதல் 10"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 10",
+        "429 too many requests 10",
+        "honeypots enna enna irukku 10",
+        "auto ban timer enna 10",
+        "ip unban panna command 10",
+        "bot detection 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0011",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 11",
+        "sliding window 429 11",
+        "what honeypot routes exist 11",
+        "how does auto ban work 11",
+        "how to unban ip 11",
+        "bot detector 11"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 11",
+        "ஸ்லைடிங் விண்டோ 429 11",
+        "தேன் தொட்டி பொறிகள் யாவை 11",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 11",
+        "IP முடக்கத்தை நீக்குவது எப்படி 11",
+        "பாட் கண்டறிதல் 11"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 11",
+        "429 too many requests 11",
+        "honeypots enna enna irukku 11",
+        "auto ban timer enna 11",
+        "ip unban panna command 11",
+        "bot detection 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0012",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 12",
+        "sliding window 429 12",
+        "what honeypot routes exist 12",
+        "how does auto ban work 12",
+        "how to unban ip 12",
+        "bot detector 12"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 12",
+        "ஸ்லைடிங் விண்டோ 429 12",
+        "தேன் தொட்டி பொறிகள் யாவை 12",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 12",
+        "IP முடக்கத்தை நீக்குவது எப்படி 12",
+        "பாட் கண்டறிதல் 12"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 12",
+        "429 too many requests 12",
+        "honeypots enna enna irukku 12",
+        "auto ban timer enna 12",
+        "ip unban panna command 12",
+        "bot detection 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0013",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 13",
+        "sliding window 429 13",
+        "what honeypot routes exist 13",
+        "how does auto ban work 13",
+        "how to unban ip 13",
+        "bot detector 13"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 13",
+        "ஸ்லைடிங் விண்டோ 429 13",
+        "தேன் தொட்டி பொறிகள் யாவை 13",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 13",
+        "IP முடக்கத்தை நீக்குவது எப்படி 13",
+        "பாட் கண்டறிதல் 13"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 13",
+        "429 too many requests 13",
+        "honeypots enna enna irukku 13",
+        "auto ban timer enna 13",
+        "ip unban panna command 13",
+        "bot detection 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0014",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 14",
+        "sliding window 429 14",
+        "what honeypot routes exist 14",
+        "how does auto ban work 14",
+        "how to unban ip 14",
+        "bot detector 14"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 14",
+        "ஸ்லைடிங் விண்டோ 429 14",
+        "தேன் தொட்டி பொறிகள் யாவை 14",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 14",
+        "IP முடக்கத்தை நீக்குவது எப்படி 14",
+        "பாட் கண்டறிதல் 14"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 14",
+        "429 too many requests 14",
+        "honeypots enna enna irukku 14",
+        "auto ban timer enna 14",
+        "ip unban panna command 14",
+        "bot detection 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0015",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 15",
+        "sliding window 429 15",
+        "what honeypot routes exist 15",
+        "how does auto ban work 15",
+        "how to unban ip 15",
+        "bot detector 15"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 15",
+        "ஸ்லைடிங் விண்டோ 429 15",
+        "தேன் தொட்டி பொறிகள் யாவை 15",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 15",
+        "IP முடக்கத்தை நீக்குவது எப்படி 15",
+        "பாட் கண்டறிதல் 15"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 15",
+        "429 too many requests 15",
+        "honeypots enna enna irukku 15",
+        "auto ban timer enna 15",
+        "ip unban panna command 15",
+        "bot detection 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0016",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 16",
+        "sliding window 429 16",
+        "what honeypot routes exist 16",
+        "how does auto ban work 16",
+        "how to unban ip 16",
+        "bot detector 16"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 16",
+        "ஸ்லைடிங் விண்டோ 429 16",
+        "தேன் தொட்டி பொறிகள் யாவை 16",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 16",
+        "IP முடக்கத்தை நீக்குவது எப்படி 16",
+        "பாட் கண்டறிதல் 16"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 16",
+        "429 too many requests 16",
+        "honeypots enna enna irukku 16",
+        "auto ban timer enna 16",
+        "ip unban panna command 16",
+        "bot detection 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0017",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 17",
+        "sliding window 429 17",
+        "what honeypot routes exist 17",
+        "how does auto ban work 17",
+        "how to unban ip 17",
+        "bot detector 17"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 17",
+        "ஸ்லைடிங் விண்டோ 429 17",
+        "தேன் தொட்டி பொறிகள் யாவை 17",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 17",
+        "IP முடக்கத்தை நீக்குவது எப்படி 17",
+        "பாட் கண்டறிதல் 17"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 17",
+        "429 too many requests 17",
+        "honeypots enna enna irukku 17",
+        "auto ban timer enna 17",
+        "ip unban panna command 17",
+        "bot detection 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0018",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 18",
+        "sliding window 429 18",
+        "what honeypot routes exist 18",
+        "how does auto ban work 18",
+        "how to unban ip 18",
+        "bot detector 18"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 18",
+        "ஸ்லைடிங் விண்டோ 429 18",
+        "தேன் தொட்டி பொறிகள் யாவை 18",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 18",
+        "IP முடக்கத்தை நீக்குவது எப்படி 18",
+        "பாட் கண்டறிதல் 18"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 18",
+        "429 too many requests 18",
+        "honeypots enna enna irukku 18",
+        "auto ban timer enna 18",
+        "ip unban panna command 18",
+        "bot detection 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0019",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 19",
+        "sliding window 429 19",
+        "what honeypot routes exist 19",
+        "how does auto ban work 19",
+        "how to unban ip 19",
+        "bot detector 19"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 19",
+        "ஸ்லைடிங் விண்டோ 429 19",
+        "தேன் தொட்டி பொறிகள் யாவை 19",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 19",
+        "IP முடக்கத்தை நீக்குவது எப்படி 19",
+        "பாட் கண்டறிதல் 19"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 19",
+        "429 too many requests 19",
+        "honeypots enna enna irukku 19",
+        "auto ban timer enna 19",
+        "ip unban panna command 19",
+        "bot detection 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0020",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 20",
+        "sliding window 429 20",
+        "what honeypot routes exist 20",
+        "how does auto ban work 20",
+        "how to unban ip 20",
+        "bot detector 20"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 20",
+        "ஸ்லைடிங் விண்டோ 429 20",
+        "தேன் தொட்டி பொறிகள் யாவை 20",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 20",
+        "IP முடக்கத்தை நீக்குவது எப்படி 20",
+        "பாட் கண்டறிதல் 20"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 20",
+        "429 too many requests 20",
+        "honeypots enna enna irukku 20",
+        "auto ban timer enna 20",
+        "ip unban panna command 20",
+        "bot detection 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0021",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 21",
+        "sliding window 429 21",
+        "what honeypot routes exist 21",
+        "how does auto ban work 21",
+        "how to unban ip 21",
+        "bot detector 21"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 21",
+        "ஸ்லைடிங் விண்டோ 429 21",
+        "தேன் தொட்டி பொறிகள் யாவை 21",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 21",
+        "IP முடக்கத்தை நீக்குவது எப்படி 21",
+        "பாட் கண்டறிதல் 21"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 21",
+        "429 too many requests 21",
+        "honeypots enna enna irukku 21",
+        "auto ban timer enna 21",
+        "ip unban panna command 21",
+        "bot detection 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0022",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 22",
+        "sliding window 429 22",
+        "what honeypot routes exist 22",
+        "how does auto ban work 22",
+        "how to unban ip 22",
+        "bot detector 22"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 22",
+        "ஸ்லைடிங் விண்டோ 429 22",
+        "தேன் தொட்டி பொறிகள் யாவை 22",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 22",
+        "IP முடக்கத்தை நீக்குவது எப்படி 22",
+        "பாட் கண்டறிதல் 22"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 22",
+        "429 too many requests 22",
+        "honeypots enna enna irukku 22",
+        "auto ban timer enna 22",
+        "ip unban panna command 22",
+        "bot detection 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0023",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 23",
+        "sliding window 429 23",
+        "what honeypot routes exist 23",
+        "how does auto ban work 23",
+        "how to unban ip 23",
+        "bot detector 23"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 23",
+        "ஸ்லைடிங் விண்டோ 429 23",
+        "தேன் தொட்டி பொறிகள் யாவை 23",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 23",
+        "IP முடக்கத்தை நீக்குவது எப்படி 23",
+        "பாட் கண்டறிதல் 23"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 23",
+        "429 too many requests 23",
+        "honeypots enna enna irukku 23",
+        "auto ban timer enna 23",
+        "ip unban panna command 23",
+        "bot detection 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0024",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 24",
+        "sliding window 429 24",
+        "what honeypot routes exist 24",
+        "how does auto ban work 24",
+        "how to unban ip 24",
+        "bot detector 24"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 24",
+        "ஸ்லைடிங் விண்டோ 429 24",
+        "தேன் தொட்டி பொறிகள் யாவை 24",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 24",
+        "IP முடக்கத்தை நீக்குவது எப்படி 24",
+        "பாட் கண்டறிதல் 24"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 24",
+        "429 too many requests 24",
+        "honeypots enna enna irukku 24",
+        "auto ban timer enna 24",
+        "ip unban panna command 24",
+        "bot detection 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0025",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 25",
+        "sliding window 429 25",
+        "what honeypot routes exist 25",
+        "how does auto ban work 25",
+        "how to unban ip 25",
+        "bot detector 25"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 25",
+        "ஸ்லைடிங் விண்டோ 429 25",
+        "தேன் தொட்டி பொறிகள் யாவை 25",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 25",
+        "IP முடக்கத்தை நீக்குவது எப்படி 25",
+        "பாட் கண்டறிதல் 25"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 25",
+        "429 too many requests 25",
+        "honeypots enna enna irukku 25",
+        "auto ban timer enna 25",
+        "ip unban panna command 25",
+        "bot detection 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0026",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 26",
+        "sliding window 429 26",
+        "what honeypot routes exist 26",
+        "how does auto ban work 26",
+        "how to unban ip 26",
+        "bot detector 26"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 26",
+        "ஸ்லைடிங் விண்டோ 429 26",
+        "தேன் தொட்டி பொறிகள் யாவை 26",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 26",
+        "IP முடக்கத்தை நீக்குவது எப்படி 26",
+        "பாட் கண்டறிதல் 26"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 26",
+        "429 too many requests 26",
+        "honeypots enna enna irukku 26",
+        "auto ban timer enna 26",
+        "ip unban panna command 26",
+        "bot detection 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0027",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 27",
+        "sliding window 429 27",
+        "what honeypot routes exist 27",
+        "how does auto ban work 27",
+        "how to unban ip 27",
+        "bot detector 27"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 27",
+        "ஸ்லைடிங் விண்டோ 429 27",
+        "தேன் தொட்டி பொறிகள் யாவை 27",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 27",
+        "IP முடக்கத்தை நீக்குவது எப்படி 27",
+        "பாட் கண்டறிதல் 27"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 27",
+        "429 too many requests 27",
+        "honeypots enna enna irukku 27",
+        "auto ban timer enna 27",
+        "ip unban panna command 27",
+        "bot detection 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0028",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 28",
+        "sliding window 429 28",
+        "what honeypot routes exist 28",
+        "how does auto ban work 28",
+        "how to unban ip 28",
+        "bot detector 28"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 28",
+        "ஸ்லைடிங் விண்டோ 429 28",
+        "தேன் தொட்டி பொறிகள் யாவை 28",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 28",
+        "IP முடக்கத்தை நீக்குவது எப்படி 28",
+        "பாட் கண்டறிதல் 28"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 28",
+        "429 too many requests 28",
+        "honeypots enna enna irukku 28",
+        "auto ban timer enna 28",
+        "ip unban panna command 28",
+        "bot detection 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0029",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 29",
+        "sliding window 429 29",
+        "what honeypot routes exist 29",
+        "how does auto ban work 29",
+        "how to unban ip 29",
+        "bot detector 29"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 29",
+        "ஸ்லைடிங் விண்டோ 429 29",
+        "தேன் தொட்டி பொறிகள் யாவை 29",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 29",
+        "IP முடக்கத்தை நீக்குவது எப்படி 29",
+        "பாட் கண்டறிதல் 29"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 29",
+        "429 too many requests 29",
+        "honeypots enna enna irukku 29",
+        "auto ban timer enna 29",
+        "ip unban panna command 29",
+        "bot detection 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0030",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 30",
+        "sliding window 429 30",
+        "what honeypot routes exist 30",
+        "how does auto ban work 30",
+        "how to unban ip 30",
+        "bot detector 30"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 30",
+        "ஸ்லைடிங் விண்டோ 429 30",
+        "தேன் தொட்டி பொறிகள் யாவை 30",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 30",
+        "IP முடக்கத்தை நீக்குவது எப்படி 30",
+        "பாட் கண்டறிதல் 30"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 30",
+        "429 too many requests 30",
+        "honeypots enna enna irukku 30",
+        "auto ban timer enna 30",
+        "ip unban panna command 30",
+        "bot detection 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0031",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 31",
+        "sliding window 429 31",
+        "what honeypot routes exist 31",
+        "how does auto ban work 31",
+        "how to unban ip 31",
+        "bot detector 31"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 31",
+        "ஸ்லைடிங் விண்டோ 429 31",
+        "தேன் தொட்டி பொறிகள் யாவை 31",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 31",
+        "IP முடக்கத்தை நீக்குவது எப்படி 31",
+        "பாட் கண்டறிதல் 31"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 31",
+        "429 too many requests 31",
+        "honeypots enna enna irukku 31",
+        "auto ban timer enna 31",
+        "ip unban panna command 31",
+        "bot detection 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0032",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 32",
+        "sliding window 429 32",
+        "what honeypot routes exist 32",
+        "how does auto ban work 32",
+        "how to unban ip 32",
+        "bot detector 32"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 32",
+        "ஸ்லைடிங் விண்டோ 429 32",
+        "தேன் தொட்டி பொறிகள் யாவை 32",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 32",
+        "IP முடக்கத்தை நீக்குவது எப்படி 32",
+        "பாட் கண்டறிதல் 32"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 32",
+        "429 too many requests 32",
+        "honeypots enna enna irukku 32",
+        "auto ban timer enna 32",
+        "ip unban panna command 32",
+        "bot detection 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0033",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 33",
+        "sliding window 429 33",
+        "what honeypot routes exist 33",
+        "how does auto ban work 33",
+        "how to unban ip 33",
+        "bot detector 33"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 33",
+        "ஸ்லைடிங் விண்டோ 429 33",
+        "தேன் தொட்டி பொறிகள் யாவை 33",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 33",
+        "IP முடக்கத்தை நீக்குவது எப்படி 33",
+        "பாட் கண்டறிதல் 33"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 33",
+        "429 too many requests 33",
+        "honeypots enna enna irukku 33",
+        "auto ban timer enna 33",
+        "ip unban panna command 33",
+        "bot detection 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0034",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 34",
+        "sliding window 429 34",
+        "what honeypot routes exist 34",
+        "how does auto ban work 34",
+        "how to unban ip 34",
+        "bot detector 34"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 34",
+        "ஸ்லைடிங் விண்டோ 429 34",
+        "தேன் தொட்டி பொறிகள் யாவை 34",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 34",
+        "IP முடக்கத்தை நீக்குவது எப்படி 34",
+        "பாட் கண்டறிதல் 34"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 34",
+        "429 too many requests 34",
+        "honeypots enna enna irukku 34",
+        "auto ban timer enna 34",
+        "ip unban panna command 34",
+        "bot detection 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0035",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 35",
+        "sliding window 429 35",
+        "what honeypot routes exist 35",
+        "how does auto ban work 35",
+        "how to unban ip 35",
+        "bot detector 35"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 35",
+        "ஸ்லைடிங் விண்டோ 429 35",
+        "தேன் தொட்டி பொறிகள் யாவை 35",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 35",
+        "IP முடக்கத்தை நீக்குவது எப்படி 35",
+        "பாட் கண்டறிதல் 35"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 35",
+        "429 too many requests 35",
+        "honeypots enna enna irukku 35",
+        "auto ban timer enna 35",
+        "ip unban panna command 35",
+        "bot detection 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0036",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 36",
+        "sliding window 429 36",
+        "what honeypot routes exist 36",
+        "how does auto ban work 36",
+        "how to unban ip 36",
+        "bot detector 36"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 36",
+        "ஸ்லைடிங் விண்டோ 429 36",
+        "தேன் தொட்டி பொறிகள் யாவை 36",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 36",
+        "IP முடக்கத்தை நீக்குவது எப்படி 36",
+        "பாட் கண்டறிதல் 36"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 36",
+        "429 too many requests 36",
+        "honeypots enna enna irukku 36",
+        "auto ban timer enna 36",
+        "ip unban panna command 36",
+        "bot detection 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0037",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 37",
+        "sliding window 429 37",
+        "what honeypot routes exist 37",
+        "how does auto ban work 37",
+        "how to unban ip 37",
+        "bot detector 37"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 37",
+        "ஸ்லைடிங் விண்டோ 429 37",
+        "தேன் தொட்டி பொறிகள் யாவை 37",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 37",
+        "IP முடக்கத்தை நீக்குவது எப்படி 37",
+        "பாட் கண்டறிதல் 37"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 37",
+        "429 too many requests 37",
+        "honeypots enna enna irukku 37",
+        "auto ban timer enna 37",
+        "ip unban panna command 37",
+        "bot detection 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0038",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 38",
+        "sliding window 429 38",
+        "what honeypot routes exist 38",
+        "how does auto ban work 38",
+        "how to unban ip 38",
+        "bot detector 38"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 38",
+        "ஸ்லைடிங் விண்டோ 429 38",
+        "தேன் தொட்டி பொறிகள் யாவை 38",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 38",
+        "IP முடக்கத்தை நீக்குவது எப்படி 38",
+        "பாட் கண்டறிதல் 38"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 38",
+        "429 too many requests 38",
+        "honeypots enna enna irukku 38",
+        "auto ban timer enna 38",
+        "ip unban panna command 38",
+        "bot detection 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0039",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 39",
+        "sliding window 429 39",
+        "what honeypot routes exist 39",
+        "how does auto ban work 39",
+        "how to unban ip 39",
+        "bot detector 39"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 39",
+        "ஸ்லைடிங் விண்டோ 429 39",
+        "தேன் தொட்டி பொறிகள் யாவை 39",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 39",
+        "IP முடக்கத்தை நீக்குவது எப்படி 39",
+        "பாட் கண்டறிதல் 39"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 39",
+        "429 too many requests 39",
+        "honeypots enna enna irukku 39",
+        "auto ban timer enna 39",
+        "ip unban panna command 39",
+        "bot detection 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0040",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 40",
+        "sliding window 429 40",
+        "what honeypot routes exist 40",
+        "how does auto ban work 40",
+        "how to unban ip 40",
+        "bot detector 40"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 40",
+        "ஸ்லைடிங் விண்டோ 429 40",
+        "தேன் தொட்டி பொறிகள் யாவை 40",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 40",
+        "IP முடக்கத்தை நீக்குவது எப்படி 40",
+        "பாட் கண்டறிதல் 40"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 40",
+        "429 too many requests 40",
+        "honeypots enna enna irukku 40",
+        "auto ban timer enna 40",
+        "ip unban panna command 40",
+        "bot detection 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0041",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 41",
+        "sliding window 429 41",
+        "what honeypot routes exist 41",
+        "how does auto ban work 41",
+        "how to unban ip 41",
+        "bot detector 41"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 41",
+        "ஸ்லைடிங் விண்டோ 429 41",
+        "தேன் தொட்டி பொறிகள் யாவை 41",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 41",
+        "IP முடக்கத்தை நீக்குவது எப்படி 41",
+        "பாட் கண்டறிதல் 41"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 41",
+        "429 too many requests 41",
+        "honeypots enna enna irukku 41",
+        "auto ban timer enna 41",
+        "ip unban panna command 41",
+        "bot detection 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0042",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 42",
+        "sliding window 429 42",
+        "what honeypot routes exist 42",
+        "how does auto ban work 42",
+        "how to unban ip 42",
+        "bot detector 42"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 42",
+        "ஸ்லைடிங் விண்டோ 429 42",
+        "தேன் தொட்டி பொறிகள் யாவை 42",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 42",
+        "IP முடக்கத்தை நீக்குவது எப்படி 42",
+        "பாட் கண்டறிதல் 42"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 42",
+        "429 too many requests 42",
+        "honeypots enna enna irukku 42",
+        "auto ban timer enna 42",
+        "ip unban panna command 42",
+        "bot detection 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0043",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 43",
+        "sliding window 429 43",
+        "what honeypot routes exist 43",
+        "how does auto ban work 43",
+        "how to unban ip 43",
+        "bot detector 43"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 43",
+        "ஸ்லைடிங் விண்டோ 429 43",
+        "தேன் தொட்டி பொறிகள் யாவை 43",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 43",
+        "IP முடக்கத்தை நீக்குவது எப்படி 43",
+        "பாட் கண்டறிதல் 43"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 43",
+        "429 too many requests 43",
+        "honeypots enna enna irukku 43",
+        "auto ban timer enna 43",
+        "ip unban panna command 43",
+        "bot detection 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0044",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 44",
+        "sliding window 429 44",
+        "what honeypot routes exist 44",
+        "how does auto ban work 44",
+        "how to unban ip 44",
+        "bot detector 44"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 44",
+        "ஸ்லைடிங் விண்டோ 429 44",
+        "தேன் தொட்டி பொறிகள் யாவை 44",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 44",
+        "IP முடக்கத்தை நீக்குவது எப்படி 44",
+        "பாட் கண்டறிதல் 44"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 44",
+        "429 too many requests 44",
+        "honeypots enna enna irukku 44",
+        "auto ban timer enna 44",
+        "ip unban panna command 44",
+        "bot detection 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0045",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 45",
+        "sliding window 429 45",
+        "what honeypot routes exist 45",
+        "how does auto ban work 45",
+        "how to unban ip 45",
+        "bot detector 45"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 45",
+        "ஸ்லைடிங் விண்டோ 429 45",
+        "தேன் தொட்டி பொறிகள் யாவை 45",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 45",
+        "IP முடக்கத்தை நீக்குவது எப்படி 45",
+        "பாட் கண்டறிதல் 45"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 45",
+        "429 too many requests 45",
+        "honeypots enna enna irukku 45",
+        "auto ban timer enna 45",
+        "ip unban panna command 45",
+        "bot detection 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0046",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 46",
+        "sliding window 429 46",
+        "what honeypot routes exist 46",
+        "how does auto ban work 46",
+        "how to unban ip 46",
+        "bot detector 46"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 46",
+        "ஸ்லைடிங் விண்டோ 429 46",
+        "தேன் தொட்டி பொறிகள் யாவை 46",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 46",
+        "IP முடக்கத்தை நீக்குவது எப்படி 46",
+        "பாட் கண்டறிதல் 46"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 46",
+        "429 too many requests 46",
+        "honeypots enna enna irukku 46",
+        "auto ban timer enna 46",
+        "ip unban panna command 46",
+        "bot detection 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0047",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 47",
+        "sliding window 429 47",
+        "what honeypot routes exist 47",
+        "how does auto ban work 47",
+        "how to unban ip 47",
+        "bot detector 47"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 47",
+        "ஸ்லைடிங் விண்டோ 429 47",
+        "தேன் தொட்டி பொறிகள் யாவை 47",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 47",
+        "IP முடக்கத்தை நீக்குவது எப்படி 47",
+        "பாட் கண்டறிதல் 47"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 47",
+        "429 too many requests 47",
+        "honeypots enna enna irukku 47",
+        "auto ban timer enna 47",
+        "ip unban panna command 47",
+        "bot detection 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0048",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 48",
+        "sliding window 429 48",
+        "what honeypot routes exist 48",
+        "how does auto ban work 48",
+        "how to unban ip 48",
+        "bot detector 48"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 48",
+        "ஸ்லைடிங் விண்டோ 429 48",
+        "தேன் தொட்டி பொறிகள் யாவை 48",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 48",
+        "IP முடக்கத்தை நீக்குவது எப்படி 48",
+        "பாட் கண்டறிதல் 48"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 48",
+        "429 too many requests 48",
+        "honeypots enna enna irukku 48",
+        "auto ban timer enna 48",
+        "ip unban panna command 48",
+        "bot detection 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0049",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 49",
+        "sliding window 429 49",
+        "what honeypot routes exist 49",
+        "how does auto ban work 49",
+        "how to unban ip 49",
+        "bot detector 49"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 49",
+        "ஸ்லைடிங் விண்டோ 429 49",
+        "தேன் தொட்டி பொறிகள் யாவை 49",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 49",
+        "IP முடக்கத்தை நீக்குவது எப்படி 49",
+        "பாட் கண்டறிதல் 49"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 49",
+        "429 too many requests 49",
+        "honeypots enna enna irukku 49",
+        "auto ban timer enna 49",
+        "ip unban panna command 49",
+        "bot detection 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0050",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 50",
+        "sliding window 429 50",
+        "what honeypot routes exist 50",
+        "how does auto ban work 50",
+        "how to unban ip 50",
+        "bot detector 50"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 50",
+        "ஸ்லைடிங் விண்டோ 429 50",
+        "தேன் தொட்டி பொறிகள் யாவை 50",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 50",
+        "IP முடக்கத்தை நீக்குவது எப்படி 50",
+        "பாட் கண்டறிதல் 50"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 50",
+        "429 too many requests 50",
+        "honeypots enna enna irukku 50",
+        "auto ban timer enna 50",
+        "ip unban panna command 50",
+        "bot detection 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0051",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 51",
+        "sliding window 429 51",
+        "what honeypot routes exist 51",
+        "how does auto ban work 51",
+        "how to unban ip 51",
+        "bot detector 51"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 51",
+        "ஸ்லைடிங் விண்டோ 429 51",
+        "தேன் தொட்டி பொறிகள் யாவை 51",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 51",
+        "IP முடக்கத்தை நீக்குவது எப்படி 51",
+        "பாட் கண்டறிதல் 51"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 51",
+        "429 too many requests 51",
+        "honeypots enna enna irukku 51",
+        "auto ban timer enna 51",
+        "ip unban panna command 51",
+        "bot detection 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0052",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 52",
+        "sliding window 429 52",
+        "what honeypot routes exist 52",
+        "how does auto ban work 52",
+        "how to unban ip 52",
+        "bot detector 52"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 52",
+        "ஸ்லைடிங் விண்டோ 429 52",
+        "தேன் தொட்டி பொறிகள் யாவை 52",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 52",
+        "IP முடக்கத்தை நீக்குவது எப்படி 52",
+        "பாட் கண்டறிதல் 52"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 52",
+        "429 too many requests 52",
+        "honeypots enna enna irukku 52",
+        "auto ban timer enna 52",
+        "ip unban panna command 52",
+        "bot detection 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0053",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 53",
+        "sliding window 429 53",
+        "what honeypot routes exist 53",
+        "how does auto ban work 53",
+        "how to unban ip 53",
+        "bot detector 53"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 53",
+        "ஸ்லைடிங் விண்டோ 429 53",
+        "தேன் தொட்டி பொறிகள் யாவை 53",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 53",
+        "IP முடக்கத்தை நீக்குவது எப்படி 53",
+        "பாட் கண்டறிதல் 53"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 53",
+        "429 too many requests 53",
+        "honeypots enna enna irukku 53",
+        "auto ban timer enna 53",
+        "ip unban panna command 53",
+        "bot detection 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0054",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 54",
+        "sliding window 429 54",
+        "what honeypot routes exist 54",
+        "how does auto ban work 54",
+        "how to unban ip 54",
+        "bot detector 54"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 54",
+        "ஸ்லைடிங் விண்டோ 429 54",
+        "தேன் தொட்டி பொறிகள் யாவை 54",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 54",
+        "IP முடக்கத்தை நீக்குவது எப்படி 54",
+        "பாட் கண்டறிதல் 54"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 54",
+        "429 too many requests 54",
+        "honeypots enna enna irukku 54",
+        "auto ban timer enna 54",
+        "ip unban panna command 54",
+        "bot detection 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0055",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 55",
+        "sliding window 429 55",
+        "what honeypot routes exist 55",
+        "how does auto ban work 55",
+        "how to unban ip 55",
+        "bot detector 55"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 55",
+        "ஸ்லைடிங் விண்டோ 429 55",
+        "தேன் தொட்டி பொறிகள் யாவை 55",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 55",
+        "IP முடக்கத்தை நீக்குவது எப்படி 55",
+        "பாட் கண்டறிதல் 55"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 55",
+        "429 too many requests 55",
+        "honeypots enna enna irukku 55",
+        "auto ban timer enna 55",
+        "ip unban panna command 55",
+        "bot detection 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0056",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 56",
+        "sliding window 429 56",
+        "what honeypot routes exist 56",
+        "how does auto ban work 56",
+        "how to unban ip 56",
+        "bot detector 56"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 56",
+        "ஸ்லைடிங் விண்டோ 429 56",
+        "தேன் தொட்டி பொறிகள் யாவை 56",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 56",
+        "IP முடக்கத்தை நீக்குவது எப்படி 56",
+        "பாட் கண்டறிதல் 56"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 56",
+        "429 too many requests 56",
+        "honeypots enna enna irukku 56",
+        "auto ban timer enna 56",
+        "ip unban panna command 56",
+        "bot detection 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0057",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 57",
+        "sliding window 429 57",
+        "what honeypot routes exist 57",
+        "how does auto ban work 57",
+        "how to unban ip 57",
+        "bot detector 57"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 57",
+        "ஸ்லைடிங் விண்டோ 429 57",
+        "தேன் தொட்டி பொறிகள் யாவை 57",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 57",
+        "IP முடக்கத்தை நீக்குவது எப்படி 57",
+        "பாட் கண்டறிதல் 57"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 57",
+        "429 too many requests 57",
+        "honeypots enna enna irukku 57",
+        "auto ban timer enna 57",
+        "ip unban panna command 57",
+        "bot detection 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0058",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 58",
+        "sliding window 429 58",
+        "what honeypot routes exist 58",
+        "how does auto ban work 58",
+        "how to unban ip 58",
+        "bot detector 58"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 58",
+        "ஸ்லைடிங் விண்டோ 429 58",
+        "தேன் தொட்டி பொறிகள் யாவை 58",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 58",
+        "IP முடக்கத்தை நீக்குவது எப்படி 58",
+        "பாட் கண்டறிதல் 58"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 58",
+        "429 too many requests 58",
+        "honeypots enna enna irukku 58",
+        "auto ban timer enna 58",
+        "ip unban panna command 58",
+        "bot detection 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0059",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 59",
+        "sliding window 429 59",
+        "what honeypot routes exist 59",
+        "how does auto ban work 59",
+        "how to unban ip 59",
+        "bot detector 59"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 59",
+        "ஸ்லைடிங் விண்டோ 429 59",
+        "தேன் தொட்டி பொறிகள் யாவை 59",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 59",
+        "IP முடக்கத்தை நீக்குவது எப்படி 59",
+        "பாட் கண்டறிதல் 59"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 59",
+        "429 too many requests 59",
+        "honeypots enna enna irukku 59",
+        "auto ban timer enna 59",
+        "ip unban panna command 59",
+        "bot detection 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0060",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 60",
+        "sliding window 429 60",
+        "what honeypot routes exist 60",
+        "how does auto ban work 60",
+        "how to unban ip 60",
+        "bot detector 60"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 60",
+        "ஸ்லைடிங் விண்டோ 429 60",
+        "தேன் தொட்டி பொறிகள் யாவை 60",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 60",
+        "IP முடக்கத்தை நீக்குவது எப்படி 60",
+        "பாட் கண்டறிதல் 60"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 60",
+        "429 too many requests 60",
+        "honeypots enna enna irukku 60",
+        "auto ban timer enna 60",
+        "ip unban panna command 60",
+        "bot detection 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0061",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 61",
+        "sliding window 429 61",
+        "what honeypot routes exist 61",
+        "how does auto ban work 61",
+        "how to unban ip 61",
+        "bot detector 61"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 61",
+        "ஸ்லைடிங் விண்டோ 429 61",
+        "தேன் தொட்டி பொறிகள் யாவை 61",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 61",
+        "IP முடக்கத்தை நீக்குவது எப்படி 61",
+        "பாட் கண்டறிதல் 61"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 61",
+        "429 too many requests 61",
+        "honeypots enna enna irukku 61",
+        "auto ban timer enna 61",
+        "ip unban panna command 61",
+        "bot detection 61"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0062",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 62",
+        "sliding window 429 62",
+        "what honeypot routes exist 62",
+        "how does auto ban work 62",
+        "how to unban ip 62",
+        "bot detector 62"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 62",
+        "ஸ்லைடிங் விண்டோ 429 62",
+        "தேன் தொட்டி பொறிகள் யாவை 62",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 62",
+        "IP முடக்கத்தை நீக்குவது எப்படி 62",
+        "பாட் கண்டறிதல் 62"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 62",
+        "429 too many requests 62",
+        "honeypots enna enna irukku 62",
+        "auto ban timer enna 62",
+        "ip unban panna command 62",
+        "bot detection 62"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0063",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 63",
+        "sliding window 429 63",
+        "what honeypot routes exist 63",
+        "how does auto ban work 63",
+        "how to unban ip 63",
+        "bot detector 63"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 63",
+        "ஸ்லைடிங் விண்டோ 429 63",
+        "தேன் தொட்டி பொறிகள் யாவை 63",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 63",
+        "IP முடக்கத்தை நீக்குவது எப்படி 63",
+        "பாட் கண்டறிதல் 63"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 63",
+        "429 too many requests 63",
+        "honeypots enna enna irukku 63",
+        "auto ban timer enna 63",
+        "ip unban panna command 63",
+        "bot detection 63"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0064",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 64",
+        "sliding window 429 64",
+        "what honeypot routes exist 64",
+        "how does auto ban work 64",
+        "how to unban ip 64",
+        "bot detector 64"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 64",
+        "ஸ்லைடிங் விண்டோ 429 64",
+        "தேன் தொட்டி பொறிகள் யாவை 64",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 64",
+        "IP முடக்கத்தை நீக்குவது எப்படி 64",
+        "பாட் கண்டறிதல் 64"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 64",
+        "429 too many requests 64",
+        "honeypots enna enna irukku 64",
+        "auto ban timer enna 64",
+        "ip unban panna command 64",
+        "bot detection 64"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0065",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 65",
+        "sliding window 429 65",
+        "what honeypot routes exist 65",
+        "how does auto ban work 65",
+        "how to unban ip 65",
+        "bot detector 65"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 65",
+        "ஸ்லைடிங் விண்டோ 429 65",
+        "தேன் தொட்டி பொறிகள் யாவை 65",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 65",
+        "IP முடக்கத்தை நீக்குவது எப்படி 65",
+        "பாட் கண்டறிதல் 65"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 65",
+        "429 too many requests 65",
+        "honeypots enna enna irukku 65",
+        "auto ban timer enna 65",
+        "ip unban panna command 65",
+        "bot detection 65"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0066",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 66",
+        "sliding window 429 66",
+        "what honeypot routes exist 66",
+        "how does auto ban work 66",
+        "how to unban ip 66",
+        "bot detector 66"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 66",
+        "ஸ்லைடிங் விண்டோ 429 66",
+        "தேன் தொட்டி பொறிகள் யாவை 66",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 66",
+        "IP முடக்கத்தை நீக்குவது எப்படி 66",
+        "பாட் கண்டறிதல் 66"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 66",
+        "429 too many requests 66",
+        "honeypots enna enna irukku 66",
+        "auto ban timer enna 66",
+        "ip unban panna command 66",
+        "bot detection 66"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0067",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 67",
+        "sliding window 429 67",
+        "what honeypot routes exist 67",
+        "how does auto ban work 67",
+        "how to unban ip 67",
+        "bot detector 67"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 67",
+        "ஸ்லைடிங் விண்டோ 429 67",
+        "தேன் தொட்டி பொறிகள் யாவை 67",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 67",
+        "IP முடக்கத்தை நீக்குவது எப்படி 67",
+        "பாட் கண்டறிதல் 67"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 67",
+        "429 too many requests 67",
+        "honeypots enna enna irukku 67",
+        "auto ban timer enna 67",
+        "ip unban panna command 67",
+        "bot detection 67"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0068",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 68",
+        "sliding window 429 68",
+        "what honeypot routes exist 68",
+        "how does auto ban work 68",
+        "how to unban ip 68",
+        "bot detector 68"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 68",
+        "ஸ்லைடிங் விண்டோ 429 68",
+        "தேன் தொட்டி பொறிகள் யாவை 68",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 68",
+        "IP முடக்கத்தை நீக்குவது எப்படி 68",
+        "பாட் கண்டறிதல் 68"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 68",
+        "429 too many requests 68",
+        "honeypots enna enna irukku 68",
+        "auto ban timer enna 68",
+        "ip unban panna command 68",
+        "bot detection 68"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0069",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 69",
+        "sliding window 429 69",
+        "what honeypot routes exist 69",
+        "how does auto ban work 69",
+        "how to unban ip 69",
+        "bot detector 69"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 69",
+        "ஸ்லைடிங் விண்டோ 429 69",
+        "தேன் தொட்டி பொறிகள் யாவை 69",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 69",
+        "IP முடக்கத்தை நீக்குவது எப்படி 69",
+        "பாட் கண்டறிதல் 69"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 69",
+        "429 too many requests 69",
+        "honeypots enna enna irukku 69",
+        "auto ban timer enna 69",
+        "ip unban panna command 69",
+        "bot detection 69"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  },
+  {
+    "id": "proj_honeypot_0070",
+    "category": "rate_honeypot",
+    "patterns": {
+      "en": [
+        "how does rate limiter work 70",
+        "sliding window 429 70",
+        "what honeypot routes exist 70",
+        "how does auto ban work 70",
+        "how to unban ip 70",
+        "bot detector 70"
+      ],
+      "ta": [
+        "ரேட் லிமிட்டர் எவ்வாறு செயல்படுகிறது 70",
+        "ஸ்லைடிங் விண்டோ 429 70",
+        "தேன் தொட்டி பொறிகள் யாவை 70",
+        "தானியங்கி முடக்கம் எவ்வாறு வேலை செய்கிறது 70",
+        "IP முடக்கத்தை நீக்குவது எப்படி 70",
+        "பாட் கண்டறிதல் 70"
+      ],
+      "tanglish": [
+        "rate limiter epdi work aagudhu 70",
+        "429 too many requests 70",
+        "honeypots enna enna irukku 70",
+        "auto ban timer enna 70",
+        "ip unban panna command 70",
+        "bot detection 70"
+      ]
+    },
+    "responses": {
+      "en": [
+        "AegisGate uses a Sliding-Window Rate Limiter (Default: 50 requests / 60 seconds per IP). Exceeding clients receive HTTP 429 Too Many Requests.",
+        "Decoy Honeypots: Routes like /.env, /admin, /wp-login.php, /actuator/env trap malicious scanners (sqlmap, gobuster) and trigger an immediate 10-minute automated client IP ban."
+      ],
+      "ta": [
+        "ஸ்லைடிங்-விண்டோ ரேட் லிமிட்டர்: ஒரு கிளையண்டிற்கு 60 வினாடிகளில் 50 கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். மீறினால் HTTP 429 எச்சரிக்கை அனுப்பப்படும்.",
+        "தேன் தொட்டி பொறிகள்: /.env, /admin போன்ற போலிப் பாதைகளை அணுகும் தானியங்கி ஸ்கேனர்கள் உடனடியாக 10 நிமிடங்களுக்கு முடக்கப்படும்."
+      ],
+      "tanglish": [
+        "Sliding Window Limiter: 50 requests per 60 seconds per IP. Burst traffic triggers HTTP 429 Too Many Requests.",
+        "Honeypot Decoys: /.env, /admin, /.git/config routes trap scanners and activate 10-minute auto-ban."
+      ]
+    },
+    "chips": [
+      "Unban 127.0.0.1",
+      "Show banned IPs",
+      "/status"
+    ],
+    "action": null,
+    "needs_live_data": false,
+    "tags": [
+      "rate_limiter",
+      "honeypot",
+      "autoban"
+    ]
+  }
+]

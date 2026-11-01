@@ -1,0 +1,2 @@
+"""AegisGate Copilot Package"""
+

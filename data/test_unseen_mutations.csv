@@ -1,0 +1,161 @@
+method,path,query,headers,body,label,attack_type,source,seed_id
+POST,/api/v1/login,q%25253D%25252527%25252520OR%252525201%2525253D1--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_triple_url,9fd5dad4a0fd
+POST,/api/v1/login,ｑ=%2７％２0ＯR%２01％３D１－-,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_nested_comment_unicode,9fd5dad4a0fd
+POST,/api/v1/login,q=%27%20OR%201%3D1--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_null_byte_path_traversal,9fd5dad4a0fd
+POST,/api/v1/login,Q=%%0027%20OR%201%3D1--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_mixed_evasion_pipeline,9fd5dad4a0fd
+POST,/api/v1/comments,input%25253D%2525253Cscript%2525253Ealert%252525281%25252529%2525253C%25252Fscript%2525253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,test_recipe_triple_url,d6f375d2d3ce
+POST,/api/v1/comments,ｉｎｐｕｔ=％３Csｃｒｉpｔ％3Ｅaｌｅrt％2８１％2９％３C／ｓｃriｐｔ％３Ｅ,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,test_recipe_nested_comment_unicode,d6f375d2d3ce
+POST,/api/v1/comments,input=%3Cscript%3Ealert%281%29%3C/script%3E%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,test_recipe_null_byte_path_traversal,d6f375d2d3ce
+POST,/api/v1/comments,iNpuT=%3CScRipT%3eALErt%%0a281%29%3C/scrIPT%3e,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,test_recipe_mixed_evasion_pipeline,d6f375d2d3ce
+GET,/api/v1/static//var/log/apache2/access.log,file%25253D%25252Fvar%25252Flog%25252Fapache2%25252Faccess.log,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,test_recipe_triple_url,e330f890c5ae
+GET,/api/v1/static//var/log/apache2/access.log,fiｌe＝／ｖａr／ｌoｇ／ａｐａｃｈe２/ａｃcesｓ．lｏg,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,test_recipe_nested_comment_unicode,e330f890c5ae
+GET,/api/v1/static//var/log/apache2/access.log,file=/var/log/apache2/access.log%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,test_recipe_null_byte_path_traversal,e330f890c5ae
+GET,/api/v1/static//var/log/apache2/access.log,filE=/VAR/log/ApaChE2/ACce%00Ss.lOg,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,test_recipe_mixed_evasion_pipeline,e330f890c5ae
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip%25253D127.0.0.1%2525253B%25252520powershell.exe%25252520-Command%25252520Get-Process,1,Command Injection,test_recipe_triple_url,9dee7d81a4ec
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",iｐ＝１２７.０.０.1％3Ｂ％２０ｐｏｗerｓｈｅｌl．ｅｘe％20－Ｃomｍaｎｄ％２０Ｇeｔ-Pｒocｅsｓ,1,Command Injection,test_recipe_nested_comment_unicode,9dee7d81a4ec
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip=127.0.0.1%3B%20powershell.exe%20-Command%20Get-Process%00.jpg,1,Command Injection,test_recipe_null_byte_path_traversal,9dee7d81a4ec
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",IP=127.0.0.1%3%0d%0aB%20POwerShELl.exE%20-cOMmANd%20GET-proCESS,1,Command Injection,test_recipe_mixed_evasion_pipeline,9dee7d81a4ec
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip%25253D127.0.0.1%25252524%25252528whoami%25252529,1,Command Injection,test_recipe_triple_url,5ffd931c037f
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ｉp＝１２７．0.０.１%２４％２８whｏamｉ%２9,1,Command Injection,test_recipe_nested_comment_unicode,5ffd931c037f
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",ip=127.0.0.1%24%28whoami%29%00.jpg,1,Command Injection,test_recipe_null_byte_path_traversal,5ffd931c037f
+POST,/api/v1/admin/ping,,"{""Content-Type"": ""application/x-www-form-urlencoded""}",IP%08=127.0.0.1%24%28wHoAmI%29,1,Command Injection,test_recipe_mixed_evasion_pipeline,5ffd931c037f
+GET,/api/v1/static//proc/self/environ,file%25253D%25252Fproc%25252Fself%25252Fenviron,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,test_recipe_triple_url,0306843a6aa4
+GET,/api/v1/static//proc/self/environ,fｉｌｅ＝／prｏc/ｓｅlf／ｅnvｉｒｏｎ,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,test_recipe_nested_comment_unicode,0306843a6aa4
+GET,/api/v1/static//proc/self/environ,file=/proc/self/environ%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,test_recipe_null_byte_path_traversal,0306843a6aa4
+GET,/api/v1/static//proc/self/environ,FiLe=/P%0d%0aRoc/sELf/ENvIROn,"{""User-Agent"": ""Mozilla/5.0""}",,1,Path Traversal,test_recipe_mixed_evasion_pipeline,0306843a6aa4
+GET,/api/v1/login,q%25253D%25252527%25252520OR%252525201%2525253D1--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_triple_url,1dc6ebe5684d
+GET,/api/v1/login,q=％２7％２0ＯＲ%２0１％3Ｄ1－－,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_nested_comment_unicode,1dc6ebe5684d
+GET,/api/v1/login,q=%27%20OR%201%3D1--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_null_byte_path_traversal,1dc6ebe5684d
+GET,/api/v1/login,q=%27%20O%08R%201%3D1--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_mixed_evasion_pipeline,1dc6ebe5684d
+GET,/api/v1/login,q%25253Dadmin%25252527%25252520--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_triple_url,b6b3707a3da1
+GET,/api/v1/login,ｑ=admiｎ%2７％2０－－,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_nested_comment_unicode,b6b3707a3da1
+GET,/api/v1/login,q=admin%27%20--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_null_byte_path_traversal,b6b3707a3da1
+GET,/api/v1/login,q=ADMIN%2%0d%0a7%20--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_mixed_evasion_pipeline,b6b3707a3da1
+POST,/api/v1/search,q%25253D1%25252527%25252520ORDER%25252520BY%2525252010--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20ORDER%20BY%2010--&pass=123,1,SQLi,test_recipe_triple_url,50fb49aa1e3d
+POST,/api/v1/search,ｑ=１%２７％２０ＯＲ／＊＊/ＤＥR%2０BＹ%２０１０－-,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20ORDER%20BY%2010--&pass=123,1,SQLi,test_recipe_nested_comment_unicode,50fb49aa1e3d
+POST,/api/v1/search,q=1%27%20ORDER%20BY%2010--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20ORDER%20BY%2010--&pass=123,1,SQLi,test_recipe_null_byte_path_traversal,50fb49aa1e3d
+POST,/api/v1/search,Q=1%27%20ordE%08r%20BY%2010--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20ORDER%20BY%2010--&pass=123,1,SQLi,test_recipe_mixed_evasion_pipeline,50fb49aa1e3d
+POST,/api/v1/search,q%25253D1%25252527%25252520ORDER%25252520BY%2525252010--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_triple_url,93cf55bf9c1d
+POST,/api/v1/search,ｑ=１％2７%２０ＯＲ/＊＊/ＤEＲ％２0ＢＹ%2０１０－－,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_nested_comment_unicode,93cf55bf9c1d
+POST,/api/v1/search,q=1%27%20ORDER%20BY%2010--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_null_byte_path_traversal,93cf55bf9c1d
+POST,/api/v1/search,q=1%27%2%080ORder%20bY%2010--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_mixed_evasion_pipeline,93cf55bf9c1d
+GET,/api/v1/login,q%25253D1%25252527%25252520ORDER%25252520BY%2525252010--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_triple_url,999c52a4604d
+GET,/api/v1/login,ｑ＝１%2７%２０ＯＲ／*＊/DER%２０BY％２０１0--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_nested_comment_unicode,999c52a4604d
+GET,/api/v1/login,q=1%27%20ORDER%20BY%2010--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_null_byte_path_traversal,999c52a4604d
+GET,/api/v1/login,q=1%27%20O%00rDEr%20By%2010--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_mixed_evasion_pipeline,999c52a4604d
+POST,/api/v1/login,q%25253D1%2525253B%25252520DROP%25252520TABLE%25252520logs--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%3B%20DROP%20TABLE%20logs--&pass=123,1,SQLi,test_recipe_triple_url,4a81f4fb5a52
+POST,/api/v1/login,ｑ=１％３B％２０ＤＲ/＊＊／ＯP%２0TABＬＥ%2０ｌｏｇｓ－－,"{""User-Agent"": ""Mozilla/5.0""}",user=1%3B%20DROP%20TABLE%20logs--&pass=123,1,SQLi,test_recipe_nested_comment_unicode,4a81f4fb5a52
+POST,/api/v1/login,q=1%3B%20DROP%20TABLE%20logs--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",user=1%3B%20DROP%20TABLE%20logs--&pass=123,1,SQLi,test_recipe_null_byte_path_traversal,4a81f4fb5a52
+POST,/api/v1/login,Q=1%3B%20dROp%20TAble%%0a20lOGS--,"{""User-Agent"": ""Mozilla/5.0""}",user=1%3B%20DROP%20TABLE%20logs--&pass=123,1,SQLi,test_recipe_mixed_evasion_pipeline,4a81f4fb5a52
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}",%25257B%252522comment%252522%25253A%252520%252522%25253Csvg%252520onload%25253Dalert%2525281%252529%25253E%252522%25257D,1,XSS,test_recipe_triple_url,e02eb003e0eb
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}",｛＂cｏｍmｅｎｔ＂： ＂<svｇ ｏｎｌｏad=aｌｅｒt（１)＞＂｝,1,XSS,test_recipe_nested_comment_unicode,e02eb003e0eb
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<svg onload=alert(1)>""}%00.jpg",1,XSS,test_recipe_null_byte_path_traversal,e02eb003e0eb
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}",{&#34;comMenT&#34;: &#%08x22;&#X3C;sVg OnLoAd=alerT(1)&#X3E;&#34;},1,XSS,test_recipe_mixed_evasion_pipeline,e02eb003e0eb
+GET,/api/v1/comments,input%25253D%2525253Csvg%25252520onload%2525253Dalert%252525281%25252529%2525253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<svg onload=alert(1)>""}",1,XSS,test_recipe_triple_url,57b9bbb6e505
+GET,/api/v1/comments,ｉnpｕｔ=％3Ｃｓｖg％２０ｏnｌｏａｄ％３Ｄａｌｅrｔ％2８１％２９%3Ｅ,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<svg onload=alert(1)>""}",1,XSS,test_recipe_nested_comment_unicode,57b9bbb6e505
+GET,/api/v1/comments,input=%3Csvg%20onload%3Dalert%281%29%3E%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<svg onload=alert(1)>""}",1,XSS,test_recipe_null_byte_path_traversal,57b9bbb6e505
+GET,/api/v1/comments,INpuT=%3csVG%20oNloaD%3%0adaLErT%281%29%3e,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<svg onload=alert(1)>""}",1,XSS,test_recipe_mixed_evasion_pipeline,57b9bbb6e505
+POST,/api/v1/login,q%25253D1%25252527%25252520ORDER%25252520BY%2525252010--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_triple_url,237247dcddf6
+POST,/api/v1/login,ｑ＝1％27％2０ＯＲ/＊＊/ＤＥＲ%２０ＢY％２0１０－－,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_nested_comment_unicode,237247dcddf6
+POST,/api/v1/login,q=1%27%20ORDER%20BY%2010--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_null_byte_path_traversal,237247dcddf6
+POST,/api/v1/login,Q=1%0d%0a%27%20orDer%20BY%2010--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_mixed_evasion_pipeline,237247dcddf6
+GET,/api/v1/search,q%25253D%25252527%25252520OR%25252520%25252527a%25252527%2525253D%25252527a,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_triple_url,d54d8247bc4e
+GET,/api/v1/search,ｑ=％２7％２0OR%2０%2７a％２７％3Ｄ％２７ａ,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_nested_comment_unicode,d54d8247bc4e
+GET,/api/v1/search,q=%27%20OR%20%27a%27%3D%27a%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_null_byte_path_traversal,d54d8247bc4e
+GET,/api/v1/search,Q=%27%20or%2%0a0%27A%27%3d%27A,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_mixed_evasion_pipeline,d54d8247bc4e
+POST,/search,input%25253D%2525253Csvg%25252520onload%2525253Dalert%252525281%25252529%2525253E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_triple_url,9f147f1a807f
+POST,/search,inｐｕｔ=%３Ｃsvｇ％2０ｏｎｌoａｄ％3Ｄａｌｅrｔ%2８１%29％3E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_nested_comment_unicode,9f147f1a807f
+POST,/search,input=%3Csvg%20onload%3Dalert%281%29%3E%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_null_byte_path_traversal,9f147f1a807f
+POST,/search,inPut=%3CsVg%20oNlOad%3DAlErT%%08281%29%3e,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_mixed_evasion_pipeline,9f147f1a807f
+POST,/search,input%25253Djavascript%2525253Aalert%252525281%25252529,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_triple_url,16226b18e35a
+POST,/search,ｉnｐｕt=ｊaｖasｃｒｉｐｔ%3Aａｌｅｒｔ％2８1％29,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_nested_comment_unicode,16226b18e35a
+POST,/search,input=javascript%3Aalert%281%29%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_null_byte_path_traversal,16226b18e35a
+POST,/search,InPUT=JAVAsCRipT%3aALerT%%00281%29,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_mixed_evasion_pipeline,16226b18e35a
+GET,/api/v1/login,q%25253D%25252527%2525253B%25252520WAITFOR%25252520DELAY%25252520%252525270%2525253A0%2525253A5%25252527--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_triple_url,db7d32c090b5
+GET,/api/v1/login,ｑ=％27％３Ｂ％2０WAＩＴＦOR％20ＤＥＬAY％２0％2７０%3Ａ０％3A５％２7－－,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_nested_comment_unicode,db7d32c090b5
+GET,/api/v1/login,q=%27%3B%20WAITFOR%20DELAY%20%270%3A0%3A5%27--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_null_byte_path_traversal,db7d32c090b5
+GET,/api/v1/login,q=%27%3b%20WaItFOr%20De%00lay%20%270%3A0%3A5%27--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_mixed_evasion_pipeline,db7d32c090b5
+POST,/search,input%25253D%2525253Cinput%25252520onfocus%2525253Dalert%252525281%25252529%25252520autofocus%2525253E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_triple_url,1ba3da252782
+POST,/search,iｎpｕt＝％３Ｃｉｎｐｕｔ％２0ｏnfoｃuｓ％3Dａｌｅrt%２8１％２9%２0ａｕｔｏfｏcuｓ％3Ｅ,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_nested_comment_unicode,1ba3da252782
+POST,/search,input=%3Cinput%20onfocus%3Dalert%281%29%20autofocus%3E%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_null_byte_path_traversal,1ba3da252782
+POST,/search,InpUT=%3CINput%20onfoCuS%%083daLert%281%29%20AuToFoCuS%3e,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_mixed_evasion_pipeline,1ba3da252782
+POST,/api/v1/login,q%25253D%25252527%25252520UNION%25252520SELECT%25252520NULL%2525252C%25252520NULL%2525252C%25252520NULL--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,test_recipe_triple_url,6c419481b75e
+POST,/api/v1/login,ｑ＝％27％２０UＮ／*＊/ＩOＮ％2０SEL／*＊/EＣＴ％２0NＵＬL％２C%2０ＮＵＬL%2C％２０NＵＬL－-,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,test_recipe_nested_comment_unicode,6c419481b75e
+POST,/api/v1/login,q=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,test_recipe_null_byte_path_traversal,6c419481b75e
+POST,/api/v1/login,q=%27%20uNION%20SelEcT%20nuLL%2c%20nUll%2c%0a%20NuLl--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,test_recipe_mixed_evasion_pipeline,6c419481b75e
+POST,/api/v1/search,q%25253D%25252527%25252520UNION%25252520SELECT%25252520NULL%2525252C%25252520NULL%2525252C%25252520NULL--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,test_recipe_triple_url,c07eb18e950f
+POST,/api/v1/search,q＝％２７％20ＵN／**／ＩＯN%20SＥＬ/＊＊／ＥＣＴ％２0ＮＵＬＬ%2Ｃ％２0NＵLＬ%2Ｃ%２0NULL－-,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,test_recipe_nested_comment_unicode,c07eb18e950f
+POST,/api/v1/search,q=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,test_recipe_null_byte_path_traversal,c07eb18e950f
+POST,/api/v1/search,q=%27%20UNion%20SELECT%20NUll%2C%2%0a0NuLl%2c%20nUll--,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--&pass=123,1,SQLi,test_recipe_mixed_evasion_pipeline,c07eb18e950f
+GET,/api/v1/login,q%25253D1%25252520OR%252525201%2525253D1,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_triple_url,9e720887320a
+GET,/api/v1/login,q＝１％２0ＯＲ％２01％3Ｄ１,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_nested_comment_unicode,9e720887320a
+GET,/api/v1/login,q=1%20OR%201%3D1%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_null_byte_path_traversal,9e720887320a
+GET,/api/v1/login,q%00=1%20Or%201%3d1,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_mixed_evasion_pipeline,9e720887320a
+POST,/api/v1/comments,input%25253D%2525253Cinput%25252520onfocus%2525253Dalert%252525281%25252529%25252520autofocus%2525253E,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_triple_url,0302cfedf036
+POST,/api/v1/comments,iｎｐut＝％3Ｃｉｎpuｔ％２０oｎｆocｕs％3Dａｌert％28１％２９％２０ａutｏｆｏｃus％3Ｅ,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_nested_comment_unicode,0302cfedf036
+POST,/api/v1/comments,input=%3Cinput%20onfocus%3Dalert%281%29%20autofocus%3E%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_null_byte_path_traversal,0302cfedf036
+POST,/api/v1/comments,inPUT=%3cinput%20onFOCUs%3D%0aAleRt%281%29%20aUTOFOcUs%3e,"{""User-Agent"": ""Mozilla/5.0""}",,1,XSS,test_recipe_mixed_evasion_pipeline,0302cfedf036
+GET,/api/v1/login,q%25253D%25252527%25252520UNION%25252520SELECT%25252520NULL%2525252C%25252520NULL%2525252C%25252520NULL--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_triple_url,1b0744f4d9ea
+GET,/api/v1/login,ｑ＝％2７％２０ＵＮ／*＊／ＩOＮ%２0SEL／＊＊／ＥＣT%20ＮＵLL％2C％２０ＮＵLL％2Ｃ%20ＮULＬ－-,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_nested_comment_unicode,1b0744f4d9ea
+GET,/api/v1/login,q=%27%20UNION%20SELECT%20NULL%2C%20NULL%2C%20NULL--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_null_byte_path_traversal,1b0744f4d9ea
+GET,/api/v1/login,q=%%0827%20uNion%20SElECt%20nuLl%2C%20NulL%2C%20NULl--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_mixed_evasion_pipeline,1b0744f4d9ea
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}",%25257B%252522comment%252522%25253A%252520%252522%25253Cscript%25253Ealert%2525281%252529%25253C%25252Fscript%25253E%252522%25257D,1,XSS,test_recipe_triple_url,2bf9120498e4
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","｛""ｃｏmmeｎｔ""： ＂＜ｓcｒiｐt＞ａｌert（1）＜／ｓcｒiｐｔ＞""}",1,XSS,test_recipe_nested_comment_unicode,2bf9120498e4
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}%00.jpg",1,XSS,test_recipe_null_byte_path_traversal,2bf9120498e4
+POST,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{&quot;cOMmenT&quot;: ""&#X3C;SCRIpt>alErT(1)</SCRIPt%00&gt;&#34;}",1,XSS,test_recipe_mixed_evasion_pipeline,2bf9120498e4
+POST,/search,input%25253D%2525253Cbody%25252520onload%2525253Dalert%25252528%25252527XSS%25252527%25252529%2525253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<body onload=alert('XSS')>""}",1,XSS,test_recipe_triple_url,5995c2be33d7
+POST,/search,ｉｎｐuｔ＝％3Ｃｂｏdy%２０oｎlｏａｄ％３Ｄａlｅｒt％２８％27ＸＳＳ%27%２９％３E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<body onload=alert('XSS')>""}",1,XSS,test_recipe_nested_comment_unicode,5995c2be33d7
+POST,/search,input=%3Cbody%20onload%3Dalert%28%27XSS%27%29%3E%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<body onload=alert('XSS')>""}",1,XSS,test_recipe_null_byte_path_traversal,5995c2be33d7
+POST,/search,inPUt=%3Cb%0aody%20OnloAd%3DAlERt%28%27XSS%27%29%3e,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<body onload=alert('XSS')>""}",1,XSS,test_recipe_mixed_evasion_pipeline,5995c2be33d7
+GET,/api/v1/comments,input%25253D%2525253Cscript%2525253Ealert%252525281%25252529%2525253C%25252Fscript%2525253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,test_recipe_triple_url,dd8f71c4e94a
+GET,/api/v1/comments,iｎｐｕt＝％３Ｃｓｃripｔ％３Eａleｒｔ％2８１％２９%３C／ｓcｒｉpｔ%３Ｅ,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,test_recipe_nested_comment_unicode,dd8f71c4e94a
+GET,/api/v1/comments,input=%3Cscript%3Ealert%281%29%3C/script%3E%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,test_recipe_null_byte_path_traversal,dd8f71c4e94a
+GET,/api/v1/comments,InPut%00=%3CsCRipT%3eALert%281%29%3c/ScRiPT%3e,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<script>alert(1)</script>""}",1,XSS,test_recipe_mixed_evasion_pipeline,dd8f71c4e94a
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}",%25257B%252522comment%252522%25253A%252520%252522%25253Ca%252520href%25253D%25255C%252522javascript%25253Aalert%252528%252527AegisGate%252527%252529%25255C%252522%25253Eclick%25253C%25252Fa%25253E%252522%25257D,1,XSS,test_recipe_triple_url,b21284104a73
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}",｛＂ｃoｍmｅnｔ＂： ＂＜a ｈrｅf＝\＂ｊａｖascrｉｐt:aｌｅｒt（＇ＡｅｇisＧate＇）＼＂＞cｌicｋ＜／a>＂｝,1,XSS,test_recipe_nested_comment_unicode,b21284104a73
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}%00.jpg",1,XSS,test_recipe_null_byte_path_traversal,b21284104a73
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{&quot;CoMMENt&#x22;: &quot;&#60;%0d%0aA HrEF=\&quot;jAvAScRipT:aLeRT('AEgiSGAte&#x27;)\"">clIck</A>&#34;}",1,XSS,test_recipe_mixed_evasion_pipeline,b21284104a73
+GET,/api/v1/search,q%25253D%25252527%25252520OR%252525201%2525253D1--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_triple_url,6f1cc737d69c
+GET,/api/v1/search,ｑ＝％２7%2０OＲ％２０１％3Ｄ１－-,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_nested_comment_unicode,6f1cc737d69c
+GET,/api/v1/search,q=%27%20OR%201%3D1--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_null_byte_path_traversal,6f1cc737d69c
+GET,/api/v1/search,q=%%0827%20Or%201%3D1--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_mixed_evasion_pipeline,6f1cc737d69c
+POST,/api/v1/comments,input%25253D%2525253Ca%25252520href%2525253D%25252522javascript%2525253Aalert%25252528%25252527AegisGate%25252527%25252529%25252522%2525253Eclick%2525253C%25252Fa%2525253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}",1,XSS,test_recipe_triple_url,98a49dec8ec2
+POST,/api/v1/comments,ｉnput＝%３Ｃａ％２０ｈrｅｆ％３Ｄ%2２jａｖａｓｃrｉpt%３Ａａleｒｔ％2８％2７AｅｇisＧａte％２7%２9%2２％３Ｅｃlｉｃｋ％3Ｃ/ａ％３Ｅ,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}",1,XSS,test_recipe_nested_comment_unicode,98a49dec8ec2
+POST,/api/v1/comments,input=%3Ca%20href%3D%22javascript%3Aalert%28%27AegisGate%27%29%22%3Eclick%3C/a%3E%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}",1,XSS,test_recipe_null_byte_path_traversal,98a49dec8ec2
+POST,/api/v1/comments,inpUT%08=%3ca%20Href%3d%22JAVascripT%3aALErt%28%27aegISgaTe%27%29%22%3EClICK%3c/a%3e,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<a href=\""javascript:alert('AegisGate')\"">click</a>""}",1,XSS,test_recipe_mixed_evasion_pipeline,98a49dec8ec2
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user%25253D1%2525253B%25252520DROP%25252520TABLE%25252520logs--%252526pass%25253D123,1,SQLi,test_recipe_triple_url,cee702e67930
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",uｓeｒ=１%３Ｂ％２０ＤＲ／＊＊／ＯP％2０ＴＡＢＬE％２0lｏｇs--&ｐasｓ＝12３,1,SQLi,test_recipe_nested_comment_unicode,cee702e67930
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%3B%20DROP%20TABLE%20logs--&pass=123%00.jpg,1,SQLi,test_recipe_null_byte_path_traversal,cee702e67930
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",UsER=1%3B%20DROP%2%000tabLe%20LoGS--&pAsS=123,1,SQLi,test_recipe_mixed_evasion_pipeline,cee702e67930
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user%25253D%25252527%25252520OR%25252520sleep%252525285%25252529%25252523%252526pass%25253D123,1,SQLi,test_recipe_triple_url,e1efb7b22bab
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",ｕseｒ=%2７%２０OＲ%2０sｌｅｅｐ%28５%2９%２３&ｐaｓs＝１２３,1,SQLi,test_recipe_nested_comment_unicode,e1efb7b22bab
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",user=%27%20OR%20sleep%285%29%23&pass=123%00.jpg,1,SQLi,test_recipe_null_byte_path_traversal,e1efb7b22bab
+POST,/api/v1/search,,"{""User-Agent"": ""Mozilla/5.0""}",usER=%27%20or%20SLEEP%28%0d%0a5%29%23&PASS=123,1,SQLi,test_recipe_mixed_evasion_pipeline,e1efb7b22bab
+GET,/search,input%25253D%2525253Cimg%25252520src%2525253Dx%25252520onerror%2525253Dalert%25252528%25252527XSS%25252527%25252529%2525253E,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,test_recipe_triple_url,3fa468c927da
+GET,/search,ｉｎｐut=%3Ｃｉｍｇ％２0ｓｒc%３Dｘ％2０ｏｎeｒｒｏr%３Ｄａlｅｒt％２8％２７ＸSS％2７％2９%3Ｅ,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,test_recipe_nested_comment_unicode,3fa468c927da
+GET,/search,input=%3Cimg%20src%3Dx%20onerror%3Dalert%28%27XSS%27%29%3E%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,test_recipe_null_byte_path_traversal,3fa468c927da
+GET,/search,Input=%3cIMg%20%0asrc%3DX%20onErroR%3DALert%28%27xSs%27%29%3e,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<img src=x onerror=alert('XSS')>""}",1,XSS,test_recipe_mixed_evasion_pipeline,3fa468c927da
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}",%25257B%252522comment%252522%25253A%252520%252522%25253Cinput%252520onfocus%25253Dalert%2525281%252529%252520autofocus%25253E%252522%25257D,1,XSS,test_recipe_triple_url,6baae14844b3
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","｛＂coｍmｅnt＂： ＂＜inpuｔ ｏｎｆｏｃｕｓ=ａlｅrt（１) ａuｔoｆoｃus＞""}",1,XSS,test_recipe_nested_comment_unicode,6baae14844b3
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<input onfocus=alert(1) autofocus>""}%00.jpg",1,XSS,test_recipe_null_byte_path_traversal,6baae14844b3
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{&#34;coMmEnT&#34;: &#34;&#60;InpuT ONFOcuS=aLert(1) AuToF%0d%0aOcUS&#62;""}",1,XSS,test_recipe_mixed_evasion_pipeline,6baae14844b3
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user%25253D1%25252527%25252520AND%25252520%25252528SELECT%252525201%25252520FROM%25252520%25252528SELECT%25252520COUNT%25252528%2525252A%25252529%2525252C%25252520CONCAT%25252528%25252528SELECT%25252520version%25252528%25252529%25252529%2525252C%25252520FLOOR%25252528RAND%252525280%25252529%2525252A2%25252529%25252529%25252520x%25252520FROM%25252520information_schema.tables%25252520GROUP%25252520BY%25252520x%25252529%25252520a%25252529--%252526pass%25253D123,1,SQLi,test_recipe_triple_url,f992dc41a378
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",uｓer＝１%27%２０ＡＮＤ％２0％２８ＳEL/*＊／EＣＴ％２０1％2０ＦR／*＊／OＭ％2０％２８SＥＬ／＊*／ＥＣT％20CＯUＮT%２８％2A％２９％２Ｃ%２0CONCＡＴ％２8％２８ＳEＬ/*＊/ＥＣＴ%２０vｅｒｓiｏｎ%２8％2９%２９％２C%20FLOＯＲ％２8ＲAＮＤ％２80％29％2A2％２９%２９％2０x％20FR／＊＊/OM%２０inｆoｒｍation＿scｈｅmａ.ｔaｂlｅs%2０ＧR/＊＊／ＯＵＰ％２０ＢＹ％2０ｘ％２９％２0ａ%２９－-＆ｐａｓｓ＝1２３,1,SQLi,test_recipe_nested_comment_unicode,f992dc41a378
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20AND%20%28SELECT%201%20FROM%20%28SELECT%20COUNT%28%2A%29%2C%20CONCAT%28%28SELECT%20version%28%29%29%2C%20FLOOR%28RAND%280%29%2A2%29%29%20x%20FROM%20information_schema.tables%20GROUP%20BY%20x%29%20a%29--&pass=123%00.jpg,1,SQLi,test_recipe_null_byte_path_traversal,f992dc41a378
+GET,/api/v1/login,,"{""User-Agent"": ""Mozilla/5.0""}",user=1%27%20aND%20%28seleCt%201%20fROM%20%28sElEcT%20coUNT%28%2A%29%2C%20COnCAT%28%28SelECT%20VERSI%00on%28%29%29%2C%20floOR%28RAnD%280%29%2A2%29%29%20X%20frOM%20INFORMATion_SChEma.TaBles%20GRoUP%20bY%20X%29%20A%29--&PaSs=123,1,SQLi,test_recipe_mixed_evasion_pipeline,f992dc41a378
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}",%25257B%252522comment%252522%25253A%252520%252522%25253Ciframe%252520src%25253D%25255C%252522javascript%25253Aalert%2525281%252529%25255C%252522%25253E%252522%25257D,1,XSS,test_recipe_triple_url,9b4380ec8c9b
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comｍeｎｔ""： ""<iｆrａme ｓｒc＝＼""ｊavａｓｃrｉpｔ：alｅrｔ(１)＼＂＞""｝",1,XSS,test_recipe_nested_comment_unicode,9b4380ec8c9b
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<iframe src=\""javascript:alert(1)\"">""}%00.jpg",1,XSS,test_recipe_null_byte_path_traversal,9b4380ec8c9b
+GET,/api/v1/comments,,"{""User-Agent"": ""Mozilla/5.0""}","{&#x22;ComME%0anT"": &quot;<iFrame sRc=\""jaVasCRIPt:ALert(1)\&#34;&#X3E;&#34;}",1,XSS,test_recipe_mixed_evasion_pipeline,9b4380ec8c9b
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}",%25257B%252522comment%252522%25253A%252520%252522%25253Ciframe%252520src%25253D%25255C%252522javascript%25253Aalert%2525281%252529%25255C%252522%25253E%252522%25257D,1,XSS,test_recipe_triple_url,00bbb5b144e7
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","｛""ｃｏmmｅｎｔ＂: ＂<ｉfｒａｍｅ src=＼＂ｊaｖaｓcriｐｔ：ａｌｅｒt（１)＼"">＂}",1,XSS,test_recipe_nested_comment_unicode,00bbb5b144e7
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{""comment"": ""<iframe src=\""javascript:alert(1)\"">""}%00.jpg",1,XSS,test_recipe_null_byte_path_traversal,00bbb5b144e7
+GET,/search,,"{""User-Agent"": ""Mozilla/5.0""}","{&#34;CoMmENT&#3%084;: &quot;&#X3C;iFramE Src=\""jAvaSCrIpT:alerT(1)\&#x22;&#x3e;&quot;}",1,XSS,test_recipe_mixed_evasion_pipeline,00bbb5b144e7
+GET,/api/v1/login,q%25253Dadmin%25252527%25252520--,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%20--&pass=123,1,SQLi,test_recipe_triple_url,a87ff9d921d5
+GET,/api/v1/login,q＝adｍiｎ％2７％２０－-,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%20--&pass=123,1,SQLi,test_recipe_nested_comment_unicode,a87ff9d921d5
+GET,/api/v1/login,q=admin%27%20--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%20--&pass=123,1,SQLi,test_recipe_null_byte_path_traversal,a87ff9d921d5
+GET,/api/v1/login,Q=aDMIN%0d%0a%27%20--,"{""User-Agent"": ""Mozilla/5.0""}",user=admin%27%20--&pass=123,1,SQLi,test_recipe_mixed_evasion_pipeline,a87ff9d921d5
+GET,/api/v1/search,q%25253D%25252527%25252520UNION%25252520SELECT%25252520username%2525252C%25252520password%25252520FROM%25252520users--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_triple_url,5e29c868a968
+GET,/api/v1/search,q＝％２7％２０UＮ／＊＊／IＯN%２０ＳＥＬ／**/ＥＣＴ％２０uｓｅｒnaｍe％2C%２０pａsｓwｏｒｄ％２0ＦＲ/＊＊/ＯＭ%２0uｓｅｒｓ－－,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_nested_comment_unicode,5e29c868a968
+GET,/api/v1/search,q=%27%20UNION%20SELECT%20username%2C%20password%20FROM%20users--%00.jpg,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_null_byte_path_traversal,5e29c868a968
+GET,/api/v1/search,Q=%27%20UniOn%20SelEct%20USeRnAme%2C%20passwORD%20FrO%0aM%20uSErS--,"{""User-Agent"": ""Mozilla/5.0""}",,1,SQLi,test_recipe_mixed_evasion_pipeline,5e29c868a968

@@ -1,0 +1,4642 @@
+[
+  {
+    "id": "proj_risk_0001",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 1",
+        "what are gateway modes 1",
+        "learning monitor protect 1",
+        "warn and block thresholds 1",
+        "risk fusion weights 1",
+        "how decisions are made 1"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 1",
+        "கேட்வே முறைகள் யாவை 1",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 1",
+        "இடர் சூத்திரம் 1",
+        "முடிவு எடுக்கும் விதம் 1",
+        "Protect முறை விளக்கம் 1"
+      ],
+      "tanglish": [
+        "risk score formula enna 1",
+        "gateway modes explain pannu 1",
+        "learning monitor protect difference 1",
+        "thresholds epdi set panradhu 1",
+        "decision logic sollu 1",
+        "risk fusion 1"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0002",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 2",
+        "what are gateway modes 2",
+        "learning monitor protect 2",
+        "warn and block thresholds 2",
+        "risk fusion weights 2",
+        "how decisions are made 2"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 2",
+        "கேட்வே முறைகள் யாவை 2",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 2",
+        "இடர் சூத்திரம் 2",
+        "முடிவு எடுக்கும் விதம் 2",
+        "Protect முறை விளக்கம் 2"
+      ],
+      "tanglish": [
+        "risk score formula enna 2",
+        "gateway modes explain pannu 2",
+        "learning monitor protect difference 2",
+        "thresholds epdi set panradhu 2",
+        "decision logic sollu 2",
+        "risk fusion 2"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0003",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 3",
+        "what are gateway modes 3",
+        "learning monitor protect 3",
+        "warn and block thresholds 3",
+        "risk fusion weights 3",
+        "how decisions are made 3"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 3",
+        "கேட்வே முறைகள் யாவை 3",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 3",
+        "இடர் சூத்திரம் 3",
+        "முடிவு எடுக்கும் விதம் 3",
+        "Protect முறை விளக்கம் 3"
+      ],
+      "tanglish": [
+        "risk score formula enna 3",
+        "gateway modes explain pannu 3",
+        "learning monitor protect difference 3",
+        "thresholds epdi set panradhu 3",
+        "decision logic sollu 3",
+        "risk fusion 3"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0004",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 4",
+        "what are gateway modes 4",
+        "learning monitor protect 4",
+        "warn and block thresholds 4",
+        "risk fusion weights 4",
+        "how decisions are made 4"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 4",
+        "கேட்வே முறைகள் யாவை 4",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 4",
+        "இடர் சூத்திரம் 4",
+        "முடிவு எடுக்கும் விதம் 4",
+        "Protect முறை விளக்கம் 4"
+      ],
+      "tanglish": [
+        "risk score formula enna 4",
+        "gateway modes explain pannu 4",
+        "learning monitor protect difference 4",
+        "thresholds epdi set panradhu 4",
+        "decision logic sollu 4",
+        "risk fusion 4"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0005",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 5",
+        "what are gateway modes 5",
+        "learning monitor protect 5",
+        "warn and block thresholds 5",
+        "risk fusion weights 5",
+        "how decisions are made 5"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 5",
+        "கேட்வே முறைகள் யாவை 5",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 5",
+        "இடர் சூத்திரம் 5",
+        "முடிவு எடுக்கும் விதம் 5",
+        "Protect முறை விளக்கம் 5"
+      ],
+      "tanglish": [
+        "risk score formula enna 5",
+        "gateway modes explain pannu 5",
+        "learning monitor protect difference 5",
+        "thresholds epdi set panradhu 5",
+        "decision logic sollu 5",
+        "risk fusion 5"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0006",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 6",
+        "what are gateway modes 6",
+        "learning monitor protect 6",
+        "warn and block thresholds 6",
+        "risk fusion weights 6",
+        "how decisions are made 6"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 6",
+        "கேட்வே முறைகள் யாவை 6",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 6",
+        "இடர் சூத்திரம் 6",
+        "முடிவு எடுக்கும் விதம் 6",
+        "Protect முறை விளக்கம் 6"
+      ],
+      "tanglish": [
+        "risk score formula enna 6",
+        "gateway modes explain pannu 6",
+        "learning monitor protect difference 6",
+        "thresholds epdi set panradhu 6",
+        "decision logic sollu 6",
+        "risk fusion 6"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0007",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 7",
+        "what are gateway modes 7",
+        "learning monitor protect 7",
+        "warn and block thresholds 7",
+        "risk fusion weights 7",
+        "how decisions are made 7"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 7",
+        "கேட்வே முறைகள் யாவை 7",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 7",
+        "இடர் சூத்திரம் 7",
+        "முடிவு எடுக்கும் விதம் 7",
+        "Protect முறை விளக்கம் 7"
+      ],
+      "tanglish": [
+        "risk score formula enna 7",
+        "gateway modes explain pannu 7",
+        "learning monitor protect difference 7",
+        "thresholds epdi set panradhu 7",
+        "decision logic sollu 7",
+        "risk fusion 7"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0008",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 8",
+        "what are gateway modes 8",
+        "learning monitor protect 8",
+        "warn and block thresholds 8",
+        "risk fusion weights 8",
+        "how decisions are made 8"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 8",
+        "கேட்வே முறைகள் யாவை 8",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 8",
+        "இடர் சூத்திரம் 8",
+        "முடிவு எடுக்கும் விதம் 8",
+        "Protect முறை விளக்கம் 8"
+      ],
+      "tanglish": [
+        "risk score formula enna 8",
+        "gateway modes explain pannu 8",
+        "learning monitor protect difference 8",
+        "thresholds epdi set panradhu 8",
+        "decision logic sollu 8",
+        "risk fusion 8"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0009",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 9",
+        "what are gateway modes 9",
+        "learning monitor protect 9",
+        "warn and block thresholds 9",
+        "risk fusion weights 9",
+        "how decisions are made 9"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 9",
+        "கேட்வே முறைகள் யாவை 9",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 9",
+        "இடர் சூத்திரம் 9",
+        "முடிவு எடுக்கும் விதம் 9",
+        "Protect முறை விளக்கம் 9"
+      ],
+      "tanglish": [
+        "risk score formula enna 9",
+        "gateway modes explain pannu 9",
+        "learning monitor protect difference 9",
+        "thresholds epdi set panradhu 9",
+        "decision logic sollu 9",
+        "risk fusion 9"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0010",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 10",
+        "what are gateway modes 10",
+        "learning monitor protect 10",
+        "warn and block thresholds 10",
+        "risk fusion weights 10",
+        "how decisions are made 10"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 10",
+        "கேட்வே முறைகள் யாவை 10",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 10",
+        "இடர் சூத்திரம் 10",
+        "முடிவு எடுக்கும் விதம் 10",
+        "Protect முறை விளக்கம் 10"
+      ],
+      "tanglish": [
+        "risk score formula enna 10",
+        "gateway modes explain pannu 10",
+        "learning monitor protect difference 10",
+        "thresholds epdi set panradhu 10",
+        "decision logic sollu 10",
+        "risk fusion 10"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0011",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 11",
+        "what are gateway modes 11",
+        "learning monitor protect 11",
+        "warn and block thresholds 11",
+        "risk fusion weights 11",
+        "how decisions are made 11"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 11",
+        "கேட்வே முறைகள் யாவை 11",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 11",
+        "இடர் சூத்திரம் 11",
+        "முடிவு எடுக்கும் விதம் 11",
+        "Protect முறை விளக்கம் 11"
+      ],
+      "tanglish": [
+        "risk score formula enna 11",
+        "gateway modes explain pannu 11",
+        "learning monitor protect difference 11",
+        "thresholds epdi set panradhu 11",
+        "decision logic sollu 11",
+        "risk fusion 11"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0012",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 12",
+        "what are gateway modes 12",
+        "learning monitor protect 12",
+        "warn and block thresholds 12",
+        "risk fusion weights 12",
+        "how decisions are made 12"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 12",
+        "கேட்வே முறைகள் யாவை 12",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 12",
+        "இடர் சூத்திரம் 12",
+        "முடிவு எடுக்கும் விதம் 12",
+        "Protect முறை விளக்கம் 12"
+      ],
+      "tanglish": [
+        "risk score formula enna 12",
+        "gateway modes explain pannu 12",
+        "learning monitor protect difference 12",
+        "thresholds epdi set panradhu 12",
+        "decision logic sollu 12",
+        "risk fusion 12"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0013",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 13",
+        "what are gateway modes 13",
+        "learning monitor protect 13",
+        "warn and block thresholds 13",
+        "risk fusion weights 13",
+        "how decisions are made 13"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 13",
+        "கேட்வே முறைகள் யாவை 13",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 13",
+        "இடர் சூத்திரம் 13",
+        "முடிவு எடுக்கும் விதம் 13",
+        "Protect முறை விளக்கம் 13"
+      ],
+      "tanglish": [
+        "risk score formula enna 13",
+        "gateway modes explain pannu 13",
+        "learning monitor protect difference 13",
+        "thresholds epdi set panradhu 13",
+        "decision logic sollu 13",
+        "risk fusion 13"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0014",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 14",
+        "what are gateway modes 14",
+        "learning monitor protect 14",
+        "warn and block thresholds 14",
+        "risk fusion weights 14",
+        "how decisions are made 14"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 14",
+        "கேட்வே முறைகள் யாவை 14",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 14",
+        "இடர் சூத்திரம் 14",
+        "முடிவு எடுக்கும் விதம் 14",
+        "Protect முறை விளக்கம் 14"
+      ],
+      "tanglish": [
+        "risk score formula enna 14",
+        "gateway modes explain pannu 14",
+        "learning monitor protect difference 14",
+        "thresholds epdi set panradhu 14",
+        "decision logic sollu 14",
+        "risk fusion 14"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0015",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 15",
+        "what are gateway modes 15",
+        "learning monitor protect 15",
+        "warn and block thresholds 15",
+        "risk fusion weights 15",
+        "how decisions are made 15"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 15",
+        "கேட்வே முறைகள் யாவை 15",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 15",
+        "இடர் சூத்திரம் 15",
+        "முடிவு எடுக்கும் விதம் 15",
+        "Protect முறை விளக்கம் 15"
+      ],
+      "tanglish": [
+        "risk score formula enna 15",
+        "gateway modes explain pannu 15",
+        "learning monitor protect difference 15",
+        "thresholds epdi set panradhu 15",
+        "decision logic sollu 15",
+        "risk fusion 15"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0016",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 16",
+        "what are gateway modes 16",
+        "learning monitor protect 16",
+        "warn and block thresholds 16",
+        "risk fusion weights 16",
+        "how decisions are made 16"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 16",
+        "கேட்வே முறைகள் யாவை 16",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 16",
+        "இடர் சூத்திரம் 16",
+        "முடிவு எடுக்கும் விதம் 16",
+        "Protect முறை விளக்கம் 16"
+      ],
+      "tanglish": [
+        "risk score formula enna 16",
+        "gateway modes explain pannu 16",
+        "learning monitor protect difference 16",
+        "thresholds epdi set panradhu 16",
+        "decision logic sollu 16",
+        "risk fusion 16"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0017",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 17",
+        "what are gateway modes 17",
+        "learning monitor protect 17",
+        "warn and block thresholds 17",
+        "risk fusion weights 17",
+        "how decisions are made 17"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 17",
+        "கேட்வே முறைகள் யாவை 17",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 17",
+        "இடர் சூத்திரம் 17",
+        "முடிவு எடுக்கும் விதம் 17",
+        "Protect முறை விளக்கம் 17"
+      ],
+      "tanglish": [
+        "risk score formula enna 17",
+        "gateway modes explain pannu 17",
+        "learning monitor protect difference 17",
+        "thresholds epdi set panradhu 17",
+        "decision logic sollu 17",
+        "risk fusion 17"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0018",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 18",
+        "what are gateway modes 18",
+        "learning monitor protect 18",
+        "warn and block thresholds 18",
+        "risk fusion weights 18",
+        "how decisions are made 18"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 18",
+        "கேட்வே முறைகள் யாவை 18",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 18",
+        "இடர் சூத்திரம் 18",
+        "முடிவு எடுக்கும் விதம் 18",
+        "Protect முறை விளக்கம் 18"
+      ],
+      "tanglish": [
+        "risk score formula enna 18",
+        "gateway modes explain pannu 18",
+        "learning monitor protect difference 18",
+        "thresholds epdi set panradhu 18",
+        "decision logic sollu 18",
+        "risk fusion 18"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0019",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 19",
+        "what are gateway modes 19",
+        "learning monitor protect 19",
+        "warn and block thresholds 19",
+        "risk fusion weights 19",
+        "how decisions are made 19"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 19",
+        "கேட்வே முறைகள் யாவை 19",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 19",
+        "இடர் சூத்திரம் 19",
+        "முடிவு எடுக்கும் விதம் 19",
+        "Protect முறை விளக்கம் 19"
+      ],
+      "tanglish": [
+        "risk score formula enna 19",
+        "gateway modes explain pannu 19",
+        "learning monitor protect difference 19",
+        "thresholds epdi set panradhu 19",
+        "decision logic sollu 19",
+        "risk fusion 19"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0020",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 20",
+        "what are gateway modes 20",
+        "learning monitor protect 20",
+        "warn and block thresholds 20",
+        "risk fusion weights 20",
+        "how decisions are made 20"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 20",
+        "கேட்வே முறைகள் யாவை 20",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 20",
+        "இடர் சூத்திரம் 20",
+        "முடிவு எடுக்கும் விதம் 20",
+        "Protect முறை விளக்கம் 20"
+      ],
+      "tanglish": [
+        "risk score formula enna 20",
+        "gateway modes explain pannu 20",
+        "learning monitor protect difference 20",
+        "thresholds epdi set panradhu 20",
+        "decision logic sollu 20",
+        "risk fusion 20"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0021",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 21",
+        "what are gateway modes 21",
+        "learning monitor protect 21",
+        "warn and block thresholds 21",
+        "risk fusion weights 21",
+        "how decisions are made 21"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 21",
+        "கேட்வே முறைகள் யாவை 21",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 21",
+        "இடர் சூத்திரம் 21",
+        "முடிவு எடுக்கும் விதம் 21",
+        "Protect முறை விளக்கம் 21"
+      ],
+      "tanglish": [
+        "risk score formula enna 21",
+        "gateway modes explain pannu 21",
+        "learning monitor protect difference 21",
+        "thresholds epdi set panradhu 21",
+        "decision logic sollu 21",
+        "risk fusion 21"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0022",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 22",
+        "what are gateway modes 22",
+        "learning monitor protect 22",
+        "warn and block thresholds 22",
+        "risk fusion weights 22",
+        "how decisions are made 22"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 22",
+        "கேட்வே முறைகள் யாவை 22",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 22",
+        "இடர் சூத்திரம் 22",
+        "முடிவு எடுக்கும் விதம் 22",
+        "Protect முறை விளக்கம் 22"
+      ],
+      "tanglish": [
+        "risk score formula enna 22",
+        "gateway modes explain pannu 22",
+        "learning monitor protect difference 22",
+        "thresholds epdi set panradhu 22",
+        "decision logic sollu 22",
+        "risk fusion 22"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0023",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 23",
+        "what are gateway modes 23",
+        "learning monitor protect 23",
+        "warn and block thresholds 23",
+        "risk fusion weights 23",
+        "how decisions are made 23"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 23",
+        "கேட்வே முறைகள் யாவை 23",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 23",
+        "இடர் சூத்திரம் 23",
+        "முடிவு எடுக்கும் விதம் 23",
+        "Protect முறை விளக்கம் 23"
+      ],
+      "tanglish": [
+        "risk score formula enna 23",
+        "gateway modes explain pannu 23",
+        "learning monitor protect difference 23",
+        "thresholds epdi set panradhu 23",
+        "decision logic sollu 23",
+        "risk fusion 23"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0024",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 24",
+        "what are gateway modes 24",
+        "learning monitor protect 24",
+        "warn and block thresholds 24",
+        "risk fusion weights 24",
+        "how decisions are made 24"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 24",
+        "கேட்வே முறைகள் யாவை 24",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 24",
+        "இடர் சூத்திரம் 24",
+        "முடிவு எடுக்கும் விதம் 24",
+        "Protect முறை விளக்கம் 24"
+      ],
+      "tanglish": [
+        "risk score formula enna 24",
+        "gateway modes explain pannu 24",
+        "learning monitor protect difference 24",
+        "thresholds epdi set panradhu 24",
+        "decision logic sollu 24",
+        "risk fusion 24"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0025",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 25",
+        "what are gateway modes 25",
+        "learning monitor protect 25",
+        "warn and block thresholds 25",
+        "risk fusion weights 25",
+        "how decisions are made 25"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 25",
+        "கேட்வே முறைகள் யாவை 25",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 25",
+        "இடர் சூத்திரம் 25",
+        "முடிவு எடுக்கும் விதம் 25",
+        "Protect முறை விளக்கம் 25"
+      ],
+      "tanglish": [
+        "risk score formula enna 25",
+        "gateway modes explain pannu 25",
+        "learning monitor protect difference 25",
+        "thresholds epdi set panradhu 25",
+        "decision logic sollu 25",
+        "risk fusion 25"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0026",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 26",
+        "what are gateway modes 26",
+        "learning monitor protect 26",
+        "warn and block thresholds 26",
+        "risk fusion weights 26",
+        "how decisions are made 26"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 26",
+        "கேட்வே முறைகள் யாவை 26",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 26",
+        "இடர் சூத்திரம் 26",
+        "முடிவு எடுக்கும் விதம் 26",
+        "Protect முறை விளக்கம் 26"
+      ],
+      "tanglish": [
+        "risk score formula enna 26",
+        "gateway modes explain pannu 26",
+        "learning monitor protect difference 26",
+        "thresholds epdi set panradhu 26",
+        "decision logic sollu 26",
+        "risk fusion 26"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0027",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 27",
+        "what are gateway modes 27",
+        "learning monitor protect 27",
+        "warn and block thresholds 27",
+        "risk fusion weights 27",
+        "how decisions are made 27"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 27",
+        "கேட்வே முறைகள் யாவை 27",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 27",
+        "இடர் சூத்திரம் 27",
+        "முடிவு எடுக்கும் விதம் 27",
+        "Protect முறை விளக்கம் 27"
+      ],
+      "tanglish": [
+        "risk score formula enna 27",
+        "gateway modes explain pannu 27",
+        "learning monitor protect difference 27",
+        "thresholds epdi set panradhu 27",
+        "decision logic sollu 27",
+        "risk fusion 27"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0028",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 28",
+        "what are gateway modes 28",
+        "learning monitor protect 28",
+        "warn and block thresholds 28",
+        "risk fusion weights 28",
+        "how decisions are made 28"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 28",
+        "கேட்வே முறைகள் யாவை 28",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 28",
+        "இடர் சூத்திரம் 28",
+        "முடிவு எடுக்கும் விதம் 28",
+        "Protect முறை விளக்கம் 28"
+      ],
+      "tanglish": [
+        "risk score formula enna 28",
+        "gateway modes explain pannu 28",
+        "learning monitor protect difference 28",
+        "thresholds epdi set panradhu 28",
+        "decision logic sollu 28",
+        "risk fusion 28"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0029",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 29",
+        "what are gateway modes 29",
+        "learning monitor protect 29",
+        "warn and block thresholds 29",
+        "risk fusion weights 29",
+        "how decisions are made 29"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 29",
+        "கேட்வே முறைகள் யாவை 29",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 29",
+        "இடர் சூத்திரம் 29",
+        "முடிவு எடுக்கும் விதம் 29",
+        "Protect முறை விளக்கம் 29"
+      ],
+      "tanglish": [
+        "risk score formula enna 29",
+        "gateway modes explain pannu 29",
+        "learning monitor protect difference 29",
+        "thresholds epdi set panradhu 29",
+        "decision logic sollu 29",
+        "risk fusion 29"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0030",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 30",
+        "what are gateway modes 30",
+        "learning monitor protect 30",
+        "warn and block thresholds 30",
+        "risk fusion weights 30",
+        "how decisions are made 30"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 30",
+        "கேட்வே முறைகள் யாவை 30",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 30",
+        "இடர் சூத்திரம் 30",
+        "முடிவு எடுக்கும் விதம் 30",
+        "Protect முறை விளக்கம் 30"
+      ],
+      "tanglish": [
+        "risk score formula enna 30",
+        "gateway modes explain pannu 30",
+        "learning monitor protect difference 30",
+        "thresholds epdi set panradhu 30",
+        "decision logic sollu 30",
+        "risk fusion 30"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0031",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 31",
+        "what are gateway modes 31",
+        "learning monitor protect 31",
+        "warn and block thresholds 31",
+        "risk fusion weights 31",
+        "how decisions are made 31"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 31",
+        "கேட்வே முறைகள் யாவை 31",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 31",
+        "இடர் சூத்திரம் 31",
+        "முடிவு எடுக்கும் விதம் 31",
+        "Protect முறை விளக்கம் 31"
+      ],
+      "tanglish": [
+        "risk score formula enna 31",
+        "gateway modes explain pannu 31",
+        "learning monitor protect difference 31",
+        "thresholds epdi set panradhu 31",
+        "decision logic sollu 31",
+        "risk fusion 31"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0032",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 32",
+        "what are gateway modes 32",
+        "learning monitor protect 32",
+        "warn and block thresholds 32",
+        "risk fusion weights 32",
+        "how decisions are made 32"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 32",
+        "கேட்வே முறைகள் யாவை 32",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 32",
+        "இடர் சூத்திரம் 32",
+        "முடிவு எடுக்கும் விதம் 32",
+        "Protect முறை விளக்கம் 32"
+      ],
+      "tanglish": [
+        "risk score formula enna 32",
+        "gateway modes explain pannu 32",
+        "learning monitor protect difference 32",
+        "thresholds epdi set panradhu 32",
+        "decision logic sollu 32",
+        "risk fusion 32"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0033",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 33",
+        "what are gateway modes 33",
+        "learning monitor protect 33",
+        "warn and block thresholds 33",
+        "risk fusion weights 33",
+        "how decisions are made 33"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 33",
+        "கேட்வே முறைகள் யாவை 33",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 33",
+        "இடர் சூத்திரம் 33",
+        "முடிவு எடுக்கும் விதம் 33",
+        "Protect முறை விளக்கம் 33"
+      ],
+      "tanglish": [
+        "risk score formula enna 33",
+        "gateway modes explain pannu 33",
+        "learning monitor protect difference 33",
+        "thresholds epdi set panradhu 33",
+        "decision logic sollu 33",
+        "risk fusion 33"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0034",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 34",
+        "what are gateway modes 34",
+        "learning monitor protect 34",
+        "warn and block thresholds 34",
+        "risk fusion weights 34",
+        "how decisions are made 34"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 34",
+        "கேட்வே முறைகள் யாவை 34",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 34",
+        "இடர் சூத்திரம் 34",
+        "முடிவு எடுக்கும் விதம் 34",
+        "Protect முறை விளக்கம் 34"
+      ],
+      "tanglish": [
+        "risk score formula enna 34",
+        "gateway modes explain pannu 34",
+        "learning monitor protect difference 34",
+        "thresholds epdi set panradhu 34",
+        "decision logic sollu 34",
+        "risk fusion 34"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0035",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 35",
+        "what are gateway modes 35",
+        "learning monitor protect 35",
+        "warn and block thresholds 35",
+        "risk fusion weights 35",
+        "how decisions are made 35"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 35",
+        "கேட்வே முறைகள் யாவை 35",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 35",
+        "இடர் சூத்திரம் 35",
+        "முடிவு எடுக்கும் விதம் 35",
+        "Protect முறை விளக்கம் 35"
+      ],
+      "tanglish": [
+        "risk score formula enna 35",
+        "gateway modes explain pannu 35",
+        "learning monitor protect difference 35",
+        "thresholds epdi set panradhu 35",
+        "decision logic sollu 35",
+        "risk fusion 35"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0036",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 36",
+        "what are gateway modes 36",
+        "learning monitor protect 36",
+        "warn and block thresholds 36",
+        "risk fusion weights 36",
+        "how decisions are made 36"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 36",
+        "கேட்வே முறைகள் யாவை 36",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 36",
+        "இடர் சூத்திரம் 36",
+        "முடிவு எடுக்கும் விதம் 36",
+        "Protect முறை விளக்கம் 36"
+      ],
+      "tanglish": [
+        "risk score formula enna 36",
+        "gateway modes explain pannu 36",
+        "learning monitor protect difference 36",
+        "thresholds epdi set panradhu 36",
+        "decision logic sollu 36",
+        "risk fusion 36"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0037",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 37",
+        "what are gateway modes 37",
+        "learning monitor protect 37",
+        "warn and block thresholds 37",
+        "risk fusion weights 37",
+        "how decisions are made 37"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 37",
+        "கேட்வே முறைகள் யாவை 37",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 37",
+        "இடர் சூத்திரம் 37",
+        "முடிவு எடுக்கும் விதம் 37",
+        "Protect முறை விளக்கம் 37"
+      ],
+      "tanglish": [
+        "risk score formula enna 37",
+        "gateway modes explain pannu 37",
+        "learning monitor protect difference 37",
+        "thresholds epdi set panradhu 37",
+        "decision logic sollu 37",
+        "risk fusion 37"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0038",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 38",
+        "what are gateway modes 38",
+        "learning monitor protect 38",
+        "warn and block thresholds 38",
+        "risk fusion weights 38",
+        "how decisions are made 38"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 38",
+        "கேட்வே முறைகள் யாவை 38",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 38",
+        "இடர் சூத்திரம் 38",
+        "முடிவு எடுக்கும் விதம் 38",
+        "Protect முறை விளக்கம் 38"
+      ],
+      "tanglish": [
+        "risk score formula enna 38",
+        "gateway modes explain pannu 38",
+        "learning monitor protect difference 38",
+        "thresholds epdi set panradhu 38",
+        "decision logic sollu 38",
+        "risk fusion 38"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0039",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 39",
+        "what are gateway modes 39",
+        "learning monitor protect 39",
+        "warn and block thresholds 39",
+        "risk fusion weights 39",
+        "how decisions are made 39"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 39",
+        "கேட்வே முறைகள் யாவை 39",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 39",
+        "இடர் சூத்திரம் 39",
+        "முடிவு எடுக்கும் விதம் 39",
+        "Protect முறை விளக்கம் 39"
+      ],
+      "tanglish": [
+        "risk score formula enna 39",
+        "gateway modes explain pannu 39",
+        "learning monitor protect difference 39",
+        "thresholds epdi set panradhu 39",
+        "decision logic sollu 39",
+        "risk fusion 39"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0040",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 40",
+        "what are gateway modes 40",
+        "learning monitor protect 40",
+        "warn and block thresholds 40",
+        "risk fusion weights 40",
+        "how decisions are made 40"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 40",
+        "கேட்வே முறைகள் யாவை 40",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 40",
+        "இடர் சூத்திரம் 40",
+        "முடிவு எடுக்கும் விதம் 40",
+        "Protect முறை விளக்கம் 40"
+      ],
+      "tanglish": [
+        "risk score formula enna 40",
+        "gateway modes explain pannu 40",
+        "learning monitor protect difference 40",
+        "thresholds epdi set panradhu 40",
+        "decision logic sollu 40",
+        "risk fusion 40"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0041",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 41",
+        "what are gateway modes 41",
+        "learning monitor protect 41",
+        "warn and block thresholds 41",
+        "risk fusion weights 41",
+        "how decisions are made 41"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 41",
+        "கேட்வே முறைகள் யாவை 41",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 41",
+        "இடர் சூத்திரம் 41",
+        "முடிவு எடுக்கும் விதம் 41",
+        "Protect முறை விளக்கம் 41"
+      ],
+      "tanglish": [
+        "risk score formula enna 41",
+        "gateway modes explain pannu 41",
+        "learning monitor protect difference 41",
+        "thresholds epdi set panradhu 41",
+        "decision logic sollu 41",
+        "risk fusion 41"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0042",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 42",
+        "what are gateway modes 42",
+        "learning monitor protect 42",
+        "warn and block thresholds 42",
+        "risk fusion weights 42",
+        "how decisions are made 42"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 42",
+        "கேட்வே முறைகள் யாவை 42",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 42",
+        "இடர் சூத்திரம் 42",
+        "முடிவு எடுக்கும் விதம் 42",
+        "Protect முறை விளக்கம் 42"
+      ],
+      "tanglish": [
+        "risk score formula enna 42",
+        "gateway modes explain pannu 42",
+        "learning monitor protect difference 42",
+        "thresholds epdi set panradhu 42",
+        "decision logic sollu 42",
+        "risk fusion 42"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0043",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 43",
+        "what are gateway modes 43",
+        "learning monitor protect 43",
+        "warn and block thresholds 43",
+        "risk fusion weights 43",
+        "how decisions are made 43"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 43",
+        "கேட்வே முறைகள் யாவை 43",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 43",
+        "இடர் சூத்திரம் 43",
+        "முடிவு எடுக்கும் விதம் 43",
+        "Protect முறை விளக்கம் 43"
+      ],
+      "tanglish": [
+        "risk score formula enna 43",
+        "gateway modes explain pannu 43",
+        "learning monitor protect difference 43",
+        "thresholds epdi set panradhu 43",
+        "decision logic sollu 43",
+        "risk fusion 43"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0044",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 44",
+        "what are gateway modes 44",
+        "learning monitor protect 44",
+        "warn and block thresholds 44",
+        "risk fusion weights 44",
+        "how decisions are made 44"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 44",
+        "கேட்வே முறைகள் யாவை 44",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 44",
+        "இடர் சூத்திரம் 44",
+        "முடிவு எடுக்கும் விதம் 44",
+        "Protect முறை விளக்கம் 44"
+      ],
+      "tanglish": [
+        "risk score formula enna 44",
+        "gateway modes explain pannu 44",
+        "learning monitor protect difference 44",
+        "thresholds epdi set panradhu 44",
+        "decision logic sollu 44",
+        "risk fusion 44"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0045",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 45",
+        "what are gateway modes 45",
+        "learning monitor protect 45",
+        "warn and block thresholds 45",
+        "risk fusion weights 45",
+        "how decisions are made 45"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 45",
+        "கேட்வே முறைகள் யாவை 45",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 45",
+        "இடர் சூத்திரம் 45",
+        "முடிவு எடுக்கும் விதம் 45",
+        "Protect முறை விளக்கம் 45"
+      ],
+      "tanglish": [
+        "risk score formula enna 45",
+        "gateway modes explain pannu 45",
+        "learning monitor protect difference 45",
+        "thresholds epdi set panradhu 45",
+        "decision logic sollu 45",
+        "risk fusion 45"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0046",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 46",
+        "what are gateway modes 46",
+        "learning monitor protect 46",
+        "warn and block thresholds 46",
+        "risk fusion weights 46",
+        "how decisions are made 46"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 46",
+        "கேட்வே முறைகள் யாவை 46",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 46",
+        "இடர் சூத்திரம் 46",
+        "முடிவு எடுக்கும் விதம் 46",
+        "Protect முறை விளக்கம் 46"
+      ],
+      "tanglish": [
+        "risk score formula enna 46",
+        "gateway modes explain pannu 46",
+        "learning monitor protect difference 46",
+        "thresholds epdi set panradhu 46",
+        "decision logic sollu 46",
+        "risk fusion 46"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0047",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 47",
+        "what are gateway modes 47",
+        "learning monitor protect 47",
+        "warn and block thresholds 47",
+        "risk fusion weights 47",
+        "how decisions are made 47"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 47",
+        "கேட்வே முறைகள் யாவை 47",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 47",
+        "இடர் சூத்திரம் 47",
+        "முடிவு எடுக்கும் விதம் 47",
+        "Protect முறை விளக்கம் 47"
+      ],
+      "tanglish": [
+        "risk score formula enna 47",
+        "gateway modes explain pannu 47",
+        "learning monitor protect difference 47",
+        "thresholds epdi set panradhu 47",
+        "decision logic sollu 47",
+        "risk fusion 47"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0048",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 48",
+        "what are gateway modes 48",
+        "learning monitor protect 48",
+        "warn and block thresholds 48",
+        "risk fusion weights 48",
+        "how decisions are made 48"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 48",
+        "கேட்வே முறைகள் யாவை 48",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 48",
+        "இடர் சூத்திரம் 48",
+        "முடிவு எடுக்கும் விதம் 48",
+        "Protect முறை விளக்கம் 48"
+      ],
+      "tanglish": [
+        "risk score formula enna 48",
+        "gateway modes explain pannu 48",
+        "learning monitor protect difference 48",
+        "thresholds epdi set panradhu 48",
+        "decision logic sollu 48",
+        "risk fusion 48"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0049",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 49",
+        "what are gateway modes 49",
+        "learning monitor protect 49",
+        "warn and block thresholds 49",
+        "risk fusion weights 49",
+        "how decisions are made 49"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 49",
+        "கேட்வே முறைகள் யாவை 49",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 49",
+        "இடர் சூத்திரம் 49",
+        "முடிவு எடுக்கும் விதம் 49",
+        "Protect முறை விளக்கம் 49"
+      ],
+      "tanglish": [
+        "risk score formula enna 49",
+        "gateway modes explain pannu 49",
+        "learning monitor protect difference 49",
+        "thresholds epdi set panradhu 49",
+        "decision logic sollu 49",
+        "risk fusion 49"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0050",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 50",
+        "what are gateway modes 50",
+        "learning monitor protect 50",
+        "warn and block thresholds 50",
+        "risk fusion weights 50",
+        "how decisions are made 50"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 50",
+        "கேட்வே முறைகள் யாவை 50",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 50",
+        "இடர் சூத்திரம் 50",
+        "முடிவு எடுக்கும் விதம் 50",
+        "Protect முறை விளக்கம் 50"
+      ],
+      "tanglish": [
+        "risk score formula enna 50",
+        "gateway modes explain pannu 50",
+        "learning monitor protect difference 50",
+        "thresholds epdi set panradhu 50",
+        "decision logic sollu 50",
+        "risk fusion 50"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0051",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 51",
+        "what are gateway modes 51",
+        "learning monitor protect 51",
+        "warn and block thresholds 51",
+        "risk fusion weights 51",
+        "how decisions are made 51"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 51",
+        "கேட்வே முறைகள் யாவை 51",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 51",
+        "இடர் சூத்திரம் 51",
+        "முடிவு எடுக்கும் விதம் 51",
+        "Protect முறை விளக்கம் 51"
+      ],
+      "tanglish": [
+        "risk score formula enna 51",
+        "gateway modes explain pannu 51",
+        "learning monitor protect difference 51",
+        "thresholds epdi set panradhu 51",
+        "decision logic sollu 51",
+        "risk fusion 51"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0052",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 52",
+        "what are gateway modes 52",
+        "learning monitor protect 52",
+        "warn and block thresholds 52",
+        "risk fusion weights 52",
+        "how decisions are made 52"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 52",
+        "கேட்வே முறைகள் யாவை 52",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 52",
+        "இடர் சூத்திரம் 52",
+        "முடிவு எடுக்கும் விதம் 52",
+        "Protect முறை விளக்கம் 52"
+      ],
+      "tanglish": [
+        "risk score formula enna 52",
+        "gateway modes explain pannu 52",
+        "learning monitor protect difference 52",
+        "thresholds epdi set panradhu 52",
+        "decision logic sollu 52",
+        "risk fusion 52"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0053",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 53",
+        "what are gateway modes 53",
+        "learning monitor protect 53",
+        "warn and block thresholds 53",
+        "risk fusion weights 53",
+        "how decisions are made 53"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 53",
+        "கேட்வே முறைகள் யாவை 53",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 53",
+        "இடர் சூத்திரம் 53",
+        "முடிவு எடுக்கும் விதம் 53",
+        "Protect முறை விளக்கம் 53"
+      ],
+      "tanglish": [
+        "risk score formula enna 53",
+        "gateway modes explain pannu 53",
+        "learning monitor protect difference 53",
+        "thresholds epdi set panradhu 53",
+        "decision logic sollu 53",
+        "risk fusion 53"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0054",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 54",
+        "what are gateway modes 54",
+        "learning monitor protect 54",
+        "warn and block thresholds 54",
+        "risk fusion weights 54",
+        "how decisions are made 54"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 54",
+        "கேட்வே முறைகள் யாவை 54",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 54",
+        "இடர் சூத்திரம் 54",
+        "முடிவு எடுக்கும் விதம் 54",
+        "Protect முறை விளக்கம் 54"
+      ],
+      "tanglish": [
+        "risk score formula enna 54",
+        "gateway modes explain pannu 54",
+        "learning monitor protect difference 54",
+        "thresholds epdi set panradhu 54",
+        "decision logic sollu 54",
+        "risk fusion 54"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0055",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 55",
+        "what are gateway modes 55",
+        "learning monitor protect 55",
+        "warn and block thresholds 55",
+        "risk fusion weights 55",
+        "how decisions are made 55"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 55",
+        "கேட்வே முறைகள் யாவை 55",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 55",
+        "இடர் சூத்திரம் 55",
+        "முடிவு எடுக்கும் விதம் 55",
+        "Protect முறை விளக்கம் 55"
+      ],
+      "tanglish": [
+        "risk score formula enna 55",
+        "gateway modes explain pannu 55",
+        "learning monitor protect difference 55",
+        "thresholds epdi set panradhu 55",
+        "decision logic sollu 55",
+        "risk fusion 55"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0056",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 56",
+        "what are gateway modes 56",
+        "learning monitor protect 56",
+        "warn and block thresholds 56",
+        "risk fusion weights 56",
+        "how decisions are made 56"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 56",
+        "கேட்வே முறைகள் யாவை 56",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 56",
+        "இடர் சூத்திரம் 56",
+        "முடிவு எடுக்கும் விதம் 56",
+        "Protect முறை விளக்கம் 56"
+      ],
+      "tanglish": [
+        "risk score formula enna 56",
+        "gateway modes explain pannu 56",
+        "learning monitor protect difference 56",
+        "thresholds epdi set panradhu 56",
+        "decision logic sollu 56",
+        "risk fusion 56"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0057",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 57",
+        "what are gateway modes 57",
+        "learning monitor protect 57",
+        "warn and block thresholds 57",
+        "risk fusion weights 57",
+        "how decisions are made 57"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 57",
+        "கேட்வே முறைகள் யாவை 57",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 57",
+        "இடர் சூத்திரம் 57",
+        "முடிவு எடுக்கும் விதம் 57",
+        "Protect முறை விளக்கம் 57"
+      ],
+      "tanglish": [
+        "risk score formula enna 57",
+        "gateway modes explain pannu 57",
+        "learning monitor protect difference 57",
+        "thresholds epdi set panradhu 57",
+        "decision logic sollu 57",
+        "risk fusion 57"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0058",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 58",
+        "what are gateway modes 58",
+        "learning monitor protect 58",
+        "warn and block thresholds 58",
+        "risk fusion weights 58",
+        "how decisions are made 58"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 58",
+        "கேட்வே முறைகள் யாவை 58",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 58",
+        "இடர் சூத்திரம் 58",
+        "முடிவு எடுக்கும் விதம் 58",
+        "Protect முறை விளக்கம் 58"
+      ],
+      "tanglish": [
+        "risk score formula enna 58",
+        "gateway modes explain pannu 58",
+        "learning monitor protect difference 58",
+        "thresholds epdi set panradhu 58",
+        "decision logic sollu 58",
+        "risk fusion 58"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0059",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 59",
+        "what are gateway modes 59",
+        "learning monitor protect 59",
+        "warn and block thresholds 59",
+        "risk fusion weights 59",
+        "how decisions are made 59"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 59",
+        "கேட்வே முறைகள் யாவை 59",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 59",
+        "இடர் சூத்திரம் 59",
+        "முடிவு எடுக்கும் விதம் 59",
+        "Protect முறை விளக்கம் 59"
+      ],
+      "tanglish": [
+        "risk score formula enna 59",
+        "gateway modes explain pannu 59",
+        "learning monitor protect difference 59",
+        "thresholds epdi set panradhu 59",
+        "decision logic sollu 59",
+        "risk fusion 59"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0060",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 60",
+        "what are gateway modes 60",
+        "learning monitor protect 60",
+        "warn and block thresholds 60",
+        "risk fusion weights 60",
+        "how decisions are made 60"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 60",
+        "கேட்வே முறைகள் யாவை 60",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 60",
+        "இடர் சூத்திரம் 60",
+        "முடிவு எடுக்கும் விதம் 60",
+        "Protect முறை விளக்கம் 60"
+      ],
+      "tanglish": [
+        "risk score formula enna 60",
+        "gateway modes explain pannu 60",
+        "learning monitor protect difference 60",
+        "thresholds epdi set panradhu 60",
+        "decision logic sollu 60",
+        "risk fusion 60"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0061",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 61",
+        "what are gateway modes 61",
+        "learning monitor protect 61",
+        "warn and block thresholds 61",
+        "risk fusion weights 61",
+        "how decisions are made 61"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 61",
+        "கேட்வே முறைகள் யாவை 61",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 61",
+        "இடர் சூத்திரம் 61",
+        "முடிவு எடுக்கும் விதம் 61",
+        "Protect முறை விளக்கம் 61"
+      ],
+      "tanglish": [
+        "risk score formula enna 61",
+        "gateway modes explain pannu 61",
+        "learning monitor protect difference 61",
+        "thresholds epdi set panradhu 61",
+        "decision logic sollu 61",
+        "risk fusion 61"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0062",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 62",
+        "what are gateway modes 62",
+        "learning monitor protect 62",
+        "warn and block thresholds 62",
+        "risk fusion weights 62",
+        "how decisions are made 62"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 62",
+        "கேட்வே முறைகள் யாவை 62",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 62",
+        "இடர் சூத்திரம் 62",
+        "முடிவு எடுக்கும் விதம் 62",
+        "Protect முறை விளக்கம் 62"
+      ],
+      "tanglish": [
+        "risk score formula enna 62",
+        "gateway modes explain pannu 62",
+        "learning monitor protect difference 62",
+        "thresholds epdi set panradhu 62",
+        "decision logic sollu 62",
+        "risk fusion 62"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0063",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 63",
+        "what are gateway modes 63",
+        "learning monitor protect 63",
+        "warn and block thresholds 63",
+        "risk fusion weights 63",
+        "how decisions are made 63"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 63",
+        "கேட்வே முறைகள் யாவை 63",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 63",
+        "இடர் சூத்திரம் 63",
+        "முடிவு எடுக்கும் விதம் 63",
+        "Protect முறை விளக்கம் 63"
+      ],
+      "tanglish": [
+        "risk score formula enna 63",
+        "gateway modes explain pannu 63",
+        "learning monitor protect difference 63",
+        "thresholds epdi set panradhu 63",
+        "decision logic sollu 63",
+        "risk fusion 63"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0064",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 64",
+        "what are gateway modes 64",
+        "learning monitor protect 64",
+        "warn and block thresholds 64",
+        "risk fusion weights 64",
+        "how decisions are made 64"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 64",
+        "கேட்வே முறைகள் யாவை 64",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 64",
+        "இடர் சூத்திரம் 64",
+        "முடிவு எடுக்கும் விதம் 64",
+        "Protect முறை விளக்கம் 64"
+      ],
+      "tanglish": [
+        "risk score formula enna 64",
+        "gateway modes explain pannu 64",
+        "learning monitor protect difference 64",
+        "thresholds epdi set panradhu 64",
+        "decision logic sollu 64",
+        "risk fusion 64"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0065",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 65",
+        "what are gateway modes 65",
+        "learning monitor protect 65",
+        "warn and block thresholds 65",
+        "risk fusion weights 65",
+        "how decisions are made 65"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 65",
+        "கேட்வே முறைகள் யாவை 65",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 65",
+        "இடர் சூத்திரம் 65",
+        "முடிவு எடுக்கும் விதம் 65",
+        "Protect முறை விளக்கம் 65"
+      ],
+      "tanglish": [
+        "risk score formula enna 65",
+        "gateway modes explain pannu 65",
+        "learning monitor protect difference 65",
+        "thresholds epdi set panradhu 65",
+        "decision logic sollu 65",
+        "risk fusion 65"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0066",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 66",
+        "what are gateway modes 66",
+        "learning monitor protect 66",
+        "warn and block thresholds 66",
+        "risk fusion weights 66",
+        "how decisions are made 66"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 66",
+        "கேட்வே முறைகள் யாவை 66",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 66",
+        "இடர் சூத்திரம் 66",
+        "முடிவு எடுக்கும் விதம் 66",
+        "Protect முறை விளக்கம் 66"
+      ],
+      "tanglish": [
+        "risk score formula enna 66",
+        "gateway modes explain pannu 66",
+        "learning monitor protect difference 66",
+        "thresholds epdi set panradhu 66",
+        "decision logic sollu 66",
+        "risk fusion 66"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0067",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 67",
+        "what are gateway modes 67",
+        "learning monitor protect 67",
+        "warn and block thresholds 67",
+        "risk fusion weights 67",
+        "how decisions are made 67"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 67",
+        "கேட்வே முறைகள் யாவை 67",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 67",
+        "இடர் சூத்திரம் 67",
+        "முடிவு எடுக்கும் விதம் 67",
+        "Protect முறை விளக்கம் 67"
+      ],
+      "tanglish": [
+        "risk score formula enna 67",
+        "gateway modes explain pannu 67",
+        "learning monitor protect difference 67",
+        "thresholds epdi set panradhu 67",
+        "decision logic sollu 67",
+        "risk fusion 67"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0068",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 68",
+        "what are gateway modes 68",
+        "learning monitor protect 68",
+        "warn and block thresholds 68",
+        "risk fusion weights 68",
+        "how decisions are made 68"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 68",
+        "கேட்வே முறைகள் யாவை 68",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 68",
+        "இடர் சூத்திரம் 68",
+        "முடிவு எடுக்கும் விதம் 68",
+        "Protect முறை விளக்கம் 68"
+      ],
+      "tanglish": [
+        "risk score formula enna 68",
+        "gateway modes explain pannu 68",
+        "learning monitor protect difference 68",
+        "thresholds epdi set panradhu 68",
+        "decision logic sollu 68",
+        "risk fusion 68"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0069",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 69",
+        "what are gateway modes 69",
+        "learning monitor protect 69",
+        "warn and block thresholds 69",
+        "risk fusion weights 69",
+        "how decisions are made 69"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 69",
+        "கேட்வே முறைகள் யாவை 69",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 69",
+        "இடர் சூத்திரம் 69",
+        "முடிவு எடுக்கும் விதம் 69",
+        "Protect முறை விளக்கம் 69"
+      ],
+      "tanglish": [
+        "risk score formula enna 69",
+        "gateway modes explain pannu 69",
+        "learning monitor protect difference 69",
+        "thresholds epdi set panradhu 69",
+        "decision logic sollu 69",
+        "risk fusion 69"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0070",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 70",
+        "what are gateway modes 70",
+        "learning monitor protect 70",
+        "warn and block thresholds 70",
+        "risk fusion weights 70",
+        "how decisions are made 70"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 70",
+        "கேட்வே முறைகள் யாவை 70",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 70",
+        "இடர் சூத்திரம் 70",
+        "முடிவு எடுக்கும் விதம் 70",
+        "Protect முறை விளக்கம் 70"
+      ],
+      "tanglish": [
+        "risk score formula enna 70",
+        "gateway modes explain pannu 70",
+        "learning monitor protect difference 70",
+        "thresholds epdi set panradhu 70",
+        "decision logic sollu 70",
+        "risk fusion 70"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0071",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 71",
+        "what are gateway modes 71",
+        "learning monitor protect 71",
+        "warn and block thresholds 71",
+        "risk fusion weights 71",
+        "how decisions are made 71"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 71",
+        "கேட்வே முறைகள் யாவை 71",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 71",
+        "இடர் சூத்திரம் 71",
+        "முடிவு எடுக்கும் விதம் 71",
+        "Protect முறை விளக்கம் 71"
+      ],
+      "tanglish": [
+        "risk score formula enna 71",
+        "gateway modes explain pannu 71",
+        "learning monitor protect difference 71",
+        "thresholds epdi set panradhu 71",
+        "decision logic sollu 71",
+        "risk fusion 71"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0072",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 72",
+        "what are gateway modes 72",
+        "learning monitor protect 72",
+        "warn and block thresholds 72",
+        "risk fusion weights 72",
+        "how decisions are made 72"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 72",
+        "கேட்வே முறைகள் யாவை 72",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 72",
+        "இடர் சூத்திரம் 72",
+        "முடிவு எடுக்கும் விதம் 72",
+        "Protect முறை விளக்கம் 72"
+      ],
+      "tanglish": [
+        "risk score formula enna 72",
+        "gateway modes explain pannu 72",
+        "learning monitor protect difference 72",
+        "thresholds epdi set panradhu 72",
+        "decision logic sollu 72",
+        "risk fusion 72"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0073",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 73",
+        "what are gateway modes 73",
+        "learning monitor protect 73",
+        "warn and block thresholds 73",
+        "risk fusion weights 73",
+        "how decisions are made 73"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 73",
+        "கேட்வே முறைகள் யாவை 73",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 73",
+        "இடர் சூத்திரம் 73",
+        "முடிவு எடுக்கும் விதம் 73",
+        "Protect முறை விளக்கம் 73"
+      ],
+      "tanglish": [
+        "risk score formula enna 73",
+        "gateway modes explain pannu 73",
+        "learning monitor protect difference 73",
+        "thresholds epdi set panradhu 73",
+        "decision logic sollu 73",
+        "risk fusion 73"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0074",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 74",
+        "what are gateway modes 74",
+        "learning monitor protect 74",
+        "warn and block thresholds 74",
+        "risk fusion weights 74",
+        "how decisions are made 74"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 74",
+        "கேட்வே முறைகள் யாவை 74",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 74",
+        "இடர் சூத்திரம் 74",
+        "முடிவு எடுக்கும் விதம் 74",
+        "Protect முறை விளக்கம் 74"
+      ],
+      "tanglish": [
+        "risk score formula enna 74",
+        "gateway modes explain pannu 74",
+        "learning monitor protect difference 74",
+        "thresholds epdi set panradhu 74",
+        "decision logic sollu 74",
+        "risk fusion 74"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0075",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 75",
+        "what are gateway modes 75",
+        "learning monitor protect 75",
+        "warn and block thresholds 75",
+        "risk fusion weights 75",
+        "how decisions are made 75"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 75",
+        "கேட்வே முறைகள் யாவை 75",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 75",
+        "இடர் சூத்திரம் 75",
+        "முடிவு எடுக்கும் விதம் 75",
+        "Protect முறை விளக்கம் 75"
+      ],
+      "tanglish": [
+        "risk score formula enna 75",
+        "gateway modes explain pannu 75",
+        "learning monitor protect difference 75",
+        "thresholds epdi set panradhu 75",
+        "decision logic sollu 75",
+        "risk fusion 75"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0076",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 76",
+        "what are gateway modes 76",
+        "learning monitor protect 76",
+        "warn and block thresholds 76",
+        "risk fusion weights 76",
+        "how decisions are made 76"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 76",
+        "கேட்வே முறைகள் யாவை 76",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 76",
+        "இடர் சூத்திரம் 76",
+        "முடிவு எடுக்கும் விதம் 76",
+        "Protect முறை விளக்கம் 76"
+      ],
+      "tanglish": [
+        "risk score formula enna 76",
+        "gateway modes explain pannu 76",
+        "learning monitor protect difference 76",
+        "thresholds epdi set panradhu 76",
+        "decision logic sollu 76",
+        "risk fusion 76"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0077",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 77",
+        "what are gateway modes 77",
+        "learning monitor protect 77",
+        "warn and block thresholds 77",
+        "risk fusion weights 77",
+        "how decisions are made 77"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 77",
+        "கேட்வே முறைகள் யாவை 77",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 77",
+        "இடர் சூத்திரம் 77",
+        "முடிவு எடுக்கும் விதம் 77",
+        "Protect முறை விளக்கம் 77"
+      ],
+      "tanglish": [
+        "risk score formula enna 77",
+        "gateway modes explain pannu 77",
+        "learning monitor protect difference 77",
+        "thresholds epdi set panradhu 77",
+        "decision logic sollu 77",
+        "risk fusion 77"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0078",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 78",
+        "what are gateway modes 78",
+        "learning monitor protect 78",
+        "warn and block thresholds 78",
+        "risk fusion weights 78",
+        "how decisions are made 78"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 78",
+        "கேட்வே முறைகள் யாவை 78",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 78",
+        "இடர் சூத்திரம் 78",
+        "முடிவு எடுக்கும் விதம் 78",
+        "Protect முறை விளக்கம் 78"
+      ],
+      "tanglish": [
+        "risk score formula enna 78",
+        "gateway modes explain pannu 78",
+        "learning monitor protect difference 78",
+        "thresholds epdi set panradhu 78",
+        "decision logic sollu 78",
+        "risk fusion 78"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0079",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 79",
+        "what are gateway modes 79",
+        "learning monitor protect 79",
+        "warn and block thresholds 79",
+        "risk fusion weights 79",
+        "how decisions are made 79"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 79",
+        "கேட்வே முறைகள் யாவை 79",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 79",
+        "இடர் சூத்திரம் 79",
+        "முடிவு எடுக்கும் விதம் 79",
+        "Protect முறை விளக்கம் 79"
+      ],
+      "tanglish": [
+        "risk score formula enna 79",
+        "gateway modes explain pannu 79",
+        "learning monitor protect difference 79",
+        "thresholds epdi set panradhu 79",
+        "decision logic sollu 79",
+        "risk fusion 79"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "proj_risk_0080",
+    "category": "risk_scoring",
+    "patterns": {
+      "en": [
+        "how is risk score calculated 80",
+        "what are gateway modes 80",
+        "learning monitor protect 80",
+        "warn and block thresholds 80",
+        "risk fusion weights 80",
+        "how decisions are made 80"
+      ],
+      "ta": [
+        "அபாய மதிப்பீடு எவ்வாறு கணக்கிடப்படுகிறது 80",
+        "கேட்வே முறைகள் யாவை 80",
+        "எச்சரிக்கை மற்றும் தடை வரம்புகள் 80",
+        "இடர் சூத்திரம் 80",
+        "முடிவு எடுக்கும் விதம் 80",
+        "Protect முறை விளக்கம் 80"
+      ],
+      "tanglish": [
+        "risk score formula enna 80",
+        "gateway modes explain pannu 80",
+        "learning monitor protect difference 80",
+        "thresholds epdi set panradhu 80",
+        "decision logic sollu 80",
+        "risk fusion 80"
+      ]
+    },
+    "responses": {
+      "en": [
+        "Risk Score Formula: Risk = (0.45 * ML_Confidence) + (0.35 * Behavioral_Score) + (0.20 * Rule_Matches). Thresholds: Score < 0.40 = ALLOW, 0.40 - 0.70 = WARN, >= 0.70 = BLOCK.",
+        "Operational Modes: 1) Protect: Active enforcement (HTTP 403 on threats), 2) Monitor: Logs threats and sends alerts without dropping traffic, 3) Learning: Gathers baseline traffic data."
+      ],
+      "ta": [
+        "இடர் சூத்திரம்: Risk = (0.45 * ML) + (0.35 * நடத்தை) + (0.20 * விதிகள்). வரம்புகள்: < 0.40 = அனுமதி, 0.40 - 0.70 = எச்சரிக்கை, >= 0.70 = தடை (BLOCK).",
+        "செயல்பாட்டு முறைகள்: 1) Protect (செயலில் தடுப்பு), 2) Monitor (பதிவு மட்டும்), 3) Learning (தரவு சேகரிப்பு)."
+      ],
+      "tanglish": [
+        "Risk Formula: (0.45 * ML) + (0.35 * Behavioral) + (0.20 * Rules). Score < 0.40 ALLOW (~70%), 0.40-0.70 WARN (~20%), >= 0.70 BLOCK (~10%).",
+        "Three Gateway Modes: Protect (active 403 drop), Monitor (audit logging only), and Learning (baseline training)."
+      ]
+    },
+    "chips": [
+      "Change mode",
+      "View settings",
+      "/status"
+    ],
+    "action": {
+      "open": "/dashboard"
+    },
+    "needs_live_data": false,
+    "tags": [
+      "risk_score",
+      "modes",
+      "thresholds"
+    ]
+  }
+]
