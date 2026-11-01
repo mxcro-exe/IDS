@@ -20,7 +20,7 @@
 
 <br/>
 
-**[⚡ One-Click Run](#-one-click-run--installation)** • **[🏗️ Architecture](#️-system-architecture)** • **[🧪 Hands-On Testing](#-hands-on-manual-testing-guide)** • **[🧠 ML & SHAP](#-machine-learning--shap-explainability)** • **[🤖 Trilingual Copilot](#-trilingual-copilot-ai-assistant)** • **[📄 PDF Guides](#-evaluation-pdf-guides)**
+[⚡ One-Click Run](#-one-click-run--installation) • [🏗️ Architecture](#️-system-architecture) • [🧪 Hands-On Testing](#-hands-on-manual-testing-guide) • [🧠 ML & SHAP](#-machine-learning--shap-explainability) • [🤖 Trilingual Copilot](#-trilingual-copilot-ai-assistant) • [📄 PDF Guides](#-evaluation-pdf-guides)
 
 ---
 
@@ -323,9 +323,3 @@ vishhh/
 ## ⚖️ License & Academic Citation
 
 Developed as an academic and enterprise-grade research project for **AI-Powered API Security & Explainable Intrusion Detection**. Distributed under the **MIT License**.
-
-<div align="center">
-  <sub>Built with ❤️ for High-Speed API Defense & Academic Excellence.</sub>
-</div>
-#   I D S  
- 
