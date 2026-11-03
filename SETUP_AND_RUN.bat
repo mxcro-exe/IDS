@@ -30,6 +30,14 @@ for /f "tokens=*" %%i in ('python --version') do set PY_VER=%%i
 echo [OK] %PY_VER% detected.
 echo.
 
+:: 1.5 Auto-initialize .env from template if missing
+if not exist ".env" (
+    if exist ".env.example" (
+        copy .env.example .env >nul
+        echo [OK] Initialized .env configuration file from template.
+    )
+)
+
 :: 2. Smart Diagnostic & Auto-Install Missing Dependencies
 echo [*] Checking installed Python libraries and system requirements...
 python tools\check_and_install_deps.py
